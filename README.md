@@ -1,2 +1,1 @@
-# CS
-Computer Science
+# The Beauty of Computer Science
