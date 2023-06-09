@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="8.84645in" height="7.8043in" viewBox="0 0 636.945 561.909" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st27">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st2 {fill:#0000ff;font-family:Arial;font-size:1.66667em;font-weight:bold}
+		.st3 {fill:#000000;font-size:0.899997em;font-weight:normal}
+		.st4 {fill:#000000;font-size:0.699992em;font-weight:normal}
+		.st5 {fill:#0000ff;font-family:Calibri;font-size:1.66667em;font-weight:bold}
+		.st6 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st7 {fill:#515150;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st8 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st9 {fill:#0000ff;font-family:Calibri;font-size:1.16666em}
+		.st10 {fill:none;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st11 {fill:#0000ff;font-family:Times New Roman;font-size:1.16666em}
+		.st12 {fill:#0000ff;font-family:Times New Roman;font-size:1.16666em;font-weight:bold}
+		.st13 {font-size:1em;font-weight:normal}
+		.st14 {font-size:1em}
+		.st15 {marker-end:url(#mrkr5-59);stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st16 {fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st17 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st18 {fill:#0000ff;font-family:Times New Roman;font-size:1.00001em}
+		.st19 {fill:#6699ff;font-family:Calibri;font-size:1.00001em}
+		.st20 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.5em}
+		.st21 {marker-end:url(#mrkr5-93);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st22 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.18796992481203}
+		.st23 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st24 {marker-end:url(#mrkr5-93);marker-start:url(#mrkr5-108);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st25 {marker-end:url(#mrkr5-118);marker-start:url(#mrkr5-116);stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st26 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st27 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-59" class="st16" refX="-7.42" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr5-93" class="st22" refX="-9.31" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-5.32,-5.32) "/>
+		</marker>
+		<marker id="mrkr5-108" class="st22" refX="8.83" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(5.32) "/>
+		</marker>
+		<marker id="mrkr5-116" class="st26" refX="7.15" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(4.36) "/>
+		</marker>
+		<marker id="mrkr5-118" class="st26" refX="-7.63" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(131.761,-18.75)">
+			<title>程序.92</title>
+			<desc>Hardwares and Firmware</desc>
+			<rect x="0" y="363.484" width="368.504" height="198.425" class="st1"/>
+			<text x="71.97" y="553.91" class="st2">Hardwares<tspan class="st3"> </tspan><tspan class="st4">and</tspan><tspan
+						class="st3"> </tspan>Firmware</text>		</g>
+		<g id="shape2-7" transform="translate(131.761,-245.522)">
+			<title>Process.92</title>
+			<desc>Operating System and Drivers</desc>
+			<rect x="0" y="406.004" width="368.504" height="155.906" class="st1"/>
+			<text x="47.52" y="553.91" class="st2">Operating System<tspan class="st3"> </tspan><tspan class="st4">and</tspan><tspan
+						class="st3"> </tspan>Drivers</text>		</g>
+		<g id="shape3-13" transform="translate(131.761,-429.774)">
+			<title>Process.94</title>
+			<desc>Processes / Threads</desc>
+			<rect x="0" y="448.524" width="368.504" height="113.386" class="st1"/>
+			<text x="201.52" y="511.22" class="st5">Processes / Threads</text>		</g>
+		<g id="group4-16" transform="translate(479.005,-32.8848)">
+			<title>Tunnel, Straight.101</title>
+			<g id="group5-17">
+				<title>Sheet.5</title>
+				<g id="shape6-18" transform="translate(12.0056,0)">
+					<title>Sheet.6</title>
+					<path d="M0 561.91 L0 547.66 L103.55 547.66 C110.15 547.66 115.55 550.88 115.55 554.78 C115.55 558.68 110.15
+								 561.91 103.55 561.91 L0 561.91 Z" class="st6"/>
+				</g>
+				<g id="shape7-20" transform="translate(15.4893,-2.21161)">
+					<title>Sheet.7</title>
+					<path d="M98.45 561.91 C102.51 561.91 105.69 559.73 105.69 557.03 C105.69 554.33 102.51 552.16 98.45 552.16 L0
+								 552.16 L0 561.91 L98.45 561.91 Z" class="st7"/>
+				</g>
+				<g id="shape8-22" transform="translate(11.8448,0)">
+					<title>Sheet.8</title>
+					<path d="M6.08 561.91 C2.74 561.91 0 558.68 0 554.78 C0 550.88 2.74 547.66 6.08 547.66 C9.43 547.66 12.17 550.88
+								 12.17 554.78 C12.17 558.68 9.43 561.91 6.08 561.91 Z" class="st6"/>
+				</g>
+				<g id="shape9-24" transform="translate(13.935,-2.25)">
+					<title>Sheet.9</title>
+					<ellipse cx="3.37656" cy="557.034" rx="3.37656" ry="4.875" class="st7"/>
+				</g>
+			</g>
+		</g>
+		<g id="shape10-26" transform="translate(500.233,-32.9232)">
+			<title>Sheet.10</title>
+			<desc>Electric Power</desc>
+			<rect x="0" y="519.39" width="99.2126" height="42.5197" class="st8"/>
+			<text x="8.97" y="544.85" class="st9">Electric Power</text>		</g>
+		<g id="shape11-29" transform="translate(145.934,-132.136)">
+			<title>程序.113</title>
+			<desc>computation</desc>
+			<rect x="0" y="491.043" width="85.0394" height="70.8661" class="st10"/>
+			<text x="7.53" y="530.68" class="st11">computation</text>		</g>
+		<g id="shape12-32" transform="translate(330.186,-132.136)">
+			<title>程序.114</title>
+			<desc>storage</desc>
+			<rect x="0" y="491.043" width="70.8661" height="70.8661" class="st10"/>
+			<text x="15.22" y="530.68" class="st11">storage</text>		</g>
+		<g id="shape13-35" transform="translate(415.225,-132.136)">
+			<title>程序.115</title>
+			<desc>I / O</desc>
+			<rect x="0" y="491.043" width="70.8661" height="70.8661" class="st10"/>
+			<text x="22.6" y="530.68" class="st11">I / O</text>		</g>
+		<g id="shape14-38" transform="translate(145.934,-61.2697)">
+			<title>程序.116</title>
+			<desc>interconnection</desc>
+			<rect x="0" y="505.217" width="170.079" height="56.6929" class="st10"/>
+			<text x="41.5" y="537.76" class="st11">interconnection</text>		</g>
+		<g id="shape15-41" transform="translate(145.934,-288.041)">
+			<title>程序.117</title>
+			<desc>Management of processes / threads, CPU scheduling, memory, st...</desc>
+			<rect x="0" y="462.697" width="340.157" height="99.2126" class="st10"/>
+			<text x="67.25" y="491.32" class="st12">Management<tspan class="st13"> </tspan><tspan class="st13">of processes / threads,  </tspan><tspan
+						x="72.09" dy="1.201em" class="st13">CPU scheduling, memory, storage,  </tspan><tspan x="124.98" dy="1.2em"
+						class="st13">I/O, file system,  </tspan><tspan x="86.88" dy="1.2em" class="st13">security, protection, networks</tspan></text>		</g>
+		<g id="shape16-49" transform="translate(145.934,-458.12)">
+			<title>程序.118</title>
+			<desc>programming language, compiler, linker, loader, interpreter</desc>
+			<rect x="0" y="491.043" width="155.906" height="70.8661" class="st10"/>
+			<text x="11.08" y="513.88" class="st11">programming language,  <tspan x="10.51" dy="1.2em" class="st14">compiler, linker, loader,  </tspan><tspan
+						x="48.8" dy="1.2em" class="st14">interpreter</tspan></text>		</g>
+		<g id="shape17-54" transform="translate(301.84,-486.467)">
+			<title>Sheet.17</title>
+			<path d="M0 561.91 L20.93 561.91" class="st15"/>
+		</g>
+		<g id="shape18-60" transform="translate(245.147,-132.136)">
+			<title>程序.120</title>
+			<desc>control</desc>
+			<rect x="0" y="491.043" width="70.8661" height="70.8661" class="st10"/>
+			<text x="15.61" y="530.68" class="st11">control</text>		</g>
+		<g id="shape19-63" transform="translate(344.359,-429.774)">
+			<title>程序.121</title>
+			<desc>virtual machine, sandbox</desc>
+			<rect x="0" y="533.563" width="155.906" height="28.3465" class="st1"/>
+			<text x="7.39" y="551.94" class="st11">virtual machine, sandbox</text>		</g>
+		<g id="shape20-66" transform="translate(202.468,-132.136)">
+			<title>程序.124</title>
+			<desc>ISA</desc>
+			<rect x="0" y="533.563" width="28.3465" height="28.3465" class="st17"/>
+			<text x="4.51" y="556.31" class="st18">ISA</text>		</g>
+		<g id="shape21-69" transform="translate(131.761,-259.695)">
+			<title>Sheet.21</title>
+			<desc>or bare-metal hypervisor (to create and run VMs, cloud platfo...</desc>
+			<rect x="0" y="519.39" width="354.331" height="42.5197" class="st8"/>
+			<text x="15.66" y="544.25" class="st19">or bare-metal hypervisor (to create and run VMs, cloud platforms)</text>		</g>
+		<g id="shape22-72" transform="translate(415.225,-132.136)">
+			<title>Sheet.22</title>
+			<desc>interaction</desc>
+			<rect x="0" y="533.563" width="70.8661" height="28.3465" class="st8"/>
+			<text x="8.7" y="551.34" class="st19">interaction</text>		</g>
+		<g id="shape23-75" transform="translate(330.186,-61.2697)">
+			<title>程序.141</title>
+			<desc>communication</desc>
+			<rect x="0" y="505.217" width="155.906" height="56.6929" class="st10"/>
+			<text x="34.41" y="537.76" class="st11">communication</text>		</g>
+		<g id="shape24-78" transform="translate(18.375,-18.75)">
+			<title>Sheet.24</title>
+			<desc>resources</desc>
+			<rect x="0" y="363.484" width="99.2126" height="198.425" class="st8"/>
+			<text x="15.62" y="468.1" class="st20">resources</text>		</g>
+		<g id="shape25-81" transform="translate(46.7215,-245.522)">
+			<title>Sheet.25</title>
+			<desc>resource manager</desc>
+			<rect x="0" y="406.004" width="85.0394" height="155.906" class="st8"/>
+			<text x="12.04" y="478.56" class="st20">resource <tspan x="11.54" dy="1.2em" class="st14">manager</tspan></text>		</g>
+		<g id="shape26-85" transform="translate(18.375,-429.774)">
+			<title>Sheet.26</title>
+			<desc>resource users</desc>
+			<rect x="0" y="448.524" width="113.386" height="113.386" class="st8"/>
+			<text x="5.47" y="510.62" class="st20">resource users</text>		</g>
+		<g id="shape30-88" transform="translate(-486.842,203.002) rotate(-90)">
+			<title>Sheet.30</title>
+			<path d="M0 561.91 L92.23 561.91" class="st21"/>
+		</g>
+		<g id="shape31-94" transform="translate(665.324,103.789) rotate(90)">
+			<title>Sheet.31</title>
+			<path d="M0 561.91 L92.23 561.91" class="st21"/>
+		</g>
+		<g id="shape32-99" transform="translate(103.414,-401.427)">
+			<title>Sheet.32</title>
+			<desc>system call</desc>
+			<rect x="0" y="533.563" width="70.8661" height="28.3465" class="st8"/>
+			<text x="4.13" y="551.94" class="st23">system call</text>		</g>
+		<g id="shape33-102" transform="translate(-472.668,415.6) rotate(-90)">
+			<title>Sheet.33</title>
+			<path d="M6.62 561.91 L6.98 561.91 L134.75 561.91" class="st24"/>
+		</g>
+		<g id="shape34-110" transform="translate(-529.361,415.6) rotate(-90)">
+			<title>Sheet.34</title>
+			<path d="M5.36 561.91 L5.72 561.91 L306.09 561.91" class="st25"/>
+		</g>
+	</g>
+</svg>

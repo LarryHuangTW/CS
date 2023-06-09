@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="9.6684in" height="7.79346in" viewBox="0 0 696.125 561.129" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st20">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st3 {font-size:1em}
+		.st4 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st6 {marker-end:url(#mrkr5-71);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.239976}
+		.st7 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.068959096269629}
+		.st8 {marker-end:url(#mrkr5-71);stroke:#000000;stroke-dasharray:1.67983,1.19988;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.239976}
+		.st9 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st10 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st11 {fill:#000000;font-family:Times New Roman;font-size:0.833336em;font-weight:bold}
+		.st12 {font-size:1em;font-weight:normal}
+		.st13 {fill:#737373;font-family:Times New Roman;font-size:0.75em}
+		.st14 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st15 {fill:none;stroke:#000000;stroke-dasharray:0.72,1.44;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st16 {font-size:1em;font-weight:bold}
+		.st17 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st18 {fill:#7f7f7f;font-family:Times New Roman;font-size:0.666664em}
+		.st19 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st20 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-71" class="st7" refX="-25.377362736274" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-14.501350135013,-14.501350135013) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(230.973,-89.2261)">
+			<title>程序.1</title>
+			<desc>Memory (SDRAM)</desc>
+			<rect x="0" y="476.09" width="70.8661" height="85.0394" class="st1"/>
+			<text x="14.77" y="507.81" class="st2">Memory  <tspan x="10.1" dy="2.4em" class="st3">(SDRAM)</tspan></text>		</g>
+		<g id="shape2-5" transform="translate(316.013,-145.919)">
+			<title>程序.2</title>
+			<rect x="0" y="532.783" width="85.0394" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape3-7" transform="translate(316.013,-89.2261)">
+			<title>程序.9</title>
+			<rect x="0" y="532.783" width="85.0394" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape4-9" transform="translate(457.745,-174.266)">
+			<title>程序.10</title>
+			<desc>Input devices</desc>
+			<rect x="0" y="532.783" width="85.0394" height="28.3465" class="st1"/>
+			<text x="10.36" y="550.56" class="st2">Input devices</text>		</g>
+		<g id="shape5-12" transform="translate(457.745,-131.746)">
+			<title>程序.11</title>
+			<desc>Output devices</desc>
+			<rect x="0" y="532.783" width="85.0394" height="28.3465" class="st1"/>
+			<text x="6.36" y="550.56" class="st2">Output devices</text>		</g>
+		<g id="shape6-15" transform="translate(457.745,-89.2261)">
+			<title>程序.12</title>
+			<desc>I / O devices</desc>
+			<rect x="0" y="532.783" width="85.0394" height="28.3465" class="st1"/>
+			<text x="12.03" y="550.56" class="st2">I / O devices</text>		</g>
+		<g id="shape7-18" transform="translate(18.375,-18.36)">
+			<title>程序.13</title>
+			<desc>Mother Board</desc>
+			<rect x="0" y="532.783" width="524.409" height="28.3465" class="st1"/>
+			<text x="20" y="550.56" class="st2">Mother Board</text>		</g>
+		<g id="shape8-21" transform="translate(386.879,-18.36)">
+			<title>程序.14</title>
+			<desc>ROM / EEPROM / NOR flash</desc>
+			<rect x="0" y="532.783" width="155.906" height="28.3465" class="st1"/>
+			<text x="4.78" y="550.56" class="st2">ROM / EEPROM / NOR flash</text>		</g>
+		<g id="shape9-24" transform="translate(386.879,-46.7065)">
+			<title>終端子</title>
+			<desc>UEFI BIOS</desc>
+			<path d="M14.17 561.13 L141.73 561.13 A14.1732 14.1732 -180 0 0 141.73 532.78 L14.17 532.78 A14.1732 14.1732 -180 1 0
+						 14.17 561.13 Z" class="st1"/>
+			<text x="49.45" y="550.56" class="st2">UEFI BIOS</text>		</g>
+		<g id="shape10-27" transform="translate(18.375,-230.958)">
+			<title>終端子.16</title>
+			<desc>OS</desc>
+			<path d="M21.26 561.13 L503.15 561.13 A21.2598 21.2598 -180 0 0 503.15 518.61 L21.26 518.61 A21.2598 21.2598 -180 1 0
+						 21.26 561.13 Z" class="st1"/>
+			<text x="251.98" y="544.67" class="st4">OS</text>		</g>
+		<g id="shape11-30" transform="translate(245.147,-301.825)">
+			<title>終端子.19</title>
+			<desc>System Programming</desc>
+			<path d="M14.17 561.13 L99.21 561.13 A14.1732 14.1732 -180 0 0 99.21 532.78 L14.17 532.78 A14.1732 14.1732 -180 1 0 14.17
+						 561.13 Z" class="st1"/>
+			<text x="4.53" y="550.56" class="st2">System Programming</text>		</g>
+		<g id="shape12-33" transform="translate(32.5482,-450.643)">
+			<title>頁面上的參考</title>
+			<desc>Source Code</desc>
+			<path d="M0 525.7 A35.4331 35.4331 0 0 1 70.87 525.7 A35.4331 35.4331 0 1 1 0 525.7 Z" class="st1"/>
+			<text x="4.61" y="529.3" class="st2">Source Code</text>		</g>
+		<g id="shape13-36" transform="translate(466.249,-447.809)">
+			<title>頁面上的參考.25</title>
+			<desc>Machine Code</desc>
+			<path d="M0 522.86 A38.2677 38.2677 0 1 1 76.54 522.86 A38.2677 38.2677 0 0 1 0 522.86 Z" class="st1"/>
+			<text x="3.11" y="526.46" class="st2">Machine Code</text>		</g>
+		<g id="shape14-39" transform="translate(259.32,-450.643)">
+			<title>頁面上的參考.26</title>
+			<desc>Object Code</desc>
+			<path d="M0 525.7 A35.4331 35.4331 0 0 1 70.87 525.7 A35.4331 35.4331 0 1 1 0 525.7 Z" class="st1"/>
+			<text x="5.27" y="529.3" class="st2">Object Code</text>		</g>
+		<g id="shape15-42" transform="translate(145.934,-429.384)">
+			<title>程序.27</title>
+			<desc>Preprocessor + Compiler compiling</desc>
+			<rect x="0" y="447.744" width="70.8661" height="113.386" class="st1"/>
+			<text x="4.44" y="479.24" class="st2">Preprocessor <tspan x="32.05" dy="1.2em" class="st3">+ </tspan><tspan x="12.77"
+						dy="1.2em" class="st3">Compiler  </tspan><tspan x="11.1" dy="2.4em" class="st3">compiling</tspan></text>		</g>
+		<g id="shape16-48" transform="translate(372.706,-429.384)">
+			<title>程序.28</title>
+			<desc>Linker linking</desc>
+			<rect x="0" y="447.744" width="56.6929" height="113.386" class="st1"/>
+			<text x="12.35" y="493.64" class="st2">Linker  <tspan x="11.35" dy="2.4em" class="st3">linking</tspan></text>		</g>
+		<g id="shape17-52" transform="translate(585.304,-429.384)">
+			<title>程序.29</title>
+			<desc>Loader loading</desc>
+			<rect x="0" y="447.744" width="56.6929" height="113.386" class="st1"/>
+			<text x="11.36" y="493.64" class="st2">Loader  <tspan x="10.35" dy="2.4em" class="st3">loading</tspan></text>		</g>
+		<g id="shape18-56" transform="translate(272.224,-380.721)">
+			<title>頁面上的參考.34</title>
+			<desc>object codes</desc>
+			<path d="M0 539.16 A21.9685 21.9685 0 0 1 43.94 539.16 A21.9685 21.9685 0 1 1 0 539.16 Z" class="st1"/>
+			<text x="9.75" y="536.16" class="st5">object <tspan x="10.58" dy="1.2em" class="st3">codes</tspan></text>		</g>
+		<g id="shape19-60" transform="translate(322.391,-372.691)">
+			<title>頁面上的參考.35</title>
+			<desc>libraries</desc>
+			<path d="M0 539.16 A21.9685 21.9685 0 0 1 43.94 539.16 A21.9685 21.9685 0 1 1 0 539.16 Z" class="st1"/>
+			<text x="5.59" y="542.16" class="st5">libraries</text>		</g>
+		<g id="shape20-63" transform="translate(486.092,-373.399)">
+			<title>頁面上的參考.36</title>
+			<desc>DLLs</desc>
+			<path d="M0 539.87 A21.2598 21.2598 0 0 1 42.52 539.87 A21.2598 21.2598 0 1 1 0 539.87 Z" class="st1"/>
+			<text x="9.59" y="542.87" class="st5">DLLs</text>		</g>
+		<g id="shape21-66" transform="translate(103.414,-478.99)">
+			<title>動態連接器</title>
+			<path d="M0 554.04 L36.43 554.04" class="st6"/>
+		</g>
+		<g id="shape22-72" transform="translate(330.186,-478.99)">
+			<title>動態連接器.38</title>
+			<path d="M0 554.04 L36.43 554.04" class="st6"/>
+		</g>
+		<g id="shape23-77" transform="translate(429.399,-478.99)">
+			<title>動態連接器.39</title>
+			<path d="M0 554.04 L30.76 554.04" class="st6"/>
+		</g>
+		<g id="shape24-82" transform="translate(542.784,-478.99)">
+			<title>動態連接器.40</title>
+			<path d="M0 554.04 L36.43 554.04" class="st6"/>
+		</g>
+		<g id="shape25-87" transform="translate(216.8,-478.99)">
+			<title>動態連接器.41</title>
+			<path d="M0 554.04 L36.43 554.04" class="st6"/>
+		</g>
+		<g id="shape26-92" transform="translate(68.69,-422.297)">
+			<title>動態連接器.42</title>
+			<path d="M0 561.13 L72.55 501.23" class="st8"/>
+		</g>
+		<g id="shape27-97" transform="translate(294.192,-424.658)">
+			<title>動態連接器.43</title>
+			<path d="M0 561.13 L73.72 503.46" class="st8"/>
+		</g>
+		<g id="shape28-102" transform="translate(507.351,-415.919)">
+			<title>動態連接器.44</title>
+			<path d="M0 561.13 L73.43 495.05" class="st8"/>
+		</g>
+		<g id="shape29-107" transform="translate(344.359,-416.628)">
+			<title>動態連接器.45</title>
+			<path d="M0 561.13 L26.05 497.32" class="st8"/>
+		</g>
+		<g id="shape30-112" transform="translate(641.997,-486.077)">
+			<title>動態連接器.46</title>
+			<path d="M0 561.13 L28.35 561.13 L28.35 731.21 L-104.46 731.21" class="st6"/>
+		</g>
+		<g id="shape31-117" transform="translate(18.375,-89.2261)">
+			<title>程序</title>
+			<rect x="0" y="476.09" width="198.425" height="85.0394" class="st1"/>
+		</g>
+		<g id="shape32-119" transform="translate(18.375,-160.092)">
+			<title>程序.22</title>
+			<desc>Control Unit</desc>
+			<rect x="0" y="546.956" width="70.8661" height="14.1732" class="st1"/>
+			<text x="10.02" y="557.04" class="st5">Control Unit</text>		</g>
+		<g id="shape33-122" transform="translate(18.375,-145.919)">
+			<title>程序.23</title>
+			<desc>ALU</desc>
+			<rect x="0" y="546.956" width="70.8661" height="14.1732" class="st1"/>
+			<text x="25.16" y="557.04" class="st5">ALU</text>		</g>
+		<g id="shape34-125" transform="translate(556.958,-18.36)">
+			<title>程序.49</title>
+			<desc>Power</desc>
+			<rect x="0" y="532.783" width="56.6929" height="28.3465" class="st1"/>
+			<text x="13.02" y="550.56" class="st2">Power</text>		</g>
+		<g id="shape35-128" transform="translate(401.052,-238.045)">
+			<title>終端子.50</title>
+			<desc>Device Drivers</desc>
+			<path d="M7.09 561.13 L120.47 561.13 A7.08661 7.08661 -180 0 0 120.47 546.96 L7.09 546.96 A7.08661 7.08661 -180 1 0 7.09
+						 561.13 Z" class="st1"/>
+			<text x="27.3" y="557.64" class="st2">Device Drivers</text>		</g>
+		<g id="shape36-131" transform="translate(18.375,-188.439)">
+			<title>程序.51</title>
+			<desc>GPU</desc>
+			<rect x="0" y="532.783" width="198.425" height="28.3465" class="st1"/>
+			<text x="17" y="550.56" class="st2">GPU</text>		</g>
+		<g id="group69-134" transform="translate(429.399,-301.825)">
+			<title>Sheet.69</title>
+			<g id="shape70-135" transform="translate(2.83465,1.13687E-13)">
+				<title>終端子.21</title>
+				<path d="M14.17 561.13 L85.04 561.13 A14.1732 14.1732 -180 0 0 85.04 532.78 L14.17 532.78 A14.1732 14.1732 -180 1
+							 0 14.17 561.13 Z" class="st9"/>
+			</g>
+			<g id="shape71-137" transform="translate(1.41732,-2.83465)">
+				<title>終端子.20</title>
+				<path d="M14.17 561.13 L85.04 561.13 A14.1732 14.1732 -180 0 0 85.04 532.78 L14.17 532.78 A14.1732 14.1732 -180 1
+							 0 14.17 561.13 Z" class="st9"/>
+			</g>
+			<g id="shape72-139" transform="translate(6.39488E-14,-5.66929)">
+				<title>終端子.18</title>
+				<desc>Processes</desc>
+				<path d="M14.17 561.13 L85.04 561.13 A14.1732 14.1732 -180 0 0 85.04 532.78 L14.17 532.78 A14.1732 14.1732 -180 1
+							 0 14.17 561.13 Z" class="st9"/>
+				<text x="26.28" y="550.56" class="st2">Processes</text>			</g>
+		</g>
+		<g id="shape73-142" transform="translate(41.0522,-374.108)">
+			<title>頁面上的參考.31</title>
+			<path d="M0 539.16 A21.9685 21.9685 0 0 1 43.94 539.16 A21.9685 21.9685 0 1 1 0 539.16 Z" class="st1"/>
+		</g>
+		<g id="shape74-144" transform="translate(43.8868,-376.234)">
+			<title>頁面上的參考.32</title>
+			<path d="M0 539.16 A21.9685 21.9685 0 0 1 43.94 539.16 A21.9685 21.9685 0 1 1 0 539.16 Z" class="st1"/>
+		</g>
+		<g id="group75-146" transform="translate(46.7215,-378.36)">
+			<title>Sheet.75</title>
+			<g id="shape76-147">
+				<title>頁面上的參考.30</title>
+				<desc>headers</desc>
+				<path d="M0 539.16 A21.9685 21.9685 0 0 1 43.94 539.16 A21.9685 21.9685 0 1 1 0 539.16 Z" class="st9"/>
+				<text x="6.7" y="542.16" class="st5">headers</text>			</g>
+		</g>
+		<g id="shape77-150" transform="translate(514.438,-315.998)">
+			<title>Sheet.77</title>
+			<desc>~~ ~~ Threads ~~</desc>
+			<rect x="0" y="504.437" width="56.6929" height="56.6929" class="st10"/>
+			<text x="23.15" y="517.78" class="st11">~~ <tspan x="23.15" dy="1.2em" class="st3">~~ </tspan><tspan x="12.24"
+						dy="1.2em" class="st12">Threads </tspan><tspan x="23.15" dy="1.2em" class="st3">~~</tspan></text>		</g>
+		<g id="shape78-156" transform="translate(528.611,-386.864)">
+			<title>Sheet.78</title>
+			<desc>implicit linking to DLL at load-time OR explicit linking to D...</desc>
+			<rect x="0" y="518.61" width="141.732" height="42.5197" class="st10"/>
+			<text x="2" y="531.77" class="st13">implicit linking to DLL at load-time <tspan x="2" dy="1.2em" class="st3">                          </tspan>OR <tspan
+						x="2" dy="1.2em" class="st3">explicit linking to DLL at run</tspan>-time</text>		</g>
+		<g id="group79-161" transform="translate(613.651,-32.5332)">
+			<title>Sheet.79</title>
+			<g id="shape80-162" transform="translate(-62.8968,1.14589) rotate(-6.43579)">
+				<title>Multi-Line</title>
+				<path d="M0 561.13 L17.12 552.17 L25.67 570.09 L42.79 561.13" class="st14"/>
+			</g>
+			<g id="shape81-165" transform="translate(-62.8968,1.14589) rotate(-6.43579)">
+				<title>Multi-Line.87</title>
+				<path d="M0 561.13 L15.8 558.19 L24.96 577.29 L42.79 561.13" class="st14"/>
+			</g>
+		</g>
+		<g id="shape82-168" transform="translate(245.147,-18.36)">
+			<title>程序.82</title>
+			<desc>Southbridge chipset (controller hub)</desc>
+			<rect x="0" y="532.783" width="113.386" height="28.3465" class="st1"/>
+			<text x="8.86" y="543.36" class="st2">Southbridge chipset <tspan x="18.87" dy="1.2em" class="st3">(controller hub)</tspan></text>		</g>
+		<g id="shape83-172" transform="translate(18.375,-131.746)">
+			<title>程序.83</title>
+			<desc>Registers</desc>
+			<rect x="0" y="546.956" width="70.8661" height="14.1732" class="st1"/>
+			<text x="16.82" y="557.04" class="st5">Registers</text>		</g>
+		<g id="shape84-175" transform="translate(18.375,-89.2261)">
+			<title>程序.84</title>
+			<desc>shared L3 Cache (SRAM)</desc>
+			<rect x="0" y="532.783" width="127.559" height="28.3465" class="st1"/>
+			<text x="30.18" y="543.96" class="st5">shared L3 Cache <tspan x="46.28" dy="1.2em" class="st3">(SRAM)</tspan></text>		</g>
+		<g id="shape85-179" transform="translate(160.107,-145.919)">
+			<title>程序.93</title>
+			<desc>memory controller</desc>
+			<rect x="0" y="532.783" width="56.6929" height="28.3465" class="st1"/>
+			<text x="11.68" y="543.96" class="st5">memory <tspan x="8.91" dy="1.2em" class="st3">controller</tspan></text>		</g>
+		<g id="shape86-183" transform="translate(160.107,-89.2261)">
+			<title>程序.94</title>
+			<desc>Graphics</desc>
+			<path d="M0 561.13 L56.69 561.13 L56.69 532.78 L0 532.78 L0 561.13 Z" class="st15"/>
+			<text x="10.3" y="549.96" class="st5">Graphics</text>		</g>
+		<g id="shape87-186" transform="translate(18.375,-117.573)">
+			<title>程序.95</title>
+			<desc>L1 , L2 Cache</desc>
+			<rect x="0" y="546.956" width="70.8661" height="14.1732" class="st1"/>
+			<text x="6.83" y="557.04" class="st5">L1 , L2 Cache</text>		</g>
+		<g id="shape88-189" transform="translate(89.2411,-117.573)">
+			<title>程序.96</title>
+			<desc>Core</desc>
+			<rect x="0" y="504.437" width="28.3465" height="56.6929" class="st1"/>
+			<text x="4.45" y="535.78" class="st5">Core</text>		</g>
+		<g id="shape89-192" transform="translate(117.588,-117.573)">
+			<title>程序.97</title>
+			<desc>Core</desc>
+			<rect x="0" y="504.437" width="28.3465" height="56.6929" class="st1"/>
+			<text x="4.45" y="535.78" class="st5">Core</text>		</g>
+		<g id="shape90-195" transform="translate(89.2411,-188.439)">
+			<title>程序.98</title>
+			<desc>memory controller</desc>
+			<rect x="0" y="532.783" width="56.6929" height="28.3465" class="st1"/>
+			<text x="11.68" y="543.96" class="st5">memory <tspan x="8.91" dy="1.2em" class="st3">controller</tspan></text>		</g>
+		<g id="shape91-199" transform="translate(160.107,-188.439)">
+			<title>程序.99</title>
+			<desc>SDRAM</desc>
+			<rect x="0" y="532.783" width="56.6929" height="28.3465" class="st1"/>
+			<text x="10.56" y="549.96" class="st5">SDRAM</text>		</g>
+		<g id="shape92-202" transform="translate(160.107,-117.573)">
+			<title>程序.122</title>
+			<desc>Neural / AI engine</desc>
+			<path d="M0 561.13 L56.69 561.13 L56.69 532.78 L0 532.78 L0 561.13 Z" class="st15"/>
+			<text x="5.58" y="543.97" class="st5">Neural <tspan class="st16">/</tspan> AI <tspan x="15.02" dy="1.201em" class="st3">engine</tspan></text>		</g>
+		<g id="shape93-207" transform="translate(316.013,-145.919)">
+			<title>Sheet.93</title>
+			<desc>controller</desc>
+			<rect x="0" y="532.783" width="42.5197" height="28.3465" class="st17"/>
+			<text x="5.71" y="549.36" class="st18">controller</text>		</g>
+		<g id="shape94-210" transform="translate(316.013,-89.2261)">
+			<title>Sheet.94</title>
+			<desc>controller</desc>
+			<rect x="0" y="532.783" width="42.5197" height="28.3465" class="st17"/>
+			<text x="5.71" y="549.36" class="st18">controller</text>		</g>
+		<g id="shape95-213" transform="translate(344.359,-145.919)">
+			<title>Sheet.95</title>
+			<desc>SSD</desc>
+			<rect x="0" y="532.783" width="56.6929" height="28.3465" class="st17"/>
+			<text x="17.34" y="550.56" class="st2">SSD</text>		</g>
+		<g id="shape96-216" transform="translate(344.359,-89.2261)">
+			<title>Sheet.96</title>
+			<desc>HDD</desc>
+			<rect x="0" y="532.783" width="56.6929" height="28.3465" class="st17"/>
+			<text x="15.35" y="550.56" class="st2">HDD</text>		</g>
+		<g id="shape97-219" transform="translate(60.8947,-301.825)">
+			<title>終端子.97</title>
+			<desc>Users</desc>
+			<path d="M14.17 561.13 L85.04 561.13 A14.1732 14.1732 -180 0 0 85.04 532.78 L14.17 532.78 A14.1732 14.1732 -180 1 0 14.17
+						 561.13 Z" class="st1"/>
+			<text x="35.94" y="550.56" class="st2">Users</text>		</g>
+		<g id="shape98-222" transform="translate(18.375,-75.0529)">
+			<title>Sheet.98</title>
+			<desc>CPU</desc>
+			<rect x="0" y="546.956" width="198.425" height="14.1732" class="st17"/>
+			<text x="87.54" y="557.64" class="st19">CPU</text>		</g>
+	</g>
+</svg>

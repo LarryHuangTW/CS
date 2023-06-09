@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="10.7432in" height="12.1177in" viewBox="0 0 773.508 872.475" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st19">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-width:1}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st3 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st4 {fill:none;stroke:none;stroke-width:1}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st6 {marker-end:url(#mrkr5-27);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st8 {marker-end:url(#mrkr5-27);stroke:#000000;stroke-width:1}
+		.st9 {fill:none;stroke:none;stroke-width:0.25}
+		.st10 {fill:#0000ff;font-family:新細明體;font-size:1.33333em}
+		.st11 {font-family:Times New Roman;font-size:1em}
+		.st12 {fill:#ff0000;font-family:新細明體;font-size:1.33333em}
+		.st13 {fill:#7f7f7f;font-family:Times New Roman;font-size:0.499992em}
+		.st14 {fill:none;stroke:#7f7f7f;stroke-width:1}
+		.st15 {fill:#7f7f7f;font-family:Times New Roman;font-size:0.833336em}
+		.st16 {fill:#4672c4;font-family:Times New Roman;font-size:1.99999em}
+		.st17 {fill:#000000;font-family:Times New Roman;font-size:0.499992em}
+		.st18 {fill:#4672c4;font-family:Times New Roman;font-size:1.5em}
+		.st19 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-27" class="st7" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape31-1" transform="translate(32.4232,-577.847)">
+			<title>Circle.31</title>
+			<path d="M0 837.04 A35.4331 35.4331 0 0 1 70.87 837.04 A35.4331 35.4331 0 1 1 0 837.04 Z" class="st1"/>
+		</g>
+		<g id="shape32-3" transform="translate(46.5965,-599.107)">
+			<title>Rounded Rectangle.32</title>
+			<desc>head</desc>
+			<path d="M4.25 872.48 L38.27 872.48 A4.2519 4.2519 -180 0 0 42.52 868.22 L42.52 848.38 A4.2519 4.2519 -180 0 0 38.27
+						 844.13 L4.25 844.13 A4.2519 4.2519 -180 0 0 0 848.38 L0 868.22 A4.2519 4.2519 -180 0 0 4.25 872.48 Z"
+					class="st1"/>
+			<text x="8.05" y="862.5" class="st2">head</text>		</g>
+		<g id="shape34-6" transform="translate(145.809,-599.107)">
+			<title>Rounded Rectangle.34</title>
+			<desc>front</desc>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+			<text x="16.68" y="861.9" class="st3">front</text>		</g>
+		<g id="shape35-9" transform="translate(202.502,-599.107)">
+			<title>Rounded Rectangle.35</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape36-11" transform="translate(259.195,-599.107)">
+			<title>Rounded Rectangle.36</title>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+		</g>
+		<g id="shape37-13" transform="translate(315.888,-599.107)">
+			<title>Rounded Rectangle.37</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape38-15" transform="translate(443.447,-599.107)">
+			<title>Rounded Rectangle.38</title>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+		</g>
+		<g id="shape39-17" transform="translate(500.14,-599.107)">
+			<title>Rounded Rectangle.39</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 -0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape40-19" transform="translate(372.581,-599.107)">
+			<title>Sheet.40</title>
+			<desc>……</desc>
+			<rect x="0" y="844.129" width="42.5197" height="28.3465" class="st4"/>
+			<text x="5.26" y="863.1" class="st5">……</text>		</g>
+		<g id="shape41-22" transform="translate(216.675,-613.28)">
+			<title>Sheet.41</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape42-28" transform="translate(330.061,-613.28)">
+			<title>Sheet.42</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape43-33" transform="translate(415.1,-613.28)">
+			<title>Sheet.43</title>
+			<path d="M0 872.48 L22.19 872.48" class="st6"/>
+		</g>
+		<g id="shape44-38" transform="translate(89.1161,-613.28)">
+			<title>Sheet.44</title>
+			<path d="M0 872.48 L50.53 872.48" class="st6"/>
+		</g>
+		<g id="shape45-43" transform="translate(174.156,-613.28)">
+			<title>Sheet.45</title>
+			<path d="M340.16 872.48 L368.5 872.48 L368.5 829.96 L0 829.96 L0 852.39" class="st8"/>
+		</g>
+		<g id="shape46-48" transform="translate(330.061,-514.068)">
+			<title>Sheet.46</title>
+			<desc>缺點 1. 若要滿足 range for loop 需特殊處理。 2. 必須知道 back node 才能做原本的 ***...</desc>
+			<rect x="0" y="787.436" width="425.197" height="85.0394" class="st9"/>
+			<text x="4" y="806.39" class="st10">缺點： <tspan x="4" dy="1.246em" class="st11">1. </tspan>若要滿足<tspan class="st11"> </tspan><tspan
+						class="st11">range for loop </tspan>需特殊處理。 <tspan x="4" dy="1.246em" class="st11">2. </tspan>必須知道<tspan
+						class="st11"> </tspan><tspan class="st11">back node </tspan>才能做原本的<tspan class="st11"> </tspan><tspan
+						class="st11">***_front </tspan>處理。 <tspan x="4" dy="1.246em" class="st11">3. </tspan>依序走訪時，若要移除<tspan
+						class="st11"> </tspan><tspan class="st11">iterator </tspan>所指的<tspan class="st11"> </tspan><tspan
+						class="st11">node </tspan>需特殊處理。</text>		</g>
+		<g id="shape47-64" transform="translate(32.4232,-393.595)">
+			<title>Circle.47</title>
+			<path d="M0 837.04 A35.4331 35.4331 0 0 1 70.87 837.04 A35.4331 35.4331 0 1 1 0 837.04 Z" class="st1"/>
+		</g>
+		<g id="shape48-66" transform="translate(46.5965,-414.855)">
+			<title>Rounded Rectangle.48</title>
+			<desc>head</desc>
+			<path d="M4.25 872.48 L38.27 872.48 A4.2519 4.2519 -180 0 0 42.52 868.22 L42.52 848.38 A4.2519 4.2519 -180 0 0 38.27
+						 844.13 L4.25 844.13 A4.2519 4.2519 -180 0 0 0 848.38 L0 868.22 A4.2519 4.2519 -180 0 0 4.25 872.48 Z"
+					class="st1"/>
+			<text x="8.05" y="862.5" class="st2">head</text>		</g>
+		<g id="shape49-69" transform="translate(145.809,-414.855)">
+			<title>Rounded Rectangle.49</title>
+			<desc>front</desc>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+			<text x="16.68" y="861.9" class="st3">front</text>		</g>
+		<g id="shape50-72" transform="translate(202.502,-414.855)">
+			<title>Rounded Rectangle.50</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape51-74" transform="translate(259.195,-414.855)">
+			<title>Rounded Rectangle.51</title>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+		</g>
+		<g id="shape52-76" transform="translate(315.888,-414.855)">
+			<title>Rounded Rectangle.52</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape53-78" transform="translate(443.447,-414.855)">
+			<title>Rounded Rectangle.53</title>
+			<desc>back</desc>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+			<text x="17.02" y="861.9" class="st3">back</text>		</g>
+		<g id="shape54-81" transform="translate(500.14,-414.855)">
+			<title>Rounded Rectangle.54</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 -0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape55-83" transform="translate(372.581,-414.855)">
+			<title>Sheet.55</title>
+			<desc>……</desc>
+			<rect x="0" y="844.129" width="42.5197" height="28.3465" class="st4"/>
+			<text x="5.26" y="863.1" class="st5">……</text>		</g>
+		<g id="shape56-86" transform="translate(216.675,-429.028)">
+			<title>Sheet.56</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape57-91" transform="translate(330.061,-429.028)">
+			<title>Sheet.57</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape58-96" transform="translate(415.1,-429.028)">
+			<title>Sheet.58</title>
+			<path d="M0 872.48 L22.19 872.48" class="st6"/>
+		</g>
+		<g id="shape61-101" transform="translate(174.156,-429.028)">
+			<title>Sheet.61</title>
+			<path d="M340.16 872.48 L382.68 872.48 L382.68 829.96 L0 829.96 L0 852.39" class="st8"/>
+		</g>
+		<g id="shape62-106" transform="translate(67.8563,-372.335)">
+			<title>Sheet.62</title>
+			<path d="M0 829.96 L0 872.48 L403.94 872.48 L403.94 836.36" class="st8"/>
+		</g>
+		<g id="shape63-111" transform="translate(18.25,-287.296)">
+			<title>Sheet.63</title>
+			<desc>優點 1. 可提供 front() 與 back() 操作。 2. 能做原本的 ***_front 與 ***_after...</desc>
+			<rect x="0" y="787.436" width="311.811" height="85.0394" class="st9"/>
+			<text x="4" y="806.39" class="st12">優點： <tspan x="4" dy="1.246em" class="st11">1. </tspan>可提供<tspan class="st11"> </tspan><tspan
+						class="st11">front() </tspan>與<tspan class="st11"> </tspan><tspan class="st11">back() </tspan>操作。 <tspan
+						x="4" dy="1.246em" class="st11">2. </tspan>能做原本的<tspan class="st11"> </tspan><tspan class="st11">***_front </tspan>與<tspan
+						class="st11"> </tspan><tspan class="st11">***_after </tspan>操作。 <tspan x="4" dy="1.246em" class="st11">3. </tspan>能做<tspan
+						class="st11"> </tspan><tspan class="st11">push_back()</tspan>、<tspan class="st11">emplace_back() </tspan>操作。</text>		</g>
+		<g id="shape64-128" transform="translate(358.407,-287.296)">
+			<title>Sheet.64</title>
+			<desc>缺點 1. 不提供 pop_back() 操作。 2. 若要滿足 range for loop 需特殊處理。 3. 依序走...</desc>
+			<rect x="0" y="787.436" width="396.85" height="85.0394" class="st9"/>
+			<text x="4" y="806.39" class="st10">缺點： <tspan x="4" dy="1.246em" class="st11">1. </tspan>不提供<tspan class="st11"> </tspan><tspan
+						class="st11">pop_back() </tspan>操作。 <tspan x="4" dy="1.246em" class="st11">2. </tspan>若要滿足<tspan
+						class="st11"> </tspan><tspan class="st11">range for loop </tspan>需特殊處理。 <tspan x="4" dy="1.246em"
+						class="st11">3. </tspan>依序走訪若要移除<tspan class="st11"> </tspan><tspan class="st11">iterator </tspan>所指的<tspan
+						class="st11"> </tspan><tspan class="st11">node </tspan>需特殊處理。</text>		</g>
+		<g id="shape68-142" transform="translate(32.4232,-103.044)">
+			<title>Circle.68</title>
+			<path d="M0 822.87 A49.6063 49.6063 0 0 1 99.21 822.87 A49.6063 49.6063 0 1 1 0 822.87 Z" class="st1"/>
+		</g>
+		<g id="shape69-144" transform="translate(60.7697,-159.737)">
+			<title>Rounded Rectangle.69</title>
+			<desc>head</desc>
+			<path d="M4.25 872.48 L38.27 872.48 A4.2519 4.2519 -180 0 0 42.52 868.22 L42.52 848.38 A4.2519 4.2519 -180 0 0 38.27
+						 844.13 L4.25 844.13 A4.2519 4.2519 -180 0 0 0 848.38 L0 868.22 A4.2519 4.2519 -180 0 0 4.25 872.48 Z"
+					class="st1"/>
+			<text x="8.05" y="862.5" class="st2">head</text>		</g>
+		<g id="shape70-147" transform="translate(174.156,-159.737)">
+			<title>Rounded Rectangle.70</title>
+			<desc>front</desc>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+			<text x="16.68" y="861.9" class="st3">front</text>		</g>
+		<g id="shape71-150" transform="translate(230.848,-159.737)">
+			<title>Rounded Rectangle.71</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape72-152" transform="translate(287.541,-159.737)">
+			<title>Rounded Rectangle.72</title>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+		</g>
+		<g id="shape73-154" transform="translate(344.234,-159.737)">
+			<title>Rounded Rectangle.73</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape74-156" transform="translate(471.793,-159.737)">
+			<title>Rounded Rectangle.74</title>
+			<desc>back</desc>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+			<text x="17.02" y="861.9" class="st3">back</text>		</g>
+		<g id="shape75-159" transform="translate(528.486,-159.737)">
+			<title>Rounded Rectangle.75</title>
+			<desc>NULL</desc>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 -0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+			<text x="6.18" y="860.1" class="st13">NULL</text>		</g>
+		<g id="shape76-162" transform="translate(400.927,-159.737)">
+			<title>Sheet.76</title>
+			<desc>……</desc>
+			<rect x="0" y="844.129" width="42.5197" height="28.3465" class="st4"/>
+			<text x="5.26" y="863.1" class="st5">……</text>		</g>
+		<g id="shape77-165" transform="translate(245.022,-173.91)">
+			<title>Sheet.77</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape78-170" transform="translate(358.407,-173.91)">
+			<title>Sheet.78</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape79-175" transform="translate(443.447,-173.91)">
+			<title>Sheet.79</title>
+			<path d="M0 872.48 L22.19 872.48" class="st6"/>
+		</g>
+		<g id="shape80-180" transform="translate(103.289,-173.91)">
+			<title>Sheet.80</title>
+			<path d="M0 872.48 L64.71 872.48" class="st6"/>
+		</g>
+		<g id="shape81-185" transform="translate(60.7697,-117.217)">
+			<title>Rounded Rectangle.81</title>
+			<desc>tail</desc>
+			<path d="M4.25 872.48 L38.27 872.48 A4.2519 4.2519 -180 0 0 42.52 868.22 L42.52 848.38 A4.2519 4.2519 -180 0 0 38.27
+						 844.13 L4.25 844.13 A4.2519 4.2519 -180 0 0 0 848.38 L0 868.22 A4.2519 4.2519 -180 0 0 4.25 872.48 Z"
+					class="st1"/>
+			<text x="12.32" y="862.5" class="st2">tail</text>		</g>
+		<g id="shape82-188" transform="translate(103.289,-131.39)">
+			<title>Sheet.82</title>
+			<path d="M0 872.48 L396.85 872.48 L396.85 850.53" class="st8"/>
+		</g>
+		<g id="shape83-193" transform="translate(103.289,-145.564)">
+			<title>Rounded Rectangle.83</title>
+			<desc>size</desc>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 861.96 A2.8346 2.8346 -180 0 0 25.51
+						 859.12 L2.83 859.12 A2.8346 2.8346 -180 0 0 0 861.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st14"/>
+			<text x="6.4" y="868.8" class="st15">size</text>		</g>
+		<g id="shape84-196" transform="translate(18.25,-18.25)">
+			<title>Sheet.84</title>
+			<desc>優點 1. 可提供 front() 與 back() 操作。 2. 能做原本 std::forward_list 的所有操...</desc>
+			<rect x="0" y="787.436" width="311.811" height="85.0394" class="st9"/>
+			<text x="4" y="806.39" class="st12">優點： <tspan x="4" dy="1.246em" class="st11">1. </tspan>可提供<tspan class="st11"> </tspan><tspan
+						class="st11">front() </tspan>與<tspan class="st11"> </tspan><tspan class="st11">back() </tspan>操作。 <tspan
+						x="4" dy="1.246em" class="st11">2. </tspan>能做原本<tspan class="st11"> </tspan><tspan class="st11">std::forward_list </tspan>的所有操作。 <tspan
+						x="4" dy="1.246em" class="st11">3. </tspan>能做<tspan class="st11"> </tspan><tspan class="st11">push_back()</tspan>、<tspan
+						class="st11">emplace_back() </tspan>操作。</text>		</g>
+		<g id="shape85-211" transform="translate(358.407,-46.351)">
+			<title>Sheet.85</title>
+			<desc>缺點 1. 不提供 pop_back() 操作。</desc>
+			<rect x="0" y="815.782" width="212.598" height="56.6929" class="st9"/>
+			<text x="4" y="834.73" class="st10">缺點： <tspan x="4" dy="1.246em" class="st11">1. </tspan>不提供<tspan class="st11"> </tspan><tspan
+						class="st11">pop_back() </tspan>操作。</text>		</g>
+		<g id="shape111-217" transform="translate(18.25,-825.879)">
+			<title>Sheet.111</title>
+			<desc>possible implementations</desc>
+			<rect x="0" y="844.129" width="255.118" height="28.3465" class="st9"/>
+			<text x="5.24" y="865.5" class="st16">possible implementations</text>		</g>
+		<g id="shape112-220" transform="translate(32.4232,-691.233)">
+			<title>Circle.112</title>
+			<path d="M0 837.04 A35.4331 35.4331 0 0 1 70.87 837.04 A35.4331 35.4331 0 1 1 0 837.04 Z" class="st1"/>
+		</g>
+		<g id="shape113-222" transform="translate(46.5965,-712.493)">
+			<title>Rounded Rectangle.113</title>
+			<desc>head</desc>
+			<path d="M4.25 872.48 L38.27 872.48 A4.2519 4.2519 -180 0 0 42.52 868.22 L42.52 848.38 A4.2519 4.2519 -180 0 0 38.27
+						 844.13 L4.25 844.13 A4.2519 4.2519 -180 0 0 0 848.38 L0 868.22 A4.2519 4.2519 -180 0 0 4.25 872.48 Z"
+					class="st1"/>
+			<text x="8.05" y="862.5" class="st2">head</text>		</g>
+		<g id="shape114-225" transform="translate(145.809,-712.493)">
+			<title>Rounded Rectangle.114</title>
+			<desc>front</desc>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+			<text x="16.68" y="861.9" class="st3">front</text>		</g>
+		<g id="shape115-228" transform="translate(202.502,-712.493)">
+			<title>Rounded Rectangle.115</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape116-230" transform="translate(259.195,-712.493)">
+			<title>Rounded Rectangle.116</title>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+		</g>
+		<g id="shape117-232" transform="translate(315.888,-712.493)">
+			<title>Rounded Rectangle.117</title>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+		</g>
+		<g id="shape118-234" transform="translate(443.447,-712.493)">
+			<title>Rounded Rectangle.118</title>
+			<path d="M5.67 872.48 L51.02 872.48 A5.6692 5.6692 -180 0 0 56.69 866.81 L56.69 849.8 A5.6692 5.6692 -180 0 0 51.02 844.13
+						 L5.67 844.13 A5.6692 5.6692 -180 0 0 -0 849.8 L0 866.81 A5.6692 5.6692 -180 0 0 5.67 872.48 Z" class="st1"/>
+		</g>
+		<g id="shape119-236" transform="translate(500.14,-712.493)">
+			<title>Rounded Rectangle.119</title>
+			<desc>NULL</desc>
+			<path d="M2.83 872.48 L25.51 872.48 A2.8346 2.8346 -180 0 0 28.35 869.64 L28.35 846.96 A2.8346 2.8346 -180 0 0 25.51
+						 844.13 L2.83 844.13 A2.8346 2.8346 -180 0 0 -0 846.96 L0 869.64 A2.8346 2.8346 -180 0 0 2.83 872.48 Z"
+					class="st1"/>
+			<text x="6.18" y="860.1" class="st17">NULL</text>		</g>
+		<g id="shape120-239" transform="translate(372.581,-712.493)">
+			<title>Sheet.120</title>
+			<desc>……</desc>
+			<rect x="0" y="844.129" width="42.5197" height="28.3465" class="st4"/>
+			<text x="5.26" y="863.1" class="st5">……</text>		</g>
+		<g id="shape121-242" transform="translate(216.675,-726.666)">
+			<title>Sheet.121</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape122-247" transform="translate(330.061,-726.666)">
+			<title>Sheet.122</title>
+			<path d="M0 872.48 L36.36 872.48" class="st6"/>
+		</g>
+		<g id="shape123-252" transform="translate(415.1,-726.666)">
+			<title>Sheet.123</title>
+			<path d="M0 872.48 L22.19 872.48" class="st6"/>
+		</g>
+		<g id="shape124-257" transform="translate(89.1161,-726.666)">
+			<title>Sheet.124</title>
+			<path d="M0 872.48 L50.53 872.48" class="st6"/>
+		</g>
+		<g id="shape126-262" transform="translate(18.25,-769.186)">
+			<title>Sheet.126</title>
+			<desc>1.</desc>
+			<rect x="0" y="844.129" width="28.3465" height="28.3465" class="st9"/>
+			<text x="7.42" y="863.7" class="st18">1.</text>		</g>
+		<g id="shape127-265" transform="translate(18.25,-471.548)">
+			<title>Sheet.127</title>
+			<desc>2.</desc>
+			<rect x="0" y="844.129" width="28.3465" height="28.3465" class="st9"/>
+			<text x="7.42" y="863.7" class="st18">2.</text>		</g>
+		<g id="shape128-268" transform="translate(18.25,-216.43)">
+			<title>Sheet.128</title>
+			<desc>3.</desc>
+			<rect x="0" y="844.129" width="28.3465" height="28.3465" class="st9"/>
+			<text x="7.42" y="863.7" class="st18">3.</text>		</g>
+	</g>
+</svg>

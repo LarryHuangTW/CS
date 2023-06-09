@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="10.7571in" height="8.00462in" viewBox="0 0 774.508 576.333" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st11">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#0000ff;stroke-width:1.5}
+		.st2 {fill:#0000ff;font-family:Calibri;font-size:2.50001em}
+		.st3 {fill:none;stroke:#000000;stroke-width:1.5}
+		.st4 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st5 {font-size:1em}
+		.st6 {fill:none;stroke:#a5a5a5;stroke-width:1.5}
+		.st7 {fill:#a5a5a5;font-family:Calibri;font-size:1.33333em}
+		.st8 {fill:none;stroke:#000000;stroke-dasharray:6,3;stroke-linecap:butt;stroke-width:1.5}
+		.st9 {fill:#ffff00;stroke:#c7c8c8;stroke-width:0.25}
+		.st10 {fill:#ff0000;font-family:Calibri;font-size:1.16666em}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(117.213,-388.004)">
+			<title>Triangle</title>
+			<desc>Perfect Forwarding</desc>
+			<path d="M496.06 576.33 L248.03 505.47 L0 576.33 L496.06 576.33 Z" class="st1"/>
+			<text x="131.36" y="561.71" class="st2">Perfect Forwarding</text>		</g>
+		<g id="shape2-4" transform="translate(117.213,-47.8465)">
+			<title>Square</title>
+			<desc>lvalue</desc>
+			<rect x="0" y="505.467" width="70.8661" height="70.8661" class="st3"/>
+			<text x="13.72" y="546.3" class="st4">lvalue</text>		</g>
+		<g id="shape3-7" transform="translate(358.157,-47.8465)">
+			<title>Square.3</title>
+			<desc>rvalue</desc>
+			<rect x="0" y="505.467" width="70.8661" height="70.8661" class="st3"/>
+			<text x="12.65" y="546.3" class="st4">rvalue</text>		</g>
+		<g id="shape4-10" transform="translate(202.252,-47.8465)">
+			<title>Rectangle</title>
+			<desc>reference</desc>
+			<rect x="0" y="505.467" width="141.732" height="70.8661" class="st3"/>
+			<text x="35.4" y="546.3" class="st4">reference</text>		</g>
+		<g id="shape5-13" transform="translate(117.213,-132.886)">
+			<title>Rounded Rectangle</title>
+			<desc>lvalue reference</desc>
+			<path d="M14.17 576.33 L127.56 576.33 A14.173 14.173 -180 0 0 141.73 562.16 L141.73 547.99 A14.173 14.173 -180 0 0 127.56
+						 533.81 L14.17 533.81 A14.173 14.173 -180 0 0 0 547.99 L0 562.16 A14.173 14.173 -180 0 0 14.17 576.33 Z"
+					class="st3"/>
+			<text x="11.65" y="560.47" class="st4">lvalue reference</text>		</g>
+		<g id="shape6-16" transform="translate(287.291,-132.886)">
+			<title>Rounded Rectangle.6</title>
+			<desc>rvalue reference</desc>
+			<path d="M14.17 576.33 L127.56 576.33 A14.173 14.173 -180 0 0 141.73 562.16 L141.73 547.99 A14.173 14.173 -180 0 0 127.56
+						 533.81 L14.17 533.81 A14.173 14.173 -180 0 0 0 547.99 L0 562.16 A14.173 14.173 -180 0 0 14.17 576.33 Z"
+					class="st3"/>
+			<text x="10.58" y="560.47" class="st4">rvalue reference</text>		</g>
+		<g id="shape7-19" transform="translate(443.197,-132.886)">
+			<title>Ellipse</title>
+			<desc>reference collapsing</desc>
+			<path d="M0 540.9 A85.0394 35.4331 0 0 1 170.08 540.9 A85.0394 35.4331 0 1 1 0 540.9 Z" class="st3"/>
+			<text x="49.57" y="535.5" class="st4">reference <tspan x="48.77" dy="1.2em" class="st5">collapsing</tspan></text>		</g>
+		<g id="shape8-23" transform="translate(457.37,-217.925)">
+			<title>Hexagon</title>
+			<desc>special template parameter deduction rule</desc>
+			<path d="M111.78 434.6 L29.95 434.6 L-10.96 505.47 L29.95 576.33 L111.78 576.33 L152.7 505.47 L111.78 434.6 Z"
+					class="st3"/>
+			<text x="10.58" y="489.27" class="st4">special template <tspan x="32.08" dy="1.2em" class="st5">parameter </tspan><tspan
+						x="17.4" dy="1.2em" class="st5">deduction rule</tspan></text>		</g>
+		<g id="shape9-28" transform="translate(138.472,-189.579)">
+			<title>Circle</title>
+			<desc>copy semantics</desc>
+			<path d="M0 526.73 A49.6063 49.6063 0 0 1 99.21 526.73 A49.6063 49.6063 0 1 1 0 526.73 Z" class="st3"/>
+			<text x="32.25" y="521.33" class="st4">copy <tspan x="12.97" dy="1.2em" class="st5">semantics</tspan></text>		</g>
+		<g id="shape10-32" transform="translate(308.551,-189.579)">
+			<title>Circle.10</title>
+			<desc>move semantics</desc>
+			<path d="M0 526.73 A49.6063 49.6063 0 0 1 99.21 526.73 A49.6063 49.6063 0 1 1 0 526.73 Z" class="st3"/>
+			<text x="29.13" y="521.33" class="st4">move <tspan x="12.97" dy="1.2em" class="st5">semantics</tspan></text>		</g>
+		<g id="shape11-36" transform="translate(117.213,-302.965)">
+			<title>Diamond</title>
+			<desc>std::forward&#60;&#62;( )</desc>
+			<path d="M155.91 576.33 L311.81 547.99 L155.91 519.64 L0 547.99 L155.91 576.33 Z" class="st3"/>
+			<text x="94.13" y="553.39" class="st4">std::forward&#60;&#62;( )</text>		</g>
+		<g id="shape12-39" transform="translate(443.197,-47.8465)">
+			<title>Rounded Rectangle.12</title>
+			<desc>variadic template arguments</desc>
+			<path d="M17.01 576.33 L153.07 576.33 A17.0076 17.0076 -180 0 0 170.08 559.32 L170.08 522.47 A17.0076 17.0076 -180 0
+						 0 153.07 505.47 L17.01 505.47 A17.0076 17.0076 -180 0 0 0 522.47 L0 559.32 A17.0076 17.0076 -180 0 0 17.01
+						 576.33 Z" class="st3"/>
+			<text x="21.24" y="535.5" class="st4">variadic template <tspan x="45.7" dy="1.2em" class="st5">arguments</tspan></text>		</g>
+		<g id="shape13-43" transform="translate(655.795,-161.232)">
+			<title>Diamond.13</title>
+			<desc>std::move( )</desc>
+			<path d="M49.61 576.33 L99.21 533.81 L49.61 491.29 L0 533.81 L49.61 576.33 Z" class="st6"/>
+			<text x="10.45" y="538.61" class="st7">std::move( )</text>		</g>
+		<g id="shape14-46" transform="translate(655.795,-260.445)">
+			<title>Diamond.14</title>
+			<desc>std::swap( )</desc>
+			<path d="M49.61 576.33 L99.21 533.81 L49.61 491.29 L0 533.81 L49.61 576.33 Z" class="st6"/>
+			<text x="11.77" y="538.61" class="st7">std::swap( )</text>		</g>
+		<g id="shape15-49" transform="translate(103.039,-19.5)">
+			<title>Rounded Rectangle.15</title>
+			<path d="M52.44 576.33 L471.97 576.33 A52.4401 52.4401 -180 0 0 524.41 523.89 L524.41 274.44 A52.4401 52.4401 -180 0
+						 0 471.97 222 L52.44 222 A52.4401 52.4401 -180 0 0 0 274.44 L0 523.89 A52.4401 52.4401 -180 0 0 52.44 576.33
+						 Z" class="st8"/>
+		</g>
+		<g id="shape16-51" transform="translate(131.386,-416.35)">
+			<title>5-Point Star</title>
+			<desc>emplace</desc>
+			<path d="M56.69 462.95 L69.05 502.63 L110.61 502.12 L76.69 526.14 L90.02 565.51 L56.69 540.66 L23.37 565.51 L36.7 526.14
+						 L2.77 502.12 L44.34 502.63 L56.69 462.95 Z" class="st9"/>
+			<text x="32.54" y="523.84" class="st10">emplace</text>		</g>
+		<g id="shape17-54" transform="translate(244.772,-458.87)">
+			<title>4-Point Star</title>
+			<desc>emplace_front</desc>
+			<path d="M49.61 477.12 L64.49 511.84 L99.21 526.73 L64.49 541.61 L49.61 576.33 L34.72 541.61 L0 526.73 L34.72 511.84
+						 L49.61 477.12 Z" class="st9"/>
+			<text x="7.67" y="530.93" class="st10">emplace_front</text>		</g>
+		<g id="shape18-57" transform="translate(386.504,-458.87)">
+			<title>4-Point Star.18</title>
+			<desc>emplace_back</desc>
+			<path d="M49.61 477.12 L64.49 511.84 L99.21 526.73 L64.49 541.61 L49.61 576.33 L34.72 541.61 L0 526.73 L34.72 511.84
+						 L49.61 477.12 Z" class="st9"/>
+			<text x="8.79" y="530.93" class="st10">emplace_back</text>		</g>
+		<g id="shape19-60" transform="translate(499.89,-416.35)">
+			<title>6-Point Star</title>
+			<desc>emplace_after</desc>
+			<path d="M63.78 448.77 L74.83 493.42 L119.01 480.66 L85.87 512.55 L119.01 544.44 L74.83 531.69 L63.78 576.33 L52.73 531.69
+						 L8.54 544.44 L41.69 512.55 L8.54 480.66 L52.73 493.42 L63.78 448.77 Z" class="st9"/>
+			<text x="22.38" y="516.75" class="st10">emplace_after</text>		</g>
+		<g id="shape20-63" transform="translate(627.449,-444.697)">
+			<title>7-Point Star</title>
+			<desc>make_unique</desc>
+			<path d="M56.69 462.95 L64.88 502.63 L101.02 484.29 L75.1 515.44 L111.96 532.26 L71.45 531.41 L81.29 570.72 L56.69 538.52
+						 L32.09 570.72 L41.93 531.41 L1.42 532.26 L38.29 515.44 L12.37 484.29 L48.5 502.63 L56.69 462.95 Z"
+					class="st9"/>
+			<text x="17.8" y="523.84" class="st10">make_unique</text>		</g>
+		<g id="shape21-66" transform="translate(18,-444.697)">
+			<title>7-Point Star.21</title>
+			<desc>make_shared</desc>
+			<path d="M56.69 462.95 L64.88 502.63 L101.02 484.29 L75.1 515.44 L111.96 532.26 L71.45 531.41 L81.29 570.72 L56.69 538.52
+						 L32.09 570.72 L41.93 531.41 L1.42 532.26 L38.29 515.44 L12.37 484.29 L48.5 502.63 L56.69 462.95 Z"
+					class="st9"/>
+			<text x="18.23" y="523.84" class="st10">make_shared</text>		</g>
+	</g>
+</svg>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="12.3284in" height="4.44395in" viewBox="0 0 887.644 319.965" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st17">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#f2f2f2}
+		.st2 {stroke:#7f7f7f;stroke-linecap:butt;stroke-width:1.75}
+		.st3 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st4 {fill:none;stroke:#000000;stroke-width:1.5}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st6 {fill:none;stroke:#7f7f7f;stroke-dasharray:1,2;stroke-width:1}
+		.st7 {fill:none}
+		.st8 {fill:none;stroke:none;stroke-width:0.25}
+		.st9 {fill:#7f7f7f;font-family:Calibri;font-size:1.00001em}
+		.st10 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.99999em}
+		.st11 {marker-end:url(#mrkr5-46);stroke:#000000;stroke-dasharray:7,5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st12 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st13 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st14 {marker-end:url(#mrkr5-46);stroke:#000000;stroke-dasharray:7,5;stroke-width:1}
+		.st15 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st16 {fill:#4672c4;font-family:Times New Roman;font-size:1.99999em}
+		.st17 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-46" class="st12" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(471.793,-74.9429)">
+			<title>Datastore</title>
+			<desc>data</desc>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59
+						 Z" class="st1"/>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59"
+					class="st2"/>
+			<path d="M0 268.59 A21.2598 5.31496 -180 0 0 42.52 268.59" class="st2"/>
+			<text x="9.6" y="298.48" class="st3">data</text>		</g>
+		<g id="shape2-6" transform="translate(159.982,-188.329)">
+			<title>Diamond</title>
+			<desc>hash function</desc>
+			<path d="M70.87 319.96 L141.73 291.62 L70.87 263.27 L0 291.62 L70.87 319.96 Z" class="st4"/>
+			<text x="27.54" y="296.42" class="st5">hash function</text>		</g>
+		<g id="shape3-9" transform="translate(443.447,-46.5965)">
+			<title>Rectangle</title>
+			<path d="M0 319.96 L425.2 319.96 L425.2 206.58 L0 206.58 L0 319.96 Z" class="st6"/>
+		</g>
+		<g id="shape4-11" transform="translate(528.486,-74.9429)">
+			<title>Datastore.185</title>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59
+						 Z" class="st7"/>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59"
+					class="st2"/>
+			<path d="M0 268.59 A21.2598 5.31496 -180 0 0 42.52 268.59" class="st2"/>
+		</g>
+		<g id="shape5-15" transform="translate(585.179,-74.9429)">
+			<title>Datastore.186</title>
+			<desc>data</desc>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59
+						 Z" class="st1"/>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59"
+					class="st2"/>
+			<path d="M0 268.59 A21.2598 5.31496 -180 0 0 42.52 268.59" class="st2"/>
+			<text x="9.6" y="298.48" class="st3">data</text>		</g>
+		<g id="shape6-20" transform="translate(741.085,-74.9429)">
+			<title>Datastore.187</title>
+			<desc>data</desc>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59
+						 Z" class="st1"/>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59"
+					class="st2"/>
+			<path d="M0 268.59 A21.2598 5.31496 -180 0 0 42.52 268.59" class="st2"/>
+			<text x="9.6" y="298.48" class="st3">data</text>		</g>
+		<g id="shape7-25" transform="translate(797.778,-74.9429)">
+			<title>Datastore.188</title>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59
+						 Z" class="st7"/>
+			<path d="M0 268.59 L0 314.65 A21.2598 5.31496 -180 1 0 42.52 314.65 L42.52 268.59 A21.2598 5.31496 -180 1 0 -0 268.59"
+					class="st2"/>
+			<path d="M0 268.59 A21.2598 5.31496 -180 0 0 42.52 268.59" class="st2"/>
+		</g>
+		<g id="shape8-29" transform="translate(585.179,-18.25)">
+			<title>Sheet.8</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="291.618" width="283.465" height="28.3465" class="st8"/>
+			<text x="10.72" y="309.44" class="st9">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape9-32" transform="translate(627.699,-74.9429)">
+			<title>Sheet.9</title>
+			<desc>…………</desc>
+			<rect x="0" y="263.272" width="113.386" height="56.6929" class="st8"/>
+			<text x="8.69" y="298.82" class="st10">…………</text>		</g>
+		<g id="shape10-35" transform="translate(32.4232,-202.502)">
+			<title>Sheet.10</title>
+			<desc>unique key</desc>
+			<rect x="0" y="291.618" width="85.0394" height="28.3465" class="st8"/>
+			<text x="7.2" y="310.59" class="st5">unique key</text>		</g>
+		<g id="shape11-38" transform="translate(344.234,-202.502)">
+			<title>Sheet.11</title>
+			<desc>hash value</desc>
+			<rect x="0" y="291.618" width="85.0394" height="28.3465" class="st8"/>
+			<text x="8.53" y="310.59" class="st5">hash value</text>		</g>
+		<g id="shape12-41" transform="translate(117.463,-216.675)">
+			<title>Sheet.12</title>
+			<path d="M0 319.96 L36.36 319.96" class="st11"/>
+		</g>
+		<g id="shape13-47" transform="translate(301.715,-216.675)">
+			<title>Sheet.13</title>
+			<path d="M0 319.96 L36.36 319.96" class="st11"/>
+		</g>
+		<g id="shape14-52" transform="translate(457.62,-46.5965)">
+			<title>Sheet.14</title>
+			<desc>bucket 0</desc>
+			<rect x="0" y="291.618" width="56.6929" height="28.3465" class="st8"/>
+			<text x="7.85" y="309.39" class="st13">bucket 0</text>		</g>
+		<g id="shape15-55" transform="translate(514.313,-46.5965)">
+			<title>Sheet.15</title>
+			<desc>bucket 1</desc>
+			<rect x="0" y="291.618" width="56.6929" height="28.3465" class="st8"/>
+			<text x="7.85" y="309.39" class="st13">bucket 1</text>		</g>
+		<g id="shape16-58" transform="translate(571.006,-46.5965)">
+			<title>Sheet.16</title>
+			<desc>bucket 2</desc>
+			<rect x="0" y="291.618" width="56.6929" height="28.3465" class="st8"/>
+			<text x="7.85" y="309.39" class="st13">bucket 2</text>		</g>
+		<g id="shape17-61" transform="translate(726.911,-46.5965)">
+			<title>Sheet.17</title>
+			<desc>bucket n-2</desc>
+			<rect x="0" y="291.618" width="70.8661" height="28.3465" class="st8"/>
+			<text x="9.94" y="309.39" class="st13">bucket n-2</text>		</g>
+		<g id="shape18-64" transform="translate(797.778,-46.5965)">
+			<title>Sheet.18</title>
+			<desc>bucket n-1</desc>
+			<rect x="0" y="291.618" width="70.8661" height="28.3465" class="st8"/>
+			<text x="9.94" y="309.39" class="st13">bucket n-1</text>		</g>
+		<g id="shape19-67" transform="translate(429.274,-131.636)">
+			<title>Sheet.19</title>
+			<path d="M0 234.93 L176.81 234.93 L177.14 313.8" class="st14"/>
+		</g>
+		<g id="shape20-72" transform="translate(372.581,-159.982)">
+			<title>Sheet.20</title>
+			<desc>an array of buckets</desc>
+			<rect x="0" y="291.618" width="141.732" height="28.3465" class="st8"/>
+			<text x="9.78" y="310.59" class="st15">an array of buckets</text>		</g>
+		<g id="shape21-75" transform="translate(18.25,-273.368)">
+			<title>Sheet.21</title>
+			<desc>basic idea</desc>
+			<rect x="0" y="291.618" width="113.386" height="28.3465" class="st8"/>
+			<text x="9.05" y="312.99" class="st16">basic idea</text>		</g>
+	</g>
+</svg>

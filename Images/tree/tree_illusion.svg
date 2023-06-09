@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="9.57074in" height="9.37042in" viewBox="0 0 689.094 674.67" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st11">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st3 {font-size:1em}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:#0070c0;font-family:Times New Roman;font-size:1.66667em}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st8 {stroke:#7f7f7f;stroke-dasharray:7,5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st9 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st10 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Page-1</title>
+		<g id="shape121-1" transform="translate(273.493,-528.736)">
+			<title>Circle</title>
+			<desc>Parent node</desc>
+			<path d="M0 639.24 A35.4331 35.4331 0 0 1 70.87 639.24 A35.4331 35.4331 0 1 1 0 639.24 Z" class="st1"/>
+			<text x="15" y="634.44" class="st2">Parent <tspan x="19.88" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape122-5" transform="translate(188.454,-401.177)">
+			<title>Triangle</title>
+			<desc>Left subtree</desc>
+			<path d="M99.21 674.67 L49.61 589.63 L0 674.67 L99.21 674.67 Z" class="st1"/>
+			<text x="36.28" y="641.52" class="st2">Left  <tspan x="26.5" dy="1.2em" class="st3">subtree</tspan></text>		</g>
+		<g id="shape123-9" transform="translate(330.186,-401.177)">
+			<title>Triangle.123</title>
+			<desc>Right subtree</desc>
+			<path d="M99.21 674.67 L49.61 589.63 L0 674.67 L99.21 674.67 Z" class="st1"/>
+			<text x="31.83" y="641.52" class="st2">Right  <tspan x="26.5" dy="1.2em" class="st3">subtree</tspan></text>		</g>
+		<g id="shape124-13" transform="translate(238.06,-486.217)">
+			<title>Sheet.124</title>
+			<path d="M141.73 674.67 L70.87 632.15 L0 674.67" class="st4"/>
+		</g>
+		<g id="shape125-16" transform="translate(18.375,-627.949)">
+			<title>Sheet.125</title>
+			<desc>Illusions of tree</desc>
+			<rect x="0" y="646.324" width="141.732" height="28.3465" class="st5"/>
+			<text x="8.1" y="666.5" class="st6">Illusions of tree</text>		</g>
+		<g id="shape126-19" transform="translate(32.5482,-486.217)">
+			<title>Triangle.126</title>
+			<desc>Tree</desc>
+			<path d="M113.39 674.67 L56.69 561.28 L0 674.67 L113.39 674.67 Z" class="st1"/>
+			<text x="42.04" y="641.68" class="st2">Tree</text>		</g>
+		<g id="shape127-22" transform="translate(556.958,-571.256)">
+			<title>Circle.127</title>
+			<path d="M0 660.5 A14.1732 14.1732 0 1 1 28.35 660.5 A14.1732 14.1732 0 0 1 0 660.5 Z" class="st1"/>
+		</g>
+		<g id="shape128-24" transform="translate(500.265,-514.563)">
+			<title>Circle.2</title>
+			<path d="M0 660.5 A14.1732 14.1732 0 1 1 28.35 660.5 A14.1732 14.1732 0 0 1 0 660.5 Z" class="st1"/>
+		</g>
+		<g id="shape129-26" transform="translate(613.651,-514.563)">
+			<title>Circle.129</title>
+			<path d="M0 660.5 A14.1732 14.1732 0 1 1 28.35 660.5 A14.1732 14.1732 0 0 1 0 660.5 Z" class="st1"/>
+		</g>
+		<g id="shape130-28" transform="translate(528.611,-457.87)">
+			<title>Circle.4</title>
+			<path d="M0 660.5 A14.1732 14.1732 0 1 1 28.35 660.5 A14.1732 14.1732 0 0 1 0 660.5 Z" class="st1"/>
+		</g>
+		<g id="shape131-30" transform="translate(471.918,-457.87)">
+			<title>Circle.5</title>
+			<path d="M0 660.5 A14.1732 14.1732 0 1 1 28.35 660.5 A14.1732 14.1732 0 0 1 0 660.5 Z" class="st1"/>
+		</g>
+		<g id="shape132-32" transform="translate(585.304,-457.87)">
+			<title>Circle.132</title>
+			<path d="M0 660.5 A14.1732 14.1732 0 1 1 28.35 660.5 A14.1732 14.1732 0 0 1 0 660.5 Z" class="st1"/>
+		</g>
+		<g id="shape133-34" transform="translate(641.997,-457.87)">
+			<title>Circle.133</title>
+			<path d="M0 660.5 A14.1732 14.1732 0 1 1 28.35 660.5 A14.1732 14.1732 0 0 1 0 660.5 Z" class="st1"/>
+		</g>
+		<g id="shape134-36" transform="translate(514.438,-542.909)">
+			<title>Sheet.134</title>
+			<path d="M113.39 674.67 L56.69 646.32 L0 674.67" class="st7"/>
+		</g>
+		<g id="shape135-39" transform="translate(486.092,-486.217)">
+			<title>Sheet.135</title>
+			<path d="M56.69 674.67 L28.35 646.32 L0 674.67" class="st7"/>
+		</g>
+		<g id="shape136-42" transform="translate(599.477,-486.217)">
+			<title>Sheet.136</title>
+			<path d="M56.69 674.67 L28.35 646.32 L0 674.67" class="st7"/>
+		</g>
+		<g id="shape137-45" transform="translate(763.911,372.706) rotate(90)">
+			<title>Sheet.137</title>
+			<path d="M0 674.67 L283.46 674.67" class="st8"/>
+		</g>
+		<g id="shape138-48" transform="translate(990.683,372.706) rotate(90)">
+			<title>Sheet.138</title>
+			<path d="M0 674.67 L283.46 674.67" class="st8"/>
+		</g>
+		<g id="shape139-51" transform="translate(89.2411,-287.791)">
+			<title>Sheet.139</title>
+			<desc>memory space</desc>
+			<rect x="0" y="646.324" width="226.772" height="28.3465" class="st5"/>
+			<text x="66.96" y="665.3" class="st9">memory space</text>		</g>
+		<g id="shape140-54" transform="translate(117.588,-245.272)">
+			<title>Sheet.140</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape141-58" transform="translate(103.414,-46.8464)">
+			<title>Sheet.141</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape142-62" transform="translate(259.32,-32.6732)">
+			<title>Sheet.142</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape143-66" transform="translate(259.32,-231.098)">
+			<title>Sheet.143</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape144-70" transform="translate(103.414,-174.406)">
+			<title>Sheet.144</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape145-74" transform="translate(202.627,-89.3661)">
+			<title>Sheet.145</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape147-78" transform="translate(245.147,-146.059)">
+			<title>Sheet.147</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape148-82" transform="translate(188.454,-146.059)">
+			<title>Sheet.148</title>
+			<desc>tree node</desc>
+			<rect x="0" y="646.324" width="42.5197" height="28.3465" class="st1"/>
+			<text x="12.27" y="656.9" class="st10">tree <tspan x="9.6" dy="1.2em" class="st3">node</tspan></text>		</g>
+		<g id="shape149-86" transform="translate(18.375,-330.311)">
+			<title>Sheet.149</title>
+			<desc>Reality of tree</desc>
+			<rect x="0" y="646.324" width="127.559" height="28.3465" class="st5"/>
+			<text x="6.58" y="666.5" class="st6">Reality of tree</text>		</g>
+	</g>
+</svg>

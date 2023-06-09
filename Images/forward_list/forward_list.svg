@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="11.3337in" height="3.4597in" viewBox="0 0 816.028 249.098" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st14">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-width:1}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st3 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st4 {marker-end:url(#mrkr5-31);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st6 {fill:none;stroke:none;stroke-width:1}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st8 {fill:none;stroke:none;stroke-width:0.25}
+		.st9 {fill:#0000ff;font-family:Times New Roman;font-size:1.99999em}
+		.st10 {fill:none;stroke:#7f7f7f;stroke-dasharray:1.75,1.25;stroke-width:0.25}
+		.st11 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st12 {stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st13 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-31" class="st5" refX="-7.42" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.24,-4.24) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(117.463,-74.9429)">
+			<title>Circle.52</title>
+			<path d="M0 213.67 A35.4331 35.4331 0 1 1 70.87 213.67 A35.4331 35.4331 0 1 1 0 213.67 Z" class="st1"/>
+		</g>
+		<g id="shape2-3" transform="translate(131.636,-94.4311)">
+			<title>Rounded Rectangle.5</title>
+			<desc>head</desc>
+			<path d="M4.25 249.1 L38.27 249.1 A4.2519 4.2519 -180 0 0 42.52 244.85 L42.52 221.46 A4.2519 4.2519 -180 0 0 38.27 217.21
+						 L4.25 217.21 A4.2519 4.2519 -180 0 0 0 221.46 L0 244.85 A4.2519 4.2519 -180 0 0 4.25 249.1 Z" class="st1"/>
+			<text x="8.05" y="237.35" class="st2">head</text>		</g>
+		<g id="group3-6" transform="translate(273.368,-89.1161)">
+			<title>Sheet.3</title>
+			<g id="shape4-7">
+				<title>Rounded Rectangle</title>
+				<path d="M5.67 249.1 L51.02 249.1 A5.6692 5.6692 -180 0 0 56.69 243.43 L56.69 212.25 A5.6692 5.6692 -180 0 0 51.02
+							 206.58 L5.67 206.58 A5.6692 5.6692 -180 0 0 -0 212.25 L0 243.43 A5.6692 5.6692 -180 0 0 5.67 249.1 Z"
+						class="st1"/>
+			</g>
+			<g id="shape5-9" transform="translate(56.6929,2.84217E-14)">
+				<title>Rounded Rectangle.4</title>
+				<path d="M2.83 249.1 L25.51 249.1 A2.8346 2.8346 -180 0 0 28.35 246.26 L28.35 209.41 A2.8346 2.8346 -180 0 0 25.51
+							 206.58 L2.83 206.58 A2.8346 2.8346 -180 0 0 -0 209.41 L0 246.26 A2.8346 2.8346 -180 0 0 2.83 249.1 Z"
+						class="st1"/>
+			</g>
+		</g>
+		<g id="group6-11" transform="translate(500.14,-89.1161)">
+			<title>Sheet.6</title>
+			<g id="shape7-12">
+				<title>Rounded Rectangle</title>
+				<path d="M5.67 249.1 L51.02 249.1 A5.6692 5.6692 -180 0 0 56.69 243.43 L56.69 212.25 A5.6692 5.6692 -180 0 0 51.02
+							 206.58 L5.67 206.58 A5.6692 5.6692 -180 0 0 -0 212.25 L0 243.43 A5.6692 5.6692 -180 0 0 5.67 249.1 Z"
+						class="st1"/>
+			</g>
+			<g id="shape8-14" transform="translate(56.6929,2.84217E-14)">
+				<title>Rounded Rectangle.4</title>
+				<path d="M2.83 249.1 L25.51 249.1 A2.8346 2.8346 -180 0 0 28.35 246.26 L28.35 209.41 A2.8346 2.8346 -180 0 0 25.51
+							 206.58 L2.83 206.58 A2.8346 2.8346 -180 0 0 -0 209.41 L0 246.26 A2.8346 2.8346 -180 0 0 2.83 249.1 Z"
+						class="st1"/>
+			</g>
+		</g>
+		<g id="group9-16" transform="translate(386.754,-89.1161)">
+			<title>Sheet.9</title>
+			<g id="shape10-17">
+				<title>Rounded Rectangle</title>
+				<path d="M5.67 249.1 L51.02 249.1 A5.6692 5.6692 -180 0 0 56.69 243.43 L56.69 212.25 A5.6692 5.6692 -180 0 0 51.02
+							 206.58 L5.67 206.58 A5.6692 5.6692 -180 0 0 -0 212.25 L0 243.43 A5.6692 5.6692 -180 0 0 5.67 249.1 Z"
+						class="st1"/>
+			</g>
+			<g id="shape11-19" transform="translate(56.6929,2.84217E-14)">
+				<title>Rounded Rectangle.4</title>
+				<path d="M2.83 249.1 L25.51 249.1 A2.8346 2.8346 -180 0 0 28.35 246.26 L28.35 209.41 A2.8346 2.8346 -180 0 0 25.51
+							 206.58 L2.83 206.58 A2.8346 2.8346 -180 0 0 -0 209.41 L0 246.26 A2.8346 2.8346 -180 0 0 2.83 249.1 Z"
+						class="st1"/>
+			</g>
+		</g>
+		<g id="shape12-21" transform="translate(684.392,-89.1161)">
+			<title>Rounded Rectangle.64</title>
+			<path d="M5.67 249.1 L51.02 249.1 A5.6692 5.6692 -180 0 0 56.69 243.43 L56.69 212.25 A5.6692 5.6692 -180 0 0 51.02 206.58
+						 L5.67 206.58 A5.6692 5.6692 -180 0 0 -0 212.25 L0 243.43 A5.6692 5.6692 -180 0 0 5.67 249.1 Z" class="st1"/>
+		</g>
+		<g id="shape13-23" transform="translate(741.085,-89.1161)">
+			<title>Rounded Rectangle.4</title>
+			<desc>nullptr</desc>
+			<path d="M4.25 249.1 L38.27 249.1 A4.2519 4.2519 -180 0 0 42.52 244.85 L42.52 210.83 A4.2519 4.2519 -180 0 0 38.27 206.58
+						 L4.25 206.58 A4.2519 4.2519 -180 0 0 -0 210.83 L0 244.85 A4.2519 4.2519 -180 0 0 4.25 249.1 Z" class="st1"/>
+			<text x="5.26" y="231.44" class="st3">nullptr</text>		</g>
+		<g id="shape14-26" transform="translate(174.156,-110.376)">
+			<title>Sheet.14</title>
+			<path d="M0 249.1 L91.79 249.1" class="st4"/>
+		</g>
+		<g id="shape15-32" transform="translate(344.234,-110.376)">
+			<title>Sheet.15</title>
+			<path d="M0 249.1 L35.1 249.1" class="st4"/>
+		</g>
+		<g id="shape16-37" transform="translate(457.62,-110.376)">
+			<title>Sheet.16</title>
+			<path d="M0 249.1 L35.1 249.1" class="st4"/>
+		</g>
+		<g id="shape17-42" transform="translate(571.006,-110.376)">
+			<title>Sheet.17</title>
+			<path d="M0 249.1 L20.93 249.1" class="st4"/>
+		</g>
+		<g id="shape18-47" transform="translate(656.045,-110.376)">
+			<title>Sheet.18</title>
+			<path d="M0 249.1 L20.93 249.1" class="st4"/>
+		</g>
+		<g id="shape19-52" transform="translate(599.352,-89.1161)">
+			<title>Sheet.19</title>
+			<desc>………</desc>
+			<rect x="0" y="206.579" width="56.6929" height="42.5197" class="st6"/>
+			<text x="4.35" y="232.64" class="st7">………</text>		</g>
+		<g id="shape20-55" transform="translate(32.4232,-188.329)">
+			<title>Sheet.20</title>
+			<desc>forward_list</desc>
+			<rect x="0" y="206.579" width="127.559" height="42.5197" class="st8"/>
+			<text x="5.13" y="235.04" class="st9">forward_list</text>		</g>
+		<g id="shape21-58" transform="translate(386.754,-131.636)">
+			<title>Sheet.21</title>
+			<desc>Node</desc>
+			<rect x="0" y="220.752" width="85.0394" height="28.3465" class="st6"/>
+			<text x="29.52" y="238.53" class="st3">Node</text>		</g>
+		<g id="shape22-61" transform="translate(500.14,-131.636)">
+			<title>Sheet.22</title>
+			<desc>Node</desc>
+			<rect x="0" y="220.752" width="85.0394" height="28.3465" class="st6"/>
+			<text x="29.52" y="238.53" class="st3">Node</text>		</g>
+		<g id="shape23-64" transform="translate(273.368,-131.636)">
+			<title>Sheet.23</title>
+			<desc>Node</desc>
+			<rect x="0" y="220.752" width="85.0394" height="28.3465" class="st6"/>
+			<text x="29.52" y="238.53" class="st3">Node</text>		</g>
+		<g id="shape24-67" transform="translate(684.392,-131.636)">
+			<title>Sheet.24</title>
+			<desc>Node</desc>
+			<rect x="0" y="220.752" width="99.2126" height="28.3465" class="st6"/>
+			<text x="36.61" y="238.53" class="st3">Node</text>		</g>
+		<g id="shape25-70" transform="translate(259.195,-46.5965)">
+			<title>Sheet.25</title>
+			<path d="M0 249.1 L538.58 249.1 L538.58 121.54 L0 121.54 L0 249.1 Z" class="st10"/>
+		</g>
+		<g id="shape26-72" transform="translate(514.313,-18.25)">
+			<title>Sheet.26</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="220.752" width="283.465" height="28.3465" class="st8"/>
+			<text x="14.94" y="238.53" class="st11">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape27-75" transform="translate(273.368,-46.5965)">
+			<title>Sheet.27</title>
+			<desc>front ( )</desc>
+			<rect x="0" y="206.579" width="56.6929" height="42.5197" class="st8"/>
+			<text x="6.58" y="232.04" class="st2">front ( )</text>		</g>
+		<g id="shape28-78" transform="translate(550.813,138.349) rotate(90)">
+			<title>Sheet.28</title>
+			<path d="M0 249.1 L35.81 249.1" class="st12"/>
+		</g>
+		<g id="shape29-81" transform="translate(174.156,-188.329)">
+			<title>Sheet.29</title>
+			<desc>(Singly-Linked List)</desc>
+			<rect x="0" y="206.579" width="127.559" height="42.5197" class="st8"/>
+			<text x="6.04" y="232.04" class="st13">(Singly-Linked List)</text>		</g>
+		<g id="shape30-84" transform="translate(18.25,-89.1161)">
+			<title>Sheet.30</title>
+			<desc>forward_list object</desc>
+			<rect x="0" y="206.579" width="99.2126" height="42.5197" class="st8"/>
+			<text x="4.12" y="231.44" class="st11">forward_list object</text>		</g>
+	</g>
+</svg>

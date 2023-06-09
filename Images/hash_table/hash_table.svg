@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="11.1369in" height="7.19986in" viewBox="0 0 801.854 518.39" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st9">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-width:0.25}
+		.st2 {fill:#0000ff;font-family:Times New Roman;font-size:1.99999em}
+		.st3 {stroke:#000000;stroke-width:1.5}
+		.st4 {stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.5em}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st8 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(18.25,-443.447)">
+			<title>Sheet.1</title>
+			<desc>Hash Table</desc>
+			<rect x="0" y="461.697" width="127.559" height="56.6929" class="st1"/>
+			<text x="8.8" y="497.24" class="st2">Hash Table</text>		</g>
+		<g id="shape2-4" transform="translate(131.636,-89.1161)">
+			<title>Sheet.2</title>
+			<path d="M42.52 220.75 L0 220.75 L0 518.39 L42.52 518.39" class="st3"/>
+		</g>
+		<g id="shape3-7" transform="translate(74.9429,-252.108)">
+			<title>Sheet.3</title>
+			<path d="M0 518.39 L56.69 518.39" class="st4"/>
+		</g>
+		<g id="shape4-10" transform="translate(174.156,-358.407)">
+			<title>Sheet.4</title>
+			<desc>Algorithm</desc>
+			<rect x="0" y="461.697" width="113.386" height="56.6929" class="st1"/>
+			<text x="4" y="495.44" class="st5">Algorithm</text>		</g>
+		<g id="shape5-13" transform="translate(174.156,-223.762)">
+			<title>Sheet.5</title>
+			<desc>Data Structure</desc>
+			<rect x="0" y="461.697" width="113.386" height="56.6929" class="st1"/>
+			<text x="4" y="495.44" class="st5">Data Structure</text>		</g>
+		<g id="shape6-16" transform="translate(174.156,-60.7697)">
+			<title>Sheet.6</title>
+			<desc>Strategies</desc>
+			<rect x="0" y="461.697" width="113.386" height="56.6929" class="st1"/>
+			<text x="4" y="495.44" class="st5">Strategies</text>		</g>
+		<g id="shape7-19" transform="translate(259.195,-386.754) rotate(5.31394E-06)">
+			<title>Sheet.7</title>
+			<path d="M0 518.39 L85.04 518.39" class="st6"/>
+		</g>
+		<g id="shape8-22" transform="translate(344.234,-372.581)">
+			<title>Sheet.8</title>
+			<desc>non-cryptographic hash function</desc>
+			<rect x="0" y="490.043" width="226.772" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">non-cryptographic hash function</text>		</g>
+		<g id="shape9-25" transform="translate(848.451,386.754) rotate(90)">
+			<title>Side brace.168</title>
+			<path d="M0 504.22 L0 504.22 A14.173 14.173 -180 0 0 14.17 518.39 L28.35 518.39 A14.173 14.173 0 0 1 42.52 532.56 A14.173
+						 14.173 0 0 1 56.69 518.39 L70.87 518.39 A14.173 14.173 -180 0 0 85.04 504.22 L85.04 504.22" class="st3"/>
+		</g>
+		<g id="shape10-28" transform="translate(344.234,-117.463)">
+			<title>Sheet.10</title>
+			<desc>collision resolution</desc>
+			<rect x="0" y="490.043" width="155.906" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">collision resolution</text>		</g>
+		<g id="shape11-31" transform="translate(344.234,-74.9429)">
+			<title>Sheet.11</title>
+			<desc>dynamic resizing / rehashing</desc>
+			<rect x="0" y="490.043" width="226.772" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">dynamic resizing / rehashing</text>		</g>
+		<g id="shape12-34" transform="translate(514.313,-117.463)">
+			<title>Sheet.12</title>
+			<path d="M28.35 490.04 L0 490.04 L0 518.39 L28.35 518.39" class="st3"/>
+		</g>
+		<g id="shape13-37" transform="translate(471.793,-131.636)">
+			<title>Sheet.13</title>
+			<path d="M0 518.39 L42.52 518.39" class="st6"/>
+		</g>
+		<g id="shape14-40" transform="translate(542.659,-131.636)">
+			<title>Sheet.14</title>
+			<desc>chaining</desc>
+			<rect x="0" y="490.043" width="113.386" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">chaining</text>		</g>
+		<g id="shape15-43" transform="translate(542.659,-103.289)">
+			<title>Sheet.15</title>
+			<desc>open addressing</desc>
+			<rect x="0" y="490.043" width="113.386" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">open addressing</text>		</g>
+		<g id="shape16-46" transform="translate(585.179,-344.234)">
+			<title>Sheet.16</title>
+			<path d="M28.35 433.35 L0 433.35 L0 518.39 L28.35 518.39" class="st3"/>
+		</g>
+		<g id="shape17-49" transform="translate(556.833,-386.754)">
+			<title>Sheet.17</title>
+			<path d="M0 518.39 L28.35 518.39" class="st6"/>
+		</g>
+		<g id="shape18-52" transform="translate(585.179,-400.927)">
+			<title>Sheet.18</title>
+			<path d="M0 518.39 L28.35 518.39" class="st6"/>
+		</g>
+		<g id="shape19-55" transform="translate(585.179,-372.581)">
+			<title>Sheet.19</title>
+			<path d="M0 518.39 L28.35 518.39" class="st6"/>
+		</g>
+		<g id="shape20-58" transform="translate(613.526,-415.1)">
+			<title>Sheet.20</title>
+			<desc>Fowler-Noll-Vo (FNV-1a)</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">Fowler-Noll-Vo (FNV-1a)</text>		</g>
+		<g id="shape21-61" transform="translate(613.526,-386.754)">
+			<title>Sheet.21</title>
+			<desc>universal hash function</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">universal hash function</text>		</g>
+		<g id="shape22-64" transform="translate(613.526,-358.407)">
+			<title>Sheet.22</title>
+			<desc>perfect hash function</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">perfect hash function</text>		</g>
+		<g id="shape23-67" transform="translate(613.526,-330.061)">
+			<title>Sheet.23</title>
+			<desc>………</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">………</text>		</g>
+		<g id="shape24-70" transform="translate(315.888,-188.329)">
+			<title>Sheet.24</title>
+			<path d="M28.35 390.83 L0 390.83 L0 518.39 L28.35 518.39" class="st3"/>
+		</g>
+		<g id="shape25-73" transform="translate(287.541,-252.108)">
+			<title>Sheet.25</title>
+			<path d="M0 518.39 L28.35 518.39" class="st6"/>
+		</g>
+		<g id="shape26-76" transform="translate(315.888,-273.368)">
+			<title>Sheet.26</title>
+			<path d="M0 518.39 L28.35 518.39" class="st6"/>
+		</g>
+		<g id="shape27-79" transform="translate(315.888,-230.848)">
+			<title>Sheet.27</title>
+			<path d="M0 518.39 L28.35 518.39" class="st6"/>
+		</g>
+		<g id="shape28-82" transform="translate(344.234,-301.715)">
+			<title>Sheet.28</title>
+			<desc>an array of buckets</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">an array of buckets</text>		</g>
+		<g id="shape29-85" transform="translate(344.234,-259.195)">
+			<title>Sheet.29</title>
+			<desc>buckets of pointers</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">buckets of pointers</text>		</g>
+		<g id="shape30-88" transform="translate(344.234,-216.675)">
+			<title>Sheet.30</title>
+			<desc>buckets of linked list</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">buckets of linked list</text>		</g>
+		<g id="shape31-91" transform="translate(344.234,-174.156)">
+			<title>Sheet.31</title>
+			<desc>std::vector + std::list</desc>
+			<rect x="0" y="490.043" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">std::vector + std::list</text>		</g>
+		<g id="shape32-94" transform="translate(259.195,-89.1161)">
+			<title>Sheet.32</title>
+			<path d="M0 518.39 L56.69 518.39" class="st6"/>
+		</g>
+		<g id="shape33-97" transform="translate(344.234,-32.4232)">
+			<title>Sheet.33</title>
+			<desc>what to hash and store ?</desc>
+			<rect x="0" y="490.043" width="198.425" height="28.3465" class="st1"/>
+			<text x="4" y="509.02" class="st7">what to hash and store ?</text>		</g>
+		<g id="shape34-100" transform="translate(528.486,-32.4232)">
+			<title>Sheet.34</title>
+			<path d="M14.17 490.04 L0 490.04 L0 518.39 L14.17 518.39" class="st3"/>
+		</g>
+		<g id="shape35-103" transform="translate(514.313,-46.5965)">
+			<title>Sheet.35</title>
+			<path d="M0 518.39 L14.17 518.39" class="st6"/>
+		</g>
+		<g id="shape36-106" transform="translate(542.659,-46.5965)">
+			<title>Sheet.36</title>
+			<desc>Key only (fat or light)</desc>
+			<rect x="0" y="490.043" width="226.772" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">Key only (fat or light)</text>		</g>
+		<g id="shape37-109" transform="translate(542.659,-18.25)">
+			<title>Sheet.37</title>
+			<desc>Key and Value (together or separate)</desc>
+			<rect x="0" y="490.043" width="226.772" height="28.3465" class="st1"/>
+			<text x="4" y="508.42" class="st8">Key and Value (together or separate)</text>		</g>
+		<g id="shape38-112" transform="translate(593.333,60.7697) rotate(90)">
+			<title>Sheet.38</title>
+			<path d="M0 518.39 L205.51 518.39" class="st4"/>
+		</g>
+		<g id="shape39-115" transform="translate(131.636,-252.108)">
+			<title>Sheet.39</title>
+			<path d="M0 518.39 L42.52 518.39" class="st6"/>
+		</g>
+	</g>
+</svg>
