@@ -177,13 +177,13 @@ namespace cust
 			//move constructor
 			forward_list(forward_list&& other)
 			{
-				if (!other.empty())
+				if ( !other.empty() )
 				{
-					auto iter{ other.begin() };
+					auto iter { other.begin() };
 
 					head = new_one_node(nullptr, std::move(*iter++));
 
-					for (auto prev{ head }; iter != other.end(); ++iter)
+					for (auto prev { head }; iter != other.end(); ++iter)
 					{
 						auto ptr = new_one_node(nullptr, std::move(*iter));
 
