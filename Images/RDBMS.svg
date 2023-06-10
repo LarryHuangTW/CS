@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="10.7432in" height="31.4184in" viewBox="0 0 773.508 2262.13" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st29">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-width:0.25}
+		.st2 {fill:#0000ff;font-family:Times New Roman;font-size:1.99999em}
+		.st3 {font-size:1em}
+		.st4 {fill:none;stroke:#000000;stroke-width:1.5}
+		.st5 {fill:none;stroke:#000000;stroke-dasharray:1,2;stroke-width:1}
+		.st6 {fill:#000000;font-family:Times New Roman;font-size:1.5em}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st8 {fill:none;stroke:#000000;stroke-width:1}
+		.st9 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st10 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st11 {fill:#a5a5a5;font-family:Times New Roman;font-size:1.16666em}
+		.st12 {fill:#000000;font-size:1em}
+		.st13 {fill:#7f7f7f;font-size:1em}
+		.st14 {fill:none;stroke:#0000ff;stroke-width:0.75}
+		.st15 {fill:none}
+		.st16 {stroke:#0000ff;stroke-width:1.5}
+		.st17 {fill:none;stroke:#000000;stroke-dasharray:10.5,7.5;stroke-width:1.5}
+		.st18 {fill:#7f7f7f;font-family:Times New Roman;font-size:0.833336em}
+		.st19 {marker-end:url(#mrkr5-130);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st20 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st21 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st22 {stroke:#7f7f7f;stroke-width:1.5}
+		.st23 {marker-end:url(#mrkr5-245);marker-start:url(#mrkr5-243);stroke:#000000;stroke-width:1.5}
+		.st24 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.37313432835821}
+		.st25 {fill:#4672c4;font-family:Times New Roman;font-size:1.66667em}
+		.st26 {fill:none;stroke:#7f7f7f;stroke-dasharray:10.5,7.5;stroke-width:1.5}
+		.st27 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st28 {fill:none;stroke:#7f7f7f;stroke-width:1.5}
+		.st29 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-130" class="st20" refX="-7.42" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr5-243" class="st24" refX="4.45" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.68) "/>
+		</marker>
+		<marker id="mrkr5-245" class="st24" refX="-4.69" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.68,-2.68) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(18.25,-2158.41)">
+			<title>Sheet.1</title>
+			<desc>Relational Database Management System (RDBMS)</desc>
+			<rect x="0" y="2177.09" width="212.598" height="85.0394" class="st1"/>
+			<text x="4" y="2198.01" class="st2">Relational Database  <tspan x="4" dy="1.2em" class="st3">Management System  </tspan><tspan
+						x="4" dy="1.2em" class="st3">(RDBMS)</tspan></text>		</g>
+		<g id="shape2-6" transform="translate(89.1161,-1648.17)">
+			<title>Sheet.2</title>
+			<rect x="0" y="1780.24" width="552.756" height="481.89" class="st4"/>
+		</g>
+		<g id="shape4-8" transform="translate(103.289,-1662.34)">
+			<title>Rectangle</title>
+			<path d="M0 2262.13 L524.41 2262.13 L524.41 1964.49 L0 1964.49 L0 2262.13 Z" class="st5"/>
+		</g>
+		<g id="shape5-10" transform="translate(500.14,-1676.52)">
+			<title>Sheet.5</title>
+			<desc>database engine</desc>
+			<rect x="0" y="2233.78" width="127.559" height="28.3465" class="st1"/>
+			<text x="6.56" y="2253.35" class="st6">database engine</text>		</g>
+		<g id="shape6-13" transform="translate(599.352,-1222.97)">
+			<title>Sheet.6</title>
+			<desc>database / data storage</desc>
+			<rect x="0" y="2233.78" width="155.906" height="28.3465" class="st1"/>
+			<text x="5.77" y="2252.75" class="st7">database / data storage</text>		</g>
+		<g id="shape7-16" transform="translate(245.022,-1874.94)">
+			<title>Rectangle.7</title>
+			<rect x="0" y="2191.26" width="226.772" height="70.8661" class="st8"/>
+		</g>
+		<g id="shape8-18" transform="translate(245.022,-1917.46)">
+			<title>Sheet.8</title>
+			<desc>SQL command parser</desc>
+			<rect x="0" y="2233.78" width="226.772" height="28.3465" class="st1"/>
+			<text x="51.96" y="2252.15" class="st9">SQL command parser</text>		</g>
+		<g id="shape9-21" transform="translate(188.329,-1237.15)">
+			<title>Square</title>
+			<desc>Data Files</desc>
+			<rect x="0" y="2191.26" width="70.8661" height="70.8661" class="st8"/>
+			<text x="6.86" y="2230.89" class="st10">Data Files</text>		</g>
+		<g id="shape10-24" transform="translate(372.581,-1889.12)">
+			<title>Rectangle.10</title>
+			<desc>interpreter</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st8"/>
+			<text x="13.37" y="2252.15" class="st10">interpreter</text>		</g>
+		<g id="shape11-27" transform="translate(259.195,-1889.12)">
+			<title>Rectangle.11</title>
+			<desc>compiler</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st8"/>
+			<text x="17.64" y="2252.15" class="st10">compiler</text>		</g>
+		<g id="shape12-30" transform="translate(245.022,-1832.42)">
+			<title>Rectangle.12</title>
+			<desc>Optimizer</desc>
+			<rect x="0" y="2233.78" width="99.2126" height="28.3465" class="st8"/>
+			<text x="21.23" y="2252.15" class="st10">Optimizer</text>		</g>
+		<g id="shape13-33" transform="translate(245.022,-1789.9)">
+			<title>Rectangle.13</title>
+			<desc>(Execution) Plan Executor</desc>
+			<rect x="0" y="2233.78" width="226.772" height="28.3465" class="st8"/>
+			<text x="39.13" y="2252.15" class="st11">(Execution) <tspan class="st12">Plan Executor</tspan></text>		</g>
+		<g id="shape14-37" transform="translate(103.289,-2059.19)">
+			<title>Rectangle.15</title>
+			<rect x="0" y="2205.43" width="524.409" height="56.6929" class="st8"/>
+		</g>
+		<g id="shape15-39" transform="translate(131.636,-2087.54)">
+			<title>Sheet.15</title>
+			<desc>Connectivity / Network Protocols</desc>
+			<rect x="0" y="2233.78" width="439.37" height="28.3465" class="st1"/>
+			<text x="125.39" y="2252.15" class="st9">Connectivity / Network Protocols</text>		</g>
+		<g id="shape16-42" transform="translate(103.289,-2059.19)">
+			<title>Sheet.16</title>
+			<desc>Shared Memory</desc>
+			<rect x="0" y="2233.78" width="99.2126" height="28.3465" class="st1"/>
+			<text x="4.31" y="2252.15" class="st10">Shared Memory</text>		</g>
+		<g id="shape17-45" transform="translate(386.754,-2059.19)">
+			<title>Sheet.17</title>
+			<desc>Named Pipes</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st1"/>
+			<text x="5.39" y="2252.15" class="st10">Named Pipes</text>		</g>
+		<g id="shape18-48" transform="translate(230.848,-2059.19)">
+			<title>Sheet.18</title>
+			<desc>TCP / IP with TLS</desc>
+			<rect x="0" y="2233.78" width="127.559" height="28.3465" class="st1"/>
+			<text x="10.88" y="2252.15" class="st10">TCP / IP <tspan class="st13">with TLS</tspan></text>		</g>
+		<g id="shape19-52" transform="translate(542.659,-2059.19)">
+			<title>Sheet.19</title>
+			<desc>WebSocket</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st1"/>
+			<text x="10.25" y="2252.15" class="st10">WebSocket</text>		</g>
+		<g id="shape20-55" transform="translate(485.967,-2059.19)">
+			<title>Sheet.20</title>
+			<desc>SDP</desc>
+			<rect x="0" y="2233.78" width="42.5197" height="28.3465" class="st1"/>
+			<text x="8.42" y="2252.15" class="st10">SDP</text>		</g>
+		<g id="group21-58" transform="translate(117.463,-1460.04)">
+			<title>Generic Database (Blue)</title>
+			<g id="group22-59" transform="translate(14.1732,279.585)">
+				<title>g1450</title>
+				<g id="shape23-60">
+					<title>path1442</title>
+					<path d="M421.3 1879.83 L284.15 1880.68 L0 1882.4 L0 2199.85 C0 2232.38 99.39 2260.41 228.59 2262.13 L233.56
+								 2262.13 C251.05 2262.13 267.95 2261.41 284.15 2260.27 A396.555 284.638 -180 0 0 421.3 2236.23 C450.32
+								 2225.74 467.12 2213.05 467.12 2199.85 L467.12 1879.54 L421.3 1879.83 Z" class="st14"/>
+				</g>
+				<g id="shape24-62">
+					<title>path1446</title>
+					<path d="M0 1882.4 L0 2199.85 C0 2232.38 98.89 2260.41 228.59 2262.13 L233.56 2262.13 C365.65 2260.91 467.12
+								 2232.59 467.12 2199.85 L467.12 1879.54 L0 1882.4 Z" class="st15"/>
+					<path d="M0 1882.4 L0 2199.85 C0 2232.38 98.89 2260.41 228.59 2262.13 L233.56 2262.13 C365.65 2260.91 467.12
+								 2232.59 467.12 2199.85 L467.12 1879.54" class="st16"/>
+				</g>
+				<g id="shape25-65" transform="translate(0.596324,-353.895)">
+					<title>path1448</title>
+					<path d="M467.12 2219.36 C467.12 2242.99 362.56 2262.13 233.56 2262.13 C104.56 2262.13 0 2242.99 0 2219.36 C0
+								 2195.74 107.64 2176.65 236.64 2176.65 C365.65 2176.65 467.12 2195.79 467.12 2219.41 L467.12 2219.36
+								 Z" class="st15"/>
+					<path d="M467.12 2219.36 C467.12 2242.99 362.56 2262.13 233.56 2262.13 C104.56 2262.13 0 2242.99 0 2219.36 C0
+								 2195.74 107.64 2176.65 236.64 2176.65 C365.65 2176.65 467.12 2195.79 467.12 2219.41" class="st16"/>
+				</g>
+			</g>
+		</g>
+		<g id="shape26-68" transform="translate(301.715,-1237.15)">
+			<title>Square.75</title>
+			<desc>Control Files</desc>
+			<rect x="0" y="2191.26" width="70.8661" height="70.8661" class="st8"/>
+			<text x="14.04" y="2222.49" class="st10">Control <tspan x="21.82" dy="1.2em" class="st3">Files</tspan></text>		</g>
+		<g id="shape28-72" transform="translate(415.1,-1237.15)">
+			<title>Rectangle.77</title>
+			<desc>Transaction / Redo Log Files</desc>
+			<rect x="0" y="2191.26" width="127.559" height="70.8661" class="st8"/>
+			<text x="10.52" y="2222.49" class="st10">Transaction / Redo  <tspan x="37.14" dy="1.2em" class="st3">Log Files</tspan></text>		</g>
+		<g id="shape29-76" transform="translate(145.809,-967.856)">
+			<title>Sheet.29</title>
+			<path d="M0 2262.13 L439.37 2262.13 L439.37 2177.09 L0 2177.09 L0 2262.13 Z" class="st17"/>
+		</g>
+		<g id="shape30-78" transform="translate(599.352,-967.856)">
+			<title>Sheet.30</title>
+			<desc>physical storage media</desc>
+			<rect x="0" y="2233.78" width="155.906" height="28.3465" class="st1"/>
+			<text x="4.64" y="2252.75" class="st7">physical storage media</text>		</g>
+		<g id="shape31-81" transform="translate(188.329,-982.03)">
+			<title>Square.80</title>
+			<desc>HDD</desc>
+			<rect x="0" y="2205.43" width="56.6929" height="56.6929" class="st8"/>
+			<text x="13.18" y="2237.98" class="st10">HDD</text>		</g>
+		<g id="shape32-84" transform="translate(330.061,-982.03)">
+			<title>Square.81</title>
+			<desc>SSD</desc>
+			<rect x="0" y="2205.43" width="56.6929" height="56.6929" class="st8"/>
+			<text x="15.51" y="2237.98" class="st10">SSD</text>		</g>
+		<g id="shape33-87" transform="translate(485.967,-982.03)">
+			<title>Square.82</title>
+			<desc>Tape</desc>
+			<rect x="0" y="2205.43" width="56.6929" height="56.6929" class="st8"/>
+			<text x="14.36" y="2237.98" class="st10">Tape</text>		</g>
+		<g id="shape34-90" transform="translate(145.809,-1123.76)">
+			<title>Sheet.34</title>
+			<desc>Redundant Arrays of Independent Disks (RAID)</desc>
+			<rect x="0" y="2219.61" width="439.37" height="42.5197" class="st4"/>
+			<text x="83.41" y="2245.07" class="st10">Redundant Arrays of Independent Disks (RAID)</text>		</g>
+		<g id="shape35-93" transform="translate(145.809,-1067.07)">
+			<title>Sheet.35</title>
+			<desc>Storage Area Network (SAN)</desc>
+			<rect x="0" y="2219.61" width="439.37" height="42.5197" class="st4"/>
+			<text x="136.29" y="2245.07" class="st10">Storage Area Network (SAN)</text>		</g>
+		<g id="shape36-96" transform="translate(330.061,-1010.38)">
+			<title>Sheet.36</title>
+			<desc>controller</desc>
+			<rect x="0" y="2233.78" width="56.6929" height="28.3465" class="st1"/>
+			<text x="8.91" y="2246.78" class="st18">controller</text>		</g>
+		<g id="shape37-99" transform="translate(188.329,-1010.38)">
+			<title>Sheet.37</title>
+			<desc>controller</desc>
+			<rect x="0" y="2233.78" width="56.6929" height="28.3465" class="st1"/>
+			<text x="8.91" y="2246.78" class="st18">controller</text>		</g>
+		<g id="shape38-102" transform="translate(159.982,-1407.23)">
+			<title>Sheet.38</title>
+			<path d="M0 2262.13 L411.02 2262.13 L411.02 2148.74 L0 2148.74 L0 2262.13 Z" class="st17"/>
+		</g>
+		<g id="shape39-104" transform="translate(599.352,-1322.19)">
+			<title>Sheet.39</title>
+			<desc>physical level</desc>
+			<rect x="0" y="2233.78" width="99.2126" height="28.3465" class="st1"/>
+			<text x="10.93" y="2252.15" class="st9">physical level</text>		</g>
+		<g id="shape40-107" transform="translate(599.352,-1407.23)">
+			<title>Sheet.40</title>
+			<desc>logical level</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st1"/>
+			<text x="8.12" y="2252.15" class="st9">logical level</text>		</g>
+		<g id="shape41-110" transform="translate(457.62,-1407.23)">
+			<title>Sheet.41</title>
+			<desc>database objects</desc>
+			<rect x="0" y="2233.78" width="113.386" height="28.3465" class="st1"/>
+			<text x="11.02" y="2252.15" class="st9">database objects</text>		</g>
+		<g id="shape42-113" transform="translate(174.156,-1435.57)">
+			<title>Square.91</title>
+			<desc>Tables</desc>
+			<rect x="0" y="2191.26" width="70.8661" height="70.8661" class="st8"/>
+			<text x="16.77" y="2230.89" class="st10">Tables</text>		</g>
+		<g id="shape43-116" transform="translate(259.195,-1435.57)">
+			<title>Square.92</title>
+			<desc>Indexes</desc>
+			<rect x="0" y="2191.26" width="70.8661" height="70.8661" class="st8"/>
+			<text x="13.66" y="2230.89" class="st10">Indexes</text>		</g>
+		<g id="shape44-119" transform="translate(344.234,-1435.57)">
+			<title>Square.93</title>
+			<desc>Views</desc>
+			<rect x="0" y="2191.26" width="70.8661" height="70.8661" class="st8"/>
+			<text x="17.55" y="2230.89" class="st10">Views</text>		</g>
+		<g id="shape45-122" transform="translate(429.274,-1433.55)">
+			<title>Rectangle.95</title>
+			<desc>Stored Procedures</desc>
+			<rect x="0" y="2189.24" width="127.559" height="72.8909" class="st8"/>
+			<text x="12.65" y="2229.88" class="st10">Stored Procedures</text>		</g>
+		<g id="shape46-125" transform="translate(2606.36,217.105) rotate(90)">
+			<title>Sheet.46</title>
+			<path d="M0 2262.13 L63.45 2262.13" class="st19"/>
+		</g>
+		<g id="shape47-131" transform="translate(344.234,-1988.33)">
+			<title>Sheet.47</title>
+			<desc>SQL commands / statements</desc>
+			<rect x="0" y="2219.61" width="170.079" height="42.5197" class="st1"/>
+			<text x="4.74" y="2245.07" class="st9">SQL commands / statements</text>		</g>
+		<g id="shape48-134" transform="translate(372.581,-1832.42)">
+			<title>Rectangle.104</title>
+			<desc>Evaluator</desc>
+			<rect x="0" y="2233.78" width="99.2126" height="28.3465" class="st8"/>
+			<text x="22.4" y="2252.15" class="st10">Evaluator</text>		</g>
+		<g id="shape49-137" transform="translate(159.982,-1222.97)">
+			<title>Sheet.49</title>
+			<path d="M0 2262.13 L411.02 2262.13 L411.02 2162.91 L0 2162.91 L0 2262.13 Z" class="st17"/>
+		</g>
+		<g id="shape50-139" transform="translate(188.329,-1336.36)">
+			<title>Rectangle.106</title>
+			<desc>database schema</desc>
+			<rect x="0" y="2205.43" width="113.386" height="56.6929" class="st8"/>
+			<text x="9.86" y="2237.98" class="st10">database schema</text>		</g>
+		<g id="shape52-142" transform="translate(-1719.47,287.971) rotate(-90)">
+			<title>Sheet.52</title>
+			<path d="M0 2262.13 L63.45 2262.13" class="st19"/>
+		</g>
+		<g id="shape53-147" transform="translate(542.659,-1988.33)">
+			<title>Sheet.53</title>
+			<desc>results</desc>
+			<rect x="0" y="2219.61" width="56.6929" height="42.5197" class="st1"/>
+			<text x="10.07" y="2245.07" class="st11">results</text>		</g>
+		<g id="shape54-150" transform="translate(2436.28,217.105) rotate(90)">
+			<title>Sheet.54</title>
+			<path d="M0 2262.13 L63.45 2262.13" class="st19"/>
+		</g>
+		<g id="shape55-155" transform="translate(174.156,-1988.33)">
+			<title>Sheet.55</title>
+			<desc>connect / disconnect</desc>
+			<rect x="0" y="2219.61" width="85.0394" height="42.5197" class="st1"/>
+			<text x="17.06" y="2236.67" class="st11">connect / <tspan x="12.59" dy="1.2em" class="st3">disconnect</tspan></text>		</g>
+		<g id="shape56-159" transform="translate(287.541,-1733.21)">
+			<title>Rectangle.112</title>
+			<desc>Buffer Manager</desc>
+			<rect x="0" y="2219.61" width="141.732" height="42.5197" class="st8"/>
+			<text x="25.97" y="2245.07" class="st10">Buffer Manager</text>		</g>
+		<g id="shape57-162" transform="translate(287.541,-1676.52)">
+			<title>Rectangle.113</title>
+			<desc>File Manager</desc>
+			<rect x="0" y="2219.61" width="141.732" height="42.5197" class="st8"/>
+			<text x="33.35" y="2245.07" class="st10">File Manager</text>		</g>
+		<g id="shape58-165" transform="translate(131.636,-1761.56)">
+			<title>Square.114</title>
+			<desc>Transaction Manager</desc>
+			<rect x="0" y="2177.09" width="85.0394" height="85.0394" class="st8"/>
+			<text x="9.48" y="2215.41" class="st10">Transaction <tspan x="17.64" dy="1.2em" class="st3">Manager</tspan></text>		</g>
+		<g id="shape59-169" transform="translate(500.14,-1761.56)">
+			<title>Square.115</title>
+			<desc>Recovery Manager</desc>
+			<rect x="0" y="2177.09" width="85.0394" height="85.0394" class="st8"/>
+			<text x="15.7" y="2215.41" class="st10">Recovery <tspan x="17.64" dy="1.2em" class="st3">Manager</tspan></text>		</g>
+		<g id="shape60-173" transform="translate(500.14,-1860.77)">
+			<title>Square.116</title>
+			<desc>Access Control Manager</desc>
+			<rect x="0" y="2177.09" width="85.0394" height="85.0394" class="st8"/>
+			<text x="22.7" y="2207.01" class="st10">Access <tspan x="21.13" dy="1.2em" class="st3">Control </tspan><tspan x="17.64"
+						dy="1.2em" class="st3">Manager</tspan></text>		</g>
+		<g id="shape61-178" transform="translate(131.636,-1860.77)">
+			<title>Square.117</title>
+			<desc>Lock Manager</desc>
+			<rect x="0" y="2177.09" width="85.0394" height="85.0394" class="st8"/>
+			<text x="28.14" y="2215.41" class="st10">Lock <tspan x="17.64" dy="1.2em" class="st3">Manager</tspan></text>		</g>
+		<g id="shape62-182" transform="translate(429.274,-1336.36)">
+			<title>Rectangle.62</title>
+			<desc>statistics</desc>
+			<rect x="0" y="2205.43" width="113.386" height="56.6929" class="st8"/>
+			<text x="32.58" y="2237.98" class="st10">statistics</text>		</g>
+		<g id="shape64-185" transform="translate(60.7697,-585.179)">
+			<title>Rectangle.25</title>
+			<desc>TCP / IP protocols</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="32.34" y="2245.67" class="st7">TCP / IP protocols</text>		</g>
+		<g id="shape65-188" transform="translate(60.7697,-627.699)">
+			<title>Rectangle.26</title>
+			<desc>Oracle Net</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="57.26" y="2245.67" class="st7">Oracle Net</text>		</g>
+		<g id="shape66-191" transform="translate(60.7697,-670.219)">
+			<title>Rectangle.27</title>
+			<desc>Presentation - TTC (two-task common)</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="30.81" y="2236.07" class="st7">Presentation - TTC  <tspan x="29.25" dy="1.2em" class="st3">(two</tspan>-task common)</text>		</g>
+		<g id="shape67-195" transform="translate(60.7697,-712.738)">
+			<title>Rectangle.28</title>
+			<desc>Oracle Call Interface (OCI)</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="25.06" y="2236.07" class="st7">Oracle Call Interface <tspan x="73.02" dy="1.2em" class="st3">(OCI)</tspan></text>		</g>
+		<g id="shape68-199" transform="translate(60.7697,-755.258)">
+			<title>Rectangle.29</title>
+			<desc>Application programs</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="22.14" y="2245.67" class="st7">Application programs</text>		</g>
+		<g id="shape69-202" transform="translate(60.7697,-797.778)">
+			<title>Sheet.69</title>
+			<desc>clients</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st1"/>
+			<text x="71.24" y="2245.67" class="st21">clients</text>		</g>
+		<g id="shape70-205" transform="translate(556.833,-585.179)">
+			<title>Rectangle.31</title>
+			<desc>TCP / IP protocols</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="32.34" y="2245.67" class="st7">TCP / IP protocols</text>		</g>
+		<g id="shape71-208" transform="translate(556.833,-627.699)">
+			<title>Rectangle.32</title>
+			<desc>Oracle Net</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="57.26" y="2245.67" class="st7">Oracle Net</text>		</g>
+		<g id="shape72-211" transform="translate(556.833,-670.219)">
+			<title>Rectangle.33</title>
+			<desc>Presentation - TTC (two-task common)</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="30.81" y="2236.07" class="st7">Presentation - TTC <tspan x="29.25" dy="1.2em" class="st3">(two</tspan>-task common)</text>		</g>
+		<g id="shape73-215" transform="translate(556.833,-712.738)">
+			<title>Rectangle.34</title>
+			<desc>Oracle Program Interface (OPI)</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="10.84" y="2236.07" class="st7">Oracle Program Interface <tspan x="73.91" dy="1.2em" class="st3">(OPI)</tspan></text>		</g>
+		<g id="shape74-219" transform="translate(556.833,-755.258)">
+			<title>Rectangle.35</title>
+			<desc>DBMS</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st4"/>
+			<text x="69.45" y="2245.67" class="st7">DBMS</text>		</g>
+		<g id="shape75-222" transform="translate(556.833,-797.778)">
+			<title>Sheet.75</title>
+			<desc>Oracle DB server</desc>
+			<rect x="0" y="2219.61" width="184.252" height="42.5197" class="st1"/>
+			<text x="36.15" y="2245.67" class="st21">Oracle DB server</text>		</g>
+		<g id="shape76-225" transform="translate(2521.32,1549.39) rotate(90)">
+			<title>Side brace.61</title>
+			<path d="M0 2247.95 L0 2251.5 A10.6297 10.6297 -180 0 0 10.63 2262.13 A10.6297 10.6297 0 0 1 21.26 2272.76 A10.6297 10.6297
+						 0 0 1 31.89 2262.13 A10.6297 10.6297 -180 0 0 42.52 2251.5 L42.52 2247.95" class="st22"/>
+		</g>
+		<g id="shape77-228" transform="translate(273.368,-698.565)">
+			<title>Sheet.77</title>
+			<desc>character sets</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st1"/>
+			<text x="4" y="2252.15" class="st9">character sets</text>		</g>
+		<g id="shape78-231" transform="translate(273.368,-656.045)">
+			<title>Sheet.78</title>
+			<desc>data types</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st1"/>
+			<text x="4" y="2252.15" class="st9">data types</text>		</g>
+		<g id="shape79-234" transform="translate(358.407,-670.219)">
+			<title>Sheet.79</title>
+			<desc>conversion</desc>
+			<rect x="0" y="2219.61" width="85.0394" height="42.5197" class="st1"/>
+			<text x="11.81" y="2245.07" class="st9">conversion</text>		</g>
+		<g id="shape80-237" transform="translate(152.896,-542.659)">
+			<title>Sheet.80</title>
+			<path d="M0 2226.28 L0 2226.64 L0 2262.13 L495.78 2262.13 L495.21 2226.64" class="st23"/>
+		</g>
+		<g id="shape81-246" transform="translate(315.888,-514.313)">
+			<title>Sheet.81</title>
+			<desc>Physical Network</desc>
+			<rect x="0" y="2233.78" width="155.906" height="28.3465" class="st1"/>
+			<text x="20.85" y="2252.75" class="st7">Physical Network</text>		</g>
+		<g id="shape82-249" transform="translate(-1719.47,1549.39) rotate(-90) scale(-1,1)">
+			<title>Side brace.82</title>
+			<path d="M0 2247.95 L0 2251.5 A10.6297 10.6297 -180 0 0 10.63 2262.13 A10.6297 10.6297 0 0 1 21.26 2272.76 A10.6297 10.6297
+						 0 0 1 31.89 2262.13 A10.6297 10.6297 -180 0 0 42.52 2251.5 L42.52 2247.95" class="st22"/>
+		</g>
+		<g id="shape83-252" transform="translate(443.447,-698.565)">
+			<title>Sheet.83</title>
+			<desc>character sets</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st1"/>
+			<text x="4" y="2252.15" class="st9">character sets</text>		</g>
+		<g id="shape84-255" transform="translate(443.447,-656.045)">
+			<title>Sheet.84</title>
+			<desc>data types</desc>
+			<rect x="0" y="2233.78" width="85.0394" height="28.3465" class="st1"/>
+			<text x="24.67" y="2252.15" class="st9">data types</text>		</g>
+		<g id="shape85-258" transform="translate(18.25,-854.471)">
+			<title>Sheet.85</title>
+			<desc>Connection between clients and Oracle server</desc>
+			<rect x="0" y="2233.78" width="382.677" height="28.3465" class="st1"/>
+			<text x="7.8" y="2253.95" class="st25">Connection between clients and Oracle server</text>		</g>
+		<g id="shape86-261" transform="translate(74.9429,-287.541)">
+			<title>Rectangle.118</title>
+			<desc>tablespace</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="23.38" y="2245.67" class="st7">tablespace</text>		</g>
+		<g id="shape87-264" transform="translate(74.9429,-230.848)">
+			<title>Rectangle.119</title>
+			<desc>segment</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="30.03" y="2245.67" class="st7">segment</text>		</g>
+		<g id="shape88-267" transform="translate(74.9429,-174.156)">
+			<title>Rectangle.120</title>
+			<desc>extent</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="37.15" y="2245.67" class="st7">extent</text>		</g>
+		<g id="shape89-270" transform="translate(74.9429,-117.463)">
+			<title>Rectangle.121</title>
+			<desc>data block</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="23.6" y="2245.67" class="st7">data block</text>		</g>
+		<g id="shape90-273" transform="translate(60.7697,-103.856)">
+			<title>Sheet.90</title>
+			<path d="M0 2262.13 L141.73 2262.13 L141.73 2021.18 L0 2021.18 L0 2262.13 Z" class="st26"/>
+		</g>
+		<g id="shape91-275" transform="translate(46.5965,-344.234)">
+			<title>Sheet.91</title>
+			<desc>Oracle Logical Data Storage Hierarchy</desc>
+			<rect x="0" y="2191.26" width="170.079" height="70.8661" class="st1"/>
+			<text x="63.72" y="2212.29" class="st21">Oracle <tspan x="17.07" dy="1.2em" class="st3">Logical Data Storage </tspan><tspan
+						x="53.06" dy="1.2em" class="st3">Hierarchy</tspan></text>		</g>
+		<g id="shape92-280" transform="translate(145.809,-103.289)">
+			<title>Sheet.92</title>
+			<desc>2KB</desc>
+			<rect x="0" y="2219.61" width="56.6929" height="42.5197" class="st1"/>
+			<text x="17.01" y="2244.47" class="st27">2KB</text>		</g>
+		<g id="shape93-283" transform="translate(415.1,-344.234)">
+			<title>Sheet.93</title>
+			<desc>Microsoft Logical Data Storage Hierarchy</desc>
+			<rect x="0" y="2191.26" width="170.079" height="70.8661" class="st1"/>
+			<text x="53.49" y="2212.29" class="st21">Microsoft <tspan x="17.07" dy="1.2em" class="st3">Logical Data Storage </tspan><tspan
+						x="53.06" dy="1.2em" class="st3">Hierarchy</tspan></text>		</g>
+		<g id="shape94-288" transform="translate(443.447,-117.463)">
+			<title>Rectangle.126</title>
+			<desc>page</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="41.59" y="2245.67" class="st7">page</text>		</g>
+		<g id="shape95-291" transform="translate(514.313,-103.289)">
+			<title>Sheet.95</title>
+			<desc>8 KB</desc>
+			<rect x="0" y="2219.61" width="56.6929" height="42.5197" class="st1"/>
+			<text x="15.51" y="2244.47" class="st27">8 KB</text>		</g>
+		<g id="shape96-294" transform="translate(443.447,-174.156)">
+			<title>Rectangle.128</title>
+			<desc>extent</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="37.15" y="2245.67" class="st7">extent</text>		</g>
+		<g id="shape97-297" transform="translate(500.14,-159.982)">
+			<title>Sheet.97</title>
+			<desc>8 pages</desc>
+			<rect x="0" y="2219.61" width="70.8661" height="42.5197" class="st1"/>
+			<text x="17.27" y="2244.47" class="st27">8 pages</text>		</g>
+		<g id="shape98-300" transform="translate(429.274,-103.289)">
+			<title>Sheet.98</title>
+			<path d="M0 2262.13 L141.73 2262.13 L141.73 2021.18 L0 2021.18 L0 2262.13 Z" class="st26"/>
+		</g>
+		<g id="shape99-302" transform="translate(245.022,-344.234)">
+			<title>Sheet.99</title>
+			<desc>Physical Storage Hierarchy</desc>
+			<rect x="0" y="2205.43" width="127.559" height="56.6929" class="st1"/>
+			<text x="10.23" y="2228.98" class="st21">Physical Storage <tspan x="31.8" dy="1.2em" class="st3">Hierarchy</tspan></text>		</g>
+		<g id="shape100-306" transform="translate(259.195,-287.541)">
+			<title>Rectangle.132</title>
+			<desc>Data File</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="27.15" y="2245.67" class="st7">Data File</text>		</g>
+		<g id="shape101-309" transform="translate(259.195,-117.463)">
+			<title>Rectangle.133</title>
+			<desc>OS block</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st4"/>
+			<text x="26.69" y="2245.67" class="st7">OS block</text>		</g>
+		<g id="shape102-312" transform="translate(245.022,-103.289)">
+			<title>Sheet.102</title>
+			<path d="M0 2262.13 L141.73 2262.13 L141.73 2021.18 L0 2021.18 L0 2262.13 Z" class="st26"/>
+		</g>
+		<g id="shape103-314" transform="translate(301.715,-103.289)">
+			<title>Sheet.103</title>
+			<desc>4 or 8 KB</desc>
+			<rect x="0" y="2219.61" width="85.0394" height="42.5197" class="st1"/>
+			<text x="18.69" y="2244.47" class="st27">4 or 8 KB</text>		</g>
+		<g id="shape104-317" transform="translate(259.195,-46.5965)">
+			<title>Rectangle.203</title>
+			<desc>hard disk sector</desc>
+			<rect x="0" y="2219.61" width="113.386" height="42.5197" class="st28"/>
+			<text x="6.04" y="2245.67" class="st21">hard disk sector</text>		</g>
+		<g id="shape105-320" transform="translate(315.888,-18.25)">
+			<title>Sheet.105</title>
+			<desc>512 bytes</desc>
+			<rect x="0" y="2219.61" width="56.6929" height="42.5197" class="st1"/>
+			<text x="5.18" y="2244.47" class="st27">512 bytes</text>		</g>
+		<g id="shape106-323" transform="translate(18.25,-429.274)">
+			<title>Sheet.106</title>
+			<desc>Data Storage Hierarchy</desc>
+			<rect x="0" y="2233.78" width="198.425" height="28.3465" class="st1"/>
+			<text x="4.81" y="2253.95" class="st25">Data Storage Hierarchy</text>		</g>
+	</g>
+</svg>
