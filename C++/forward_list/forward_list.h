@@ -174,11 +174,6 @@ namespace cust
 				head = copy_new_nodes(other.begin(), other.end());
 			}
 
-			forward_list(const std::forward_list<value_type>& std_flist)
-			{
-				head = copy_new_nodes(std_flist.begin(), std_flist.end());
-			}
-
 			//move constructor
 			forward_list(forward_list&& other)
 			{
@@ -189,24 +184,6 @@ namespace cust
 					head = new_one_node(nullptr, std::move(*iter++));
 
 					for (auto prev{ head }; iter != other.end(); ++iter)
-					{
-						auto ptr = new_one_node(nullptr, std::move(*iter));
-
-						prev->next() = ptr;
-						prev = ptr;
-					}
-				}
-			}
-
-			forward_list(std::forward_list<value_type>&& std_flist)
-			{
-				if ( !std_flist.empty() )
-				{
-					auto iter = std_flist.begin();
-
-					head = new_one_node(nullptr, std::move(*iter++));
-
-					for (auto prev = this->head; iter != std_flist.end(); ++iter)
 					{
 						auto ptr = new_one_node(nullptr, std::move(*iter));
 
@@ -560,15 +537,6 @@ namespace cust
 
 			const_iterator cend() const noexcept { return end(); }
 
-			node_pointer before_head() const noexcept
-			{
-				node_type tmp_node{};
-
-				auto diff = reinterpret_cast<char*>(tmp_node.getLinkAddress()) - reinterpret_cast<char*>(std::addressof(tmp_node));
-
-				return reinterpret_cast<node_type*>(reinterpret_cast<char*>(std::addressof(const_cast<node_type*&>(this->head))) - diff);
-			}
-
 		private:
 			template<class... Args>
 			auto new_one_node(node_type* ptr_next, Args&&... args)
@@ -635,6 +603,15 @@ namespace cust
 				}
 
 				return head;
+			}
+
+			node_pointer before_head() const noexcept
+			{
+				node_type tmp_node {};
+
+				auto diff = reinterpret_cast<char*>(tmp_node.getLinkAddress()) - reinterpret_cast<char*>(std::addressof(tmp_node));
+
+				return reinterpret_cast<node_type*>(reinterpret_cast<char*>(std::addressof(const_cast<node_type*&>(this->head))) - diff);
 			}
 
 			node_pointer   head  { nullptr };
