@@ -1,6 +1,6 @@
 #pragma once
 
-namespace cust
+namespace cust					//customized / non-standard
 {
 	namespace Container
 	{

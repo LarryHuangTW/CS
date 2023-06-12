@@ -8,7 +8,7 @@
 #include <algorithm>
 #include "Container.h"
 
-namespace cust
+namespace cust					//customized / non-standard
 {
 	using std::bidirectional_iterator_tag;
 	using std::size_t;

@@ -1,10 +1,12 @@
 > *It's not reinventing the wheel. Just for practice and for fun.*<br>
 
 ![list](/Images/list/list.svg)
+<br>
 ![list node diff](/Images/list/list_node_diff.svg)
+<br>
 ![list operations](/Images/list/list_operations.svg)
 
-## Tricks and code snippets:
+## Code snippets:
 
 ```C++
 namespace cust					//customized / non-standard
