@@ -6,7 +6,7 @@
 #include <initializer_list>
 #include "Container.h"
 
-namespace cust
+namespace cust					//customized / non-standard
 {
 	using std::forward_iterator_tag;
 	using std::size_t;
@@ -30,7 +30,7 @@ namespace cust
 	class forward_list_const_iterator
 	{
 		template<class T, class Allocator>
-		friend class cust::forward_list;
+		friend class forward_list;
 
 		protected:
 			using node_type    = Container::NodeBase<T>;
@@ -50,9 +50,15 @@ namespace cust
 			{
 			}
 
-			reference operator * () const noexcept { return ptr->value; }
+			reference operator * () const noexcept
+			{
+				return ptr->value;
+			}
 
-			const_pointer operator -> () const noexcept { return ptr; }
+			const_pointer operator -> () const noexcept
+			{
+				return ptr;
+			}
 
 			forward_list_const_iterator& operator ++ () noexcept
 			{
@@ -96,8 +102,8 @@ namespace cust
 	template<class T>
 	class forward_list_iterator : public forward_list_const_iterator<T>
 	{
-		template<class T, class AllocTy>
-		friend class cust::forward_list;
+		template<class T, class Allocator>
+		friend class forward_list;
 
 		public:
 			using base_type = forward_list_const_iterator<T>;
@@ -110,9 +116,15 @@ namespace cust
 
 			using base_type::base_type;
 
-			reference operator * () const noexcept { return this->ptr->value; }
+			reference operator * () const noexcept
+			{
+				return this->ptr->value;
+			}
 
-			pointer operator -> () const noexcept { return this->ptr; }
+			pointer operator -> () const noexcept
+			{
+				return this->ptr;
+			}
 
 			forward_list_iterator& operator ++ () noexcept
 			{
@@ -335,6 +347,15 @@ namespace cust
 				head = delete_one_node(head);
 			}
 
+			//add an element to the beginning of the container
+			template<class... Args>
+			reference emplace_front(Args&&... args)
+			{
+				head = new_one_node(head, std::forward<Args>(args)...);
+
+				return front();
+			}
+
 			//insert an element after the specified position
 			iterator insert_after(const_iterator pos, const_reference value)
 			{
@@ -392,93 +413,41 @@ namespace cust
 				return iter;
 			}
 
+			//merge two sorted forward_list
+			void merge(forward_list& other)
+			{
+				node_pointer back1 { nullptr }, back2 { nullptr};
+
+				for (auto ptr { head };       ptr != nullptr; back1 = ptr, ptr = ptr->next());
+				for (auto ptr { other.head }; ptr != nullptr; back2 = ptr, ptr = ptr->next());
+
+				inplace_merge(before_head(), back1, other.before_head(), back2);
+
+				other.head = nullptr;
+			}
+
+			//merge two sorted forward_list
+			void merge(forward_list&& other)
+			{
+				node_pointer back1{ nullptr }, back2{ nullptr };
+
+				for (auto ptr{ head }; ptr != nullptr; back1 = ptr, ptr = ptr->next());
+				for (auto ptr{ other.head }; ptr != nullptr; back2 = ptr, ptr = ptr->next());
+
+				inplace_merge(before_head(), back1, other.before_head(), back2);
+
+				other.head = nullptr;
+			}
+
 			/*
-			 *	Merge the sorted range (prev2, back2] into the sorted range (prev1, back1]
+			 *		sort the elements in the forward_list
+			 *
+			 *		inplace merge sort (recursive , top-down version)
 			 */
 			template<class Compare = std::less<>>
-			node_pointer inplace_merge(node_pointer prev1, node_pointer back1, node_pointer prev2, node_pointer back2, Compare cmp = Compare{})
+			void sort(Compare cmp = Compare{})
 			{
-				if (prev1 != nullptr && back1 != nullptr && prev2 != nullptr && back2 != nullptr)
-				{
-					for ( ; ; )
-					{
-						while (prev1 != back1 && !cmp(prev2->next()->value, prev1->next()->value))
-						{
-							prev1 = prev1->next();
-						}
-
-						if (prev1 == back1)
-						{
-							if (back1 != prev2)
-							{
-								prev1         = prev1->next();
-								back1->next() = prev2->next();
-								prev2->next() = back2->next();
-								back2->next() = prev1;
-							}
-
-							back1 = back2;
-
-							break;
-						}
-
-						auto ptr2 { prev2 };
-
-						while (ptr2 != back2 && cmp(ptr2->next()->value, prev1->next()->value))
-						{
-							ptr2 = ptr2->next();
-						}
-
-						auto tmp2 { ptr2->next() };
-
-						ptr2->next()  = prev1->next();
-						prev1->next() = prev2->next();
-						prev2->next() = tmp2;
-
-						if (ptr2 == back2)
-							break;
-
-						prev1 = ptr2;
-					}
-				}
-
-				return back1;
-			}
-
-			template<class Compare = std::less<>>
-			node_pointer mergeSort(node_pointer prev, size_type count, Compare cmp = Compare{})
-			{
-				if ( prev == nullptr || count == 0)
-					return nullptr;
-
-				if      (count == 1)
-					return prev->next();
-				else if (count == 2)
-				{
-					if (prev->next() == nullptr)
-						return nullptr;
-					else
-					{
-						auto left  { prev->next() }, right { left->next() };
-
-						return right == nullptr ? left : inplace_merge(prev, left, left, right, cmp);
-					}
-				}
-				else
-				{
-					auto half { count >> 1 };
-
-					auto ptr1 = mergeSort(prev, half,         cmp);
-					auto ptr2 = mergeSort(ptr1, count - half, cmp);
-
-					return inplace_merge(prev, ptr1, ptr1, ptr2, cmp);
-				}
-			}
-
-			template<class Compare = std::less<>>
-			void sort(Compare cmp = Compare{})			//Inplace merge sort (recursive , top-down version)
-			{
-				if (this->empty() || this->head->next() == nullptr)
+				if (empty() || head->next() == nullptr)
 					return;
 
 				size_t step { 2 };
@@ -493,6 +462,7 @@ namespace cust
 				}
 			}
 
+			//reverse the order of the elements in the forward_list
 			void reverse() noexcept
 			{
 				node_pointer prev { nullptr };
@@ -604,16 +574,116 @@ namespace cust
 				return head;
 			}
 
+			/*
+			 *	Merge the sorted range (prev2, back2] into the sorted range (prev1, back1]
+			 */
+			template<class Compare = std::less<>>
+			node_pointer inplace_merge(node_pointer prev1, node_pointer back1, node_pointer prev2, node_pointer back2, Compare cmp = Compare{})
+			{
+				if (prev1 != nullptr && back1 != nullptr && prev2 != nullptr && back2 != nullptr)
+				{
+					for (; ; )
+					{
+						while (prev1 != back1 && !cmp(prev2->next()->value, prev1->next()->value))
+						{
+							prev1 = prev1->next();
+						}
+
+						if (prev1 == back1)
+						{
+							if (back1 != prev2)
+							{
+								prev1 = prev1->next();
+								back1->next() = prev2->next();
+								prev2->next() = back2->next();
+								back2->next() = prev1;
+							}
+
+							back1 = back2;
+
+							break;
+						}
+
+						auto ptr2{ prev2 };
+
+						while (ptr2 != back2 && cmp(ptr2->next()->value, prev1->next()->value))
+						{
+							ptr2 = ptr2->next();
+						}
+
+						auto tmp2{ ptr2->next() };
+
+						ptr2->next() = prev1->next();
+						prev1->next() = prev2->next();
+						prev2->next() = tmp2;
+
+						if (ptr2 == back2)
+							break;
+
+						prev1 = ptr2;
+					}
+				}
+
+				return back1;
+			}
+
+			template<class Compare = std::less<>>
+			node_pointer mergeSort(node_pointer prev, size_type count, Compare cmp = Compare{})
+			{
+				if (prev == nullptr || count == 0)
+					return nullptr;
+
+				if (count == 1)
+					return prev->next();
+				else if (count == 2)
+				{
+					if (prev->next() == nullptr)
+						return nullptr;
+					else
+					{
+						auto left{ prev->next() }, right{ left->next() };
+
+						return right == nullptr ? left : inplace_merge(prev, left, left, right, cmp);
+					}
+				}
+				else
+				{
+					auto half{ count >> 1 };
+
+					auto ptr1 = mergeSort(prev, half, cmp);
+					auto ptr2 = mergeSort(ptr1, count - half, cmp);
+
+					return inplace_merge(prev, ptr1, ptr1, ptr2, cmp);
+				}
+			}
+
 			node_pointer before_head() const noexcept
 			{
 				node_type tmp_node {};
 
 				auto diff = reinterpret_cast<char*>(tmp_node.getLinkAddress()) - reinterpret_cast<char*>(std::addressof(tmp_node));
 
-				return reinterpret_cast<node_type*>(reinterpret_cast<char*>(std::addressof(const_cast<node_type*&>(this->head))) - diff);
+				return reinterpret_cast<node_pointer>(reinterpret_cast<char*>(std::addressof(const_cast<node_pointer&>(head))) - diff);
 			}
 
 			node_pointer   head  { nullptr };
 			allocator_type alloc {};
 	};
+
+	template<class T, class Allocator>
+	bool operator == (const forward_list<T, Allocator>& lhs, const forward_list<T, Allocator>& rhs)
+	{
+		auto iterL { lhs.cbegin() };
+		auto iterR { rhs.cbegin() };
+
+		for ( ; iterL != lhs.cend() && iterR != rhs.cend() && *iterL == *iterR; ++iterL, ++iterR);
+
+		return iterL == lhs.cend() && iterR == rhs.cend();
+	}
+
+	template<class T, class Allocator>
+	bool operator != (const forward_list<T, Allocator>& lhs, const forward_list<T, Allocator>& rhs)
+	{
+		return !(lhs == rhs);
+	}
 }

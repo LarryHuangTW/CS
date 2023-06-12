@@ -51,7 +51,7 @@ std::vector<string_type> traverse(string_view_type prefix = string_view_type()) 
 #include <locale>
 #include "trie.h"
 
-int main(int argc, char* argu[])
+int main(int argc, char* argv[])
 {
 	using namespace std::string_literals;
 

@@ -44,7 +44,7 @@ namespace cust					//customized / non-standard
 			//constructors
 			list();
 			explicit list(size_type count);
-			explicit list(size_type count, const value_type& value);
+			list(size_type count, const value_type& value);
 			list(const list& other);
 			list(list&& other);
 			list(std::initializer_list<value_type> initList);
@@ -122,7 +122,7 @@ decltype(auto) operator << (std::ostream& os, const cust::list<T>& lst)
 	return os;
 }
 
-int main(int argc, char* argu[])
+int main(int argc, char* argv[])
 {
 	cust::list<int> lst1 {}, lst2(3), lst3(3, 7);
 	cust::list<int> lst4 { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10  };

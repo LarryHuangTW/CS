@@ -95,7 +95,7 @@ decltype(auto) operator << (std::ostream& os, const cust::array_interface<T, U>&
 	return os;
 }
 
-int main(int argc, char* argu[])
+int main(int argc, char* argv[])
 {
 	cust::array<int, 5> sa1 { 10 , 20 , 30 , 40 , 50 }, sa2 { 1 , 2 , 3 , 4 , 5 };
 

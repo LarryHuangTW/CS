@@ -77,7 +77,7 @@ void print_info(const cust::vector<T>& vec)
 	std::cout << "\tis empty ? " << vec.empty() << "\t\tsize : " << vec.size() << "\t\tcapacity : " << vec.capacity() << "\n";
 }
 
-int main(int argc, char* argu[])
+int main(int argc, char* argv[])
 {
 	cust::vector<int> vec1 {}, vec2 { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 };
 	cust::vector<std::string> vec3 {};
