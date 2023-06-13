@@ -13,10 +13,10 @@ namespace cust
 	class stack_impl
 	{
 		public:
-			using container_type = Container;
-			using value_type = container_type::value_type;
-			using size_type = container_type::size_type;
-			using reference = container_type::reference;
+			using container_type  = Container;
+			using value_type      = container_type::value_type;
+			using size_type       = container_type::size_type;
+			using reference       = container_type::reference;
 			using const_reference = container_type::const_reference;
 
 			//constructors
