@@ -3,7 +3,7 @@
 ## Code snippets:
 
 ```C++
-namespace cust
+namespace cust			//customized / non-standard
 {
 	using std::deque;
 	using std::forward_list;
@@ -14,10 +14,10 @@ namespace cust
 	{
 		public:
 			using container_type  = Container;
-			using value_type      = container_type::value_type;
-			using size_type       = container_type::size_type;
-			using reference       = container_type::reference;
-			using const_reference = container_type::const_reference;
+			using value_type      = typename container_type::value_type;
+			using size_type       = typename container_type::size_type;
+			using reference       = typename container_type::reference;
+			using const_reference = typename container_type::const_reference;
 
 			//constructors
 			stack_impl();

@@ -19,10 +19,10 @@ namespace cust
 	{
 		public:
 			using container_type  = Container;
-			using value_type      = container_type::value_type;
-			using size_type       = container_type::size_type;
-			using reference       = container_type::reference;
-			using const_reference = container_type::const_reference;
+			using value_type      = typename container_type::value_type;
+			using size_type       = typename container_type::size_type;
+			using reference       = typename container_type::reference;
+			using const_reference = typename container_type::const_reference;
 
 			//default constructor
 			stack_impl()
@@ -152,11 +152,11 @@ namespace cust
 		public:
 			using base_type = stack_impl<T, forward_list<T>>;
 
-			using container_type  = std::forward_list<T>;
-			using value_type      = container_type::value_type;
-			using size_type       = container_type::size_type;
-			using reference       = container_type::reference;
-			using const_reference = container_type::const_reference;
+			using container_type  = forward_list<T>;
+			using value_type      = typename container_type::value_type;
+			using size_type       = typename container_type::size_type;
+			using reference       = typename container_type::reference;
+			using const_reference = typename container_type::const_reference;
 
 			using base_type::base_type;
 
