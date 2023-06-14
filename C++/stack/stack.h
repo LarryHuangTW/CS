@@ -6,7 +6,7 @@
 #include <compare>
 #include <forward_list>
 
-namespace cust
+namespace cust					//customized / non-standard
 {
 	using std::deque;
 	using std::forward_list;
