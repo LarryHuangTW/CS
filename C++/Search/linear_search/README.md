@@ -94,7 +94,7 @@ What would happen if someone use it on (ordered or unordered) associative data c
 
 For example: std::set, std::map, std::unordered_set, std::unordered_map ...<br><br>
 
-**possible workaround**
+**[ possible workaround ]**
 
 ```C++
 //variable template to check if a type has find() member function
@@ -125,9 +125,7 @@ constexpr auto find(const Container& cont, const T& value)
 }
 ```
 
-<br><br>
-
-### Example:
+## Example:
 
 ```C++
 #include <iostream>
