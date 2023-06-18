@@ -62,7 +62,7 @@ namespace cust					//customized / non-standard
 	 *	[ C generic version ]
 	 *
 	 *	function parameters:
-	 *				key:   pointer to the element to search for
+	 *				key:   pointer to the value to search for
 	 *				ptr:   pointer to the data array with elements to examine
 	 *				count: number of elements in the array
 	 *				sz:    size (in bytes) of each element in the data array
@@ -99,7 +99,7 @@ namespace cust					//customized / non-standard
 	 *
 	 *	function parameters:
 	 *				ary:  the data array with elements to examine
-	 *				key:  the element to search for
+	 *				key:  the value to search for
 	 *				comp: comparison function or binary predicate which returns 
 	 *				      true if the first argument is less than the second, false otherwise 
 	 *				      the signature of the comparison function should be: 
