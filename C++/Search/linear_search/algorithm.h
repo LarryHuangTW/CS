@@ -3,6 +3,7 @@
 #include <cstddef>
 #include <cstring>
 #include <memory>
+#include <iterator>
 #include <type_traits>
 
 namespace cust					//customized / non-standard
@@ -85,19 +86,25 @@ namespace cust					//customized / non-standard
 	constexpr bool is_iterable = false;
 
 	template<class T>
-	constexpr bool is_iterable<T, std::void_t<decltype(std::declval<T>().begin()), decltype(std::declval<T>().end())>> = true;
+	constexpr bool is_iterable<T, std::void_t<decltype(std::begin(std::declval<T>())), decltype(std::end(std::declval<T>()))>> = true;
 
 	//customized find() function template
 	template<class Container, class T>
 	constexpr auto find(const Container& cont, const T& value)
 	{
-		if constexpr (has_find_function<Container>)
+		if constexpr (std::is_array_v<Container>) {
+			return cust::find(std::begin(cont), std::end(cont), value);
+		}
+		else if constexpr (has_find_function<Container>) {
 			return cont.find(value);
-		else if constexpr (is_iterable<Container>)
-			return cust::find(cont.begin(), cont.end(), value);
-		else
+		}
+		else if constexpr (is_iterable<Container>) {
+			return cust::find(std::begin(cont), std::end(cont), value);
+		}
+		else {
 			static_assert(false, "provided data container is not supported by this find() function");
 
-		return cont.end();			//there would be a compile-time error issued before here
+			return cont.end();			//there would be a compile-time error issued before here
+		}
 	}
 }
