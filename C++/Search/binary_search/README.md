@@ -43,7 +43,7 @@ It works but what if we want to find values of other data types?<br><br>
  *				key:   pointer to the value to search for
  *				ptr:   pointer to the data array with elements to examine
  *				count: number of elements in the array
- *				sz:    size (in byts) of each element in the data arry
+ *				sz:    size (in bytes) of each element in the data array
  *				comp:  comparison function to check the equivalence of two values
  *
  *	return value: pointer to the found element in the data array, null pointer otherwise.
