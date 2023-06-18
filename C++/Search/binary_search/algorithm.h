@@ -1,7 +1,7 @@
 #pragma once
 
 /*
- *		Binary Search: to check if an element within the ordered range that matches specified search condition
+ *	Binary Search: to check if an element within the ordered range matches the specified value or search condition.
  */
 
 #include <cstddef>
@@ -19,23 +19,23 @@ namespace cust					//customized / non-standard
 	using std::list;
 
 	/*
-	 *		The signature of the comparison function that could be used by binary search function (C generic version).
+	 *	The signature of the comparison function that could be used by the binary search function (C generic version).
 	 *
-	 *		It should return 0                        if the first argument is equal   to   the second, 
-	 *						 a negative integer value if the first argument is less    than the second, 
-	 *						 a positive integer value if the first argument is greater than the second.
+	 *	It should return 0			  if the first argument is equal   to   the second, 
+	 *			 a negative integer value if the first argument is less    than the second, 
+	 *			 a positive integer value if the first argument is greater than the second.
 	 */
 	using compare_function_type = int(*)(const void* ptrL, const void* ptrR);
 
 	/*
-	 *		[ basic version ]
+	 *	[ basic version ]
 	 *
-	 *		function parameters:
-	 *								key:   the element to search for
-	 *								ary:   the data array with elements to examine
-	 *								count: number of elements in the array
+	 *	function parameters:
+	 *				key:   the value to search for
+	 *				ary:   the data array with elements to examine
+	 *				count: number of elements in the array
 	 *
-	 *		return value: pointer to the found element in the data array, null pointer otherwise.
+	 *	return value: pointer to the found element in the data array, null pointer otherwise.
 	 */
 	constexpr int* binary_search(int key, const int ary[], size_t count)
 	{
@@ -59,16 +59,16 @@ namespace cust					//customized / non-standard
 	}
 
 	/*
-	 *		[ C generic version ]
+	 *	[ C generic version ]
 	 *
-	 *		function parameters:
-	 *								key:   pointer to the element to search for
-	 *								ptr:   pointer to the data array with elements to examine
-	 *								count: number of elements in the array
-	 *								sz:    size (in byts) of each element in the data arry
-	 *								comp:  comparison function to check the equivalence of two values
+	 *	function parameters:
+	 *				key:   pointer to the element to search for
+	 *				ptr:   pointer to the data array with elements to examine
+	 *				count: number of elements in the array
+	 *				sz:    size (in bytes) of each element in the data array
+	 *				comp:  comparison function to check the equivalence of two values
 	 *
-	 *		return value: pointer to the found element in the data array, null pointer otherwise.
+	 *	return value: pointer to the found element in the data array, null pointer otherwise.
 	 */
 	constexpr void* binary_search(const void* key, const void* ptr, size_t count, size_t sz, compare_function_type comp)
 	{
@@ -95,17 +95,17 @@ namespace cust					//customized / non-standard
 	}
 
 	/*
-	 *		[ C++ function template version ]
+	 *	[ C++ function template version ]
 	 *
-	 *		function parameters:
-	 *								ary:  the data array with elements to examine
-	 *								key:  the element to search for
-	 *								comp: comparison function or binary predicate which returns 
-	 *									  true if the first argument is less than the second, false otherwise 
-	 *									  the signature of the comparison function should be: 
-	 *									  bool func(const Type1& lhs, const Type2& rhs)
+	 *	function parameters:
+	 *				ary:  the data array with elements to examine
+	 *				key:  the element to search for
+	 *				comp: comparison function or binary predicate which returns 
+	 *				      true if the first argument is less than the second, false otherwise 
+	 *				      the signature of the comparison function should be: 
+	 *				      bool func(const Type1& lhs, const Type2& rhs)
 	 *
-	 *		return value: pointer to the found element in the data array, or pointer to the end of the array otherwise.
+	 *	return value: pointer to the found element in the data array, or pointer to the end of the array otherwise.
 	 */
 	template<class T, size_t N, class Compare = std::less<>>
 	constexpr T* binary_search(const T (&ary)[N], const T& key, Compare comp = Compare{})
@@ -132,7 +132,7 @@ namespace cust					//customized / non-standard
 	}
 
 	/*
-	 *		[ C++ STL version ]
+	 *	[ C++ STL version ]
 	 */
 	template<class FwdIter, class T, class Compare = std::less<>>
 	constexpr FwdIter lower_bound(FwdIter first, FwdIter last, const T& value, Compare comp = Compare{})
@@ -168,11 +168,11 @@ namespace cust					//customized / non-standard
 	constexpr bool has_find_function<T, std::void_t<decltype(std::declval<T>().find(T::key_type()))>> = true;
 
 	/*
-	 *		[ customized version ]
+	 *	[ customized version ]
 	 *
-	 *		function parameters: the same as above C++ STL version
+	 *	function parameters: the same as above C++ STL version
 	 *
-	 *		return value: iterator pointing to the found element, last otherwise.
+	 *	return value: iterator pointing to the found element, last otherwise.
 	 */
 	template<class FwdIter, class T, class Compare = std::less<>>
 	constexpr FwdIter binary_search2(FwdIter first, FwdIter last, const T& value, Compare comp = Compare{})
@@ -183,17 +183,17 @@ namespace cust					//customized / non-standard
 	}
 
 	/*
-	 *		[ customized version ]
+	 *	[ customized version ]
 	 *
-	 *		function parameters:
-	 *								cont:  the data array or data container with elements to examine
-	 *								value: value to search for
-	 *								comp:  comparison function or binary predicate which returns 
-	 *									   true if the first argument is less than the second, false otherwise 
-	 *									   the signature of the comparison function should be: 
-	 *									   bool func(const Type1& lhs, const Type2& rhs)
+	 *	function parameters:
+	 *				cont:  the data array or data container with elements to examine
+	 *				value: value to search for
+	 *				comp:  comparison function or binary predicate which returns 
+	 *				       true if the first argument is less than the second, false otherwise 
+	 *				       the signature of the comparison function should be: 
+	 *				       bool func(const Type1& lhs, const Type2& rhs)
 	 *
-	 *		return value: iterator pointing to the found element, or iterator one past the end of data container otherwise.
+	 *	return value: iterator pointing to the found element, or iterator one past the end of the data container otherwise.
 	 */
 	template<class Container, class T, class Compare = std::less<>>
 	constexpr auto binary_search(const Container& cont, const T& value, Compare comp = Compare{})
