@@ -1,4 +1,4 @@
-![summation](/../../../../github/Images/summation.svg)
+![summation](/../../../../LarryHuangTW/Images/blob/main/summation.svg)
 
 ### 1. recursive version:
 
