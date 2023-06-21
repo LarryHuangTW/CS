@@ -1,21 +1,39 @@
-Function factorial(n) calculates 1 * 2 * 3 * ... * (n - 1) * n
+Function factorial(n) calculates 1 * 2 * 3 * ... * (n - 1) * n = n!
 
-### 1. constexpr recursive version:
+<br>
+
+## Basic idea:
+
+### 1. recursive version:
 
 ```C++
-/*
- *	return value:	1 * 2 * 3 * ... * (n - 1) * n, if 1 < n
- *
- *			1, otherwise
- */
-template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
-constexpr U factorial(T n)
+using std::size_t;
+
+constexpr size_t factorial(size_t n)
 {
 	return n < 2 ? 1 : n * factorial(n - 1);
 }
 ```
 
-### 2. recursive version (with overflow checking):
+### 2. non-recursive version:
+
+```C++
+using std::size_t;
+
+constexpr size_t factorial(size_t n)
+{
+	size_t result { 1 };
+
+	for (size_t i { 1 }; i <= n; ++i)
+		result *= i;
+
+	return result;
+}
+```
+
+## With overflow checking:
+
+### 1. recursive version:
 
 ```C++
 template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
@@ -30,6 +48,28 @@ U factorial(T n)
 		std::cerr << "possible overflow\n";
 
 	return n * tmp;
+}
+```
+
+### 2. constexpr recursive version:
+
+```C++
+using std::size_t;
+
+template<size_t N>
+constexpr size_t factorial()
+{
+	constexpr auto tmp { factorial<N - 1>() };
+
+	static_assert((N * tmp) / N == tmp, "possible overflow");
+
+	return N * tmp;
+}
+
+template<>
+constexpr size_t factorial<0>()
+{
+	return 1ULL;
 }
 ```
 
@@ -99,6 +139,21 @@ int main(int argc, char* argv[])
 		static_assert(factorial(2)  == 2);
 		static_assert(factorial(3)  == 6);
 		static_assert(factorial(10) == 3628800);
+		//static_assert(factorial(13));			//compile-time error
+		static_assert(factorial(20ULL));
+		static_assert(factorial(21ULL));		//overflowed but no overflow checking
+	}
+
+	{
+		using namespace cust::constexpr_recursive_version::overflow_checking;
+
+		static_assert(factorial<0>()  == 1);
+		static_assert(factorial<1>()  == 1);
+		static_assert(factorial<2>()  == 2);
+		static_assert(factorial<3>()  == 6);
+		static_assert(factorial<10>() == 3628800);
+		static_assert(factorial<20>());
+		//static_assert(factorial<21>());		//overflowed with a compile-time error
 	}
 
 	test_func(cust::recursive_version::factorial<size_t>, size_t{});
@@ -107,5 +162,4 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
-
 ```

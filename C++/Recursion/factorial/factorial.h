@@ -1,24 +1,17 @@
 #pragma once
 
+/*
+ *	factorial(n) =	1 * 2 * 3 * ... * (n - 1) * n = n!, if 1 < n
+ *
+ *					1, otherwise
+ */
+
 #include <iostream>
 #include <type_traits>
+#include <cstddef>
 
 namespace cust					//customized / non-standard
 {
-	namespace constexpr_recursive_version
-	{
-		/*
-		 *	return value:	1 * 2 * 3 * ... * (n - 1) * n, if 1 < n
-		 *
-		 *					1, otherwise
-		 */
-		template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
-		constexpr U factorial(T n)
-		{
-			return n < 2 ? 1 : n * factorial(n - 1);
-		}
-	}
-
 	namespace recursive_version
 	{
 		template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
@@ -36,6 +29,36 @@ namespace cust					//customized / non-standard
 		}
 	}
 
+	namespace constexpr_recursive_version
+	{
+		template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
+		constexpr U factorial(T n)
+		{
+			return n < 2 ? 1 : n * factorial(n - 1);
+		}
+
+		namespace overflow_checking
+		{
+			using std::size_t;
+
+			template<size_t N>
+			constexpr size_t factorial()
+			{
+				constexpr auto tmp { factorial<N - 1>() };
+
+				static_assert((N * tmp) / N == tmp, "possible overflow");
+
+				return N * tmp;
+			}
+
+			template<>
+			constexpr size_t factorial<0>()
+			{
+				return 1ULL;
+			}
+		}
+	}
+
 	namespace non_recursive_version
 	{
 		/*
@@ -47,7 +70,7 @@ namespace cust					//customized / non-standard
 		{
 			U n { 1 };
 
-			for (U prev { 1 }, curr{ 1 }; prev == curr / n; )
+			for (U prev { 1 }, curr { 1 }; prev == curr / n; )
 			{
 				prev = curr;
 				curr *= ++n;

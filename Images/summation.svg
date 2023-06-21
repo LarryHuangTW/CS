@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="9.17357in" height="8.38443in" viewBox="0 0 660.497 603.679" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st23">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#0000ff;font-family:Times New Roman;font-size:1.99999em}
+		.st3 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st4 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:0.499992em;font-weight:bold}
+		.st6 {fill:none;stroke:#000000;stroke-dasharray:1,2;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#7f7f7f;font-family:Times New Roman;font-size:0.833336em}
+		.st8 {fill:#7f7f7f;font-family:Times New Roman;font-size:0.499992em;font-weight:bold}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st11 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st12 {stroke:#0000ff;stroke-dasharray:0.75,1.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st13 {stroke:#ff0000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st14 {stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st15 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st16 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em;font-weight:bold}
+		.st17 {fill:#000000;font-family:Times New Roman;font-size:1.5em}
+		.st18 {font-family:新細明體;font-size:1em}
+		.st19 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st20 {fill:#0000ff;font-family:Times New Roman;font-size:1.33333em}
+		.st21 {fill:#ff0000;font-family:Times New Roman;font-size:1.33333em}
+		.st22 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st23 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>頁-1</title>
+		<g id="shape29-1" transform="translate(18.375,-542.784)">
+			<title>Sheet.29</title>
+			<desc>Summation</desc>
+			<rect x="0" y="561.159" width="127.559" height="42.5197" class="st1"/>
+			<text x="4" y="589.62" class="st2">Summation</text>		</g>
+		<g id="group79-4" transform="translate(89.2411,-174.281)">
+			<title>Sheet.79</title>
+			<g id="shape1-5" transform="translate(14.1732,0)">
+				<title>方形</title>
+				<desc>1</desc>
+				<rect x="0" y="589.506" width="14.1732" height="14.1732" class="st3"/>
+				<text x="4.59" y="599.59" class="st4">1</text>			</g>
+			<g id="shape3-8" transform="translate(28.3465,-1.13687E-13)">
+				<title>矩形</title>
+				<desc>2</desc>
+				<rect x="0" y="575.333" width="14.1732" height="28.3465" class="st3"/>
+				<text x="4.59" y="592.51" class="st4">2</text>			</g>
+			<g id="shape10-11" transform="translate(42.5197,0)">
+				<title>矩形.10</title>
+				<desc>3</desc>
+				<rect x="0" y="561.159" width="14.1732" height="42.5197" class="st3"/>
+				<text x="4.59" y="585.42" class="st4">3</text>			</g>
+			<g id="shape12-14" transform="translate(56.6929,4.54747E-13)">
+				<title>矩形.12</title>
+				<desc>4</desc>
+				<rect x="0" y="546.986" width="14.1732" height="56.6929" class="st3"/>
+				<text x="4.59" y="578.33" class="st4">4</text>			</g>
+			<g id="shape13-17" transform="translate(70.8661,-4.54747E-13)">
+				<title>矩形.13</title>
+				<desc>5</desc>
+				<rect x="0" y="532.813" width="14.1732" height="70.8661" class="st3"/>
+				<text x="4.59" y="571.25" class="st4">5</text>			</g>
+			<g id="shape14-20" transform="translate(85.0394,4.54747E-13)">
+				<title>矩形.14</title>
+				<desc>6</desc>
+				<rect x="0" y="518.64" width="14.1732" height="85.0394" class="st3"/>
+				<text x="4.59" y="564.16" class="st4">6</text>			</g>
+			<g id="shape15-23" transform="translate(99.2126,-1.13687E-13)">
+				<title>矩形.15</title>
+				<desc>7</desc>
+				<rect x="0" y="504.467" width="14.1732" height="99.2126" class="st3"/>
+				<text x="4.59" y="557.07" class="st4">7</text>			</g>
+			<g id="shape16-26" transform="translate(113.386,-4.54747E-13)">
+				<title>矩形.16</title>
+				<desc>8</desc>
+				<rect x="0" y="490.293" width="14.1732" height="113.386" class="st3"/>
+				<text x="4.59" y="549.99" class="st4">8</text>			</g>
+			<g id="shape17-29" transform="translate(127.559,4.54747E-13)">
+				<title>矩形.17</title>
+				<desc>9</desc>
+				<rect x="0" y="476.12" width="14.1732" height="127.559" class="st3"/>
+				<text x="4.59" y="542.9" class="st4">9</text>			</g>
+			<g id="shape18-32" transform="translate(141.732,-1.13687E-13)">
+				<title>矩形.18</title>
+				<desc>10</desc>
+				<rect x="0" y="461.947" width="14.1732" height="141.732" class="st3"/>
+				<text x="4.09" y="534.61" class="st5">10</text>			</g>
+			<g id="shape19-35" transform="translate(127.559,-127.559)">
+				<title>方形.19</title>
+				<desc>1</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 589.51 L0 589.51 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="599.59" class="st7">1</text>			</g>
+			<g id="shape20-38" transform="translate(113.386,-113.386)">
+				<title>矩形.20</title>
+				<desc>2</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 575.33 L0 575.33 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="592.51" class="st7">2</text>			</g>
+			<g id="shape21-41" transform="translate(99.2126,-99.2126)">
+				<title>矩形.21</title>
+				<desc>3</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 561.16 L0 561.16 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="585.42" class="st7">3</text>			</g>
+			<g id="shape22-44" transform="translate(85.0394,-85.0394)">
+				<title>矩形.22</title>
+				<desc>4</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 546.99 L0 546.99 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="578.33" class="st7">4</text>			</g>
+			<g id="shape23-47" transform="translate(70.8661,-70.8661)">
+				<title>矩形.23</title>
+				<desc>5</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 532.81 L0 532.81 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="571.25" class="st7">5</text>			</g>
+			<g id="shape24-50" transform="translate(56.6929,-56.6929)">
+				<title>矩形.24</title>
+				<desc>6</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 518.64 L0 518.64 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="564.16" class="st7">6</text>			</g>
+			<g id="shape25-53" transform="translate(42.5197,-42.5197)">
+				<title>矩形.25</title>
+				<desc>7</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 504.47 L0 504.47 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="557.07" class="st7">7</text>			</g>
+			<g id="shape26-56" transform="translate(28.3465,-28.3465)">
+				<title>矩形.26</title>
+				<desc>8</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 490.29 L0 490.29 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="549.99" class="st7">8</text>			</g>
+			<g id="shape27-59" transform="translate(14.1732,-14.1732)">
+				<title>矩形.27</title>
+				<desc>9</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 476.12 L0 476.12 L0 603.68 Z" class="st6"/>
+				<text x="4.59" y="542.9" class="st7">9</text>			</g>
+			<g id="shape28-62">
+				<title>矩形.28</title>
+				<desc>10</desc>
+				<path d="M0 603.68 L14.17 603.68 L14.17 461.95 L0 461.95 L0 603.68 Z" class="st6"/>
+				<text x="4.09" y="534.61" class="st8">10</text>			</g>
+		</g>
+		<g id="shape81-65" transform="translate(457.745,-358.532)">
+			<title>三角形</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape82-68" transform="translate(429.399,-301.84)">
+			<title>三角形.39</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape83-71" transform="translate(486.092,-301.84)">
+			<title>三角形.40</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape84-74" transform="translate(457.745,-301.84)">
+			<title>三角形.41</title>
+			<desc>2</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">2</text>		</g>
+		<g id="shape85-77" transform="translate(471.918,-330.186)">
+			<title>三角形.42</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape86-80" transform="translate(443.572,-330.186)">
+			<title>三角形.43</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape87-83" transform="translate(415.225,-273.493)">
+			<title>三角形.44</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape88-86" transform="translate(500.265,-273.493)">
+			<title>三角形.45</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape89-89" transform="translate(443.572,-273.493)">
+			<title>三角形.46</title>
+			<desc>3</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">3</text>		</g>
+		<g id="shape90-92" transform="translate(471.918,-273.493)">
+			<title>三角形.47</title>
+			<desc>3</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">3</text>		</g>
+		<g id="shape91-95" transform="translate(401.052,-245.147)">
+			<title>三角形.48</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape92-98" transform="translate(514.438,-245.147)">
+			<title>三角形.49</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape93-101" transform="translate(429.399,-245.147)">
+			<title>三角形.50</title>
+			<desc>4</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">4</text>		</g>
+		<g id="shape94-104" transform="translate(457.745,-245.147)">
+			<title>三角形.51</title>
+			<desc>6</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">6</text>		</g>
+		<g id="shape95-107" transform="translate(486.092,-245.147)">
+			<title>三角形.52</title>
+			<desc>4</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">4</text>		</g>
+		<g id="shape96-110" transform="translate(386.879,-216.8)">
+			<title>三角形.53</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape97-113" transform="translate(415.225,-216.8)">
+			<title>三角形.54</title>
+			<desc>5</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">5</text>		</g>
+		<g id="shape98-116" transform="translate(443.572,-216.8)">
+			<title>三角形.55</title>
+			<desc>10</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">10</text>		</g>
+		<g id="shape99-119" transform="translate(471.918,-216.8)">
+			<title>三角形.56</title>
+			<desc>10</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">10</text>		</g>
+		<g id="shape100-122" transform="translate(500.265,-216.8)">
+			<title>三角形.57</title>
+			<desc>5</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">5</text>		</g>
+		<g id="shape101-125" transform="translate(528.611,-216.8)">
+			<title>三角形.58</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape102-128" transform="translate(372.706,-188.454)">
+			<title>三角形.59</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape103-131" transform="translate(401.052,-188.454)">
+			<title>三角形.60</title>
+			<desc>6</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">6</text>		</g>
+		<g id="shape104-134" transform="translate(486.092,-188.454)">
+			<title>三角形.61</title>
+			<desc>15</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">15</text>		</g>
+		<g id="shape105-137" transform="translate(514.438,-188.454)">
+			<title>三角形.62</title>
+			<desc>6</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">6</text>		</g>
+		<g id="shape106-140" transform="translate(429.399,-188.454)">
+			<title>三角形.63</title>
+			<desc>15</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">15</text>		</g>
+		<g id="shape107-143" transform="translate(457.745,-188.454)">
+			<title>三角形.64</title>
+			<desc>20</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">20</text>		</g>
+		<g id="shape108-146" transform="translate(542.784,-188.454)">
+			<title>三角形.65</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape115-149" transform="translate(358.532,-160.107)">
+			<title>三角形.75</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape117-152" transform="translate(386.879,-160.107)">
+			<title>三角形.76</title>
+			<desc>7</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">7</text>		</g>
+		<g id="shape118-155" transform="translate(415.225,-160.107)">
+			<title>三角形.77</title>
+			<desc>21</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">21</text>		</g>
+		<g id="shape119-158" transform="translate(443.572,-160.107)">
+			<title>三角形.78</title>
+			<desc>35</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">35</text>		</g>
+		<g id="shape120-161" transform="translate(471.918,-160.107)">
+			<title>三角形.79</title>
+			<desc>35</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">35</text>		</g>
+		<g id="shape121-164" transform="translate(500.265,-160.107)">
+			<title>三角形.80</title>
+			<desc>21</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">21</text>		</g>
+		<g id="shape122-167" transform="translate(528.611,-160.107)">
+			<title>三角形.81</title>
+			<desc>7</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">7</text>		</g>
+		<g id="shape123-170" transform="translate(556.958,-160.107)">
+			<title>三角形.82</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape133-173" transform="translate(344.359,-131.761)">
+			<title>三角形.92</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape134-176" transform="translate(372.706,-131.761)">
+			<title>三角形.93</title>
+			<desc>8</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">8</text>		</g>
+		<g id="shape135-179" transform="translate(401.052,-131.761)">
+			<title>三角形.94</title>
+			<desc>28</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">28</text>		</g>
+		<g id="shape136-182" transform="translate(429.399,-131.761)">
+			<title>三角形.95</title>
+			<desc>56</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">56</text>		</g>
+		<g id="shape137-185" transform="translate(457.745,-131.761)">
+			<title>三角形.96</title>
+			<desc>70</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">70</text>		</g>
+		<g id="shape138-188" transform="translate(486.092,-131.761)">
+			<title>三角形.97</title>
+			<desc>56</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">56</text>		</g>
+		<g id="shape139-191" transform="translate(514.438,-131.761)">
+			<title>三角形.98</title>
+			<desc>28</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">28</text>		</g>
+		<g id="shape140-194" transform="translate(542.784,-131.761)">
+			<title>三角形.99</title>
+			<desc>8</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">8</text>		</g>
+		<g id="shape141-197" transform="translate(571.131,-131.761)">
+			<title>三角形.100</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape144-200" transform="translate(585.304,-103.414)">
+			<title>三角形.105</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape145-203" transform="translate(330.186,-103.414)">
+			<title>三角形.115</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape146-206" transform="translate(358.532,-103.414)">
+			<title>三角形.116</title>
+			<desc>9</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">9</text>		</g>
+		<g id="shape147-209" transform="translate(556.958,-103.414)">
+			<title>三角形.117</title>
+			<desc>9</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">9</text>		</g>
+		<g id="shape148-212" transform="translate(386.879,-103.414)">
+			<title>三角形.118</title>
+			<desc>36</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">36</text>		</g>
+		<g id="shape149-215" transform="translate(528.611,-103.414)">
+			<title>三角形.119</title>
+			<desc>36</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">36</text>		</g>
+		<g id="shape150-218" transform="translate(415.225,-103.414)">
+			<title>三角形.120</title>
+			<desc>84</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">84</text>		</g>
+		<g id="shape151-221" transform="translate(500.265,-103.414)">
+			<title>三角形.121</title>
+			<desc>84</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">84</text>		</g>
+		<g id="shape152-224" transform="translate(443.572,-103.414)">
+			<title>三角形.122</title>
+			<desc>126</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">126</text>		</g>
+		<g id="shape153-227" transform="translate(471.918,-103.414)">
+			<title>三角形.123</title>
+			<desc>126</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">126</text>		</g>
+		<g id="shape155-230" transform="translate(301.84,-46.7215)">
+			<title>三角形.103</title>
+			<path d="M340.16 603.68 L170.08 263.52 L0 603.68 L340.16 603.68 Z" class="st11"/>
+		</g>
+		<g id="shape157-232" transform="translate(571.131,-75.0679)">
+			<title>三角形.157</title>
+			<desc>10</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">10</text>		</g>
+		<g id="shape158-235" transform="translate(316.013,-75.0679)">
+			<title>三角形.158</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape159-238" transform="translate(344.359,-75.0679)">
+			<title>三角形.159</title>
+			<desc>10</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">10</text>		</g>
+		<g id="shape160-241" transform="translate(542.784,-75.0679)">
+			<title>三角形.160</title>
+			<desc>45</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">45</text>		</g>
+		<g id="shape161-244" transform="translate(372.706,-75.0679)">
+			<title>三角形.161</title>
+			<desc>45</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">45</text>		</g>
+		<g id="shape162-247" transform="translate(514.438,-75.0679)">
+			<title>三角形.162</title>
+			<desc>120</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">120</text>		</g>
+		<g id="shape163-250" transform="translate(401.052,-75.0679)">
+			<title>三角形.163</title>
+			<desc>120</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">120</text>		</g>
+		<g id="shape164-253" transform="translate(486.092,-75.0679)">
+			<title>三角形.164</title>
+			<desc>210</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">210</text>		</g>
+		<g id="shape165-256" transform="translate(429.399,-75.0679)">
+			<title>三角形.165</title>
+			<desc>210</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">210</text>		</g>
+		<g id="shape166-259" transform="translate(457.745,-75.0679)">
+			<title>三角形.166</title>
+			<desc>252</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">252</text>		</g>
+		<g id="shape167-262" transform="translate(599.477,-75.0679)">
+			<title>三角形.167</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape168-265" transform="translate(556.958,-46.7215)">
+			<title>三角形.168</title>
+			<desc>10</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">10</text>		</g>
+		<g id="shape169-268" transform="translate(301.84,-46.7215)">
+			<title>三角形.169</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape170-271" transform="translate(330.186,-46.7215)">
+			<title>三角形.170</title>
+			<desc>11</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">11</text>		</g>
+		<g id="shape171-274" transform="translate(528.611,-46.7215)">
+			<title>三角形.171</title>
+			<desc>165</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">165</text>		</g>
+		<g id="shape172-277" transform="translate(358.532,-46.7215)">
+			<title>三角形.172</title>
+			<desc>55</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">55</text>		</g>
+		<g id="shape173-280" transform="translate(500.265,-46.7215)">
+			<title>三角形.173</title>
+			<desc>330</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">330</text>		</g>
+		<g id="shape174-283" transform="translate(386.879,-46.7215)">
+			<title>三角形.174</title>
+			<desc>165</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">165</text>		</g>
+		<g id="shape175-286" transform="translate(471.918,-46.7215)">
+			<title>三角形.175</title>
+			<desc>462</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">462</text>		</g>
+		<g id="shape176-289" transform="translate(415.225,-46.7215)">
+			<title>三角形.176</title>
+			<desc>330</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">330</text>		</g>
+		<g id="shape177-292" transform="translate(443.572,-46.7215)">
+			<title>三角形.177</title>
+			<desc>462</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="5.17" y="597.83" class="st10">462</text>		</g>
+		<g id="shape178-295" transform="translate(585.304,-46.7215)">
+			<title>三角形.178</title>
+			<desc>11</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="8.17" y="597.83" class="st10">11</text>		</g>
+		<g id="shape179-298" transform="translate(613.651,-46.7215)">
+			<title>三角形.179</title>
+			<desc>1</desc>
+			<path d="M28.35 603.68 L14.17 575.33 L0 603.68 L28.35 603.68 Z" class="st9"/>
+			<text x="11.17" y="597.83" class="st10">1</text>		</g>
+		<g id="shape154-301" transform="translate(503.099,-372.706)">
+			<title>動態連接器.124</title>
+			<path d="M0 603.68 L-167.24 938.17" class="st12"/>
+		</g>
+		<g id="shape181-304" transform="translate(531.446,-372.706)">
+			<title>動態連接器.181</title>
+			<path d="M0 603.68 L-166.11 938.17" class="st13"/>
+		</g>
+		<g id="shape32-307" transform="translate(89.2411,-436.485)">
+			<title>動態連接器</title>
+			<path d="M0 596.59 L40.16 596.59 A2.3622 2.3622 0 0 1 44.88 596.59 L467.72 596.59" class="st14"/>
+		</g>
+		<g id="shape33-310" transform="translate(124.674,-471.918)">
+			<title>動態連接器.139</title>
+			<path d="M7.09 603.68 L7.09 660.37" class="st14"/>
+		</g>
+		<g id="shape34-313" transform="translate(89.2411,-443.572)">
+			<title>Sheet.34</title>
+			<desc>n</desc>
+			<rect x="0" y="575.333" width="42.5197" height="28.3465" class="st1"/>
+			<text x="17.26" y="594.31" class="st15">n</text>		</g>
+		<g id="shape35-316" transform="translate(75.0679,-415.225)">
+			<title>Sheet.35</title>
+			<desc>F(n)</desc>
+			<rect x="0" y="575.333" width="56.6929" height="28.3465" class="st1"/>
+			<text x="13.68" y="594.31" class="st16">F(n)</text>		</g>
+		<g id="shape47-319" transform="translate(528.611,-443.572)">
+			<title>Sheet.47</title>
+			<desc>10</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st15">10</text>		</g>
+		<g id="shape48-322" transform="translate(486.092,-443.572)">
+			<title>Sheet.48</title>
+			<desc>9</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">9</text>		</g>
+		<g id="shape49-325" transform="translate(443.572,-443.572)">
+			<title>Sheet.49</title>
+			<desc>8</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">8</text>		</g>
+		<g id="shape50-328" transform="translate(401.052,-443.572)">
+			<title>Sheet.50</title>
+			<desc>7</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">7</text>		</g>
+		<g id="shape51-331" transform="translate(358.532,-443.572)">
+			<title>Sheet.51</title>
+			<desc>6</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">6</text>		</g>
+		<g id="shape52-334" transform="translate(316.013,-443.572)">
+			<title>Sheet.52</title>
+			<desc>5</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">5</text>		</g>
+		<g id="shape53-337" transform="translate(273.493,-443.572)">
+			<title>Sheet.53</title>
+			<desc>4</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">4</text>		</g>
+		<g id="shape54-340" transform="translate(188.454,-443.572)">
+			<title>Sheet.54</title>
+			<desc>2</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">2</text>		</g>
+		<g id="shape55-343" transform="translate(145.934,-443.572)">
+			<title>Sheet.55</title>
+			<desc>1</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">1</text>		</g>
+		<g id="shape57-346" transform="translate(230.973,-443.572)">
+			<title>Sheet.57</title>
+			<desc>3</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st15">3</text>		</g>
+		<g id="shape58-349" transform="translate(145.934,-415.225)">
+			<title>Sheet.58</title>
+			<desc>1</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st16">1</text>		</g>
+		<g id="shape59-352" transform="translate(188.454,-415.225)">
+			<title>Sheet.59</title>
+			<desc>3</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st16">3</text>		</g>
+		<g id="shape60-355" transform="translate(230.973,-415.225)">
+			<title>Sheet.60</title>
+			<desc>6</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.17" y="594.31" class="st16">6</text>		</g>
+		<g id="shape61-358" transform="translate(358.532,-415.225)">
+			<title>Sheet.61</title>
+			<desc>21</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st16">21</text>		</g>
+		<g id="shape62-361" transform="translate(316.013,-415.225)">
+			<title>Sheet.62</title>
+			<desc>15</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st16">15</text>		</g>
+		<g id="shape63-364" transform="translate(273.493,-415.225)">
+			<title>Sheet.63</title>
+			<desc>10</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st16">10</text>		</g>
+		<g id="shape64-367" transform="translate(528.611,-415.225)">
+			<title>Sheet.64</title>
+			<desc>55</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st16">55</text>		</g>
+		<g id="shape65-370" transform="translate(486.092,-415.225)">
+			<title>Sheet.65</title>
+			<desc>45</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st16">45</text>		</g>
+		<g id="shape66-373" transform="translate(443.572,-415.225)">
+			<title>Sheet.66</title>
+			<desc>36</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st16">36</text>		</g>
+		<g id="shape67-376" transform="translate(401.052,-415.225)">
+			<title>Sheet.67</title>
+			<desc>28</desc>
+			<rect x="0" y="575.333" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6.17" y="594.31" class="st16">28</text>		</g>
+		<g id="shape30-379" transform="translate(46.7215,-486.092)">
+			<title>Sheet.30</title>
+			<desc>F(n) = 1 + 2 + 3 + … + n =</desc>
+			<rect x="0" y="561.159" width="226.772" height="42.5197" class="st1"/>
+			<text x="4" y="588.03" class="st17">F(n) = 1 + 2 + 3 + <tspan class="st18">…</tspan> + n = </text>		</g>
+		<g id="shape184-383" transform="translate(259.32,-506.232)">
+			<title>Sheet.184</title>
+			<path d="M0 603.68 L99.21 603.68" class="st19"/>
+		</g>
+		<g id="shape185-386" transform="translate(273.493,-479.005)">
+			<title>Sheet.185</title>
+			<desc>2</desc>
+			<rect x="0" y="575.333" width="70.8661" height="28.3465" class="st1"/>
+			<text x="30.93" y="594.91" class="st17">2</text>		</g>
+		<g id="shape186-389" transform="translate(259.32,-506.978)">
+			<title>Sheet.186</title>
+			<desc>n * (n + 1)</desc>
+			<rect x="0" y="575.333" width="99.2126" height="28.3465" class="st1"/>
+			<text x="11.54" y="594.91" class="st17">n * (n + 1)</text>		</g>
+		<g id="shape187-392" transform="translate(486.092,-358.532)">
+			<title>Sheet.187</title>
+			<desc>n</desc>
+			<rect x="0" y="561.159" width="42.5197" height="42.5197" class="st1"/>
+			<text x="17.26" y="587.22" class="st20">n</text>		</g>
+		<g id="shape188-395" transform="translate(514.438,-358.532)">
+			<title>Sheet.188</title>
+			<desc>F(n)</desc>
+			<rect x="0" y="561.159" width="42.5197" height="42.5197" class="st1"/>
+			<text x="7.48" y="587.22" class="st21">F(n)</text>		</g>
+		<g id="shape189-398" transform="translate(301.84,-18.375)">
+			<title>Sheet.189</title>
+			<desc>Pascal&#39;s Triangle</desc>
+			<rect x="0" y="575.333" width="340.157" height="28.3465" class="st1"/>
+			<text x="122.75" y="593.71" class="st22">Pascal&#39;s Triangle</text>		</g>
+	</g>
+</svg>
