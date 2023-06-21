@@ -1,10 +1,14 @@
 ![summation](/Images/summation.svg)
 
-Function sum_1toN(n) calculates 1 + 2 + 3 + ... + (n - 1) + n = n * (n + 1) / 2
-
 ### 1. recursive version:
 
 ```C++
+/*
+ *	sum_1toN(n) =	1 + 2 + 3 + ... + (n - 1) + n = n * (n + 1) / 2, if 0 < n
+ *
+ *			0, otherwise
+ */
+
 template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
 U sum_1toN(T n)
 {

@@ -1,12 +1,14 @@
-Function factorial(n) calculates 1 * 2 * 3 * ... * (n - 1) * n = n!
-
-<br>
-
 ## Basic idea:
 
 ### 1. recursive version:
 
 ```C++
+/*
+ *	factorial(n) =	1 * 2 * 3 * ... * (n - 1) * n = n!, if 1 < n
+ *
+ *			1, otherwise
+ */
+
 using std::size_t;
 
 constexpr size_t factorial(size_t n)
@@ -73,7 +75,7 @@ constexpr size_t factorial<0>()
 }
 ```
 
-### 3. non-recursive version (with overflow checking):
+### 3. non-recursive version:
 
 ```C++
 /*
@@ -85,7 +87,7 @@ constexpr U factorial_limit(U)
 {
 	U n { 1 };
 
-	for (U prev { 1 }, curr{ 1 }; prev == curr / n; )
+	for (U prev { 1 }, curr { 1 }; prev == curr / n; )
 	{
 		prev = curr;
 		curr *= ++n;
@@ -139,7 +141,7 @@ int main(int argc, char* argv[])
 		static_assert(factorial(2)  == 2);
 		static_assert(factorial(3)  == 6);
 		static_assert(factorial(10) == 3628800);
-		//static_assert(factorial(13));			//compile-time error
+		//static_assert(factorial(13));			//overflowed with a compile-time error
 		static_assert(factorial(20ULL));
 		static_assert(factorial(21ULL));		//overflowed but no overflow checking
 	}
