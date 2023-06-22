@@ -147,9 +147,6 @@ U fibonacci(T n)
 
 ```C++
 #include <iostream>
-#include <cstddef>
-#include <climits>
-#include <cmath>
 #include "Fibonacci.h"
 
 void test_func(auto fibonacci, int n)
