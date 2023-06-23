@@ -1,4 +1,4 @@
-![Fibonacci numbers](/Images/Fibonacci.svg)
+![Fibonacci numbers](/Images/Recursion/Fibonacci.svg)
 
 ### 1. recursive version:
 

@@ -32,7 +32,7 @@ constexpr U combination(T n, T k)
 ### 2. non-recursive version (with overflow checking):
 
 ```C++
-template<class T, class U = T, std::enable_if_t<std::is_integral_v<T>&& std::is_integral_v<U>, int> = 0>
+template<class T, class U = T, std::enable_if_t<std::is_integral_v<T> && std::is_integral_v<U>, int> = 0>
 constexpr U combination(T n, T k)
 {
 	//input checking
@@ -102,7 +102,7 @@ int main(int argc, char* argv[])
 
 		std::cout << "combination(30, 15) = " << combination(30, 15) << "\n";
 		std::cout << "combination(34, 15) = " << combination(34, 15) << "\n";
-		//std::cout << "combination(34, 16) = " << combination(34, 16) << "\n";				//overflowed
+		//std::cout << "combination(34, 16) = " << combination(34, 16) << "\n";			//overflowed
 		std::cout << "combination(34, 16) = " << combination<std::size_t>(34, 16) << "\n\n";
 	}
 
@@ -122,7 +122,7 @@ int main(int argc, char* argv[])
 
 		test_func(combination<value_type>, num);
 
-		std::cout << "combination(30, 15) = " << combination(30, 15)              << "\n";		//possible overflow
+		std::cout << "combination(30, 15) = " << combination(30, 15)              << "\n";	//possible overflow
 		std::cout << "combination(30, 15) = " << combination<std::size_t>(30, 15) << "\n";
 		std::cout << "combination(34, 15) = " << combination<std::size_t>(34, 15) << "\n";
 		std::cout << "combination(34, 16) = " << combination<std::size_t>(34, 16) << "\n\n";

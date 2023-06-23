@@ -1,4 +1,4 @@
-![summation](/Images/summation.svg)
+![summation](/Images/Recursion/summation.svg)
 
 ### 1. recursive version:
 

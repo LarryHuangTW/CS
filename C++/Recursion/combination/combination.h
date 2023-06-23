@@ -29,7 +29,7 @@ namespace cust					//customized / non-standard
 
 	namespace non_recursive_version				//mathematical formula
 	{
-		template<class T, class U = T, std::enable_if_t<std::is_integral_v<T>&& std::is_integral_v<U>, int> = 0>
+		template<class T, class U = T, std::enable_if_t<std::is_integral_v<T> && std::is_integral_v<U>, int> = 0>
 		constexpr U combination(T n, T k)
 		{
 			//input checking
