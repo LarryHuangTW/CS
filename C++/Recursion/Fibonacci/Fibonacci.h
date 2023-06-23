@@ -1,11 +1,11 @@
 #pragma once
 
-/*					 _
-					|	fibonacci(n + 2) - fibonacci(n + 1) , if n < 0
-					|
-	fibonacci(n) =	|-	n									, if n = 0 , 1
-					|
-					|_	fibonacci(n - 2) + fibonacci(n - 1) , if n > 1
+/*			 _
+			|	fibonacci(n + 2) - fibonacci(n + 1) , if n < 0
+			|
+	fibonacci(n) =	|-	n				    , if n = 0 , 1
+			|
+			|_	fibonacci(n - 2) + fibonacci(n - 1) , if n > 1
 */
 
 #include <iostream>
