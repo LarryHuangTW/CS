@@ -60,7 +60,7 @@ namespace cust					//customized / non-standard
 
 			permute(data, 0, results);
 
-			return results;
+			return results;					//return value optimization (RVO) is expected
 		}
 
 		namespace Heap_algorithm
@@ -101,7 +101,7 @@ namespace cust					//customized / non-standard
 					permute(data, data.size(), results);
 				}
 
-				return results;
+				return results;					//return value optimization (RVO) is expected
 			}
 		}
 	}
@@ -148,13 +148,13 @@ namespace cust					//customized / non-standard
 				}
 				else
 				{
-					std::swap(data[i], data[indices[i]]);			//swap and generate a new permutation
+					std::swap(data[i], data[indices[i]]);
 
 					++i;
 				}
 			}
 
-			return results;
+			return results;					//return value optimization (RVO) is expected
 		}
 	}
 }

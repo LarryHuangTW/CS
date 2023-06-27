@@ -39,7 +39,7 @@ constexpr void permute(T& data, size_t idx, vector<T>& results)
 
 			permute(data, idx + 1, results);
 
-			std::swap(data[idx], data[i]);			//restore previous swap
+			std::swap(data[idx], data[i]);		//restore previous swap
 		}
 	}
 }
@@ -53,7 +53,7 @@ constexpr vector<T> permutate(T& data)
 
 	permute(data, 0, results);
 
-	return results;
+	return results;			//return value optimization (RVO) is expected
 }
 ```
 
@@ -96,7 +96,7 @@ constexpr vector<T> permutate(T& data)
 		permute(data, data.size(), results);
 	}
 
-	return results;
+	return results;			//return value optimization (RVO) is expected
 }
 ```
 
@@ -137,7 +137,7 @@ constexpr vector<T> permutate(T& data)
 
 			--i;
 
-			std::swap(data[i], data[indices[i]]);			//restore previous swap
+			std::swap(data[i], data[indices[i]]);		//restore previous swap
 
 			++indices[i];
 		}
@@ -149,7 +149,7 @@ constexpr vector<T> permutate(T& data)
 		}
 	}
 
-	return results;
+	return results;			//return value optimization (RVO) is expected
 }
 ```
 
