@@ -5,7 +5,6 @@
  *	Combination (each element is unique)
  *
  *	function parameter:
- *
  *				first, last: the range of elements to generate combinations
  *				k: the number of elements to form a combination
  *
@@ -249,7 +248,7 @@ int main(int argc, char* argv[])
 
 		std::cout << "combination(30, 15) = " << combination(30, 15) << "\n";
 		std::cout << "combination(34, 15) = " << combination(34, 15) << "\n";
-		//std::cout << "combination(34, 16) = " << combination(34, 16) << "\n";						//overflowed
+		//std::cout << "combination(34, 16) = " << combination(34, 16) << "\n";			//overflowed
 		std::cout << "combination(34, 16) = " << combination<std::size_t>(34, 16) << "\n\n";
 
 		test_func(combination<iterator_type>, str);
@@ -271,7 +270,7 @@ int main(int argc, char* argv[])
 
 		test_func(combination<value_type>, num);
 
-		std::cout << "combination(30, 15) = " << combination(30, 15)              << "\n";			//possible overflow
+		std::cout << "combination(30, 15) = " << combination(30, 15)              << "\n";	//possible overflow
 		std::cout << "combination(30, 15) = " << combination<std::size_t>(30, 15) << "\n";
 		std::cout << "combination(34, 15) = " << combination<std::size_t>(34, 15) << "\n";
 		std::cout << "combination(34, 16) = " << combination<std::size_t>(34, 16) << "\n\n";
