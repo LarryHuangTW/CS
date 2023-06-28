@@ -1,13 +1,24 @@
 ![combination](/Images/Recursion/combination.svg)
 
+```C++
+/*
+ *	Combination (each element is unique)
+ *
+ *	function parameter:
+ *
+ *				first, last: the range of elements to generate combinations
+ *				k: the number of elements to form a combination
+ *
+ *	return value: all possible combination results
+ */
+```
+
 ### 1. recursive version:
 
 ```C++
 /*
-	                            n!
-	combination(n, k) = -------------------
-	                       (n - k)! * k!
-*/
+ *	combination(n, k) = combination(n - 1, k - 1) + combination(n - 1, k)
+ */
 
 template<class T, class U>
 constexpr U comb(T n, T k)
@@ -27,11 +38,60 @@ constexpr U combination(T n, T k)
 
 	return comb<T, U>(n, k);
 }
+
+template<class FwdIter, class T = typename std::iterator_traits<FwdIter>::value_type>
+void comb(FwdIter first, size_t n, size_t k, vector<T>& tmp, vector<vector<T>>& results)
+{
+	if (k == 0)
+	{
+		results.push_back(tmp);
+
+		return;
+	}
+
+	for ( ; k <= n; --n, ++first)
+	{
+		tmp.push_back(*first);
+
+		comb(std::next(first), n - 1, k - 1, tmp, results);
+
+		tmp.pop_back();
+	}
+}
+
+template<class FwdIter, class T = typename std::iterator_traits<FwdIter>::value_type>
+vector<vector<T>> combination(FwdIter first, FwdIter last, size_t k)
+{
+	const auto n { static_cast<size_t>(std::distance(first, last)) };
+	vector<T> tmp {};
+	vector<vector<T>> results {};
+
+	if (0 < n && k <= n)
+	{
+		const auto sz { combination(n, k) };
+
+		tmp.reserve(k);
+		results.reserve(sz);
+
+		comb(first, n, k, tmp, results);
+
+		if (results.size() != sz)
+			std::cerr << "size " << results.size() << " != " << sz << "\n";
+	}
+
+	return results;
+}
 ```
 
 ### 2. non-recursive version (with overflow checking):
 
 ```C++
+/*
+ *				      n!
+ *	combination(n, k) = ---------------------
+ *				(n - k)! * k!
+ */
+
 template<class T, class U = T, std::enable_if_t<std::is_integral_v<T> && std::is_integral_v<U>, int> = 0>
 constexpr U combination(T n, T k)
 {
@@ -58,6 +118,63 @@ constexpr U combination(T n, T k)
 
 	return result;
 }
+
+template<class FwdIter, class T = typename std::iterator_traits<FwdIter>::value_type>
+vector<vector<T>> combination(FwdIter first, FwdIter last, size_t k)
+{
+	struct stk_val
+	{
+		FwdIter iter;
+		size_t  n;
+		size_t  k;
+	};
+
+	const auto n  { static_cast<size_t>(std::distance(first, last)) };
+	const auto sz { combination(n, k) };
+
+	stack<stk_val>    stk {};
+	vector<T>         tmp {};
+	vector<vector<T>> results {};
+
+	if (0 < n && k <= n)
+	{
+		tmp.reserve(k);
+		results.reserve(sz);
+
+		stk.emplace(first, n, k);
+	}
+
+	while ( !stk.empty() )
+	{
+		if (0 < stk.top().k && stk.top().k <= stk.top().n)
+		{
+			tmp.push_back(*stk.top().iter);
+
+			stk.emplace(std::next(stk.top().iter), stk.top().n - 1, stk.top().k - 1);
+		}
+		else
+		{
+			if (stk.top().k == 0)
+				results.push_back(tmp);
+
+			stk.pop();
+
+			if ( !tmp.empty() )
+				tmp.pop_back();
+
+			if ( !stk.empty() )
+			{
+				++stk.top().iter;
+				--stk.top().n;
+			}
+		}
+	}
+
+	if (results.size() != sz)
+		std::cerr << "size " << results.size() << " != " << sz << "\n";
+
+	return results;
+}
 ```
 
 ## Example:
@@ -65,9 +182,10 @@ constexpr U combination(T n, T k)
 ```C++
 #include <iostream>
 #include <cstddef>
+#include <string>
 #include "combination.h"
 
-template<class T>
+template<class T, std::enable_if_t<std::is_integral_v<T>, int> = 0>
 void test_func(auto combination, T n)
 {
 	for (T i { 0 }; i <= n; ++i) {
@@ -78,11 +196,40 @@ void test_func(auto combination, T n)
 	std::cout << "\n";
 }
 
+void test_func(auto combination, const std::string& str)
+{
+	using std::size_t;
+
+	for (size_t n { 1 }; n <= str.size(); ++n) {
+		for (size_t k { 1 }; k <= n; ++k) {
+			auto results { combination(str.begin(), std::next(str.begin(), n), k) };
+
+			std::cout << "There are  " << results.size() << " results of combination(" << n << ", " << k << ")\n\n";
+
+			for (const auto& vec : results)
+			{
+				std::cout << "(";
+
+				for (auto elem : vec)
+					std::cout << elem << " ";
+
+				std::cout << "\b) , ";
+			}
+
+			std::cout << "\b\b \n\n";
+		}
+	}
+}
+
 int main(int argc, char* argv[])
 {
 	using value_type = int;
 
 	const value_type num { 10 };
+
+	const std::string str { "ABCDEFG" };
+
+	using iterator_type = typename std::string::const_iterator;
 
 	{
 		using namespace cust::recursive_version;
@@ -102,8 +249,10 @@ int main(int argc, char* argv[])
 
 		std::cout << "combination(30, 15) = " << combination(30, 15) << "\n";
 		std::cout << "combination(34, 15) = " << combination(34, 15) << "\n";
-		//std::cout << "combination(34, 16) = " << combination(34, 16) << "\n";			//overflowed
+		//std::cout << "combination(34, 16) = " << combination(34, 16) << "\n";						//overflowed
 		std::cout << "combination(34, 16) = " << combination<std::size_t>(34, 16) << "\n\n";
+
+		test_func(combination<iterator_type>, str);
 	}
 
 	{
@@ -122,10 +271,12 @@ int main(int argc, char* argv[])
 
 		test_func(combination<value_type>, num);
 
-		std::cout << "combination(30, 15) = " << combination(30, 15)              << "\n";	//possible overflow
+		std::cout << "combination(30, 15) = " << combination(30, 15)              << "\n";			//possible overflow
 		std::cout << "combination(30, 15) = " << combination<std::size_t>(30, 15) << "\n";
 		std::cout << "combination(34, 15) = " << combination<std::size_t>(34, 15) << "\n";
 		std::cout << "combination(34, 16) = " << combination<std::size_t>(34, 16) << "\n\n";
+
+		test_func(combination<iterator_type>, str);
 	}
 
 	return 0;
