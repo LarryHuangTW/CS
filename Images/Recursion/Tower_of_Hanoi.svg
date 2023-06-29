@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="22.5594in" height="19.8052in" viewBox="0 0 1624.28 1425.98" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st39">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ff0000;font-family:Times New Roman;font-size:1.5em}
+		.st3 {font-size:1em;font-weight:bold}
+		.st4 {baseline-shift:32.4951%;font-size:0.649902em;font-weight:bold}
+		.st5 {font-size:1em}
+		.st6 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st7 {font-size:1.125em;font-style:italic}
+		.st8 {fill:#0000ff;font-size:1em}
+		.st9 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st10 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st11 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st12 {fill:#ffffff;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st13 {fill:#0000ff;font-family:Times New Roman;font-size:0.833336em}
+		.st14 {fill:#ffffff;stroke:#0000ff;stroke-dasharray:1.25,2.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st15 {fill:#0000ff}
+		.st16 {stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st17 {fill:#ffffff;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st18 {fill:none}
+		.st19 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st20 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st21 {fill:none;visibility:hidden}
+		.st22 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st23 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st24 {fill:#ff0000;font-family:Times New Roman;font-size:2.50001em}
+		.st25 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st26 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st27 {fill:none;stroke:#000000;stroke-dasharray:0.24,0.48;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st28 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st29 {marker-end:url(#mrkr5-555);stroke:#000000;stroke-dasharray:0.75,1.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st30 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st31 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st32 {baseline-shift:32.4943%;font-size:0.649886em}
+		.st33 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st34 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st35 {marker-end:url(#mrkr5-555);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st36 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st37 {fill:#ffffff;stroke:#000000;stroke-dasharray:1.25,2.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st38 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st39 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-555" class="st30" refX="-7.63" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>頁-1</title>
+		<g id="shape337-1" transform="translate(32.5482,-656.42)">
+			<title>Sheet.337</title>
+			<desc>Total 2n–1 steps to complete Decide which disk to move in eac...</desc>
+			<rect x="0" y="1369.28" width="297.638" height="56.6929" class="st1"/>
+			<text x="4" y="1392.25" class="st2">Total <tspan class="st3">2</tspan><tspan dy="-0.198em" class="st4">n</tspan><tspan
+						dy="0.129em" class="st3">–</tspan><tspan class="st3">1</tspan> steps to complete <tspan x="4" dy="1.201em"
+						class="st5">Decide which disk to move in each step</tspan></text>		</g>
+		<g id="shape366-9" transform="translate(60.8947,-132.011)">
+			<title>Sheet.366</title>
+			<desc>When disk x in source rod, If number of disks in that rod is ...</desc>
+			<rect x="0" y="1355.11" width="453.543" height="70.8661" class="st1"/>
+			<text x="4" y="1376.74" class="st6">When disk <tspan class="st7">x</tspan> in <tspan class="st8">source rod</tspan>,  <tspan
+						x="4" dy="1.238em" class="st5">If number of disks in that rod is </tspan><tspan class="st8">even</tspan>, then move it to <tspan
+						class="st8">temp rod</tspan>. <tspan x="4" dy="1.2em" class="st5">If number of disks in that rod is </tspan><tspan
+						class="st8">odd</tspan>,  then move it to <tspan class="st8">destination rod</tspan>. </text>		</g>
+		<g id="shape378-20" transform="translate(627.824,-132.011)">
+			<title>Sheet.378</title>
+			<desc>When disk x in temp rod, If number of disks in that rod is ev...</desc>
+			<rect x="0" y="1355.11" width="453.543" height="70.8661" class="st1"/>
+			<text x="4" y="1376.74" class="st6">When disk <tspan class="st7">x</tspan> in <tspan class="st8">temp rod</tspan>,  <tspan
+						x="4" dy="1.238em" class="st5">If number of disks in that rod is </tspan><tspan class="st8">even</tspan>, then move it to <tspan
+						class="st8">source rod</tspan>. <tspan x="4" dy="1.2em" class="st5">If number of disks in that rod is </tspan><tspan
+						class="st8">odd</tspan>,  then move it to <tspan class="st8">destination rod</tspan>. </text>		</g>
+		<g id="shape405-31" transform="translate(1152.23,-132.011)">
+			<title>Sheet.405</title>
+			<desc>When disk x in destination rod, If number of disks in that ro...</desc>
+			<rect x="0" y="1355.11" width="453.543" height="70.8661" class="st1"/>
+			<text x="4" y="1376.74" class="st6">When disk <tspan class="st7">x</tspan> in <tspan class="st8">destination rod</tspan>,  <tspan
+						x="4" dy="1.238em" class="st5">If number of disks in that rod is </tspan><tspan class="st8">even</tspan>, then move it to <tspan
+						class="st8">source rod</tspan>. <tspan x="4" dy="1.2em" class="st5">If number of disks in that rod is </tspan><tspan
+						class="st8">odd</tspan>,  then move it to <tspan class="st8">temp rod</tspan>. </text>		</g>
+		<g id="shape406-42" transform="translate(32.5482,-217.05)">
+			<title>Sheet.406</title>
+			<desc>Decide how to move in each step</desc>
+			<rect x="0" y="1397.63" width="255.118" height="28.3465" class="st1"/>
+			<text x="4" y="1417.2" class="st2">Decide how to move in each step</text>		</g>
+		<g id="group454-45" transform="translate(32.5482,-755.633)">
+			<title>Sheet.454</title>
+			<g id="shape307-46" transform="translate(7.99361E-14,-9.04658E-07)">
+				<title>Sheet.307</title>
+				<path d="M0 1425.98 L255.12 1425.98" class="st9"/>
+			</g>
+			<g id="shape308-49" transform="translate(1468.5,1369.28) rotate(90)">
+				<title>Sheet.308</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape309-52" transform="translate(1553.54,1369.28) rotate(90)">
+				<title>Sheet.309</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape310-55" transform="translate(1638.57,1369.28) rotate(90)">
+				<title>Sheet.310</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape312-58" transform="translate(14.1732,-4.52328E-07)">
+				<title>矩形.312</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st10"/>
+				<text x="25.85" y="1421.89" class="st11">2</text>			</g>
+			<g id="shape313-61" transform="translate(28.3465,-14.1732)">
+				<title>矩形.313</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st12"/>
+				<text x="11.67" y="1421.89" class="st13">1</text>			</g>
+			<g id="shape315-64" transform="translate(198.425,-4.52328E-07)">
+				<title>矩形.315</title>
+				<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape316-66" transform="translate(165.721,-33.6921) rotate(3.81407)">
+				<title>弧線箭頭.316</title>
+				<path d="M124.57 1422.19 L122.67 1423.82 L127.84 1425.98 L126.46 1420.55 L124.57 1422.19 Z" class="st15"/>
+				<path d="M3.27 1422.19 A82.3436 82.3436 0 0 1 124.57 1422.19" class="st16"/>
+				<path d="M124.57 1422.19 L122.67 1423.82 L127.84 1425.98 L126.46 1420.55 L124.57 1422.19" class="st16"/>
+			</g>
+			<g id="shape319-70" transform="translate(283.465,-4.52329E-07)">
+				<title>Sheet.319</title>
+				<path d="M0 1425.98 L255.12 1425.98" class="st9"/>
+			</g>
+			<g id="shape320-73" transform="translate(1751.96,1369.28) rotate(90)">
+				<title>Sheet.320</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape321-76" transform="translate(1837,1369.28) rotate(90)">
+				<title>Sheet.321</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape322-79" transform="translate(1922.04,1369.28) rotate(90)">
+				<title>Sheet.322</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape323-82" transform="translate(297.638,0)">
+				<title>矩形.323</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st17"/>
+				<text x="25.85" y="1421.89" class="st13">2</text>			</g>
+			<g id="shape324-85" transform="translate(481.89,0)">
+				<title>矩形.324</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st10"/>
+				<text x="11.67" y="1421.89" class="st11">1</text>			</g>
+			<g id="shape326-88" transform="translate(207.056,-16.806) rotate(-5.35583)">
+				<title>弧線箭頭.326</title>
+				<path d="M53.99 1421.93 L51.96 1423.41 L56.94 1425.98 L56.01 1420.45 L53.99 1421.93 Z" class="st15"/>
+				<path d="M2.96 1421.93 A33.527 33.527 0 0 1 53.99 1421.93" class="st16"/>
+				<path d="M53.99 1421.93 L51.96 1423.41 L56.94 1425.98 L56.01 1420.45 L53.99 1421.93" class="st16"/>
+			</g>
+			<g id="shape327-92" transform="translate(382.677,-4.52329E-07)">
+				<title>矩形.327</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape328-94" transform="translate(566.929,-9.04658E-07)">
+				<title>Sheet.328</title>
+				<path d="M0 1425.98 L255.12 1425.98" class="st9"/>
+			</g>
+			<g id="shape329-97" transform="translate(2035.43,1369.28) rotate(90)">
+				<title>Sheet.329</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape330-100" transform="translate(2120.46,1369.28) rotate(90)">
+				<title>Sheet.330</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape331-103" transform="translate(2205.5,1369.28) rotate(90)">
+				<title>Sheet.331</title>
+				<path d="M0 1425.98 L56.69 1425.98" class="st9"/>
+			</g>
+			<g id="shape332-106" transform="translate(666.142,-9.04658E-07)">
+				<title>矩形.332</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st10"/>
+				<text x="25.85" y="1421.89" class="st11">2</text>			</g>
+			<g id="shape333-109" transform="translate(765.354,-4.52328E-07)">
+				<title>矩形.333</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st17"/>
+				<text x="11.67" y="1421.89" class="st13">1</text>			</g>
+			<g id="shape334-112" transform="translate(1085.04,6.53843) rotate(12.6996) scale(-1,1)">
+				<title>弧線箭頭.334</title>
+				<path d="M61.17 1422.21 L59.29 1423.86 L64.47 1425.98 L63.05 1420.56 L61.17 1422.21 Z" class="st15"/>
+				<path d="M3.3 1422.21 A40.7493 40.7493 0 0 1 61.17 1422.21" class="st16"/>
+				<path d="M61.17 1422.21 L59.29 1423.86 L64.47 1425.98 L63.05 1420.56 L61.17 1422.21" class="st16"/>
+			</g>
+			<g id="shape336-116" transform="translate(680.315,-14.1732)">
+				<title>矩形.336</title>
+				<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="group446-118" transform="translate(255.357,-21.2598)">
+				<title>2D 單向箭頭，開放.446</title>
+				<g id="shape447-119">
+					<title>Sheet.447</title>
+					<path d="M-2.25 1420.66 L23.03 1420.66 L23.03 1425.98 L28.35 1415.35 L23.03 1404.72 L23.03 1410.03 L-2.25 1410.03
+								 L-2.25 1420.66 Z" class="st18"/>
+					<path d="M-2.25 1420.66 L23.03 1420.66 L23.03 1425.98 L28.35 1415.35 L23.03 1404.72 L23.03 1410.03 L-2.25 1410.03"
+							class="st19"/>
+				</g>
+				<g id="shape448-122">
+					<title>Sheet.448</title>
+					<path d="M0 1420.66 L23.03 1420.66 L23.03 1425.98 L28.35 1415.35 L23.03 1404.72 L23.03 1410.03 L0 1410.03"
+							class="st20"/>
+				</g>
+				<g id="shape449-125" transform="translate(-0.334488,-5.55496)">
+					<title>Sheet.449</title>
+					<rect x="0" y="1415.83" width="0.48" height="10.1499" class="st21"/>
+					<rect x="0" y="1415.83" width="0.48" height="10.1499" class="st22"/>
+				</g>
+			</g>
+			<g id="group450-128" transform="translate(538.583,-21.2598)">
+				<title>2D 單向箭頭，開放.450</title>
+				<g id="shape451-129">
+					<title>Sheet.451</title>
+					<path d="M-2.25 1420.66 L23.03 1420.66 L23.03 1425.98 L28.35 1415.35 L23.03 1404.72 L23.03 1410.03 L-2.25 1410.03
+								 L-2.25 1420.66 Z" class="st18"/>
+					<path d="M-2.25 1420.66 L23.03 1420.66 L23.03 1425.98 L28.35 1415.35 L23.03 1404.72 L23.03 1410.03 L-2.25 1410.03"
+							class="st19"/>
+				</g>
+				<g id="shape452-132">
+					<title>Sheet.452</title>
+					<path d="M0 1420.66 L23.03 1420.66 L23.03 1425.98 L28.35 1415.35 L23.03 1404.72 L23.03 1410.03 L0 1410.03"
+							class="st20"/>
+				</g>
+				<g id="shape453-135" transform="translate(-0.334488,-5.55496)">
+					<title>Sheet.453</title>
+					<rect x="0" y="1415.83" width="0.48" height="10.1499" class="st21"/>
+					<rect x="0" y="1415.83" width="0.48" height="10.1499" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group455-138" transform="translate(32.5482,-897.365)">
+			<title>Sheet.455</title>
+			<g id="shape271-139" transform="translate(-9.59233E-14,-4.52329E-07)">
+				<title>Sheet.271</title>
+				<path d="M0 1425.98 L340.16 1425.98" class="st9"/>
+			</g>
+			<g id="shape272-142" transform="translate(1482.67,1355.11) rotate(90)">
+				<title>Sheet.272</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape273-145" transform="translate(1596.06,1355.11) rotate(90)">
+				<title>Sheet.273</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape274-148" transform="translate(1709.44,1355.11) rotate(90)">
+				<title>Sheet.274</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape276-151" transform="translate(14.1732,-4.52329E-07)">
+				<title>矩形.276</title>
+				<desc>3</desc>
+				<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st23"/>
+				<text x="40.02" y="1421.89" class="st11">3</text>			</g>
+			<g id="shape277-154" transform="translate(28.3465,-14.1732)">
+				<title>矩形.277</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st12"/>
+				<text x="25.85" y="1421.89" class="st13">2</text>			</g>
+			<g id="shape278-157" transform="translate(42.5197,-28.3465)">
+				<title>矩形.278</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st12"/>
+				<text x="11.67" y="1421.89" class="st13">1</text>			</g>
+			<g id="shape280-160" transform="translate(141.732,-4.52328E-07)">
+				<title>矩形.280</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape281-162" transform="translate(155.906,-14.1732)">
+				<title>矩形.281</title>
+				<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape282-164" transform="translate(305.295,-37.291) rotate(9.46232)">
+				<title>弧線箭頭.282</title>
+				<path d="M82.71 1422.4 L80.92 1424.15 L86.21 1425.98 L84.5 1420.65 L82.71 1422.4 Z" class="st15"/>
+				<path d="M3.5 1422.4 A57.9258 57.9258 0 0 1 82.71 1422.4" class="st16"/>
+				<path d="M82.71 1422.4 L80.92 1424.15 L86.21 1425.98 L84.5 1420.65 L82.71 1422.4" class="st16"/>
+			</g>
+			<g id="shape285-168" transform="translate(368.504,-9.04658E-07)">
+				<title>Sheet.285</title>
+				<path d="M0 1425.98 L340.16 1425.98" class="st9"/>
+			</g>
+			<g id="shape286-171" transform="translate(1851.17,1355.11) rotate(90)">
+				<title>Sheet.286</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape287-174" transform="translate(1964.56,1355.11) rotate(90)">
+				<title>Sheet.287</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape288-177" transform="translate(2077.94,1355.11) rotate(90)">
+				<title>Sheet.288</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape289-180" transform="translate(382.677,-9.04657E-07)">
+				<title>矩形.289</title>
+				<desc>3</desc>
+				<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st17"/>
+				<text x="40.02" y="1421.89" class="st13">3</text>			</g>
+			<g id="shape290-183" transform="translate(510.236,-4.52329E-07)">
+				<title>矩形.290</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st10"/>
+				<text x="25.85" y="1421.89" class="st11">2</text>			</g>
+			<g id="shape291-186" transform="translate(524.409,-14.1732)">
+				<title>矩形.291</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st10"/>
+				<text x="11.67" y="1421.89" class="st11">1</text>			</g>
+			<g id="shape294-189" transform="translate(453.543,-42.5197)">
+				<title>弧線箭頭.294</title>
+				<path d="M166.98 1422.04 L165.01 1423.59 L170.08 1425.98 L168.95 1420.49 L166.98 1422.04 Z" class="st15"/>
+				<path d="M3.1 1422.04 A106.299 106.299 0 0 1 166.98 1422.04" class="st16"/>
+				<path d="M166.98 1422.04 L165.01 1423.59 L170.08 1425.98 L168.95 1420.49 L166.98 1422.04" class="st16"/>
+			</g>
+			<g id="shape295-193" transform="translate(609.449,-4.52329E-07)">
+				<title>矩形.295</title>
+				<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape296-195" transform="translate(737.008,-9.04658E-07)">
+				<title>Sheet.296</title>
+				<path d="M0 1425.98 L340.16 1425.98" class="st9"/>
+			</g>
+			<g id="shape297-198" transform="translate(2219.68,1355.11) rotate(90)">
+				<title>Sheet.297</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape298-201" transform="translate(2333.06,1355.11) rotate(90)">
+				<title>Sheet.298</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape299-204" transform="translate(2446.45,1355.11) rotate(90)">
+				<title>Sheet.299</title>
+				<path d="M0 1425.98 L70.87 1425.98" class="st9"/>
+			</g>
+			<g id="shape300-207" transform="translate(977.953,-4.52329E-07)">
+				<title>矩形.300</title>
+				<desc>3</desc>
+				<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st10"/>
+				<text x="40.02" y="1421.89" class="st11">3</text>			</g>
+			<g id="shape301-210" transform="translate(878.74,-4.52329E-07)">
+				<title>矩形.301</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st17"/>
+				<text x="25.85" y="1421.89" class="st13">2</text>			</g>
+			<g id="shape302-213" transform="translate(892.913,-14.1732)">
+				<title>矩形.302</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st17"/>
+				<text x="11.67" y="1421.89" class="st13">1</text>			</g>
+			<g id="shape303-216" transform="translate(434.739,55.36) rotate(-20.556)">
+				<title>弧線箭頭.303</title>
+				<path d="M57.1 1422.34 L55.28 1424.06 L60.55 1425.98 L58.92 1420.62 L57.1 1422.34 Z" class="st15"/>
+				<path d="M3.45 1422.34 A39.4193 39.4193 0 0 1 57.1 1422.34" class="st16"/>
+				<path d="M57.1 1422.34 L55.28 1424.06 L60.55 1425.98 L58.92 1420.62 L57.1 1422.34" class="st16"/>
+			</g>
+			<g id="shape305-220" transform="translate(992.126,-14.1732)">
+				<title>矩形.305</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape306-222" transform="translate(1006.3,-28.3465)">
+				<title>矩形.306</title>
+				<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="group438-224" transform="translate(340.157,-42.5197)">
+				<title>2D 單向箭頭，開放.438</title>
+				<g id="shape439-225">
+					<title>Sheet.439</title>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72
+								 L-2.25 1418.89 Z" class="st18"/>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72"
+							class="st19"/>
+				</g>
+				<g id="shape440-228">
+					<title>Sheet.440</title>
+					<path d="M0 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L0 1404.72"
+							class="st20"/>
+				</g>
+				<g id="shape441-231" transform="translate(-0.334488,-7.32661)">
+					<title>Sheet.441</title>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st21"/>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st22"/>
+				</g>
+			</g>
+			<g id="group442-234" transform="translate(708.661,-42.5197)">
+				<title>2D 單向箭頭，開放.442</title>
+				<g id="shape443-235">
+					<title>Sheet.443</title>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72
+								 L-2.25 1418.89 Z" class="st18"/>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72"
+							class="st19"/>
+				</g>
+				<g id="shape444-238">
+					<title>Sheet.444</title>
+					<path d="M0 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L0 1404.72"
+							class="st20"/>
+				</g>
+				<g id="shape445-241" transform="translate(-0.334488,-7.32661)">
+					<title>Sheet.445</title>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st21"/>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group456-244" transform="translate(32.5482,-1053.27)">
+			<title>Sheet.456</title>
+			<g id="shape230-245" transform="translate(0,-2.26164E-06)">
+				<title>Sheet.230</title>
+				<path d="M0 1425.98 L396.85 1425.98" class="st9"/>
+			</g>
+			<g id="shape231-248" transform="translate(1496.84,1340.94) rotate(90)">
+				<title>Sheet.231</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape232-251" transform="translate(1638.57,1340.94) rotate(90)">
+				<title>Sheet.232</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape233-254" transform="translate(1767.15,1340.94) rotate(90)">
+				<title>Sheet.233</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape234-257" transform="translate(14.1732,-2.26164E-06)">
+				<title>矩形.234</title>
+				<desc>4</desc>
+				<rect x="0" y="1411.8" width="113.386" height="14.1732" class="st10"/>
+				<text x="54.19" y="1421.89" class="st11">4</text>			</g>
+			<g id="shape235-260" transform="translate(28.3465,-14.1732)">
+				<title>矩形.235</title>
+				<desc>3</desc>
+				<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st12"/>
+				<text x="40.02" y="1421.89" class="st13">3</text>			</g>
+			<g id="shape236-263" transform="translate(42.5197,-28.3465)">
+				<title>矩形.236</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st12"/>
+				<text x="25.85" y="1421.89" class="st13">2</text>			</g>
+			<g id="shape237-266" transform="translate(56.6929,-42.5197)">
+				<title>矩形.237</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st12"/>
+				<text x="11.67" y="1421.89" class="st13">1</text>			</g>
+			<g id="shape240-269" transform="translate(297.638,-2.26164E-06)">
+				<title>矩形.240</title>
+				<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape241-271" transform="translate(311.811,-14.1732)">
+				<title>矩形.241</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape242-273" transform="translate(325.984,-28.3465)">
+				<title>矩形.242</title>
+				<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape243-275" transform="translate(194.067,-67.7078) rotate(3.81407)">
+				<title>弧線箭頭.243</title>
+				<path d="M209.04 1423.01 L207.55 1425.02 L213.07 1425.98 L210.52 1420.99 L209.04 1423.01 Z" class="st15"/>
+				<path d="M4.03 1423.01 A176.314 176.314 0 0 1 209.04 1423.01" class="st16"/>
+				<path d="M209.04 1423.01 L207.55 1425.02 L213.07 1425.98 L210.52 1420.99 L209.04 1423.01" class="st16"/>
+			</g>
+			<g id="shape245-279" transform="translate(439.37,-2.26164E-06)">
+				<title>Sheet.245</title>
+				<path d="M0 1425.98 L396.85 1425.98" class="st9"/>
+			</g>
+			<g id="shape246-282" transform="translate(1936.21,1340.94) rotate(90)">
+				<title>Sheet.246</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape247-285" transform="translate(2077.94,1340.94) rotate(90)">
+				<title>Sheet.247</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape248-288" transform="translate(2206.52,1340.94) rotate(90)">
+				<title>Sheet.248</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape249-291" transform="translate(453.543,-2.26164E-06)">
+				<title>矩形.249</title>
+				<desc>4</desc>
+				<rect x="0" y="1411.8" width="113.386" height="14.1732" class="st17"/>
+				<text x="54.19" y="1421.89" class="st13">4</text>			</g>
+			<g id="shape250-294" transform="translate(737.008,0)">
+				<title>矩形.250</title>
+				<desc>3</desc>
+				<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st10"/>
+				<text x="40.02" y="1421.89" class="st11">3</text>			</g>
+			<g id="shape251-297" transform="translate(751.181,-14.1732)">
+				<title>矩形.251</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st10"/>
+				<text x="25.85" y="1421.89" class="st11">2</text>			</g>
+			<g id="shape252-300" transform="translate(765.354,-28.3465)">
+				<title>矩形.252</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st10"/>
+				<text x="11.67" y="1421.89" class="st11">1</text>			</g>
+			<g id="shape256-303" transform="translate(538.583,-42.5197)">
+				<title>弧線箭頭.256</title>
+				<path d="M82.86 1421.46 L80.61 1422.55 L85.04 1425.98 L85.12 1420.38 L82.86 1421.46 Z" class="st15"/>
+				<path d="M2.17 1421.46 A46.063 46.063 0 0 1 82.86 1421.46" class="st16"/>
+				<path d="M82.86 1421.46 L80.61 1422.55 L85.04 1425.98 L85.12 1420.38 L82.86 1421.46" class="st16"/>
+			</g>
+			<g id="shape257-307" transform="translate(595.276,-2.26164E-06)">
+				<title>矩形.257</title>
+				<path d="M0 1425.98 L113.39 1425.98 L113.39 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape258-309" transform="translate(878.74,-2.26164E-06)">
+				<title>Sheet.258</title>
+				<path d="M0 1425.98 L396.85 1425.98" class="st9"/>
+			</g>
+			<g id="shape259-312" transform="translate(2375.58,1340.94) rotate(90)">
+				<title>Sheet.259</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape260-315" transform="translate(2517.31,1340.94) rotate(90)">
+				<title>Sheet.260</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape261-318" transform="translate(2645.89,1340.94) rotate(90)">
+				<title>Sheet.261</title>
+				<path d="M0 1425.98 L85.04 1425.98" class="st9"/>
+			</g>
+			<g id="shape262-321" transform="translate(1034.65,-2.26164E-06)">
+				<title>矩形.262</title>
+				<desc>4</desc>
+				<rect x="0" y="1411.8" width="113.386" height="14.1732" class="st10"/>
+				<text x="54.19" y="1421.89" class="st11">4</text>			</g>
+			<g id="shape263-324" transform="translate(1176.38,0)">
+				<title>矩形.263</title>
+				<desc>3</desc>
+				<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st17"/>
+				<text x="40.02" y="1421.89" class="st13">3</text>			</g>
+			<g id="shape264-327" transform="translate(1190.55,-14.1732)">
+				<title>矩形.264</title>
+				<desc>2</desc>
+				<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st17"/>
+				<text x="25.85" y="1421.89" class="st13">2</text>			</g>
+			<g id="shape265-330" transform="translate(1204.72,-28.3465)">
+				<title>矩形.265</title>
+				<desc>1</desc>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st17"/>
+				<text x="11.67" y="1421.89" class="st13">1</text>			</g>
+			<g id="shape266-333" transform="translate(1337.83,-50.4674) rotate(5.35583) scale(-1,1)">
+				<title>弧線箭頭.266</title>
+				<path d="M83.22 1421.47 L80.97 1422.57 L85.41 1425.98 L85.47 1420.38 L83.22 1421.47 Z" class="st15"/>
+				<path d="M2.19 1421.47 A46.3433 46.3433 0 0 1 83.22 1421.47" class="st16"/>
+				<path d="M83.22 1421.47 L80.97 1422.57 L85.41 1425.98 L85.47 1420.38 L83.22 1421.47" class="st16"/>
+			</g>
+			<g id="shape268-337" transform="translate(1048.82,-14.1732)">
+				<title>矩形.268</title>
+				<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape269-339" transform="translate(1062.99,-28.3465)">
+				<title>矩形.269</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="shape270-341" transform="translate(1077.17,-42.5197)">
+				<title>矩形.270</title>
+				<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+			</g>
+			<g id="group430-343" transform="translate(411.024,-42.5197)">
+				<title>2D 單向箭頭，開放.430</title>
+				<g id="shape431-344">
+					<title>Sheet.431</title>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72
+								 L-2.25 1418.89 Z" class="st18"/>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72"
+							class="st19"/>
+				</g>
+				<g id="shape432-347">
+					<title>Sheet.432</title>
+					<path d="M0 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L0 1404.72"
+							class="st20"/>
+				</g>
+				<g id="shape433-350" transform="translate(-0.334488,-7.32661)">
+					<title>Sheet.433</title>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st21"/>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st22"/>
+				</g>
+			</g>
+			<g id="group434-353" transform="translate(850.394,-42.5197)">
+				<title>2D 單向箭頭，開放.434</title>
+				<g id="shape435-354">
+					<title>Sheet.435</title>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72
+								 L-2.25 1418.89 Z" class="st18"/>
+					<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72"
+							class="st19"/>
+				</g>
+				<g id="shape436-357">
+					<title>Sheet.436</title>
+					<path d="M0 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L0 1404.72"
+							class="st20"/>
+				</g>
+				<g id="shape437-360" transform="translate(-0.334488,-7.32661)">
+					<title>Sheet.437</title>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st21"/>
+					<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="shape457-363" transform="translate(32.5482,-1350.91)">
+			<title>Sheet.457</title>
+			<desc>Tower of Hanoi</desc>
+			<rect x="0" y="1369.28" width="212.598" height="56.6929" class="st1"/>
+			<text x="10.5" y="1406.63" class="st24">Tower of Hanoi</text>		</g>
+		<g id="shape174-366" transform="translate(32.5482,-1237.52)">
+			<title>Sheet.174</title>
+			<path d="M0 1425.98 L481.89 1425.98" class="st9"/>
+		</g>
+		<g id="shape175-369" transform="translate(1543.56,89.2411) rotate(90)">
+			<title>Sheet.175</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape176-372" transform="translate(1699.47,89.2411) rotate(90)">
+			<title>Sheet.176</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape177-375" transform="translate(1856.39,89.2411) rotate(90)">
+			<title>Sheet.177</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape187-378" transform="translate(60.8947,-1251.7)">
+			<title>矩形</title>
+			<desc>4</desc>
+			<rect x="0" y="1411.8" width="113.386" height="14.1732" class="st12"/>
+			<text x="54.19" y="1421.89" class="st13">4</text>		</g>
+		<g id="shape188-381" transform="translate(75.0679,-1265.87)">
+			<title>矩形.188</title>
+			<desc>3</desc>
+			<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st12"/>
+			<text x="40.02" y="1421.89" class="st13">3</text>		</g>
+		<g id="shape189-384" transform="translate(89.2411,-1280.04)">
+			<title>矩形.189</title>
+			<desc>2</desc>
+			<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st12"/>
+			<text x="25.85" y="1421.89" class="st13">2</text>		</g>
+		<g id="shape190-387" transform="translate(103.414,-1294.22)">
+			<title>矩形.190</title>
+			<desc>1</desc>
+			<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st12"/>
+			<text x="11.67" y="1421.89" class="st13">1</text>		</g>
+		<g id="shape191-390" transform="translate(46.7215,-1237.52)">
+			<title>矩形.191</title>
+			<desc>5</desc>
+			<rect x="0" y="1411.8" width="141.732" height="14.1732" class="st10"/>
+			<text x="68.37" y="1421.89" class="st11">5</text>		</g>
+		<g id="shape198-393" transform="translate(571.131,-1237.52)">
+			<title>Sheet.198</title>
+			<path d="M0 1425.98 L481.89 1425.98" class="st9"/>
+		</g>
+		<g id="shape199-396" transform="translate(2082.15,89.2411) rotate(90)">
+			<title>Sheet.199</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape200-399" transform="translate(2238.05,89.2411) rotate(90)">
+			<title>Sheet.200</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape201-402" transform="translate(2394.97,89.2411) rotate(90)">
+			<title>Sheet.201</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape202-405" transform="translate(755.383,-1237.52)">
+			<title>矩形.202</title>
+			<desc>4</desc>
+			<rect x="0" y="1411.8" width="113.386" height="14.1732" class="st10"/>
+			<text x="54.19" y="1421.89" class="st11">4</text>		</g>
+		<g id="shape203-408" transform="translate(769.556,-1251.7)">
+			<title>矩形.203</title>
+			<desc>3</desc>
+			<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st10"/>
+			<text x="40.02" y="1421.89" class="st11">3</text>		</g>
+		<g id="shape204-411" transform="translate(783.729,-1265.87)">
+			<title>矩形.204</title>
+			<desc>2</desc>
+			<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st10"/>
+			<text x="25.85" y="1421.89" class="st11">2</text>		</g>
+		<g id="shape205-414" transform="translate(797.903,-1280.04)">
+			<title>矩形.205</title>
+			<desc>1</desc>
+			<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st10"/>
+			<text x="11.67" y="1421.89" class="st11">1</text>		</g>
+		<g id="shape206-417" transform="translate(898.127,-1237.52)">
+			<title>矩形.206</title>
+			<path d="M0 1425.98 L141.73 1425.98 L141.73 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape207-419" transform="translate(1109.71,-1237.52)">
+			<title>Sheet.207</title>
+			<path d="M0 1425.98 L481.89 1425.98" class="st9"/>
+		</g>
+		<g id="shape208-422" transform="translate(2620.73,89.2411) rotate(90)">
+			<title>Sheet.208</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape209-425" transform="translate(2776.63,89.2411) rotate(90)">
+			<title>Sheet.209</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape210-428" transform="translate(2933.55,89.2411) rotate(90)">
+			<title>Sheet.210</title>
+			<path d="M0 1425.98 L99.21 1425.98" class="st9"/>
+		</g>
+		<g id="shape211-431" transform="translate(1449.87,-1251.7)">
+			<title>矩形.211</title>
+			<path d="M0 1425.98 L113.39 1425.98 L113.39 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape212-433" transform="translate(1464.04,-1265.87)">
+			<title>矩形.212</title>
+			<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape213-435" transform="translate(1478.22,-1280.04)">
+			<title>矩形.213</title>
+			<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape214-437" transform="translate(1492.39,-1294.22)">
+			<title>矩形.214</title>
+			<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape215-439" transform="translate(1435.7,-1237.52)">
+			<title>矩形.215</title>
+			<desc>5</desc>
+			<rect x="0" y="1411.8" width="141.732" height="14.1732" class="st10"/>
+			<text x="68.37" y="1421.89" class="st11">5</text>		</g>
+		<g id="shape216-442" transform="translate(216.8,-1237.52)">
+			<title>矩形.216</title>
+			<path d="M0 1425.98 L113.39 1425.98 L113.39 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape217-444" transform="translate(230.973,-1251.7)">
+			<title>矩形.217</title>
+			<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape218-446" transform="translate(245.147,-1265.87)">
+			<title>矩形.218</title>
+			<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape219-448" transform="translate(259.32,-1280.04)">
+			<title>矩形.219</title>
+			<path d="M0 1425.98 L28.35 1425.98 L28.35 1411.8 L0 1411.8 L0 1425.98 Z" class="st14"/>
+		</g>
+		<g id="shape222-450" transform="translate(347.598,-1301.14) rotate(8.1301)">
+			<title>弧線箭頭</title>
+			<path d="M97.46 1421.8 L95.37 1423.18 L100.22 1425.98 L99.55 1420.42 L97.46 1421.8 Z" class="st15"/>
+			<path d="M2.76 1421.8 A58.4646 58.4646 0 0 1 97.46 1421.8" class="st16"/>
+			<path d="M97.46 1421.8 L95.37 1423.18 L100.22 1425.98 L99.55 1420.42 L97.46 1421.8" class="st16"/>
+		</g>
+		<g id="shape223-454" transform="translate(585.304,-1237.52)">
+			<title>矩形.223</title>
+			<desc>5</desc>
+			<rect x="0" y="1411.8" width="141.732" height="14.1732" class="st17"/>
+			<text x="68.37" y="1421.89" class="st13">5</text>		</g>
+		<g id="shape224-457" transform="translate(602.873,-1271.36) rotate(-2.71198)">
+			<title>弧線箭頭.224</title>
+			<path d="M266.47 1422.06 L264.51 1423.62 L269.59 1425.98 L268.43 1420.5 L266.47 1422.06 Z" class="st15"/>
+			<path d="M3.12 1422.06 A170.389 170.389 0 0 1 266.47 1422.06" class="st16"/>
+			<path d="M266.47 1422.06 L264.51 1423.62 L269.59 1425.98 L268.43 1420.5 L266.47 1422.06" class="st16"/>
+		</g>
+		<g id="shape225-461" transform="translate(1293.97,-1237.52)">
+			<title>矩形.225</title>
+			<desc>4</desc>
+			<rect x="0" y="1411.8" width="113.386" height="14.1732" class="st17"/>
+			<text x="54.19" y="1421.89" class="st13">4</text>		</g>
+		<g id="shape226-464" transform="translate(1308.14,-1251.7)">
+			<title>矩形.226</title>
+			<desc>3</desc>
+			<rect x="0" y="1411.8" width="85.0394" height="14.1732" class="st17"/>
+			<text x="40.02" y="1421.89" class="st13">3</text>		</g>
+		<g id="shape227-467" transform="translate(1322.31,-1265.87)">
+			<title>矩形.227</title>
+			<desc>2</desc>
+			<rect x="0" y="1411.8" width="56.6929" height="14.1732" class="st17"/>
+			<text x="25.85" y="1421.89" class="st13">2</text>		</g>
+		<g id="shape228-470" transform="translate(1336.49,-1280.04)">
+			<title>矩形.228</title>
+			<desc>1</desc>
+			<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st17"/>
+			<text x="11.67" y="1421.89" class="st13">1</text>		</g>
+		<g id="shape229-473" transform="translate(1371.87,-1314.57) rotate(0.282707)">
+			<title>弧線箭頭.229</title>
+			<path d="M104.73 1421.96 L102.72 1423.46 L107.72 1425.98 L106.73 1420.46 L104.73 1421.96 Z" class="st15"/>
+			<path d="M2.99 1421.96 A65.3398 65.3398 0 0 1 104.73 1421.96" class="st16"/>
+			<path d="M104.73 1421.96 L102.72 1423.46 L107.72 1425.98 L106.73 1420.46 L104.73 1421.96" class="st16"/>
+		</g>
+		<g id="shape379-477" transform="translate(46.7215,-1209.18)">
+			<title>Sheet.379</title>
+			<desc>source rod</desc>
+			<rect x="0" y="1397.63" width="141.732" height="28.3465" class="st1"/>
+			<text x="45.71" y="1415.4" class="st25">source rod</text>		</g>
+		<g id="shape380-480" transform="translate(202.627,-1209.18)">
+			<title>Sheet.380</title>
+			<desc>temporary rod</desc>
+			<rect x="0" y="1397.63" width="141.732" height="28.3465" class="st1"/>
+			<text x="36.71" y="1415.4" class="st25">temporary rod</text>		</g>
+		<g id="shape381-483" transform="translate(358.532,-1209.18)">
+			<title>Sheet.381</title>
+			<desc>destination rod</desc>
+			<rect x="0" y="1397.63" width="141.732" height="28.3465" class="st1"/>
+			<text x="35.04" y="1415.4" class="st25">destination rod</text>		</g>
+		<g id="group422-486" transform="translate(528.611,-1280.04)">
+			<title>2D 單向箭頭，開放</title>
+			<g id="shape423-487">
+				<title>Sheet.423</title>
+				<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72
+							 L-2.25 1418.89 Z" class="st18"/>
+				<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72"
+						class="st19"/>
+			</g>
+			<g id="shape424-490">
+				<title>Sheet.424</title>
+				<path d="M0 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L0 1404.72"
+						class="st20"/>
+			</g>
+			<g id="shape425-493" transform="translate(-0.334488,-7.32661)">
+				<title>Sheet.425</title>
+				<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st21"/>
+				<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st22"/>
+			</g>
+		</g>
+		<g id="group426-496" transform="translate(1067.19,-1280.04)">
+			<title>2D 單向箭頭，開放.426</title>
+			<g id="shape427-497">
+				<title>Sheet.427</title>
+				<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72
+							 L-2.25 1418.89 Z" class="st18"/>
+				<path d="M-2.25 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L-2.25 1404.72"
+						class="st19"/>
+			</g>
+			<g id="shape428-500">
+				<title>Sheet.428</title>
+				<path d="M0 1418.89 L21.26 1418.89 L21.26 1425.98 L28.35 1411.8 L21.26 1397.63 L21.26 1404.72 L0 1404.72"
+						class="st20"/>
+			</g>
+			<g id="shape429-503" transform="translate(-0.334488,-7.32661)">
+				<title>Sheet.429</title>
+				<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st21"/>
+				<rect x="0" y="1412.28" width="0.48" height="13.6932" class="st22"/>
+			</g>
+		</g>
+		<g id="group459-506" transform="translate(18.375,-302.09)">
+			<title>Sheet.459</title>
+			<g id="group135-507" transform="translate(85.0394,-127.559)">
+				<title>Sheet.135</title>
+				<g id="shape2-508" transform="translate(85.0394,-141.732)">
+					<title>方形</title>
+					<desc>3</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">3</text>				</g>
+				<g id="shape3-511" transform="translate(28.3465,-99.2126)">
+					<title>方形.3</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape4-514" transform="translate(141.732,-99.2126)">
+					<title>方形.4</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape5-517" transform="translate(6.39488E-14,-56.6929)">
+					<title>方形.5</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape6-520" transform="translate(56.6929,-56.6929)">
+					<title>方形.6</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape7-523" transform="translate(113.386,-56.6929)">
+					<title>方形.7</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape8-526" transform="translate(170.079,-56.6929)">
+					<title>方形.8</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape9-529">
+					<title>方形.9</title>
+					<desc>1</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">1</text>				</g>
+				<g id="shape19-532" transform="translate(28.3465,0)">
+					<title>方形.19</title>
+					<desc>2</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">2</text>				</g>
+				<g id="shape20-535" transform="translate(56.6929,0)">
+					<title>方形.20</title>
+					<desc>3</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">3</text>				</g>
+				<g id="shape21-538" transform="translate(85.0394,0)">
+					<title>方形.21</title>
+					<desc>4</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">4</text>				</g>
+				<g id="shape22-541" transform="translate(113.386,0)">
+					<title>方形.22</title>
+					<desc>5</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">5</text>				</g>
+				<g id="shape23-544" transform="translate(141.732,0)">
+					<title>方形.23</title>
+					<desc>6</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">6</text>				</g>
+				<g id="shape24-547" transform="translate(170.079,0)">
+					<title>方形.24</title>
+					<desc>7</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">7</text>				</g>
+				<g id="shape25-550" transform="translate(7.08662,-56.6929)">
+					<title>動態連接器</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape26-556" transform="translate(63.7795,-56.6929)">
+					<title>動態連接器.26</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape27-561" transform="translate(120.472,-56.6929)">
+					<title>動態連接器.27</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape28-566" transform="translate(177.165,-56.6929)">
+					<title>動態連接器.28</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape29-571" transform="translate(35.4331,-99.2126)">
+					<title>動態連接器.29</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape30-576" transform="translate(148.819,-99.2126)">
+					<title>動態連接器.30</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape31-581" transform="translate(92.126,-141.732)">
+					<title>動態連接器.31</title>
+					<path d="M7.09 1425.98 L7.09 1533.64" class="st29"/>
+				</g>
+				<g id="shape33-586" transform="translate(226.772,0)">
+					<title>方形.33</title>
+					<desc>9</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">9</text>				</g>
+				<g id="shape34-589" transform="translate(255.118,0)">
+					<title>方形.34</title>
+					<desc>10</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">10</text>				</g>
+				<g id="shape35-592" transform="translate(283.465,0)">
+					<title>方形.35</title>
+					<desc>11</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">11</text>				</g>
+				<g id="shape36-595" transform="translate(311.811,0)">
+					<title>方形.36</title>
+					<desc>12</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">12</text>				</g>
+				<g id="shape37-598" transform="translate(340.157,0)">
+					<title>方形.37</title>
+					<desc>13</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">13</text>				</g>
+				<g id="shape38-601" transform="translate(368.504,0)">
+					<title>方形.38</title>
+					<desc>14</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">14</text>				</g>
+				<g id="shape39-604" transform="translate(396.85,0)">
+					<title>方形.39</title>
+					<desc>15</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">15</text>				</g>
+				<g id="shape40-607" transform="translate(198.425,0)">
+					<title>方形.40</title>
+					<desc>8</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="11.17" y="1415.4" class="st28">8</text>				</g>
+				<g id="shape41-610" transform="translate(198.425,-184.252)">
+					<title>方形.41</title>
+					<desc>4</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">4</text>				</g>
+				<g id="shape42-613" transform="translate(205.512,-184.252)">
+					<title>動態連接器.42</title>
+					<path d="M7.09 1425.98 L7.09 1576.16" class="st29"/>
+				</g>
+				<g id="shape43-618" transform="translate(311.811,-141.732)">
+					<title>方形.43</title>
+					<desc>3</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">3</text>				</g>
+				<g id="shape44-621" transform="translate(255.118,-99.2126)">
+					<title>方形.44</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape45-624" transform="translate(368.504,-99.2126)">
+					<title>方形.45</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape46-627" transform="translate(226.772,-56.6929)">
+					<title>方形.46</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape47-630" transform="translate(283.465,-56.6929)">
+					<title>方形.47</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape48-633" transform="translate(340.157,-56.6929)">
+					<title>方形.48</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape49-636" transform="translate(396.85,-56.6929)">
+					<title>方形.49</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape50-639" transform="translate(233.858,-56.6929)">
+					<title>動態連接器.50</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape51-644" transform="translate(290.551,-56.6929)">
+					<title>動態連接器.51</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape52-649" transform="translate(347.244,-56.6929)">
+					<title>動態連接器.52</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape53-654" transform="translate(403.937,-56.6929)">
+					<title>動態連接器.53</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape54-659" transform="translate(262.205,-99.2126)">
+					<title>動態連接器.54</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape55-664" transform="translate(375.591,-99.2126)">
+					<title>動態連接器.55</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape56-669" transform="translate(318.898,-141.732)">
+					<title>動態連接器.56</title>
+					<path d="M7.09 1425.98 L7.09 1533.64" class="st29"/>
+				</g>
+				<g id="shape57-674" transform="translate(538.583,-141.732)">
+					<title>方形.57</title>
+					<desc>3</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">3</text>				</g>
+				<g id="shape58-677" transform="translate(481.89,-99.2126)">
+					<title>方形.58</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape59-680" transform="translate(595.276,-99.2126)">
+					<title>方形.59</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape60-683" transform="translate(453.543,-56.6929)">
+					<title>方形.60</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape61-686" transform="translate(510.236,-56.6929)">
+					<title>方形.61</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape62-689" transform="translate(566.929,-56.6929)">
+					<title>方形.62</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape63-692" transform="translate(623.622,-56.6929)">
+					<title>方形.63</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape64-695" transform="translate(453.543,0)">
+					<title>方形.64</title>
+					<desc>17</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">17</text>				</g>
+				<g id="shape65-698" transform="translate(481.89,0)">
+					<title>方形.65</title>
+					<desc>18</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">18</text>				</g>
+				<g id="shape66-701" transform="translate(510.236,0)">
+					<title>方形.66</title>
+					<desc>19</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">19</text>				</g>
+				<g id="shape67-704" transform="translate(538.583,0)">
+					<title>方形.67</title>
+					<desc>20</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">20</text>				</g>
+				<g id="shape68-707" transform="translate(566.929,0)">
+					<title>方形.68</title>
+					<desc>21</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">21</text>				</g>
+				<g id="shape69-710" transform="translate(595.276,0)">
+					<title>方形.69</title>
+					<desc>22</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">22</text>				</g>
+				<g id="shape70-713" transform="translate(623.622,0)">
+					<title>方形.70</title>
+					<desc>23</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">23</text>				</g>
+				<g id="shape71-716" transform="translate(460.63,-56.6929)">
+					<title>動態連接器.71</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape72-721" transform="translate(517.323,-56.6929)">
+					<title>動態連接器.72</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape73-726" transform="translate(574.016,-56.6929)">
+					<title>動態連接器.73</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape74-731" transform="translate(630.709,-56.6929)">
+					<title>動態連接器.74</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape75-736" transform="translate(488.976,-99.2126)">
+					<title>動態連接器.75</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape76-741" transform="translate(602.362,-99.2126)">
+					<title>動態連接器.76</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape77-746" transform="translate(545.669,-141.732)">
+					<title>動態連接器.77</title>
+					<path d="M7.09 1425.98 L7.09 1533.64" class="st29"/>
+				</g>
+				<g id="shape78-751" transform="translate(680.315,0)">
+					<title>方形.78</title>
+					<desc>25</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">25</text>				</g>
+				<g id="shape79-754" transform="translate(708.661,0)">
+					<title>方形.79</title>
+					<desc>26</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">26</text>				</g>
+				<g id="shape80-757" transform="translate(737.008,0)">
+					<title>方形.80</title>
+					<desc>27</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">27</text>				</g>
+				<g id="shape81-760" transform="translate(765.354,0)">
+					<title>方形.81</title>
+					<desc>28</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">28</text>				</g>
+				<g id="shape82-763" transform="translate(793.701,0)">
+					<title>方形.82</title>
+					<desc>29</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">29</text>				</g>
+				<g id="shape83-766" transform="translate(822.047,0)">
+					<title>方形.83</title>
+					<desc>30</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">30</text>				</g>
+				<g id="shape84-769" transform="translate(850.394,0)">
+					<title>方形.84</title>
+					<desc>31</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">31</text>				</g>
+				<g id="shape85-772" transform="translate(651.969,0)">
+					<title>方形.85</title>
+					<desc>24</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">24</text>				</g>
+				<g id="shape86-775" transform="translate(651.968,-184.252)">
+					<title>方形.86</title>
+					<desc>4</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">4</text>				</g>
+				<g id="shape87-778" transform="translate(659.055,-184.252)">
+					<title>動態連接器.87</title>
+					<path d="M7.09 1425.98 L7.09 1576.16" class="st29"/>
+				</g>
+				<g id="shape88-783" transform="translate(765.354,-141.732)">
+					<title>方形.88</title>
+					<desc>3</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">3</text>				</g>
+				<g id="shape89-786" transform="translate(708.661,-99.2126)">
+					<title>方形.89</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape90-789" transform="translate(822.047,-99.2126)">
+					<title>方形.90</title>
+					<desc>2</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">2</text>				</g>
+				<g id="shape91-792" transform="translate(680.315,-56.6929)">
+					<title>方形.91</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape92-795" transform="translate(737.008,-56.6929)">
+					<title>方形.92</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape93-798" transform="translate(793.701,-56.6929)">
+					<title>方形.93</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape94-801" transform="translate(850.394,-56.6929)">
+					<title>方形.94</title>
+					<desc>1</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">1</text>				</g>
+				<g id="shape95-804" transform="translate(687.402,-56.6929)">
+					<title>動態連接器.95</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape96-809" transform="translate(744.094,-56.6929)">
+					<title>動態連接器.96</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape97-814" transform="translate(800.787,-56.6929)">
+					<title>動態連接器.97</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape98-819" transform="translate(857.48,-56.6929)">
+					<title>動態連接器.98</title>
+					<path d="M7.09 1425.98 L7.09 1448.6" class="st29"/>
+				</g>
+				<g id="shape99-824" transform="translate(715.748,-99.2126)">
+					<title>動態連接器.99</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape100-829" transform="translate(829.134,-99.2126)">
+					<title>動態連接器.100</title>
+					<path d="M7.09 1425.98 L7.09 1491.12" class="st29"/>
+				</g>
+				<g id="shape101-834" transform="translate(772.441,-141.732)">
+					<title>動態連接器.101</title>
+					<path d="M7.09 1425.98 L7.09 1533.64" class="st29"/>
+				</g>
+				<g id="shape102-839" transform="translate(425.197,0)">
+					<title>方形.102</title>
+					<desc>16</desc>
+					<path d="M0 1425.98 L28.35 1425.98 L28.35 1397.63 L0 1397.63 L0 1425.98 Z" class="st27"/>
+					<text x="8.17" y="1415.4" class="st28">16</text>				</g>
+				<g id="shape103-842" transform="translate(425.197,-226.772)">
+					<title>方形.103</title>
+					<desc>5</desc>
+					<rect x="0" y="1397.63" width="28.3465" height="28.3465" class="st26"/>
+					<text x="11.17" y="1415.4" class="st25">5</text>				</g>
+				<g id="shape104-845" transform="translate(432.283,-226.772)">
+					<title>動態連接器.104</title>
+					<path d="M7.09 1425.98 L7.09 1618.68" class="st29"/>
+				</g>
+			</g>
+			<g id="shape136-850" transform="translate(0,-113.386)">
+				<title>Sheet.136</title>
+				<desc>steps total : 2n - 1</desc>
+				<rect x="0" y="1369.28" width="85.0394" height="56.6929" class="st1"/>
+				<text x="28.52" y="1393.43" class="st31">steps <tspan x="9.53" dy="1.2em" class="st5">total : 2</tspan><tspan
+							dy="-0.198em" class="st32">n</tspan><tspan dy="0.129em" class="st5"> </tspan>- 1</text>			</g>
+			<g id="shape137-856" transform="translate(3.61863E-06,-198.425)">
+				<title>Sheet.137</title>
+				<desc>disk no (1 ~ n)</desc>
+				<rect x="0" y="1340.94" width="85.0394" height="85.0394" class="st1"/>
+				<text x="22.1" y="1379.26" class="st33">disk no <tspan x="23.57" dy="1.2em" class="st5">(1 ~ n)</tspan></text>			</g>
+			<g id="shape138-860" transform="translate(1511.02,1397.63) rotate(90)">
+				<title>Sheet.138</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape139-863" transform="translate(2389.76,1397.63) rotate(90)">
+				<title>Sheet.139</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape140-866" transform="translate(481.89,2837.78) rotate(180)">
+				<title>Sheet.140</title>
+				<path d="M0 1425.98 L391.13 1425.98" class="st35"/>
+			</g>
+			<g id="shape141-871" transform="translate(566.929,-14.1732)">
+				<title>Sheet.141</title>
+				<path d="M0 1425.98 L391.13 1425.98" class="st35"/>
+			</g>
+			<g id="shape142-876" transform="translate(481.89,0)">
+				<title>Sheet.142</title>
+				<desc>middle</desc>
+				<rect x="0" y="1397.63" width="85.0394" height="28.3465" class="st1"/>
+				<text x="25.86" y="1415.4" class="st25">middle</text>			</g>
+			<g id="shape143-879" transform="translate(1511.02,1355.11) rotate(90)">
+				<title>Sheet.143</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape144-882" transform="translate(255.118,2795.26) rotate(180)">
+				<title>Sheet.144</title>
+				<path d="M0 1425.98 L164.36 1425.98" class="st35"/>
+			</g>
+			<g id="shape145-887" transform="translate(255.118,-42.5197)">
+				<title>Sheet.145</title>
+				<desc>middle</desc>
+				<rect x="0" y="1397.63" width="85.0394" height="28.3465" class="st1"/>
+				<text x="25.86" y="1415.4" class="st25">middle</text>			</g>
+			<g id="shape146-890" transform="translate(1936.21,1355.11) rotate(90)">
+				<title>Sheet.146</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape147-893" transform="translate(340.157,-56.6929)">
+				<title>Sheet.147</title>
+				<path d="M0 1425.98 L164.36 1425.98" class="st35"/>
+			</g>
+			<g id="shape148-898" transform="translate(708.661,2795.26) rotate(180)">
+				<title>Sheet.148</title>
+				<path d="M0 1425.98 L164.36 1425.98" class="st35"/>
+			</g>
+			<g id="shape149-903" transform="translate(708.661,-42.5197)">
+				<title>Sheet.149</title>
+				<desc>middle</desc>
+				<rect x="0" y="1397.63" width="85.0394" height="28.3465" class="st1"/>
+				<text x="25.86" y="1415.4" class="st25">middle</text>			</g>
+			<g id="shape150-906" transform="translate(2389.76,1355.11) rotate(90)">
+				<title>Sheet.150</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape151-909" transform="translate(793.701,-56.6929)">
+				<title>Sheet.151</title>
+				<path d="M0 1425.98 L164.36 1425.98" class="st35"/>
+			</g>
+			<g id="shape152-914" transform="translate(1511.02,1312.59) rotate(90)">
+				<title>Sheet.152</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape153-917" transform="translate(155.906,2752.74) rotate(180)">
+				<title>Sheet.153</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape154-922" transform="translate(155.906,-85.0394)">
+				<title>Sheet.154</title>
+				<desc>middle</desc>
+				<rect x="0" y="1397.63" width="56.6929" height="28.3465" class="st1"/>
+				<text x="11.68" y="1415.4" class="st25">middle</text>			</g>
+			<g id="shape155-925" transform="translate(1737.79,1312.59) rotate(90)">
+				<title>Sheet.155</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape156-928" transform="translate(212.598,-99.2126)">
+				<title>Sheet.156</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape157-933" transform="translate(1709.44,1312.59) rotate(90)">
+				<title>Sheet.157</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape158-936" transform="translate(382.677,2752.74) rotate(180)">
+				<title>Sheet.158</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape159-941" transform="translate(382.677,-85.0394)">
+				<title>Sheet.159</title>
+				<desc>middle</desc>
+				<rect x="0" y="1397.63" width="56.6929" height="28.3465" class="st1"/>
+				<text x="11.68" y="1415.4" class="st25">middle</text>			</g>
+			<g id="shape160-944" transform="translate(1936.21,1312.59) rotate(90)">
+				<title>Sheet.160</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape161-947" transform="translate(439.37,-99.2126)">
+				<title>Sheet.161</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape162-952" transform="translate(1936.21,1312.59) rotate(90)">
+				<title>Sheet.162</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape163-955" transform="translate(609.449,2752.74) rotate(180)">
+				<title>Sheet.163</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape164-960" transform="translate(609.449,-85.0394)">
+				<title>Sheet.164</title>
+				<desc>middle</desc>
+				<rect x="0" y="1397.63" width="56.6929" height="28.3465" class="st1"/>
+				<text x="11.68" y="1415.4" class="st25">middle</text>			</g>
+			<g id="shape165-963" transform="translate(2162.98,1312.59) rotate(90)">
+				<title>Sheet.165</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape166-966" transform="translate(666.142,-99.2126)">
+				<title>Sheet.166</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape167-971" transform="translate(2191.33,1312.59) rotate(90)">
+				<title>Sheet.167</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape168-974" transform="translate(836.22,2752.74) rotate(180)">
+				<title>Sheet.168</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape169-979" transform="translate(836.22,-85.0394)">
+				<title>Sheet.169</title>
+				<desc>middle</desc>
+				<rect x="0" y="1397.63" width="56.6929" height="28.3465" class="st1"/>
+				<text x="11.68" y="1415.4" class="st25">middle</text>			</g>
+			<g id="shape170-982" transform="translate(2389.76,1312.59) rotate(90)">
+				<title>Sheet.170</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape171-985" transform="translate(892.913,-99.2126)">
+				<title>Sheet.171</title>
+				<path d="M0 1425.98 L65.14 1425.98" class="st35"/>
+			</g>
+			<g id="shape172-990" transform="translate(1964.56,1355.11) rotate(90)">
+				<title>Sheet.172</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+			<g id="shape173-993" transform="translate(1964.56,1312.59) rotate(90)">
+				<title>Sheet.173</title>
+				<path d="M0 1425.98 L28.35 1425.98" class="st34"/>
+			</g>
+		</g>
+		<g id="group460-996" transform="translate(75.0679,-18.625)">
+			<title>Sheet.460</title>
+			<g id="shape350-997">
+				<title>Sheet.350</title>
+				<path d="M0 1425.98 L481.89 1425.98" class="st36"/>
+			</g>
+			<g id="shape351-1000" transform="translate(1511.02,1326.76) rotate(90)">
+				<title>Sheet.351</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape352-1003" transform="translate(1666.92,1326.76) rotate(90)">
+				<title>Sheet.352</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape353-1006" transform="translate(1823.84,1326.76) rotate(90)">
+				<title>Sheet.353</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape354-1009" transform="translate(28.3465,-14.1732)">
+				<title>矩形.354</title>
+				<path d="M0 1425.98 L113.39 1425.98 L113.39 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape355-1011" transform="translate(42.5197,-28.3465)">
+				<title>矩形.355</title>
+				<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape356-1013" transform="translate(56.6929,-42.5197)">
+				<title>矩形.356</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape357-1015" transform="translate(70.8661,-56.6929)">
+				<title>矩形.357</title>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st38"/>
+			</g>
+			<g id="shape358-1017" transform="translate(14.1732,0)">
+				<title>矩形.358</title>
+				<path d="M0 1425.98 L141.73 1425.98 L141.73 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape364-1019" transform="translate(113.386,-70.8661)">
+				<title>Sheet.364</title>
+				<path d="M0 1425.98 L107.66 1425.98" class="st35"/>
+			</g>
+			<g id="shape365-1024" transform="translate(99.2126,-85.0394)">
+				<title>Sheet.365</title>
+				<path d="M0 1425.98 L277.74 1425.98" class="st35"/>
+			</g>
+		</g>
+		<g id="group461-1029" transform="translate(599.477,-18.625)">
+			<title>Sheet.461</title>
+			<g id="shape367-1030">
+				<title>Sheet.367</title>
+				<path d="M0 1425.98 L481.89 1425.98" class="st36"/>
+			</g>
+			<g id="shape368-1033" transform="translate(1511.02,1326.76) rotate(90)">
+				<title>Sheet.368</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape369-1036" transform="translate(1666.92,1326.76) rotate(90)">
+				<title>Sheet.369</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape370-1039" transform="translate(1823.84,1326.76) rotate(90)">
+				<title>Sheet.370</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape371-1042" transform="translate(184.252,-14.9341)">
+				<title>矩形.371</title>
+				<path d="M0 1425.98 L113.39 1425.98 L113.39 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape372-1044" transform="translate(198.425,-29.1073)">
+				<title>矩形.372</title>
+				<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape373-1046" transform="translate(212.598,-43.2805)">
+				<title>矩形.373</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape374-1048" transform="translate(226.772,-57.4537)">
+				<title>矩形.374</title>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st38"/>
+			</g>
+			<g id="shape375-1050" transform="translate(170.079,-0.760823)">
+				<title>矩形.375</title>
+				<path d="M0 1425.98 L141.73 1425.98 L141.73 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape376-1052" transform="translate(212.598,-71.627) scale(-1,1)">
+				<title>Sheet.376</title>
+				<path d="M0 1425.98 L107.66 1425.98" class="st35"/>
+			</g>
+			<g id="shape377-1057" transform="translate(255.118,-85.8002)">
+				<title>Sheet.377</title>
+				<path d="M0 1425.98 L121.84 1425.98" class="st35"/>
+			</g>
+		</g>
+		<g id="group462-1062" transform="translate(1123.89,-18.625)">
+			<title>Sheet.462</title>
+			<g id="shape394-1063">
+				<title>Sheet.394</title>
+				<path d="M0 1425.98 L481.89 1425.98" class="st36"/>
+			</g>
+			<g id="shape395-1066" transform="translate(1511.02,1326.76) rotate(90)">
+				<title>Sheet.395</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape396-1069" transform="translate(1666.92,1326.76) rotate(90)">
+				<title>Sheet.396</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape397-1072" transform="translate(1823.84,1326.76) rotate(90)">
+				<title>Sheet.397</title>
+				<path d="M0 1425.98 L99.21 1425.98" class="st36"/>
+			</g>
+			<g id="shape398-1075" transform="translate(340.157,-14.1732)">
+				<title>矩形.398</title>
+				<path d="M0 1425.98 L113.39 1425.98 L113.39 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape399-1077" transform="translate(354.331,-28.3465)">
+				<title>矩形.399</title>
+				<path d="M0 1425.98 L85.04 1425.98 L85.04 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape400-1079" transform="translate(368.504,-42.5197)">
+				<title>矩形.400</title>
+				<path d="M0 1425.98 L56.69 1425.98 L56.69 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape401-1081" transform="translate(382.677,-56.6929)">
+				<title>矩形.401</title>
+				<rect x="0" y="1411.8" width="28.3465" height="14.1732" class="st38"/>
+			</g>
+			<g id="shape402-1083" transform="translate(325.984,0)">
+				<title>矩形.402</title>
+				<path d="M0 1425.98 L141.73 1425.98 L141.73 1411.8 L0 1411.8 L0 1425.98 Z" class="st37"/>
+			</g>
+			<g id="shape403-1085" transform="translate(368.504,-70.8661) scale(-1,1)">
+				<title>Sheet.403</title>
+				<path d="M0 1425.98 L107.66 1425.98" class="st35"/>
+			</g>
+			<g id="shape404-1090" transform="translate(382.677,-85.8002) scale(-1,1)">
+				<title>Sheet.404</title>
+				<path d="M0 1425.98 L277.74 1425.98" class="st35"/>
+			</g>
+		</g>
+	</g>
+</svg>
