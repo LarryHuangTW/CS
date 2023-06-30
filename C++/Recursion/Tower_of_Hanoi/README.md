@@ -16,11 +16,13 @@ class Tower_of_Hanoi<3>
 	public:
 		using size_type = std::size_t;
 
+		//get the count of steps
 		size_type getSteps() const noexcept
 		{
 			return steps;
 		}
 
+		//get the logs of steps
 		const auto& getLogs() const noexcept
 		{
 			return logs;
@@ -36,7 +38,7 @@ class Tower_of_Hanoi<3>
 			for (size_type i { 0 }; i < 3; ++i)
 				for ( ; !stks[i].empty(); stks[i].pop());
 
-			//initialiaze source rod
+			//initialize source rod
 			for (size_type i { n }; 0 < i; --i)
 				stks[0].push(i);
 
