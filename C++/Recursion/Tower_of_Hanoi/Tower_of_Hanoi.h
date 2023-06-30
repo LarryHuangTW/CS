@@ -24,11 +24,13 @@ namespace cust					//customized / non-standard
 		public:
 			using size_type = std::size_t;
 
+			//get the count of steps
 			size_type getSteps() const noexcept
 			{
 				return steps;
 			}
 
+			//get the logs of steps
 			const auto& getLogs() const noexcept
 			{
 				return logs;
@@ -44,7 +46,7 @@ namespace cust					//customized / non-standard
 				for (size_type i { 0 }; i < 3; ++i)
 					for ( ; !stks[i].empty(); stks[i].pop());
 
-				//initialiaze source rod
+				//initialize source rod
 				for (size_type i { n }; 0 < i; --i)
 					stks[0].push(i);
 
@@ -66,10 +68,10 @@ namespace cust					//customized / non-standard
 				++steps;
 			}
 
-			char rod_symbol[3] { 'A' , 'B' , 'C' };				//A: source , B: temporary , C: destination
+			char rod_symbol[3] { 'A' , 'B' , 'C' };			//A: source , B: temporary , C: destination
 			std::array<std::stack<size_type>, 3> stks {};		//rod stacks
-			size_type   steps { 0 };							//count of steps
-			std::string logs  {};								//logs  of steps
+			size_type   steps { 0 };				//count of steps
+			std::string logs  {};					//logs  of steps
 	};
 
 	namespace recursive_version
@@ -162,8 +164,8 @@ namespace cust					//customized / non-standard
 				{
 					const bool flag { cust::isOdd(n) };
 					const std::array<std::pair<rod_t, rod_t>, 3> ary {{	{ rod_t::src , flag ? rod_t::dest : rod_t::tmp  } , 
-																		{ rod_t::src , flag ? rod_t::tmp  : rod_t::dest } , 
-																		{ rod_t::tmp , rod_t::dest } }};
+												{ rod_t::src , flag ? rod_t::tmp  : rod_t::dest } , 
+												{ rod_t::tmp , rod_t::dest } }};
 
 					initialize(n);
 
