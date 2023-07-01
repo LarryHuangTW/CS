@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="11.818in" height="11.0306in" viewBox="0 0 850.894 794.201" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st10">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-width:0.25}
+		.st2 {fill:#0000ff;font-family:Times New Roman;font-size:1.16666em}
+		.st3 {fill:none;stroke:#ff0000;stroke-width:0.25}
+		.st4 {fill:#ff0000;font-family:Times New Roman;font-size:1.16666em}
+		.st5 {fill:#808080;font-family:Times New Roman;font-size:1.16666em}
+		.st6 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st7 {font-size:1em}
+		.st8 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st9 {fill:none;stroke:#0000ff;stroke-width:0.25}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Page-1</title>
+		<g id="shape7-1" transform="translate(28.5965,-439.62)">
+			<title>Sheet.7</title>
+			<desc>32 bits single precision floating-point numbers</desc>
+			<rect x="0" y="765.854" width="283.465" height="28.3465" class="st1"/>
+			<text x="10.89" y="784.23" class="st2">32 bits single precision floating-point numbers</text>		</g>
+		<g id="shape8-4" transform="translate(326.234,-326.234)">
+			<title>程序.7</title>
+			<desc>1</desc>
+			<rect x="0" y="765.854" width="28.3465" height="28.3465" class="st3"/>
+			<text x="10.67" y="784.23" class="st4">1</text>		</g>
+		<g id="shape9-7" transform="translate(439.62,-326.234)">
+			<title>程序.8</title>
+			<desc>52</desc>
+			<rect x="0" y="765.854" width="382.677" height="28.3465" class="st3"/>
+			<text x="184.34" y="784.23" class="st4">52</text>		</g>
+		<g id="shape10-10" transform="translate(354.581,-326.234)">
+			<title>程序.9</title>
+			<desc>11</desc>
+			<rect x="0" y="765.854" width="85.0394" height="28.3465" class="st3"/>
+			<text x="35.52" y="784.23" class="st4">11</text>		</g>
+		<g id="shape11-13" transform="translate(28.5965,-326.234)">
+			<title>Sheet.11</title>
+			<desc>64 bits double precision floating-point numbers</desc>
+			<rect x="0" y="765.854" width="283.465" height="28.3465" class="st1"/>
+			<text x="8.56" y="784.23" class="st4">64 bits double precision floating-point numbers</text>		</g>
+		<g id="shape12-16" transform="translate(354.581,-411.274)">
+			<title>Sheet.12</title>
+			<desc>bias: 127</desc>
+			<rect x="0" y="765.854" width="70.8661" height="28.3465" class="st1"/>
+			<text x="9.96" y="784.23" class="st5">bias: 127</text>		</g>
+		<g id="shape13-19" transform="translate(354.581,-354.581)">
+			<title>Sheet.13</title>
+			<desc>bias: 1023</desc>
+			<rect x="0" y="765.854" width="85.0394" height="28.3465" class="st1"/>
+			<text x="13.55" y="784.23" class="st5">bias: 1023</text>		</g>
+		<g id="shape14-22" transform="translate(99.4626,-382.927)">
+			<title>Sheet.14</title>
+			<rect x="0" y="765.854" width="170.079" height="28.3465" class="st1"/>
+			<image x="0" y="765.854" width="170.079" height="28.3465" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						iVBORw0KGgoAAAANSUhEUgAAANsAAAAjCAIAAACSIOhjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7C
+						ARUoSoAAAASvSURBVHhe7ZrRVSQhEEUnBWMwBXMwBGMwBTMwAzMwAiPYBEzADMxh9tqvpg4LA9LT9Ih76n7M6YICiuJB0+4ejkEwE6HI
+						YC5CkcFchCKDuQhFBnMRigzmIhQZDOb9/f3j48OM9YQig8Hc398/Pz+bUfD5+fmnAlU4hCKDwbQVyQl6c3NzOBxub2/xFJgQigx2AYU1
+						FAnUoj8ORbOPx6enp7u7Oz3/vCKJRlsE0ihL9vAkEeZ3+CYV/Z7D4VzhRNHQrLeVzsq3inx8fGQiOhHF29ubN6kml4WkWbvrDO6zX0fw
+						+pRpLGirB/bw1JYFs+v0e+4BiWXoC9J7MYjm9fUVAflu5IX78PCQpZR1p8TBmSZmLGQfOuwuPxEZgv2mZzFGkQwp4cNlKVNbBjW7znBP
+						zRTMrtPvuQfaD9dUpC58/CqHqMdXmVNNPoBqicrBP70jAg7mukiF5pI1UMsLzeoWtipSWiQI/dKEMaxuDV+zDEU2ub4iNdnsDCMACtGc
+						2QU4NGTz8vJCc85I3NRVKm7Yqkgc0KLuBFtSRkMYqDPo9OzXWb/nHvyIIjnMzDihMMDsAiJsyIYOaevv8XI6WxWZEorclSGKVCdmXIR6
+						aHTSVqTe6WYsoE4XKEynSGAb6QJA6Bzy5nFiuCe18uRZVyKZvFmoko/o99wDTy9vJJ4ZVKMztXRF26gTMy5CV0n/NClpKJILAG3pwezl
+						bsqKpC/uuRRJcglX+SUAaSiLYbinZipPxKobiK47QK3coN9zD5Re1o8MawkJQPpgUgrmLFTRROHxSw88kBAKs6+Kb6ErJbAxWfpMP2Uc
+						2pI32uJAc6GSNHhTJKX9ZAvvKGUbFWn2AhGrPD0DVDLQ00uys9MVYPYazz3QKHD2UyM9eEqYLA6EzRQ43nylGjo+i0vK7AU6p9sGSjW7
+						iBFLzn9rf020G+ajVhk+T7PXoJ6J3uwT2pGpAoZ74iBPmY5eMeAK6Pfcg1p6mQjlTMrsOsRP8yXSfFP1oIFK6Wd//Sk5e2TWmOutXaqH
+						3ihPt9FwT80UZKao3G85/Z57UEuvR9U+8KilLQck2mXua09HVMUQNF/bcC2/Q5Fpn8M9fUVlpqjck9DvuQffKrKcqcNWQYj0gA89cJbz
+						2x+tXgJXkCOEIv9/Rep0VK2cVcj7tydg5IiaryNH+B2KTMMY7qmZgswUlXsP/Z57UEtvI6oSdWJGB6iQLza4jhxhdkXqKyS9nw33rK2o
+						f6/4YvR77kEtvfrg4Awzu8laRTIc6WKCZp9Ao2Vih3AlRaoKatNQbTacbtNM3uyF4Z6usyw2/akv/bTs9yxRwzQYlaTp4lmFZv+Lcog+
+						Mt0zF8pXfc92olyVX+XaA7Wl3MgwRerurJSlB5VQNqE2DdXS1jOrDiHboMM9XWccMwqPJfeDJ13+fs8SNdyuSHg4/SON/spISXszXAbT
+						IVEa8Sy1pdzIigO8hgV4Dg+6R5Es7dPyf4nlSTpItFKfMtyTkChHtVTpvAEeiDkTWb9niZw3KpKJMDqKJAx5qsQ8hkK3GqJG+SofwgBF
+						BsFATJEm+z7SjR4EYwlFBnMRb+1gLkKRwVyEIoO5CEUGM3E8/gUDfDB6rgcKCQAAAABJRU5ErkJggg=="/>
+			<rect x="0" y="765.854" width="170.079" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape15-26" transform="translate(425.447,-482.14)">
+			<title>Sheet.15</title>
+			<desc>00000000000000000000000 00000000000000000000000 1000000000000...</desc>
+			<rect x="0" y="510.736" width="184.252" height="283.465" class="st1"/>
+			<text x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+						 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" y="530.67" class="st6">00000000000000000000000 <tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em"
+						class="st7">00000000000000000000000 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em
+							 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em
+							 10.143em 10.643em 11.143em" dy="1.2em" class="st7">10000000000000000000000 </tspan><tspan x="0.143em
+							 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+							 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em" class="st7">00000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em"
+						class="st7">10000000000000000000000 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em
+							 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em
+							 10.143em 10.643em 11.143em" dy="1.2em" class="st7">01000000000000000000000 </tspan><tspan x="0.143em
+							 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+							 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em" class="st7">00100000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em"
+						class="st7">00000000000000000000000 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em
+							 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em
+							 10.143em 10.643em 11.143em" dy="1.2em" class="st7">00110011001100110011010 </tspan><tspan x="0.143em
+							 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+							 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em" class="st7">10011001100110011001101 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em"
+						class="st7">00000000000000000000000 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em
+							 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em
+							 10.143em 10.643em 11.143em" dy="1.2em" class="st7">00000000000000000000000 </tspan><tspan x="0.143em
+							 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+							 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em" class="st7">00000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em"
+						class="st7">00000000000000000000000 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em
+							 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em
+							 10.143em 10.643em 11.143em" dy="1.2em" class="st7">00000000000000000000000 </tspan><tspan x="0.143em
+							 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+							 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em" dy="1.2em" class="st7">00000000000000000000000</tspan></text>		</g>
+		<g id="shape16-44" transform="translate(354.581,-482.14)">
+			<title>Sheet.16</title>
+			<desc>10001001 10000010 10000000 10000000 01111111 01111111 0111111...</desc>
+			<rect x="0" y="510.736" width="70.8661" height="283.465" class="st1"/>
+			<text x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" y="530.67" class="st6">10001001 
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">10000010 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">10000000 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">10000000 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111111 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111111 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111111 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111111 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111101 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111011 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">00000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">00000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111110 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111101 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">01111100 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em" dy="1.2em" class="st7">10001001</tspan></text>		</g>
+		<g id="shape17-62" transform="translate(326.234,-482.14)">
+			<title>Sheet.17</title>
+			<desc>0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1</desc>
+			<rect x="0" y="510.736" width="28.3465" height="283.465" class="st1"/>
+			<text x="10.67" y="530.67" class="st6">0 <tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">1 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">1 </tspan><tspan x="10.67" dy="1.2em" class="st7">1 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">1 </tspan><tspan x="10.67" dy="1.2em" class="st7">1</tspan></text>		</g>
+		<g id="shape18-80" transform="translate(255.368,-28.5965)">
+			<title>Sheet.18</title>
+			<desc>1024 8 3 2 1.5 1.25 1.125 1 0.3 0.1 0 -0 -0.5 -0.25 -0.125 -1...</desc>
+			<rect x="0" y="510.736" width="70.8661" height="283.465" class="st1"/>
+<text x="2" y="530.67" xml:space="preserve" class="st8"> 1024 
+<tspan x="2" dy="1.2em" class="st7">       8 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       3 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       2 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1.5 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1.25 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1.125 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       0.3 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       0.1 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       0 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0.5 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0.25 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0.125 </tspan>
+<tspan x="2" dy="1.2em" class="st7">-1024 </tspan>
+</text>
+</g>
+		<g id="shape19-98" transform="translate(439.62,-28.5965)">
+			<title>Sheet.19</title>
+			<desc>0000000000000000000000000000000000000000000000000000 00000000...</desc>
+			<rect x="0" y="510.736" width="382.677" height="283.465" class="st1"/>
+			<text x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+						 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em 12.643em 13.143em
+						 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em 18.643em 19.143em
+						 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em 24.643em 25.143em
+						 25.643em" y="530.67" class="st6">0000000000000000000000000000000000000000000000000000 <tspan x="0.143em
+							 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em 6.643em
+							 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em 12.643em
+							 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em 18.643em
+							 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em 24.643em
+							 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">1000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">1000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0100000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0010000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0011001100110011001100110011001100110011001100110011 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">1001100110011001100110011001100110011001100110011010 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em 5.643em 6.143em
+							 6.643em 7.143em 7.643em 8.143em 8.643em 9.143em 9.643em 10.143em 10.643em 11.143em 11.643em 12.143em
+							 12.643em 13.143em 13.643em 14.143em 14.643em 15.143em 15.643em 16.143em 16.643em 17.143em 17.643em 18.143em
+							 18.643em 19.143em 19.643em 20.143em 20.643em 21.143em 21.643em 22.143em 22.643em 23.143em 23.643em 24.143em
+							 24.643em 25.143em 25.643em" dy="1.2em" class="st7">0000000000000000000000000000000000000000000000000000</tspan></text>		</g>
+		<g id="shape20-116" transform="translate(354.581,-28.5965)">
+			<title>Sheet.20</title>
+			<desc>10000001001 10000000010 10000000000 10000000000 01111111111 0...</desc>
+			<rect x="0" y="510.736" width="85.0394" height="283.465" class="st1"/>
+			<text x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" y="530.67" class="st6">10000001001 
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">10000000010 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">10000000000 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">10000000000 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">01111111111 </tspan>
+<tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">01111111111 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em"
+						class="st7">01111111111 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em
+							 4.143em 4.643em 5.143em" dy="1.2em" class="st7">01111111111 </tspan><tspan x="0.143em 0.643em 1.143em
+							 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">01111111101 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em"
+						class="st7">01111111011 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em
+							 4.143em 4.643em 5.143em" dy="1.2em" class="st7">00000000000 </tspan><tspan x="0.143em 0.643em 1.143em
+							 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">00000000000 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em"
+						class="st7">01111111110 </tspan><tspan x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em
+							 4.143em 4.643em 5.143em" dy="1.2em" class="st7">01111111101 </tspan><tspan x="0.143em 0.643em 1.143em
+							 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em" class="st7">01111111100 </tspan><tspan
+						x="0.143em 0.643em 1.143em 1.643em 2.143em 2.643em 3.143em 3.643em 4.143em 4.643em 5.143em" dy="1.2em"
+						class="st7">10000001001</tspan></text>		</g>
+		<g id="shape21-134" transform="translate(326.234,-28.5965)">
+			<title>Sheet.21</title>
+			<desc>0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1</desc>
+			<rect x="0" y="510.736" width="28.3465" height="283.465" class="st1"/>
+			<text x="10.67" y="530.67" class="st6">0 <tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">0 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">0 </tspan><tspan x="10.67" dy="1.2em" class="st7">1 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">1 </tspan><tspan x="10.67" dy="1.2em" class="st7">1 </tspan><tspan x="10.67" dy="1.2em"
+						class="st7">1 </tspan><tspan x="10.67" dy="1.2em" class="st7">1</tspan></text>		</g>
+		<g id="shape30-152" transform="translate(255.368,-482.14)">
+			<title>Sheet.30</title>
+			<desc>1024 8 3 2 1.5 1.25 1.125 1 0.3 0.1 0 -0 -0.5 -0.25 -0.125 -1...</desc>
+			<rect x="0" y="510.736" width="70.8661" height="283.465" class="st1"/>
+<text x="2" y="530.67" xml:space="preserve" class="st8"> 1024 
+<tspan x="2" dy="1.2em" class="st7">       8 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       3 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       2 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1.5 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1.25 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1.125 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       1 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       0.3 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       0.1 </tspan>
+<tspan x="2" dy="1.2em" class="st7">       0 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0.5 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0.25 </tspan>
+<tspan x="2" dy="1.2em" class="st7">      -0.125 </tspan>
+<tspan x="2" dy="1.2em" class="st7">-1024 </tspan>
+</text>
+</g>
+
+		<g id="shape4-170" transform="translate(326.234,-439.62)">
+			<title>程序</title>
+			<desc>1</desc>
+			<rect x="0" y="765.854" width="28.3465" height="28.3465" class="st9"/>
+			<text x="10.67" y="784.23" class="st2">1</text>		</g>
+		<g id="shape5-173" transform="translate(425.447,-439.62)">
+			<title>程序.2</title>
+			<desc>23</desc>
+			<rect x="0" y="765.854" width="184.252" height="28.3465" class="st9"/>
+			<text x="85.13" y="784.23" class="st2">23</text>		</g>
+		<g id="shape6-176" transform="translate(354.581,-439.62)">
+			<title>程序.3</title>
+			<desc>8</desc>
+			<rect x="0" y="765.854" width="70.8661" height="28.3465" class="st9"/>
+			<text x="31.93" y="784.23" class="st2">8</text>		</g>
+		<g id="shape31-179" transform="translate(326.234,-382.927)">
+			<title>Sheet.31</title>
+			<desc>sign bit</desc>
+			<rect x="0" y="765.854" width="28.3465" height="28.3465" class="st1"/>
+			<text x="2.5" y="775.83" class="st8">sign <tspan x="6.78" dy="1.2em" class="st7">bit</tspan></text>		</g>
+		<g id="shape32-183" transform="translate(354.581,-382.927)">
+			<title>Sheet.32</title>
+			<desc>exponent</desc>
+			<rect x="0" y="765.854" width="70.8661" height="28.3465" class="st1"/>
+			<text x="9.77" y="784.23" class="st8">exponent</text>		</g>
+		<g id="shape33-186" transform="translate(425.447,-382.927)">
+			<title>Sheet.33</title>
+			<desc>significand</desc>
+			<rect x="0" y="765.854" width="99.2126" height="28.3465" class="st1"/>
+			<text x="18.5" y="784.23" class="st8">significand</text>		</g>
+	</g>
+</svg>
