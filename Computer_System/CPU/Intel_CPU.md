@@ -10,36 +10,34 @@ IA-32 architecture is the instruction set architecture and programming environme
 
 **x86-64**: the 64-bit version of the x86 instruction set (also known as x64, AMD64 and Intel 64).
 
-**Intel 64**: Intel 64 architecture is the instruction set architecture and programming environment which is the superset of Intel's 32-bit and 64-bit architectures. 
-
-It is compatible with the IA-32 architecture.
+**Intel 64**: Intel 64 architecture is the instruction set architecture and programming environment which is the superset of Intel's 32-bit and 64-bit architectures. It is compatible with the IA-32 architecture.
 
 
-* Intel 64 and IA-32 processors are "little endian" machines; this means the bytes of a word are numbered starting from the least significant byte.
+Intel 64 and IA-32 processors are "little endian" machines; this means the bytes of a word are numbered starting from the least significant byte.
 
-* machine instruction: instruction opcode + operands (source operand , destination operand)
+machine instruction: instruction opcode + operands (source operand , destination operand)
 
-* number of operands: 0 ~ 3
+number of operands: 0 ~ 3
 
-> When two operands are present in an arithmetic or logical instruction, the right operand is the source and the left operand is the destination.
+When two operands are present in an arithmetic or logical instruction, the right operand is the source and the left operand is the destination.
 
-* L1 cache: instruction cache (I-Cache) and data cache (D-Cache)
+L1 cache: instruction cache (I-Cache) and data cache (D-Cache)
 
-  L2 cache: static RAM
+L2 cache: static RAM
 
-* A 32-bit address bus that supports up to 4-GBytes of physical memory   (PDF page 35)
+A 32-bit address bus that supports up to 4-GBytes of physical memory
 
-* Bus Unit , translation engine (instruction fetch unit , decode units / decoders) , Arithmetic Logic Units (ALUs) , Float-Point Unit (FPU) , Out-Of-Order Execution Core , Retirement Unit
+Bus Unit, translation engine (instruction fetch unit, decode units / decoders), Arithmetic Logic Units (ALUs), Float-Point Unit (FPU), Out-Of-Order Execution Core, Retirement Unit ...
 
-* In 64-bit mode:
+In 64-bit mode:
 
    + Effective address size: 32, 64 (default)
 
    + Effective operand size: 16, 32 (default), 64
 
-* RAX , EAX , AX , AL + AH
+RAX , EAX , AX , AL + AH
 
-### Intel CPU Data Types
+## Intel CPU Data Types
 
 * Fundamental Data Types:
 
@@ -65,13 +63,15 @@ It is compatible with the IA-32 architecture.
 
    + some instructions support additional interpretations of fundamental data types to allow operations to be performed on numeric data types.
 
-   + Integers: 8 = 2 (Unsigned , Signed) x 4 (Byte , Word , Doubleword , Quadword)
+   + Integers:
+
+      - 2 (Unsigned , Signed) x 4 (Byte , Word , Doubleword , Quadword) = 8 types of integers
 
       - Unsigned Integers: Ordinals
 
       - Signed Integers: 2's complement encoding with the sign bit is located in the highest bit
 
-   + Floating-Point: 4
+   + Floating-Point:
 
       - Half precision floating-point: 2 bytes
 
@@ -91,8 +91,7 @@ It is compatible with the IA-32 architecture.
 
       - Near Pointer: is a 32-bit offset (also called an effective address) within a segment (register)
 
-      - Far  Pointer: is a logical address, consisting of a 16-bit segment selector and 
-					  a 32-bit offset
+      - Far  Pointer: is a logical address, consisting of a 16-bit segment selector and a 32-bit offset
 
    + 64-bit mode:
 
@@ -100,9 +99,7 @@ It is compatible with the IA-32 architecture.
 
       - Far  Pointer: is a 16-bit segment selector and a 64-bit offset
 
-* Bit Field Data Type:
-
-> is a contiguous sequence of bits. It can begin at any bit position of any byte in memory and can contain up to 32 bits
+* Bit Field Data Type: It is a contiguous sequence of bits. It can begin at any bit position of any byte in memory and can contain up to 32 bits
 
 * String Data Types:
 
@@ -118,6 +115,4 @@ It is compatible with the IA-32 architecture.
 
    + a set of 64-bit and 128-bit packed data type for use in SIMD operations
 
-* BCD Integers:
-
-> Binary-coded decimal integers (BCD integers) are unsigned 4-bit integers with valid values ranging from 0 to 9.
+* BCD Integers: Binary-coded decimal integers (BCD integers) are unsigned 4-bit integers with valid values ranging from 0 to 9.
