@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="7.01169in" height="15.478in" viewBox="0 0 504.842 1114.42" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st25">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st3 {font-size:0.874996em}
+		.st4 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st5 {font-size:0.857157em}
+		.st6 {fill:#525151;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st7 {visibility:visible}
+		.st8 {fill:#5b9bd5;fill-opacity:0.22;filter:url(#filter_2);stroke:none}
+		.st9 {fill:#5382a1;fill-opacity:0.97;stroke:none;stroke-width:7.65}
+		.st10 {fill:#e76f00;fill-opacity:0.97;stroke:none;stroke-width:7.65}
+		.st11 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st12 {fill:none;stroke:#000000;stroke-dasharray:10.5,7.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st13 {font-size:1em}
+		.st14 {font-size:0.750009em;font-weight:bold}
+		.st15 {font-size:0.750009em}
+		.st16 {fill:none;stroke:#000000;stroke-dasharray:1,2;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st17 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st18 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st19 {marker-end:url(#mrkr5-160);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st20 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st21 {marker-end:url(#mrkr5-191);stroke:#000000;stroke-dasharray:0,7.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st22 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.37313432835821}
+		.st23 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st24 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st25 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-160" class="st20" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr5-191" class="st22" refX="-4.69" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.68,-2.68) "/>
+		</marker>
+	</defs>
+	<defs id="Filters">
+		<filter id="filter_2">
+			<feGaussianBlur stdDeviation="2"/>
+		</filter>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape2-1" transform="translate(131.761,-925.837)">
+			<title>Rectangle</title>
+			<desc>Java compiler ( javac )</desc>
+			<rect x="0" y="1071.9" width="170.079" height="42.5197" rx="5.66929" ry="5.66929" class="st1"/>
+			<text x="40.39" y="1088.36" class="st2">Java compiler <tspan x="62.11" dy="1.371em" class="st3">( javac )</tspan></text>		</g>
+		<g id="shape38-5" transform="translate(330.186,-798.278)">
+			<title>Ellipse</title>
+			<desc>auxiliary resources ( ex : xml files, images, audio ...)</desc>
+			<path d="M0 1078.98 A70.8661 35.4331 0 1 1 141.73 1078.98 A70.8661 35.4331 0 0 1 0 1078.98 Z" class="st1"/>
+			<text x="17.81" y="1068.78" class="st4">auxiliary resources <tspan x="14.38" dy="1.25em" class="st5">( ex : xml files, images, </tspan><tspan
+						x="49.54" dy="1.2em" class="st5">audio ...)</tspan></text>		</g>
+		<g id="shape39-10" transform="translate(344.359,-727.411)">
+			<title>Rectangle.39</title>
+			<desc>jar</desc>
+			<rect x="0" y="1086.07" width="113.386" height="28.3465" rx="5.66929" ry="5.66929" class="st1"/>
+			<text x="48.26" y="1105.04" class="st2">jar</text>		</g>
+		<g id="group40-13" transform="translate(365.619,-599.852)">
+			<title>Sheet.40</title>
+			<g id="group12-14" transform="translate(0,-7.08662)">
+				<title>Document, Blank.61</title>
+				<g id="shape14-15" transform="translate(3.60336,-3.69736)">
+					<title>Sheet.14</title>
+					<path d="M63.66 1114.42 L63.66 1056.49 L44.44 1036.77 L0 1036.77 L0 1114.42 L63.66 1114.42 ZM3.6 1110.72 L3.6
+								 1040.47 L42.04 1040.47 L42.04 1060.19 L60.06 1060.19 L60.06 1110.72 L3.6 1110.72 Z" class="st6"/>
+				</g>
+			</g>
+			<g id="group28-17" transform="translate(10.9894,-33.3071)">
+				<title>Java SDK</title>
+				<g id="shape29-18" transform="translate(8.27432,-4.7919)">
+					<title>Sheet.29</title>
+					<g id="shadow29-19" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M7.07 1108.31 C7.07 1108.31 5.31 1109.34 8.32 1109.68 C11.96 1110.1 13.82 1110.04 17.84 1109.28
+									 C17.84 1109.28 18.89 1109.95 20.37 1110.52 C11.37 1114.42 0 1110.3 7.07 1108.31 Z" class="st8"/>
+					</g>
+					<path d="M7.07 1108.31 C7.07 1108.31 5.31 1109.34 8.32 1109.68 C11.96 1110.1 13.82 1110.04 17.84 1109.28 C17.84
+								 1109.28 18.89 1109.95 20.37 1110.52 C11.37 1114.42 0 1110.3 7.07 1108.31 Z" class="st9"/>
+				</g>
+				<g id="shape30-23" transform="translate(6.45685,-10.4152)">
+					<title>Sheet.30</title>
+					<g id="shadow30-24" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M7.79 1108.85 C7.79 1108.85 5.82 1110.32 8.83 1110.64 C12.72 1111.04 15.79 1111.08 21.11 1110.04
+									 C21.11 1110.04 21.84 1110.79 23 1111.21 C12.12 1114.42 0 1111.46 7.79 1108.85 Z" class="st8"/>
+					</g>
+					<path d="M7.79 1108.85 C7.79 1108.85 5.82 1110.32 8.83 1110.64 C12.72 1111.04 15.79 1111.08 21.11 1110.04 C21.11
+								 1110.04 21.84 1110.79 23 1111.21 C12.12 1114.42 0 1111.46 7.79 1108.85 Z" class="st9"/>
+				</g>
+				<g id="shape31-28" transform="translate(15.997,-19.6999)">
+					<title>Sheet.31</title>
+					<g id="shadow31-29" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M7.52 1109.52 C9.73 1112.1 6.93 1114.42 6.93 1114.42 C6.93 1114.42 12.56 1111.48 9.98 1107.81 C7.56
+									 1104.39 5.71 1102.68 15.74 1096.82 C15.74 1096.82 0 1100.78 7.52 1109.52 Z" class="st8"/>
+					</g>
+					<path d="M7.52 1109.52 C9.73 1112.1 6.93 1114.42 6.93 1114.42 C6.93 1114.42 12.56 1111.48 9.98 1107.81 C7.56
+								 1104.39 5.71 1102.68 15.74 1096.82 C15.74 1096.82 0 1100.78 7.52 1109.52 Z" class="st10"/>
+				</g>
+				<g id="shape32-33" transform="translate(0,-0.625006)">
+					<title>Sheet.32</title>
+					<g id="shadow32-34" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M35.41 1107.9 C35.41 1107.9 36.71 1108.98 33.98 1109.81 C28.79 1111.4 12.36 1111.88 7.8 1109.88
+									 C6.16 1109.16 9.24 1108.16 10.2 1107.95 C11.21 1107.73 11.79 1107.77 11.79 1107.77 C9.97 1106.47
+									 0 1110.31 6.73 1111.41 C25.08 1114.42 40.17 1110.06 35.41 1107.9 Z" class="st8"/>
+					</g>
+					<path d="M35.41 1107.9 C35.41 1107.9 36.71 1108.98 33.98 1109.81 C28.79 1111.4 12.36 1111.88 7.8 1109.88 C6.16
+								 1109.16 9.24 1108.16 10.2 1107.95 C11.21 1107.73 11.79 1107.77 11.79 1107.77 C9.97 1106.47 0 1110.31
+								 6.73 1111.41 C25.08 1114.42 40.17 1110.06 35.41 1107.9 Z" class="st9"/>
+				</g>
+				<g id="shape33-38" transform="translate(4.2337,-16.1649)">
+					<title>Sheet.33</title>
+					<g id="shadow33-39" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M11.95 1109.34 C11.95 1109.34 3.6 1111.34 8.99 1112.07 C11.27 1112.38 15.82 1112.31 20.05 1111.95
+									 C23.5 1111.66 26.97 1111.03 26.97 1111.03 C26.97 1111.03 25.76 1111.56 24.87 1112.16 C16.39
+									 1114.42 0 1113.37 4.72 1111.07 C8.71 1109.12 11.95 1109.34 11.95 1109.34 Z" class="st8"/>
+					</g>
+					<path d="M11.95 1109.34 C11.95 1109.34 3.6 1111.34 8.99 1112.07 C11.27 1112.38 15.82 1112.31 20.05 1111.95 C23.5
+								 1111.66 26.97 1111.03 26.97 1111.03 C26.97 1111.03 25.76 1111.56 24.87 1112.16 C16.39 1114.42 0
+								 1113.37 4.72 1111.07 C8.71 1109.12 11.95 1109.34 11.95 1109.34 Z" class="st9"/>
+				</g>
+				<g id="shape34-43" transform="translate(31.0011,-12.5604)">
+					<title>Sheet.34</title>
+					<g id="shadow34-44" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M0.17 1114.19 C8.8 1109.67 4.81 1105.32 2.03 1105.91 C1.35 1106.05 1.04 1106.17 1.04 1106.17 C1.04
+									 1106.17 1.29 1105.77 1.78 1105.6 C7.28 1103.65 11.52 1111.36 0 1114.42 C0 1114.42 0.13 1114.3
+									 0.17 1114.19 Z" class="st8"/>
+					</g>
+					<path d="M0.17 1114.19 C8.8 1109.67 4.81 1105.32 2.03 1105.91 C1.35 1106.05 1.04 1106.17 1.04 1106.17 C1.04 1106.17
+								 1.29 1105.77 1.78 1105.6 C7.28 1103.65 11.52 1111.36 0 1114.42 C0 1114.42 0.13 1114.3 0.17 1114.19
+								 Z" class="st9"/>
+				</g>
+				<g id="shape35-48" transform="translate(13.8888,-21.3256)">
+					<title>Sheet.35</title>
+					<g id="shadow35-49" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M12.09 1088.97 C12.09 1088.97 16.86 1093.79 7.56 1101.2 C0.09 1107.15 5.85 1110.54 7.55 1114.42
+									 C3.2 1110.45 0 1106.96 2.15 1103.71 C5.29 1098.94 14.01 1096.63 12.09 1088.97 Z" class="st8"/>
+					</g>
+					<path d="M12.09 1088.97 C12.09 1088.97 16.86 1093.79 7.56 1101.2 C0.09 1107.15 5.85 1110.54 7.55 1114.42 C3.2
+								 1110.45 0 1106.96 2.15 1103.71 C5.29 1098.94 14.01 1096.63 12.09 1088.97 Z" class="st10"/>
+				</g>
+				<g id="shape36-53" transform="translate(10.536,0)">
+					<title>Sheet.36</title>
+					<g id="shadow36-54" transform="matrix(1,0,0,1,0.3456,1.9728)" class="st7">
+						<path d="M6.5 1113.88 C14.78 1114.42 27.49 1113.58 27.79 1109.63 C27.79 1109.63 27.21 1111.13 20.95 1112.32
+									 C13.88 1113.66 5.17 1113.51 0 1112.65 C0 1112.64 1.06 1113.53 6.5 1113.88 Z" class="st8"/>
+					</g>
+					<path d="M6.5 1113.88 C14.78 1114.42 27.49 1113.58 27.79 1109.63 C27.79 1109.63 27.21 1111.13 20.95 1112.32 C13.88
+								 1113.66 5.17 1113.51 0 1112.65 C0 1112.64 1.06 1113.53 6.5 1113.88 Z" class="st9"/>
+				</g>
+			</g>
+			<g id="shape37-58">
+				<title>Sheet.37</title>
+				<desc>JAR</desc>
+				<rect x="0" y="1071.9" width="70.8661" height="42.5197" class="st11"/>
+				<text x="21.21" y="1097.96" class="st2">JAR</text>			</g>
+		</g>
+		<g id="shape41-61" transform="translate(32.5482,-344.734)">
+			<title>Rectangle.41</title>
+			<rect x="0" y="887.644" width="453.543" height="226.772" rx="5.66929" ry="5.66929" class="st12"/>
+		</g>
+		<g id="shape42-63" transform="translate(32.5482,-571.506)">
+			<title>Sheet.42</title>
+			<desc>Java Runtime Environment ( JRE )</desc>
+			<rect x="0" y="1057.72" width="99.2126" height="56.6929" class="st11"/>
+			<text x="5.84" y="1074.04" class="st2">Java Runtime  <tspan x="7.84" dy="1.2em" class="st13">Environment </tspan><tspan
+						x="31.28" dy="1.304em" class="st14">( JRE )</tspan></text>		</g>
+		<g id="shape43-68" transform="translate(117.588,-500.64)">
+			<title>Rectangle.43</title>
+			<desc>Class Loader and Bytecode Verifier</desc>
+			<rect x="0" y="1057.72" width="170.079" height="56.6929" rx="5.66929" ry="5.66929" class="st1"/>
+			<text x="43.05" y="1074.07" class="st2">Class Loader <tspan x="76.38" dy="1.3em" class="st15">and  </tspan><tspan
+						x="27.51" dy="1.125em" class="st13">Bytecode Verifier</tspan></text>		</g>
+		<g id="shape44-73" transform="translate(103.414,-358.907)">
+			<title>Rectangle.44</title>
+			<rect x="0" y="1001.03" width="368.504" height="113.386" rx="5.66929" ry="5.66929" class="st16"/>
+		</g>
+		<g id="shape45-75" transform="translate(32.5482,-358.907)">
+			<title>Sheet.45</title>
+			<desc>Java Virtual Machine ( JVM )</desc>
+			<rect x="0" y="1001.03" width="70.8661" height="113.386" class="st11"/>
+			<text x="21.22" y="1033.72" class="st2">Java <tspan x="12.77" dy="1.2em" class="st13">Virtual </tspan><tspan x="7.44"
+						dy="1.2em" class="st13">Machine </tspan><tspan x="15.44" dy="1.6em" class="st14">( JVM )</tspan></text>		</g>
+		<g id="shape46-81" transform="translate(117.588,-415.6)">
+			<title>Rectangle.46</title>
+			<desc>Java Interpreter</desc>
+			<rect x="0" y="1071.9" width="170.079" height="42.5197" rx="5.66929" ry="5.66929" class="st1"/>
+			<text x="35.07" y="1097.96" class="st2">Java Interpreter</text>		</g>
+		<g id="shape47-84" transform="translate(316.013,-415.6)">
+			<title>Rectangle.47</title>
+			<desc>Java Just-In-Time Compiler</desc>
+			<rect x="0" y="1071.9" width="141.732" height="42.5197" rx="5.66929" ry="5.66929" class="st1"/>
+			<text x="13.33" y="1088.36" class="st2">Java Just-In-Time <tspan x="40.65" dy="1.2em" class="st13">Compiler</tspan></text>		</g>
+		<g id="shape48-88" transform="translate(330.186,-500.64)">
+			<title>Ellipse.48</title>
+			<desc>Java Class Libraries</desc>
+			<path d="M0 1086.07 A70.8661 28.3465 0 0 1 141.73 1086.07 A70.8661 28.3465 0 1 1 -0 1086.07 Z" class="st1"/>
+			<text x="14.49" y="1090.27" class="st4">Java Class Libraries</text>		</g>
+		<g id="group49-91" transform="translate(174.281,-996.703)">
+			<title>Sheet.49</title>
+			<g id="shape4-92" transform="translate(42.5197,-28.3465)">
+				<title>Document.18</title>
+				<path d="M37.8 1043.55 L56.69 1061.27 L37.8 1061.27 L37.8 1043.55 ZM0 1043.55 L0 1114.42 L56.69 1114.42 L56.69 1061.27
+							 L37.8 1061.27 L37.8 1043.55 L0 1043.55 Z" class="st17"/>
+			</g>
+			<g id="shape5-94" transform="translate(28.3465,-14.1732)">
+				<title>Document.19</title>
+				<path d="M37.8 1043.55 L56.69 1061.27 L37.8 1061.27 L37.8 1043.55 ZM0 1043.55 L0 1114.42 L56.69 1114.42 L56.69 1061.27
+							 L37.8 1061.27 L37.8 1043.55 L0 1043.55 Z" class="st17"/>
+			</g>
+			<g id="shape6-96" transform="translate(14.1732,0)">
+				<title>Document.20</title>
+				<path d="M37.8 1043.55 L56.69 1061.27 L37.8 1061.27 L37.8 1043.55 ZM0 1043.55 L0 1114.42 L56.69 1114.42 L56.69 1061.27
+							 L37.8 1061.27 L37.8 1043.55 L0 1043.55 Z" class="st17"/>
+			</g>
+			<g id="shape7-98">
+				<title>Sheet.7</title>
+				<desc>Java source codes ( .java )</desc>
+				<rect x="0" y="1043.55" width="70.8661" height="70.8661" class="st18"/>
+				<text x="23" y="1059.18" class="st4">Java <tspan x="17.16" dy="1.2em" class="st13">source </tspan><tspan x="19.5"
+							dy="1.2em" class="st13">codes </tspan><tspan x="16.94" dy="1.25em" class="st5">( .java )</tspan></text>			</g>
+		</g>
+		<g id="group50-104" transform="translate(160.107,-791.191)">
+			<title>Sheet.50</title>
+			<g id="shape11-105" transform="translate(14.1732,-14.1732)">
+				<title>Circle.11</title>
+				<path d="M0 1071.9 A42.5197 42.5197 0 1 1 85.04 1071.9 A42.5197 42.5197 0 0 1 0 1071.9 Z" class="st17"/>
+			</g>
+			<g id="shape10-107" transform="translate(7.0866,-7.0866)">
+				<title>Circle.10</title>
+				<path d="M0 1071.9 A42.5197 42.5197 0 1 1 85.04 1071.9 A42.5197 42.5197 0 0 1 0 1071.9 Z" class="st17"/>
+			</g>
+			<g id="shape9-109">
+				<title>Circle</title>
+				<desc>Java bytecodes ( .class )</desc>
+				<path d="M0 1071.9 A42.5197 42.5197 0 1 1 85.04 1071.9 A42.5197 42.5197 0 0 1 0 1071.9 Z" class="st17"/>
+				<text x="28.3" y="1058.7" class="st2">Java <tspan x="10.53" dy="1.2em" class="st13">bytecodes </tspan><tspan x="19"
+							dy="1.243em" class="st3">( .class )</tspan></text>			</g>
+		</g>
+		<g id="shape51-114" transform="translate(117.588,-373.081)">
+			<title>Rectangle.51</title>
+			<desc>Garbage Collector</desc>
+			<rect x="0" y="1086.07" width="170.079" height="28.3465" rx="5.66929" ry="5.66929" class="st1"/>
+			<text x="26.18" y="1105.04" class="st2">Garbage Collector</text>		</g>
+		<g id="shape52-117" transform="translate(316.013,-373.081)">
+			<title>Rectangle.52</title>
+			<desc>Threads</desc>
+			<rect x="0" y="1086.07" width="141.732" height="28.3465" rx="5.66929" ry="5.66929" class="st1"/>
+			<text x="45.1" y="1105.04" class="st2">Threads</text>		</g>
+		<g id="shape53-120" transform="translate(174.281,-217.175)">
+			<title>Square</title>
+			<desc>Microsoft Windows</desc>
+			<rect x="0" y="1043.55" width="70.8661" height="70.8661" class="st1"/>
+			<text x="7.83" y="1074.78" class="st4">Microsoft <tspan x="8.6" dy="1.2em" class="st13">Windows</tspan></text>		</g>
+		<g id="shape54-124" transform="translate(75.0679,-217.175)">
+			<title>Square.54</title>
+			<desc>Apple macOS</desc>
+			<rect x="0" y="1043.55" width="70.8661" height="70.8661" class="st1"/>
+			<text x="18.33" y="1074.78" class="st4">Apple <tspan x="14.83" dy="1.2em" class="st13">macOS</tspan></text>		</g>
+		<g id="shape55-128" transform="translate(273.493,-217.175)">
+			<title>Square.55</title>
+			<desc>Linux</desc>
+			<rect x="0" y="1043.55" width="70.8661" height="70.8661" class="st1"/>
+			<text x="18.71" y="1083.18" class="st4">Linux</text>		</g>
+		<g id="shape56-131" transform="translate(372.706,-217.175)">
+			<title>Square.56</title>
+			<desc>Solaris</desc>
+			<rect x="0" y="1043.55" width="70.8661" height="70.8661" class="st1"/>
+			<text x="15.99" y="1083.18" class="st4">Solaris</text>		</g>
+		<g id="shape57-134" transform="translate(32.5482,-203.002)">
+			<title>Rectangle.57</title>
+			<rect x="0" y="1015.2" width="453.543" height="99.2126" rx="5.66929" ry="5.66929" class="st12"/>
+		</g>
+		<g id="shape58-136" transform="translate(18.375,-302.215)">
+			<title>Sheet.58</title>
+			<desc>Operating Systems</desc>
+			<rect x="0" y="1086.07" width="155.906" height="28.3465" class="st11"/>
+			<text x="17.29" y="1105.04" class="st2">Operating Systems</text>		</g>
+		<g id="shape60-139" transform="translate(75.0679,-47.0965)">
+			<title>Square.60</title>
+			<desc>ARM</desc>
+			<rect x="0" y="1043.55" width="70.8661" height="70.8661" class="st1"/>
+			<text x="19.49" y="1083.18" class="st4">ARM</text>		</g>
+		<g id="shape62-142" transform="translate(372.706,-47.0965)">
+			<title>Square.62</title>
+			<desc>SPARC</desc>
+			<rect x="0" y="1043.55" width="70.8661" height="70.8661" class="st1"/>
+			<text x="13.25" y="1083.18" class="st4">SPARC</text>		</g>
+		<g id="shape63-145" transform="translate(32.5482,-18.75)">
+			<title>Rectangle.63</title>
+			<rect x="0" y="972.683" width="453.543" height="141.732" rx="5.66929" ry="5.66929" class="st12"/>
+		</g>
+		<g id="shape64-147" transform="translate(18.375,-160.482)">
+			<title>Sheet.64</title>
+			<desc>Hardwares</desc>
+			<rect x="0" y="1086.07" width="99.2126" height="28.3465" class="st11"/>
+			<text x="14.96" y="1105.04" class="st2">Hardwares</text>		</g>
+		<g id="shape65-150" transform="translate(46.7215,-32.9232)">
+			<title>Rectangle.65</title>
+			<rect x="0" y="1015.2" width="425.197" height="99.2126" rx="5.66929" ry="5.66929" class="st16"/>
+		</g>
+		<g id="shape66-152" transform="translate(46.7215,-117.963)">
+			<title>Sheet.66</title>
+			<desc>CPUs and Instruction Sets</desc>
+			<rect x="0" y="1071.9" width="155.906" height="42.5197" class="st11"/>
+			<text x="4.26" y="1097.36" class="st4">CPUs and Instruction Sets</text>		</g>
+		<g id="shape67-155" transform="translate(1331.22,117.713) rotate(90)">
+			<title>Sheet.67</title>
+			<path d="M0 1114.42 L22.19 1114.42" class="st19"/>
+		</g>
+		<g id="shape68-161" transform="translate(1331.22,188.579) rotate(90)">
+			<title>Sheet.68</title>
+			<path d="M0 1114.42 L29.27 1114.42" class="st19"/>
+		</g>
+		<g id="shape70-166" transform="translate(1317.04,323.224) rotate(90)">
+			<title>Sheet.70</title>
+			<path d="M0 1114.42 L227.7 1114.42" class="st19"/>
+		</g>
+		<g id="shape71-171" transform="translate(1515.47,387.004) rotate(90)">
+			<title>Sheet.71</title>
+			<path d="M0 1114.42 L32.97 1114.42" class="st19"/>
+		</g>
+		<g id="shape72-176" transform="translate(1515.47,316.138) rotate(90)">
+			<title>Sheet.72</title>
+			<path d="M0 1114.42 L36.36 1114.42" class="st19"/>
+		</g>
+		<g id="shape73-181" transform="translate(330.186,1699.84) rotate(180)">
+			<title>Sheet.73</title>
+			<path d="M0 1114.42 L36.36 1114.42" class="st19"/>
+		</g>
+		<g id="shape74-186" transform="translate(453.214,-472.101) rotate(12.9946)">
+			<title>Sheet.74</title>
+			<path d="M0 1114.42 L182.06 1114.42" class="st21"/>
+		</g>
+		<g id="shape75-192" transform="translate(1317.04,613.776) rotate(90)">
+			<title>Sheet.75</title>
+			<path d="M0 1114.42 L36.36 1114.42" class="st19"/>
+		</g>
+		<g id="shape76-197" transform="translate(690.171,1580.04) rotate(164.963)">
+			<title>Sheet.76</title>
+			<path d="M0 1114.42 L198.43 1114.42" class="st21"/>
+		</g>
+		<g id="shape77-202" transform="translate(398.531,-773.837) rotate(10.1247)">
+			<title>Sheet.77</title>
+			<path d="M0 1114.42 L194.53 1114.42" class="st21"/>
+		</g>
+		<g id="shape78-207" transform="translate(202.627,-755.758)">
+			<title>Sheet.78</title>
+			<desc>OR</desc>
+			<rect x="0" y="1071.9" width="28.3465" height="42.5197" class="st11"/>
+			<text x="5.84" y="1096.76" class="st23">OR</text>		</g>
+		<g id="shape79-210" transform="translate(202.627,-472.293)">
+			<title>Sheet.79</title>
+			<desc>OR</desc>
+			<rect x="0" y="1086.07" width="28.3465" height="28.3465" class="st11"/>
+			<text x="5.84" y="1103.84" class="st23">OR</text>		</g>
+		<g id="shape80-213" transform="translate(174.281,-47.0965)">
+			<title>Rectangle.80</title>
+			<desc>x86-64</desc>
+			<rect x="0" y="1043.55" width="170.079" height="70.8661" class="st1"/>
+			<text x="62.38" y="1083.78" class="st2">x86-64</text>		</g>
+		<g id="shape82-216" transform="translate(273.493,-599.852)">
+			<title>Sheet.82</title>
+			<desc>Java Archive File</desc>
+			<rect x="0" y="1071.9" width="99.2126" height="42.5197" class="st11"/>
+			<text x="7.29" y="1096.76" class="st24">Java Archive File</text>		</g>
+	</g>
+</svg>
