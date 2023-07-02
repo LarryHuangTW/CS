@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="5.62853in" height="14.6871in" viewBox="0 0 405.254 1057.47" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st22">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#dfa202;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#7c5b02;font-family:Times New Roman;font-size:1.33333em}
+		.st3 {marker-end:url(#mrkr4-12);stroke:#6bae2f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#6bae2f;fill-opacity:1;stroke:#6bae2f;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st5 {fill:none;stroke:#000000;stroke-dasharray:1.5,3;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st6 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st8 {fill:#7eb6aa}
+		.st9 {stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#ffffff;font-family:Times New Roman;font-size:1.33333em}
+		.st11 {font-size:0.750009em}
+		.st12 {fill:#9cc882;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st13 {fill:#000000}
+		.st14 {stroke:none;stroke-linecap:butt;stroke-width:1.47402}
+		.st15 {stroke:#000000;stroke-linecap:butt;stroke-width:1.47402}
+		.st16 {fill:#ffffff}
+		.st17 {stroke:#ffffff;stroke-linecap:butt;stroke-width:1.47402}
+		.st18 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st19 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st20 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st21 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st22 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-12" class="st4" refX="-7.04" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(138.847,-1010.63)">
+			<title>Start/End.46</title>
+			<desc>Start</desc>
+			<path d="M14.17 1057.47 L56.69 1057.47 A14.1732 14.1732 -180 0 0 56.69 1029.13 L14.17 1029.13 A14.1732 14.1732 -180 1
+						 0 14.17 1057.47 Z" class="st1"/>
+			<text x="20.32" y="1048.1" class="st2">Start</text>		</g>
+		<g id="shape2-4" transform="translate(131.761,-18.5)">
+			<title>Start/End.18</title>
+			<desc>End</desc>
+			<path d="M14.17 1057.47 L70.87 1057.47 A14.1732 14.1732 -180 0 0 70.87 1029.13 L14.17 1029.13 A14.1732 14.1732 -180 1
+						 0 14.17 1057.47 Z" class="st1"/>
+			<text x="29.63" y="1048.1" class="st2">End</text>		</g>
+		<g id="shape3-7" transform="translate(167.194,-1010.63)">
+			<title>Dynamic connector.19</title>
+			<path d="M7.09 1057.47 L7.09 1078.78" class="st3"/>
+		</g>
+		<g id="shape6-13" transform="translate(60.8947,-826.374)">
+			<title>Sheet.6</title>
+			<path d="M0 1057.47 L226.77 1057.47 L226.77 901.57 L0 901.57 L0 1057.47 Z" class="st5"/>
+		</g>
+		<g id="shape7-15" transform="translate(103.414,-953.933)">
+			<title>Sheet.7</title>
+			<desc>Loader</desc>
+			<rect x="0" y="1029.13" width="141.732" height="28.3465" class="st6"/>
+			<text x="51.05" y="1047.5" class="st7">Loader</text>		</g>
+		<g id="shape8-18" transform="translate(103.414,-911.413)">
+			<title>Subprocess.8</title>
+			<desc>load EXE</desc>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47 Z" class="st8"/>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47" class="st9"/>
+			<path d="M8.5 1057.47 L8.5 1014.95" class="st9"/>
+			<path d="M133.23 1057.47 L133.23 1014.95" class="st9"/>
+			<text x="37.54" y="1041.01" class="st10">load  EXE</text>		</g>
+		<g id="shape9-24" transform="translate(103.414,-840.547)">
+			<title>Subprocess.9</title>
+			<desc>load DLL process attach</desc>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47 Z" class="st8"/>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47" class="st9"/>
+			<path d="M8.5 1057.47 L8.5 1014.95" class="st9"/>
+			<path d="M133.23 1057.47 L133.23 1014.95" class="st9"/>
+			<text x="37.54" y="1033.81" class="st10">load  DLL <tspan x="37.05" dy="1.3em" class="st11">process attach</tspan></text>		</g>
+		<g id="shape11-31" transform="translate(103.414,-755.508)">
+			<title>Process.11</title>
+			<desc>DLL entry point DllMain( )</desc>
+			<rect x="0" y="1014.95" width="141.732" height="42.5197" class="st12"/>
+			<text x="18.43" y="1031.41" class="st10">DLL entry point <tspan x="45.04" dy="1.6em" class="st11">DllMain( )</tspan></text>		</g>
+		<g id="shape12-35" transform="translate(60.8947,-372.831)">
+			<title>Sheet.12</title>
+			<path d="M0 1057.47 L226.77 1057.47 L226.77 703.14 L0 703.14 L0 1057.47 Z" class="st5"/>
+		</g>
+		<g id="shape13-37" transform="translate(103.414,-698.815)">
+			<title>Sheet.13</title>
+			<desc>EXE</desc>
+			<rect x="0" y="1029.13" width="141.732" height="28.3465" class="st6"/>
+			<text x="57.26" y="1047.5" class="st7">EXE</text>		</g>
+		<g id="shape14-40" transform="translate(103.414,-656.295)">
+			<title>Subprocess.14</title>
+			<desc>EXE entry point main( )</desc>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47 Z" class="st8"/>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47" class="st9"/>
+			<path d="M8.5 1057.47 L8.5 1014.95" class="st9"/>
+			<path d="M133.23 1057.47 L133.23 1014.95" class="st9"/>
+			<text x="18.43" y="1031.41" class="st10">EXE entry point <tspan x="53.37" dy="1.6em" class="st11">main( )</tspan></text>		</g>
+		<g id="shape35-47" transform="translate(103.414,-379.917)">
+			<title>Subprocess.35</title>
+			<desc>Exit</desc>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47 Z" class="st8"/>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47" class="st9"/>
+			<path d="M8.5 1057.47 L8.5 1014.95" class="st9"/>
+			<path d="M133.23 1057.47 L133.23 1014.95" class="st9"/>
+			<text x="57.53" y="1041.01" class="st10">Exit</text>		</g>
+		<g id="group43-53" transform="translate(69.1935,-450.783)">
+			<title>Sheet.43</title>
+			<g id="shape15-54" transform="translate(-938.38,952.591) rotate(-90)">
+				<title>Alternating pulse</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st14"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st14"/>
+			</g>
+			<g id="shape17-58" transform="translate(-938.38,978.102) rotate(-90)">
+				<title>Alternating pulse.17</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st14"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st14"/>
+			</g>
+			<g id="shape18-62" transform="translate(-938.38,927.079) rotate(-90)">
+				<title>Alternating pulse.18</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st15"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st15"/>
+			</g>
+			<g id="shape19-66" transform="translate(-938.38,1005.03) rotate(-90)">
+				<title>Alternating pulse.19</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st14"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st14"/>
+			</g>
+			<g id="shape20-70" transform="translate(-938.38,1030.54) rotate(-90)">
+				<title>Alternating pulse.20</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st16"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st17"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st17"/>
+			</g>
+			<g id="shape21-74" transform="translate(-895.86,955.425) rotate(-90)">
+				<title>Alternating pulse.21</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st15"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st15"/>
+			</g>
+			<g id="shape22-78" transform="translate(-895.86,980.937) rotate(-90)">
+				<title>Alternating pulse.22</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st14"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st14"/>
+			</g>
+			<g id="shape23-82" transform="translate(-895.86,1006.45) rotate(-90)">
+				<title>Alternating pulse.23</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st15"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st15"/>
+			</g>
+			<g id="shape26-86" transform="translate(-975.23,985.898) rotate(-90)">
+				<title>Alternating pulse.26</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st15"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st15"/>
+			</g>
+			<g id="shape27-90" transform="translate(-975.23,1011.41) rotate(-90)">
+				<title>Alternating pulse.27</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st14"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st14"/>
+			</g>
+			<g id="shape28-94" transform="translate(-975.23,1037.63) rotate(-90)">
+				<title>Alternating pulse.28</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st15"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st15"/>
+			</g>
+			<g id="shape30-98" transform="translate(-482.444,43.593) rotate(-31.1026)">
+				<title>Sheet.30</title>
+				<path d="M0 1057.47 L35.07 1057.47" class="st18"/>
+			</g>
+			<g id="shape31-101" transform="translate(53.8956,-162.992)">
+				<title>Sheet.31</title>
+				<desc>main thread</desc>
+				<rect x="0" y="1029.13" width="99.2126" height="28.3465" class="st6"/>
+				<text x="21.12" y="1046.9" class="st19">main thread</text>			</g>
+			<g id="shape33-104" transform="translate(124.762,-134.646)">
+				<title>Sheet.33</title>
+				<desc>create thread 1</desc>
+				<rect x="0" y="1029.13" width="85.4124" height="28.3465" class="st6"/>
+				<text x="7.4" y="1046.9" class="st19">create thread 1</text>			</g>
+			<g id="shape34-107" transform="translate(-3.19744E-14,-106.299)">
+				<title>Sheet.34</title>
+				<desc>create thread 2</desc>
+				<rect x="0" y="1029.13" width="85.4124" height="28.3465" class="st6"/>
+				<text x="7.4" y="1046.9" class="st19">create thread 2</text>			</g>
+			<g id="shape36-110" transform="translate(-938.38,1087.24) rotate(-90)">
+				<title>Alternating pulse.36</title>
+				<path d="M30.26 1039.05 C30.26 1041.9 29.02 1043.66 28.13 1043.66 C27.15 1043.66 26 1041.64 26 1039.05 C26 1035.22
+							 24.9 1032.22 21.66 1032.22 C18.43 1032.22 17.32 1035.22 17.32 1039.05 C17.32 1041.9 16.46 1043.66 15.19
+							 1043.66 C13.94 1043.66 13.06 1041.9 13.06 1039.05 C13.06 1035.22 11.91 1032.22 8.72 1032.22 C5.62 1032.22
+							 4.38 1035.22 4.38 1039.05 L6.59 1039.05 C6.59 1036.19 7.25 1034.44 8.72 1034.44 C10.16 1034.44 10.85
+							 1036.19 10.85 1039.05 C10.85 1042.87 12.1 1045.87 15.19 1045.87 C18.21 1045.87 19.53 1042.87 19.53 1039.05
+							 C19.53 1036.19 20.15 1034.44 21.66 1034.44 C23.4 1034.44 23.79 1036.45 23.79 1039.05 C23.79 1042.87
+							 25.18 1045.87 28.13 1045.87 C31.17 1045.87 32.47 1042.87 32.47 1039.05 L30.26 1039.05 Z" class="st13"/>
+				<path d="M0 1039.05 L6.6 1039.05" class="st15"/>
+				<path d="M36.85 1039.05 L30.26 1039.05" class="st15"/>
+			</g>
+			<g id="shape37-114" transform="translate(302.14,-127.514) rotate(10.607)">
+				<title>Sheet.37</title>
+				<path d="M0 1057.47 L36.32 1057.47" class="st18"/>
+			</g>
+			<g id="shape38-117" transform="translate(514.211,80.8682) rotate(25.2087)">
+				<title>Sheet.38</title>
+				<path d="M0 1057.47 L29.95 1057.47" class="st18"/>
+			</g>
+			<g id="shape39-120" transform="translate(720.491,1892.43) rotate(146.912)">
+				<title>Sheet.39</title>
+				<path d="M0 1057.47 L28.56 1057.47" class="st18"/>
+			</g>
+			<g id="shape41-123" transform="translate(90.9138,-7.08665)">
+				<title>Sheet.41</title>
+				<desc>join</desc>
+				<rect x="0" y="1006.45" width="28.3465" height="51.0236" class="st20"/>
+				<text x="4.84" y="1035.56" class="st19">join</text>			</g>
+		</g>
+		<g id="shape45-126" transform="translate(167.194,-911.413)">
+			<title>Dynamic connector.53</title>
+			<path d="M7.09 1057.47 L7.09 1078.78" class="st3"/>
+		</g>
+		<g id="shape46-131" transform="translate(167.194,-840.547)">
+			<title>Dynamic connector.46</title>
+			<path d="M7.09 1057.47 L7.09 1092.95" class="st3"/>
+		</g>
+		<g id="shape47-136" transform="translate(167.194,-755.508)">
+			<title>Dynamic connector.47</title>
+			<path d="M7.09 1057.47 L7.09 1078.78" class="st3"/>
+		</g>
+		<g id="shape48-141" transform="translate(167.194,-273.618)">
+			<title>Dynamic connector.48</title>
+			<path d="M7.09 1057.47 L7.09 1092.95" class="st3"/>
+		</g>
+		<g id="shape49-146" transform="translate(167.194,-188.579)">
+			<title>Dynamic connector.49</title>
+			<path d="M7.09 1057.47 L7.09 1078.78" class="st3"/>
+		</g>
+		<g id="shape50-151" transform="translate(103.414,-188.579)">
+			<title>Process.50</title>
+			<desc>DLL entry point DllMain()</desc>
+			<rect x="0" y="1014.95" width="141.732" height="42.5197" class="st12"/>
+			<text x="18.43" y="1031.41" class="st10">DLL entry point <tspan x="46.54" dy="1.6em" class="st11">DllMain()</tspan></text>		</g>
+		<g id="shape51-155" transform="translate(167.194,-89.3661)">
+			<title>Dynamic connector.51</title>
+			<path d="M7.09 1057.47 L7.09 1092.95" class="st3"/>
+		</g>
+		<g id="shape52-160" transform="translate(188.454,-415.35)">
+			<title>Sheet.52</title>
+			<desc>at exit function</desc>
+			<rect x="0" y="1029.13" width="85.0394" height="28.3465" class="st6"/>
+			<text x="6.2" y="1046.9" class="st19">at exit function</text>		</g>
+		<g id="shape53-163" transform="translate(60.8947,-415.35)">
+			<title>Sheet.53</title>
+			<desc>on exit function</desc>
+			<rect x="0" y="1029.13" width="85.0394" height="28.3465" class="st6"/>
+			<text x="4.53" y="1046.9" class="st19">on exit function</text>		</g>
+		<g id="shape54-166" transform="translate(202.627,-982.28)">
+			<title>Sheet.54</title>
+			<desc>DLL: Dynamic-Link Library</desc>
+			<rect x="0" y="1029.13" width="184.252" height="28.3465" class="st6"/>
+			<text x="10.87" y="1047.5" class="st21">DLL: Dynamic-Link Library</text>		</g>
+		<g id="shape55-169" transform="translate(60.8947,-259.445)">
+			<title>Sheet.55</title>
+			<path d="M0 1057.47 L226.77 1057.47 L226.77 972.43 L0 972.43 L0 1057.47 Z" class="st5"/>
+		</g>
+		<g id="shape56-171" transform="translate(103.414,-316.138)">
+			<title>Sheet.56</title>
+			<desc>Loader</desc>
+			<rect x="0" y="1029.13" width="141.732" height="28.3465" class="st6"/>
+			<text x="51.05" y="1047.5" class="st7">Loader</text>		</g>
+		<g id="shape57-174" transform="translate(103.414,-273.618)">
+			<title>Subprocess.57</title>
+			<desc>unload EXE</desc>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47 Z" class="st8"/>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47" class="st9"/>
+			<path d="M8.5 1057.47 L8.5 1014.95" class="st9"/>
+			<path d="M133.23 1057.47 L133.23 1014.95" class="st9"/>
+			<text x="29.54" y="1041.01" class="st10">unload  EXE</text>		</g>
+		<g id="shape58-180" transform="translate(103.414,-89.3661)">
+			<title>Subprocess.58</title>
+			<desc>unload DLL process detach</desc>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47 Z" class="st8"/>
+			<path d="M0 1057.47 L141.73 1057.47 L141.73 1014.95 L0 1014.95 L0 1057.47" class="st9"/>
+			<path d="M8.5 1057.47 L8.5 1014.95" class="st9"/>
+			<path d="M133.23 1057.47 L133.23 1014.95" class="st9"/>
+			<text x="29.54" y="1033.81" class="st10">unload  DLL <tspan x="35.72" dy="1.3em" class="st11">process detach</tspan></text>		</g>
+		<g id="shape60-187" transform="translate(167.194,-379.917)">
+			<title>Dynamic connector.60</title>
+			<path d="M7.09 1057.47 L7.09 1085.87" class="st3"/>
+		</g>
+		<g id="shape61-192" transform="translate(60.8947,-75.1929)">
+			<title>Sheet.61</title>
+			<path d="M0 1057.47 L226.77 1057.47 L226.77 972.43 L0 972.43 L0 1057.47 Z" class="st5"/>
+		</g>
+		<g id="shape62-194" transform="translate(103.414,-131.886)">
+			<title>Sheet.62</title>
+			<desc>Loader</desc>
+			<rect x="0" y="1029.13" width="141.732" height="28.3465" class="st6"/>
+			<text x="51.05" y="1047.5" class="st7">Loader</text>		</g>
+		<g id="shape63-197" transform="translate(18.375,-982.28)">
+			<title>Sheet.63</title>
+			<desc>EXE: Executable</desc>
+			<rect x="0" y="1029.13" width="113.386" height="28.3465" class="st6"/>
+			<text x="8.3" y="1047.5" class="st21">EXE: Executable</text>		</g>
+	</g>
+</svg>
