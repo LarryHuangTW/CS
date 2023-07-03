@@ -51,11 +51,10 @@ RAX , EAX , AX , AL + AH
 
    + Double Quadword (16 bytes = 128 bits)
 
-   + Words, doublewords, and quadwords do not need to be aligned in memory on natural boundaries.
-
+> Words, doublewords, and quadwords do not need to be aligned in memory on natural boundaries. 
 > The natural boundaries for words, double words, and quadwords are even-numbered addresses, 
-> addresses evenly divisible by four, and addresses evenly divisible by eight, respectively.
-> However, to improve the performance of programs, data structures should be aligned on natural boundaries whenever possible.
+> addresses evenly divisible by four, and addresses evenly divisible by eight, respectively. 
+> However, to improve the performance of programs, data structures should be aligned on natural boundaries whenever possible. 
 > The reason for this is that the processor requires two memory accesses (memory bus cycle) to make an unaligned memory access; 
 > aligned accesses require only one memory access.
 

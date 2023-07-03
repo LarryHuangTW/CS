@@ -47,7 +47,7 @@ AArch32 state supports the following instruction sets:
 
 ## ARM v8 Architecture Data Types
 
-* Supported Data Types :
+* Supported Data Types:
 
    + Byte (1 byte =  8 bits)
 
@@ -59,7 +59,7 @@ AArch32 state supports the following instruction sets:
 
    + Quadword (16 bytes = 128 bits)
 
-* Floating-point Data Types :
+* Floating-point Data Types:
 
    + Half precision floating-point: 2 bytes
 
