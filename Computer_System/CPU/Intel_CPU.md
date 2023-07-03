@@ -89,15 +89,15 @@ RAX , EAX , AX , AL + AH
 
    + non-64-bit modes:
 
-      - Near Pointer: is a 32-bit offset (also called an effective address) within a segment (register)
+      - Near Pointer: it is a 32-bit offset (also called an effective address) within a segment (register)
 
-      - Far  Pointer: is a logical address, consisting of a 16-bit segment selector and a 32-bit offset
+      - Far  Pointer: it is a logical address, consisting of a 16-bit segment selector and a 32-bit offset
 
    + 64-bit mode:
 
       - Near Pointer: 64 bits
 
-      - Far  Pointer: is a 16-bit segment selector and a 64-bit offset
+      - Far  Pointer: it is a 16-bit segment selector and a 64-bit offset
 
 * Bit Field Data Type: It is a contiguous sequence of bits. It can begin at any bit position of any byte in memory and can contain up to 32 bits
 
@@ -111,18 +111,22 @@ RAX , EAX , AX , AL + AH
 
 * Packed SIMD Data Types:
 
-   + SIMD : Single Instruction Multiple Data
+   + SIMD: Single Instruction Multiple Data
 
-   + a set of 64-bit and 128-bit packed data type for use in SIMD operations
+   + a set of 64-bit and 128-bit packed data types for use in SIMD operations
 
 * BCD Integers: Binary-coded decimal integers (BCD integers) are unsigned 4-bit integers with valid values ranging from 0 to 9.
 
-[^1]: [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+## References:
 
-[^2]: Align and Organize Data for Better Performance (2011)
+1. [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 
-[^3]: [Data Alignment to Assist Vectorization](https://software.intel.com/content/www/us/en/develop/articles/data-alignment-to-assist-vectorization.html)
+2. [Data Alignment to Assist Vectorization](https://software.intel.com/content/www/us/en/develop/articles/data-alignment-to-assist-vectorization.html)
 
-[^4]: [Modern CPU Architecture Part 1 – Key Concepts](https://www.youtube.com/watch?v=vgPFzblBh7w)
+3. [Modern CPU Architecture Part 1 – Key Concepts](https://www.youtube.com/watch?v=vgPFzblBh7w)
 
-[^5]: [Modern CPU Architecture Part 2 – Microarchitecture Deep Dive](https://www.youtube.com/watch?v=o_WXTRS2qTY)
+4. [Modern CPU Architecture Part 2 – Microarchitecture Deep Dive](https://www.youtube.com/watch?v=o_WXTRS2qTY)
+
+5. [WiKi: Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
+
+6. Align and Organize Data for Better Performance (2011)
