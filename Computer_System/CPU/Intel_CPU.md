@@ -116,3 +116,13 @@ RAX , EAX , AX , AL + AH
    + a set of 64-bit and 128-bit packed data type for use in SIMD operations
 
 * BCD Integers: Binary-coded decimal integers (BCD integers) are unsigned 4-bit integers with valid values ranging from 0 to 9.
+
+[^1]: [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+
+[^2]: Align and Organize Data for Better Performance (2011)
+
+[^3]: [Data Alignment to Assist Vectorization](https://software.intel.com/content/www/us/en/develop/articles/data-alignment-to-assist-vectorization.html)
+
+[^4]: [Modern CPU Architecture Part 1 – Key Concepts](https://www.youtube.com/watch?v=vgPFzblBh7w)
+
+[^5]: [Modern CPU Architecture Part 2 – Microarchitecture Deep Dive](https://www.youtube.com/watch?v=o_WXTRS2qTY)
