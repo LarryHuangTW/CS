@@ -65,7 +65,7 @@ RAX , EAX , AX , AL + AH
 
    + Integers:
 
-      - 2 (Unsigned , Signed) x 4 (Byte , Word , Doubleword , Quadword) = 8 types of integers
+      - 2 (Unsigned, Signed) x 4 (Byte, Word, Doubleword, Quadword) = 8 types of integers
 
       - Unsigned Integers: Ordinals
 
@@ -121,12 +121,14 @@ RAX , EAX , AX , AL + AH
 
 1. [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 
-2. [Data Alignment to Assist Vectorization](https://software.intel.com/content/www/us/en/develop/articles/data-alignment-to-assist-vectorization.html)
+2. [Intel: Data Alignment to Assist Vectorization](https://software.intel.com/content/www/us/en/develop/articles/data-alignment-to-assist-vectorization.html)
 
-3. [Modern CPU Architecture Part 1 – Key Concepts](https://www.youtube.com/watch?v=vgPFzblBh7w)
+3. [Microsoft: Alignment](https://docs.microsoft.com/en-us/cpp/cpp/alignment-cpp-declarations?view=vs-2019)
 
-4. [Modern CPU Architecture Part 2 – Microarchitecture Deep Dive](https://www.youtube.com/watch?v=o_WXTRS2qTY)
+4. [WiKi: Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
 
-5. [WiKi: Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
+5. [Modern CPU Architecture Part 1 – Key Concepts](https://www.youtube.com/watch?v=vgPFzblBh7w)
 
-6. Align and Organize Data for Better Performance (2011)
+6. [Modern CPU Architecture Part 2 – Microarchitecture Deep Dive](https://www.youtube.com/watch?v=o_WXTRS2qTY)
+
+7. Intel: Align and Organize Data for Better Performance (2011)
