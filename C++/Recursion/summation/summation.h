@@ -1,20 +1,19 @@
 #pragma once
 
+/*
+ *	sum_1toN(n) =	1 + 2 + 3 + ... + (n - 1) + n = n * (n + 1) / 2, if n > 0
+ *
+ *					0, otherwise
+ */
+
+#include <iostream>
 #include <type_traits>
 #include <limits>
+#include <safeint.h>
 
 namespace cust					//customized / non-standard
 {
 	namespace recursive_version
-	{
-		template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
-		U sum_1toN(T n)
-		{
-			return n < 1 ? 0 : n + sum_1toN(n - 1);
-		}
-	}
-
-	namespace constexpr_recursive_version
 	{
 		template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
 		constexpr U sum_1toN(T n)
@@ -39,7 +38,7 @@ namespace cust					//customized / non-standard
 
 	namespace mathematical_formula_version
 	{
-		//to check if the integer is odd or not
+		//check if the integer is odd or not
 		template<class T, std::enable_if_t<std::is_integral_v<T>, int> = 0>
 		constexpr bool isOdd(T n)
 		{
@@ -47,21 +46,22 @@ namespace cust					//customized / non-standard
 		}
 
 		template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
-		constexpr U sum_1toN(T n)
+		U sum_1toN(T n)
 		{
-			bool flag { isOdd(n) };				//to indicate the number n is odd or not
-			U    num  { (n + flag) / 2 };
+			using namespace msl::utilities;
 
-			if (n < 0)
-				return U{};
+			bool flag { isOdd(n) };				//a flag to indicate the number n is odd or not
+			U    num  { (n + flag) / 2 }, result {};
 
-			++n -= flag;
+			if (0 < n)
+			{
+				++n -= flag;
 
-			//to check the possibility of overflow
-			if (num != 0 && std::numeric_limits<U>::max() / num < n)
-				std::cerr << "possible overflow\n";
+				if ( !SafeMultiply(num, n, result) )
+					std::cerr << "possible overflow\n";
+			}
 
-			return num * n;
+			return result;
 		}
 	}
 }
