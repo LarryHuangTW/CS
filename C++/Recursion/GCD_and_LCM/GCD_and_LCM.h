@@ -45,6 +45,12 @@ namespace cust					//customized / non-standard
 		{
 			return static_cast<T>(getGCD(unsigned_abs<T>(m), unsigned_abs<T>(n)));
 		}
+
+		template<class M, class... Ns, std::enable_if_t<std::is_integral_v<M> && std::conjunction_v<std::is_integral<Ns>...>, int> = 0>
+		constexpr auto gcd(M m, Ns... ns)
+		{
+			return ((m = static_cast<M>(gcd(m, ns))), ...);
+		}
 	}
 
 	namespace non_recursive_version
@@ -71,6 +77,12 @@ namespace cust					//customized / non-standard
 		auto um { unsigned_abs<T>(m) }, un { unsigned_abs<T>(n) };
 
 		return um == 0 || un == 0 ? 0 : static_cast<T>((um / recursive_version::gcd(um, un)) * un);
+	}
+
+	template<class M, class... Ns, std::enable_if_t<std::is_integral_v<M> && std::conjunction_v<std::is_integral<Ns>...>, int> = 0>
+	constexpr auto lcm(M m, Ns... ns)
+	{
+		return ((m = static_cast<M>(lcm(m, ns))), ...);
 	}
 
 	//computes the least common multiple of the integer numbers m and n (with overflow checking)

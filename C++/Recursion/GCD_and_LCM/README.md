@@ -33,6 +33,12 @@ constexpr T gcd(M m, N n)
 {
 	return static_cast<T>(getGCD(unsigned_abs<T>(m), unsigned_abs<T>(n)));
 }
+
+template<class M, class... Ns, std::enable_if_t<std::is_integral_v<M> && std::conjunction_v<std::is_integral<Ns>...>, int> = 0>
+constexpr auto gcd(M m, Ns... ns)
+{
+	return ((m = static_cast<M>(gcd(m, ns))), ...);
+}
 ```
 
 ### GCD non-recursive version:
@@ -70,6 +76,12 @@ constexpr T lcm(M m, N n)
 	auto um { unsigned_abs<T>(m) }, un { unsigned_abs<T>(n) };
 
 	return um == 0 || un == 0 ? 0 : static_cast<T>((um / recursive_version::gcd(um, un)) * un);
+}
+
+template<class M, class... Ns, std::enable_if_t<std::is_integral_v<M> && std::conjunction_v<std::is_integral<Ns>...>, int> = 0>
+constexpr auto lcm(M m, Ns... ns)
+{
+	return ((m = static_cast<M>(lcm(m, ns))), ...);
 }
 
 //computes the least common multiple of the integer numbers m and n (with overflow checking)
@@ -144,6 +156,12 @@ int main(int argc, char* argv[])
 		static_assert(gcd(63, 99)   ==  9);
 		static_assert(gcd(-63, -99) ==  9);
 		static_assert(gcd(-16, 0)   == 16);
+
+		static_assert(gcd(10u, 20, 30LL)            == 10);
+		static_assert(gcd(6, 3, 12)                 ==  3);
+		static_assert(gcd(100, 98, 22, 8)           ==  2);
+		static_assert(gcd(6, 90, 66, 42, 600, 6000) ==  6);
+		static_assert(gcd(2, 3, 5, 7, 11, 13, 17)   ==  1);
 	}
 
 	{
@@ -175,6 +193,10 @@ int main(int argc, char* argv[])
 	static_assert(cust::lcm(-6, 10)  == 30);
 	static_assert(cust::lcm(6, -10)  == 30);
 	static_assert(cust::lcm(-6, -10) == 30);
+
+	static_assert(cust::lcm(10u, 20, 30LL) ==  60);
+	static_assert(cust::lcm(2, 3, 5, 7)    == 210);
+	static_assert(cust::lcm(81, 27, 3, 9)  ==  81);
 
 	std::cout << cust::lcm_oc(INT_MIN, -1)      << "\n\n";		//possible overflow
 	std::cout << cust::lcm_oc(INT_MIN, INT_MAX) << "\n\n";		//possible overflow
