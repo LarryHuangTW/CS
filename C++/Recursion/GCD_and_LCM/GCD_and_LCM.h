@@ -3,17 +3,17 @@
 /*
  *	GCD: Greatest Common Divisor
  *
- *					 _
- *					|	0			 ,if m = 0 and n = 0
- *					|	
- *		GCD(m, n) = |	n			 ,if m % n = 0
- *					|
- *					|_	GCD(n, m % n), otherwise
+ *				 _
+ *				|	0		,if m = 0 and n = 0
+ *				|	
+ *		GCD(m, n) =	|	n		,if m % n = 0
+ *				|
+ *				|_	GCD(n, m % n)	,otherwise
  *
  *
  *	LCM: Least Common Multiple
  *
- *		LCM(m, n) = (m / GCD(m, n)) + n
+ *		LCM(m, n) = (m / GCD(m, n)) * n
  */
 
 #include <iostream>
