@@ -4,7 +4,7 @@
 
 ```C++
 /*
- *	factorial(n) =	1 * 2 * 3 * ... * (n - 1) * n = n!, if 1 < n
+ *	factorial(n) =	1 * 2 * 3 * ... * (n - 1) * n = n!, if n > 0
  *
  *			1, otherwise
  */
@@ -13,7 +13,7 @@ using std::size_t;
 
 constexpr size_t factorial(size_t n)
 {
-	return n < 2 ? 1 : n * factorial(n - 1);
+	return n < 1 ? 1 : n * factorial(n - 1);
 }
 ```
 
@@ -41,7 +41,7 @@ constexpr size_t factorial(size_t n)
 template<class T, class U = T, std::enable_if_t<std::is_arithmetic_v<T>, int> = 0>
 U factorial(T n)
 {
-	if (n < 2)
+	if (n < 1)
 		return 1;
 
 	auto tmp { factorial(n - 1) };
@@ -71,7 +71,7 @@ constexpr size_t factorial()
 template<>
 constexpr size_t factorial<0>()
 {
-	return 1ULL;
+	return 1;
 }
 ```
 
