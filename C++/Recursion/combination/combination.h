@@ -31,10 +31,7 @@ namespace cust					//customized / non-standard
 		template<class T, class U>
 		constexpr U comb(T n, T k)
 		{
-			if (n < 2 * k)
-				k = n - k;
-
-			return k == 0 ? 1 : (k == 1 ? n : comb<T, U>(n - 1, k - 1) + comb<T, U>(n - 1, k));
+			return k == 0 || k == n ? 1 : (k == 1 ? n : comb<T, U>(n - 1, k - 1) + comb<T, U>(n - 1, k));
 		}
 
 		template<class T, class U = T, std::enable_if_t<std::is_integral_v<T> && std::is_integral_v<U>, int> = 0>
@@ -87,7 +84,7 @@ namespace cust					//customized / non-standard
 					std::cerr << "size " << results.size() << " != " << sz << "\n";
 			}
 
-			return results;
+			return results;						//return value optimization (RVO) is expected
 		}
 	}
 
@@ -183,7 +180,7 @@ namespace cust					//customized / non-standard
 			if (results.size() != sz)
 				std::cerr << "size " << results.size() << " != " << sz << "\n";
 
-			return results;
+			return results;						//return value optimization (RVO) is expected
 		}
 	}
 }
