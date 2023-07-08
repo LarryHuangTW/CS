@@ -5,8 +5,8 @@
  *
  *		function parameter:
  *
- *							first, last: the range of elements to generate combinations
- *							k: the number of elements to form a combination
+ *					first, last: the range of elements to generate combinations
+ *					k: the number of elements to form a combination
  *
  *		return value: all possible combination results
  */
@@ -39,7 +39,7 @@ namespace cust					//customized / non-standard
 		{
 			//input checking
 			if (n < 0 || k < 0 || n < k)
-				return 0;						//invalid input
+				return 0;			//invalid input
 
 			return comb<T, U>(n, k);
 		}
@@ -84,27 +84,27 @@ namespace cust					//customized / non-standard
 					std::cerr << "size " << results.size() << " != " << sz << "\n";
 			}
 
-			return results;						//return value optimization (RVO) is expected
+			return results;			//return value optimization (RVO) is expected
 		}
 	}
 
-	namespace non_recursive_version				//mathematical formula
+	namespace non_recursive_version			//mathematical formula
 	{
 		using std::size_t;
 		using std::vector;
 		using std::stack;
 
 		/*
-		 *								n!
+		 *				      n!
 		 *	combination(n, k) = ---------------------
-		 *							(n - k)! * k!
+		 *				(n - k)! * k!
 		 */
 		template<class T, class U = T, std::enable_if_t<std::is_integral_v<T> && std::is_integral_v<U>, int> = 0>
 		constexpr U combination(T n, T k)
 		{
 			//input checking
 			if (n < 0 || k < 0 || n < k)
-				return 0;						//invalid input
+				return 0;			//invalid input
 
 			if (n < 2 * k)
 				k = n - k;
@@ -180,7 +180,7 @@ namespace cust					//customized / non-standard
 			if (results.size() != sz)
 				std::cerr << "size " << results.size() << " != " << sz << "\n";
 
-			return results;						//return value optimization (RVO) is expected
+			return results;			//return value optimization (RVO) is expected
 		}
 	}
 }
