@@ -4,7 +4,7 @@
  *		To calculate and return row n of Pascal triangle
  *
  *		function parameter:
- *								n:   the row number, n = 0, 1, 2, 3 ...
+ *					n:   the row number, n = 0, 1, 2, 3 ...
  *
  *		return value: the row data of Pascal triangle
  */
@@ -81,7 +81,7 @@ namespace cust					//customized / non-standard
 				{
 					vec.reserve(n + 1);
 					vec.insert(vec.end(), n + 1, 0);
-					vec.front() = 1;							//pascal(n, 0) == 1
+					vec.front() = 1;				//pascal(n, 0) == 1
 
 					for (T i { 0 }; i <= n; ++i)
 					{
@@ -111,7 +111,7 @@ namespace cust					//customized / non-standard
 				{
 					vec.reserve(n + 1);
 					vec.insert(vec.end(), n + 1, 0);
-					vec.front() = 1;							//pascal(n, 0) == 1
+					vec.front() = 1;				//pascal(n, 0) == 1
 
 					for (T i { 0 }; i <= n; ++i)
 						for (T j { i }; 0 < j; --j)
@@ -137,7 +137,7 @@ namespace cust					//customized / non-standard
 					for (T i { 0 }; i <= n; ++i) {
 						for (T j { i >> 1 }; 0 < j; --j)
 							vec[i - j] = vec[j] += vec[j - 1];
-						vec[i] = 1;								//pascal(n, n) == 1
+						vec[i] = 1;					//pascal(n, n) == 1
 					}
 				}
 
