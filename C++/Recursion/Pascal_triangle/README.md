@@ -15,7 +15,7 @@
 template<class T, class U>
 constexpr U pascal(T n, T k)
 {
-	return k == 0 || n == k ? 1 : pascal<T, U>(n - 1, k - 1) + pascal<T, U>(n - 1, k);
+	return k == 0 || k == n ? 1 : (k == 1 ? n : pascal<T, U>(n - 1, k - 1) + pascal<T, U>(n - 1, k));
 }
 
 template<class T, class U = T, std::enable_if_t<std::is_integral_v<T> && std::is_integral_v<U>, int> = 0>
@@ -31,7 +31,7 @@ constexpr std::vector<U> pascal(T n)
 			vec.push_back(pascal<T, U>(n, k));
 	}
 
-	return vec;
+	return vec;			//return value optimization (RVO) is expected
 }
 ```
 
@@ -62,7 +62,7 @@ constexpr std::vector<U> pascal(T n)
 		}
 	}
 
-	return vec;
+	return vec;			//return value optimization (RVO) is expected
 }
 ```
 
@@ -85,7 +85,7 @@ constexpr std::vector<U> pascal(T n)
 				vec[j] += vec[j - 1];
 	}
 
-	return vec;
+	return vec;			//return value optimization (RVO) is expected
 }
 ```
 
@@ -109,7 +109,7 @@ constexpr std::vector<U> pascal(T n)
 		}
 	}
 
-	return vec;
+	return vec;			//return value optimization (RVO) is expected
 }
 ```
 
@@ -156,7 +156,7 @@ constexpr std::vector<U> pascal(T n)
 			vec.push_back(combination<U>(n, k));
 	}
 
-	return vec;
+	return vec;			//return value optimization (RVO) is expected
 }
 ```
 
