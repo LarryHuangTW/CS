@@ -5,7 +5,7 @@
  *
  *		function parameter: 
  *
- *							data: a collection of distinct elements to permutate
+ *					data: a collection of distinct elements to permutate
  *
  *		return value: all possible permutation results
  */
@@ -46,7 +46,7 @@ namespace cust					//customized / non-standard
 
 					permute(data, idx + 1, results);
 
-					std::swap(data[idx], data[i]);			//restore previous swap
+					std::swap(data[idx], data[i]);		//restore previous swap
 				}
 			}
 		}
@@ -60,7 +60,7 @@ namespace cust					//customized / non-standard
 
 			permute(data, 0, results);
 
-			return results;					//return value optimization (RVO) is expected
+			return results;			//return value optimization (RVO) is expected
 		}
 
 		namespace Heap_algorithm
@@ -101,7 +101,7 @@ namespace cust					//customized / non-standard
 					permute(data, data.size(), results);
 				}
 
-				return results;					//return value optimization (RVO) is expected
+				return results;			//return value optimization (RVO) is expected
 			}
 		}
 	}
@@ -142,7 +142,7 @@ namespace cust					//customized / non-standard
 
 					--i;
 
-					std::swap(data[i], data[indices[i]]);			//restore previous swap
+					std::swap(data[i], data[indices[i]]);		//restore previous swap
 
 					++indices[i];
 				}
@@ -154,7 +154,7 @@ namespace cust					//customized / non-standard
 				}
 			}
 
-			return results;					//return value optimization (RVO) is expected
+			return results;			//return value optimization (RVO) is expected
 		}
 	}
 }
