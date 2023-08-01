@@ -17,7 +17,7 @@ namespace cust					//customized / non-standard
 	using std::initializer_list;
 
 	/*
-	 *	node data strucure of forward_list data container
+	 *	node data structure of forward_list data container
 	 */
 	template<class T>
 	struct forward_list_node
@@ -80,7 +80,7 @@ namespace cust					//customized / non-standard
 			for ( ; ptr != nullptr; ptr = delete_one_node(alloc, ptr));
 		}
 
-		//copys nodes with the data of the range [first, last)
+		//copies nodes with the data of the range [first, last)
 		template<class Allocator, class FwdIter>
 		[[nodiscard]] static node_pointer copy_nodes(Allocator& alloc, FwdIter first, FwdIter last)
 		{
@@ -430,9 +430,9 @@ namespace cust					//customized / non-standard
 			}
 
 			/*
-			 *		sorts the elements of the forward_list
+			 *	sorts the elements of the forward_list
 			 *
-			 *		inplace merge sort (recursive, top-down version)
+			 *	in-place merge sort (recursive, top-down version)
 			 */
 			template<class Compare = std::less<>>
 			void sort(Compare cmp = Compare{})
