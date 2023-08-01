@@ -129,7 +129,7 @@ namespace cust					//customized / non-standard
 
 		node_pointer next  { nullptr };			//pointer pointing to next     node
 		node_pointer prev  { nullptr };			//pointer pointing to previous node
-		value_type   value {};					//data value
+		value_type   value {};				//data value
 	};
 
 	/*
@@ -375,7 +375,7 @@ namespace cust					//customized / non-standard
 				return *this;
 			}
 
-			//returns number of elements of the container
+			//returns the number of elements of the container
 			size_type size() const noexcept
 			{
 				return sz;
@@ -552,7 +552,7 @@ namespace cust					//customized / non-standard
 				return end();
 			}
 
-			//earses elements in the specified range [first , last)
+			//erases elements in the specified range [first, last)
 			iterator erase(const_iterator first, const_iterator last)
 			{
 				for ( ; first != cend() && first != last; )
