@@ -11,28 +11,50 @@
 ```C++
 namespace cust					//customized / non-standard
 {
-	template<class T, class Allocator>
-	class list;
-
-	//const bidirectional iterator associated with list data container
+	//node data structure of list data container
 	template<class T>
-	class list_const_iterator
+	struct list_node
 	{
-		template<class T, class Allocator>
-		friend class list;
+		// ......
 
+		node_pointer next  { nullptr };			//pointer pointing to next     node
+		node_pointer prev  { nullptr };			//pointer pointing to previous node
+		value_type   value {};				//data value
+	};
+
+	//iterator base
+	template<class NodePtr>
+	class iterator_base
+	{
 		public:
 			// ......
 
 		protected:
-			pointer ptr { nullptr };
+			node_pointer ptr { nullptr };
+	};
+
+	//container iterator
+	template<class T, template<class...> class NodeTy, class NodePtr = NodeTy<std::remove_const_t<T>>*>
+	class container_iterator : public iterator_base<NodePtr>
+	{
+		public:
+			// ......
+
+			reference operator *  () const noexcept;
+			pointer   operator -> () const noexcept;
 	};
 
 	//bidirectional iterator associated with list data container
-	template<class T>
-	class list_iterator : public list_const_iterator<T>
+	template<class T, template<class...> class NodeTy>
+	class list_iterator : public container_iterator<T, NodeTy>
 	{
 		// ......
+
+		public:
+			list_iterator& operator ++ ()    noexcept;
+			list_iterator  operator ++ (int) noexcept;
+			list_iterator& operator -- ()    noexcept;
+			list_iterator  operator -- (int) noexcept;
 	};
 
 	template<class T, class Allocator = std::allocator<T>>
@@ -46,7 +68,7 @@ namespace cust					//customized / non-standard
 			explicit list(size_type count);
 			list(size_type count, const value_type& value);
 			list(const list& other);
-			list(list&& other);
+			list(list&& other) noexcept;
 			list(std::initializer_list<value_type> initList);
 
 			//destructor
@@ -101,6 +123,12 @@ namespace cust					//customized / non-standard
 			size_type           sz          { 0 };
 			node_allocator_type alloc       {};
 	};
+
+	template<class T, class Allocator>
+	bool operator == (const list<T, Allocator>& lhs, const list<T, Allocator>& rhs);
+
+	template<class T, class Allocator>
+	bool operator != (const list<T, Allocator>& lhs, const list<T, Allocator>& rhs);
 }
 ```
 
