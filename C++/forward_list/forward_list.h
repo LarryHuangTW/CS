@@ -3,8 +3,9 @@
 #include <iostream>
 #include <iterator>
 #include <memory>
+#include <type_traits>
 #include <initializer_list>
-#include "Container.h"
+#include "iterator_base.h"
 
 namespace cust					//customized / non-standard
 {
@@ -15,131 +16,137 @@ namespace cust					//customized / non-standard
 	using std::allocator_traits;
 	using std::initializer_list;
 
-	enum forward_list_link { next = 0 };
-
-	template<class T, class Allocator>
-	class forward_list;
-
-	template<class T>
-	class forward_list_iterator;
-
 	/*
-	 *	const forward iterator associated with forward_list data container
+	 *	node data strucure of forward_list data container
 	 */
 	template<class T>
-	class forward_list_const_iterator
+	struct forward_list_node
 	{
-		template<class T, class Allocator>
-		friend class forward_list;
+		using value_type   = T;
+		using size_type    = size_t;
+		using node_pointer = forward_list_node*;
 
-		protected:
-			using node_type    = Container::NodeBase<T>;
-			using node_pointer = node_type*;
+		/*	We don't need these since C++20
+		forward_list_node() noexcept = default;
 
-		public:
-			using iterator_category = forward_iterator_tag;
-			using value_type        = T;
-			using difference_type   = ptrdiff_t;
-			using pointer           = node_pointer;
-			using const_pointer     = const node_type*;
-			using reference         = const value_type&;
+		forward_list_node(node_pointer ptr, const value_type& val) : next { ptr }, value { val }
+		{
+		}
 
-			forward_list_const_iterator() noexcept = default;
+		forward_list_node(node_pointer ptr, T&& val) : next { ptr }, value { std::forward<T>(val) }
+		{
+		}
+		*/
 
-			forward_list_const_iterator(pointer p) noexcept : ptr { p }
+		//adds a node by allocating memory space and calling its constructor
+		template<class Allocator, class... Args>
+		[[nodiscard]] static node_pointer new_one_node(Allocator& alloc, Args&&... args)
+		{
+			auto ptr { allocator_traits<Allocator>::allocate(alloc, 1) };
+
+			allocator_traits<Allocator>::construct(alloc, ptr, std::forward<Args>(args)...);
+
+			return ptr;
+		}
+
+		//adds count copies of nodes with value
+		template<class Allocator>
+		[[nodiscard]] static node_pointer new_nodes(Allocator& alloc, size_type count, const value_type& value)
+		{
+			node_pointer ptr { nullptr };
+
+			for ( ; count != 0; --count)
+				ptr = new_one_node(alloc, ptr, value);
+
+			return ptr;
+		}
+
+		//deletes a node by calling its destructor and deallocating memory space
+		template<class Allocator>
+		static node_pointer delete_one_node(Allocator& alloc, node_pointer ptr) noexcept
+		{
+			node_pointer ptr_next { ptr == nullptr ? nullptr : ptr->next };
+
+			allocator_traits<Allocator>::destroy(alloc, ptr);
+			allocator_traits<Allocator>::deallocate(alloc, ptr, 1);
+
+			return ptr_next;
+		}
+
+		//deletes the node pointed by ptr and those nodes after it
+		template<class Allocator>
+		static void delete_nodes(Allocator& alloc, node_pointer ptr) noexcept
+		{
+			for ( ; ptr != nullptr; ptr = delete_one_node(alloc, ptr));
+		}
+
+		//copys nodes with the data of the range [first, last)
+		template<class Allocator, class FwdIter>
+		[[nodiscard]] static node_pointer copy_nodes(Allocator& alloc, FwdIter first, FwdIter last)
+		{
+			node_pointer head { nullptr };
+
+			if (first != last)
 			{
+				head = new_one_node(alloc, nullptr, *first++);
+
+				for (auto prev { head }; first != last; ++first)
+					prev = prev->next = new_one_node(alloc, nullptr, *first);
 			}
 
-			reference operator * () const noexcept
-			{
-				return ptr->value;
-			}
+			return head;
+		}
 
-			const_pointer operator -> () const noexcept
-			{
-				return ptr;
-			}
-
-			forward_list_const_iterator& operator ++ () noexcept
-			{
-				if (ptr != nullptr)
-					ptr = ptr->link[forward_list_link::next];
-
-				return *this;
-			}
-
-			forward_list_const_iterator operator ++ (int) noexcept
-			{
-				forward_list_const_iterator tmp = *this;
-
-				operator++();
-
-				return tmp;
-			}
-
-			bool operator == (forward_list_const_iterator other) const noexcept
-			{
-				return this->ptr == other.ptr ? true : false;
-			}
-
-			bool operator != (forward_list_const_iterator other) const noexcept
-			{
-				return !this->operator==(other);
-			}
-
-			operator forward_list_iterator<T>() const
-			{
-				return forward_list_iterator<T>(ptr);
-			}
-
-		protected:
-			pointer ptr { nullptr };
+		node_pointer next  { nullptr };
+		value_type   value {};
 	};
 
 	/*
-	 *	forward iterator associated with forward_list data container
+	 *	unidirectional iterator associated with forward_list data container
 	 */
-	template<class T>
-	class forward_list_iterator : public forward_list_const_iterator<T>
+	template<class T, template<class...> class NodeTy>
+	class forward_list_iterator : public container_iterator<T, NodeTy>
 	{
+		//friend class forward declaration
 		template<class T, class Allocator>
 		friend class forward_list;
 
-		public:
-			using base_type = forward_list_const_iterator<T>;
+		private:
+			using base_type    = container_iterator<T, NodeTy>;
+			using node_pointer = typename base_type::node_pointer;
+			using Ty           = std::conditional_t<std::is_const_v<T>, std::remove_const_t<T>, const T>;
 
+			node_pointer& next() const noexcept
+			{
+				return this->ptr->next;
+			}
+
+		public:
 			using iterator_category = forward_iterator_tag;
-			using value_type        = T;
-			using difference_type   = ptrdiff_t;
-			using pointer           = base_type::node_type*;
-			using reference         = value_type&;
 
 			using base_type::base_type;
 
-			reference operator * () const noexcept
-			{
-				return this->ptr->value;
-			}
-
-			pointer operator -> () const noexcept
-			{
-				return this->ptr;
-			}
-
 			forward_list_iterator& operator ++ () noexcept
 			{
-				base_type::operator++();
+				if (this->ptr != nullptr)
+					this->ptr = next();
 
 				return *this;
 			}
 
 			forward_list_iterator operator ++ (int) noexcept
 			{
-				forward_list_iterator tmp = *this;
+				auto tmp { *this };
 
 				operator++();
 
 				return tmp;
+			}
+
+			//type conversion between iterator and const_iterator
+			operator forward_list_iterator<Ty, NodeTy>() noexcept
+			{
+				return forward_list_iterator<Ty, NodeTy>(this->ptr);
 			}
 	};
 
@@ -149,65 +156,54 @@ namespace cust					//customized / non-standard
 	template<class T, class Allocator = allocator<T>>
 	class forward_list
 	{
+		private:
+			//private member types
+			using node_type       = forward_list_node<T>;
+			using node_pointer    = node_type*;
+			using allocator_type  = typename allocator_traits<Allocator>::template rebind_alloc<node_type>;
+
 		public:
+			//public member types
 			using value_type      = T;
 			using size_type       = size_t;
 			using difference_type = ptrdiff_t;
 			using reference       = value_type&;
 			using const_reference = const value_type&;
-			using iterator        = forward_list_iterator<value_type>;
-			using const_iterator  = forward_list_const_iterator<value_type>;
-
-		private:
-			using node_type       = Container::NodeBase<value_type>;
-			using node_pointer    = node_type*;
-			using allocator_type  = allocator_traits<Allocator>::template rebind_alloc<node_type>;
+			using iterator        = forward_list_iterator<value_type,       forward_list_node>;
+			using const_iterator  = forward_list_iterator<const value_type, forward_list_node>;
 
 		public:
 			//default constructor
-			forward_list() noexcept {}
+			forward_list() noexcept = default;
 
-			//constructor
+			//constructor with count instances of value_type
 			explicit forward_list(size_type count)
 			{
-				head = new_nodes(count);
+				head = node_type::new_nodes(alloc, count, value_type{});
 			}
 
-			//constructor
+			//constructor with count copies of value
 			forward_list(size_type count, const value_type& value)
 			{
-				head = new_nodes(count, value);
+				head = node_type::new_nodes(alloc, count, value);
 			}
 
 			//copy constructor
 			forward_list(const forward_list& other)
 			{
-				head = copy_new_nodes(other.begin(), other.end());
+				head = node_type::copy_nodes(alloc, other.begin(), other.end());
 			}
 
 			//move constructor
-			forward_list(forward_list&& other)
+			forward_list(forward_list&& other) noexcept
 			{
-				if ( !other.empty() )
-				{
-					auto iter { other.begin() };
-
-					head = new_one_node(nullptr, std::move(*iter++));
-
-					for (auto prev { head }; iter != other.end(); ++iter)
-					{
-						auto ptr = new_one_node(nullptr, std::move(*iter));
-
-						prev->next() = ptr;
-						prev = ptr;
-					}
-				}
+				std::swap(head, other.head);
 			}
 
 			//constructor with initializer list
 			forward_list(initializer_list<value_type> initList)
 			{
-				head = copy_new_nodes(initList.begin(), initList.end());
+				head = node_type::copy_nodes(alloc, initList.begin(), initList.end());
 			}
 
 			//destructor
@@ -219,44 +215,38 @@ namespace cust					//customized / non-standard
 			//copy assignment
 			forward_list& operator = (const forward_list& other)
 			{
-				auto iter { begin() }, iter_prev { iter };
+				auto curr { begin() }, prev { curr };
+
+				if (other.empty())
+					clear();
+				else
+				{
+					if (empty())
+						push_front(value_type{});
+				}
+
+				prev = curr = begin();
 
 				for (const auto& item : other)
 				{
-					if (iter != end())
-					{
-						*iter = item;
-
-						iter_prev = iter++;
-					}
+					if (curr == end())
+						prev = insert_after(prev, item);
 					else
 					{
-						if (iter == iter_prev)
-						{
-							push_front(item);
+						*curr = item;
 
-							iter_prev = begin();
-						}
-						else
-						{
-							iter_prev = insert_after(iter_prev, item);
-						}
+						prev = curr++;
 					}
 				}
 
-				if (iter != end())
-				{
-					iter_prev = erase_after(iter_prev, end());
-
-					if (iter == begin())
-						pop_front();
-				}
+				if (curr != end())
+					prev = erase_after(prev, end());
 
 				return *this;
 			}
 
 			//move assignment
-			forward_list& operator = (forward_list&& other)
+			forward_list& operator = (forward_list&& other) noexcept
 			{
 				clear();
 
@@ -321,42 +311,42 @@ namespace cust					//customized / non-standard
 				return head->value;
 			}
 
-			//clear all elements in the container
+			//clears all elements in the container
 			void clear() noexcept
 			{
-				delete_nodes(head);
+				node_type::delete_nodes(alloc, head);
 
 				head = nullptr;
 			}
 
-			//add an element to the beginning
+			//adds an element to the beginning of the container
 			void push_front(const_reference value)
 			{
-				head = new_one_node(head, value);
+				head = node_type::new_one_node(alloc, head, value);
 			}
 
-			//add an element to the beginning
+			//adds an element to the beginning of the container
 			void push_front(T&& value)
 			{
-				head = new_one_node(head, std::forward<T>(value));
+				head = node_type::new_one_node(alloc, head, std::forward<T>(value));
 			}
 
-			//remove the first element
+			//removes the first element
 			void pop_front()
 			{
-				head = delete_one_node(head);
+				head = node_type::delete_one_node(alloc, head);
 			}
 
-			//add an element to the beginning of the container
+			//adds an element to the beginning of the container
 			template<class... Args>
 			reference emplace_front(Args&&... args)
 			{
-				head = new_one_node(head, std::forward<Args>(args)...);
+				head = node_type::new_one_node(alloc, head, std::forward<Args>(args)...);
 
 				return front();
 			}
 
-			//insert an element after the specified position
+			//inserts an element after the specified position
 			iterator insert_after(const_iterator pos, const_reference value)
 			{
 				if (pos == cend())
@@ -368,12 +358,12 @@ namespace cust					//customized / non-standard
 
 				iterator iter(pos);
 
-				iter->next() = new_one_node(iter->next(), value);
+				iter.next() = node_type::new_one_node(alloc, iter.next(), value);
 
 				return ++iter;
 			}
 
-			//insert an element after the specified position
+			//inserts an element after the specified position
 			iterator insert_after(const_iterator pos, T&& value)
 			{
 				if (pos == cend())
@@ -385,12 +375,12 @@ namespace cust					//customized / non-standard
 
 				iterator iter { pos };
 
-				iter->next() = new_one_node(iter->next(), std::move(value));
+				iter.next() = node_type::new_one_node(alloc, iter.next(), std::move(value));
 
 				return ++iter;
 			}
 
-			//remove an element at the specified position
+			//removes an element at the specified position
 			iterator erase_after(const_iterator pos)
 			{
 				if (pos == cend() || std::next(pos) == cend())
@@ -398,41 +388,41 @@ namespace cust					//customized / non-standard
 
 				iterator iter(pos);
 
-				iter->next() = delete_one_node(iter->next());
+				iter.next() = node_type::delete_one_node(alloc, iter.next());
 
 				return ++iter;
 			}
 
-			//remove element(s) in the specified range
+			//removes element(s) in the specified range
 			iterator erase_after(const_iterator first, const_iterator last)
 			{
-				iterator iter { first == last ? last : std::next(first) };
+				iterator iter = first == last ? last : std::next(first);
 
 				for ( ; iter != last; iter = erase_after(first));
 
 				return iter;
 			}
 
-			//merge two sorted forward_list
+			//merges two sorted forward_list
 			void merge(forward_list& other)
 			{
-				node_pointer back1 { nullptr }, back2 { nullptr};
+				node_pointer back1 { nullptr }, back2 { nullptr };
 
-				for (auto ptr { head };       ptr != nullptr; back1 = ptr, ptr = ptr->next());
-				for (auto ptr { other.head }; ptr != nullptr; back2 = ptr, ptr = ptr->next());
+				for (auto ptr { head };       ptr != nullptr; back1 = ptr, ptr = ptr->next);
+				for (auto ptr { other.head }; ptr != nullptr; back2 = ptr, ptr = ptr->next);
 
 				inplace_merge(before_head(), back1, other.before_head(), back2);
 
 				other.head = nullptr;
 			}
 
-			//merge two sorted forward_list
+			//merges two sorted forward_list
 			void merge(forward_list&& other)
 			{
-				node_pointer back1{ nullptr }, back2{ nullptr };
+				node_pointer back1 { nullptr }, back2 { nullptr };
 
-				for (auto ptr{ head }; ptr != nullptr; back1 = ptr, ptr = ptr->next());
-				for (auto ptr{ other.head }; ptr != nullptr; back2 = ptr, ptr = ptr->next());
+				for (auto ptr { head };       ptr != nullptr; back1 = ptr, ptr = ptr->next);
+				for (auto ptr { other.head }; ptr != nullptr; back2 = ptr, ptr = ptr->next);
 
 				inplace_merge(before_head(), back1, other.before_head(), back2);
 
@@ -440,21 +430,21 @@ namespace cust					//customized / non-standard
 			}
 
 			/*
-			 *		sort the elements in the forward_list
+			 *		sorts the elements of the forward_list
 			 *
-			 *		inplace merge sort (recursive , top-down version)
+			 *		inplace merge sort (recursive, top-down version)
 			 */
 			template<class Compare = std::less<>>
 			void sort(Compare cmp = Compare{})
 			{
-				if (empty() || head->next() == nullptr)
+				if (empty() || head->next == nullptr)
 					return;
 
 				size_t step { 2 };
 				auto prev   { before_head() };
 				auto back1  { mergeSort(prev, step, cmp) };
 
-				for ( ; back1->next() != nullptr; step <<= 1)
+				for ( ; back1->next != nullptr; step <<= 1)
 				{
 					auto back2 { mergeSort(back1, step, cmp) };
 
@@ -469,8 +459,8 @@ namespace cust					//customized / non-standard
 
 				for (node_pointer curr { head }, next { nullptr }; curr != nullptr; )
 				{
-					next = curr->next();
-					curr->next() = prev;
+					next = curr->next;
+					curr->next = prev;
 					prev = curr;
 					curr = next;
 				}
@@ -489,9 +479,9 @@ namespace cust					//customized / non-standard
 
 				auto tmp { std::next(pos) };
 
-				pos.ptr->next()        = prev_first.ptr->next();
-				prev_first.ptr->next() = back.ptr->next();
-				back.ptr->next()       = tmp.ptr;
+				pos.next()        = prev_first.next();
+				prev_first.next() = back.next();
+				back.next()       = tmp.ptr;
 			}
 
 			iterator begin() noexcept { return iterator(head); }
@@ -507,73 +497,6 @@ namespace cust					//customized / non-standard
 			const_iterator cend() const noexcept { return end(); }
 
 		private:
-			template<class... Args>
-			auto new_one_node(node_type* ptr_next, Args&&... args)
-			{
-				auto ptr = allocator_traits<allocator_type>::allocate(alloc, 1);
-
-				allocator_traits<allocator_type>::construct(alloc, ptr->getValueAddress(), std::forward<Args>(args)...);
-				allocator_traits<allocator_type>::construct(alloc, ptr->getLinkAddress(), ptr_next);
-
-				return ptr;
-			}
-
-			template<class... Args>
-			auto new_nodes(size_type count, Args&&... args)
-			{
-				node_pointer ptr { nullptr };
-
-				for (; count != 0; --count)
-					ptr = new_one_node(ptr, std::forward<Args>(args)...);
-
-				return ptr;
-			}
-
-			template<class NodeTy>
-			auto delete_one_node(NodeTy* ptr)
-			{
-				NodeTy* ptr_next { nullptr };
-
-				if (ptr != nullptr)
-				{
-					ptr_next = ptr->next();
-
-					ptr->next() = nullptr;
-					allocator_traits<allocator_type>::destroy(alloc, ptr);
-					allocator_traits<allocator_type>::deallocate(alloc, ptr, 1);
-				}
-
-				return ptr_next;
-			}
-
-			template<class NodeTy>
-			void delete_nodes(NodeTy* ptr)
-			{
-				while (ptr != nullptr)
-					ptr = delete_one_node(ptr);
-			}
-
-			template<class FwdIter>
-			node_pointer copy_new_nodes(FwdIter first, FwdIter last)
-			{
-				node_pointer head { nullptr };
-
-				if (first != last)
-				{
-					head = new_one_node(nullptr, *first++);
-
-					for (auto prev = head; first != last; ++first)
-					{
-						auto ptr = new_one_node(nullptr, *first);
-
-						prev->next() = ptr;
-						prev = ptr;
-					}
-				}
-
-				return head;
-			}
-
 			/*
 			 *	Merge the sorted range (prev2, back2] into the sorted range (prev1, back1]
 			 */
@@ -582,21 +505,19 @@ namespace cust					//customized / non-standard
 			{
 				if (prev1 != nullptr && back1 != nullptr && prev2 != nullptr && back2 != nullptr)
 				{
-					for (; ; )
+					for ( ; ; )
 					{
-						while (prev1 != back1 && !cmp(prev2->next()->value, prev1->next()->value))
-						{
-							prev1 = prev1->next();
-						}
+						while (prev1 != back1 && !cmp(prev2->next->value, prev1->next->value))
+							prev1 = prev1->next;
 
 						if (prev1 == back1)
 						{
 							if (back1 != prev2)
 							{
-								prev1 = prev1->next();
-								back1->next() = prev2->next();
-								prev2->next() = back2->next();
-								back2->next() = prev1;
+								prev1       = prev1->next;
+								back1->next = prev2->next;
+								prev2->next = back2->next;
+								back2->next = prev1;
 							}
 
 							back1 = back2;
@@ -604,18 +525,16 @@ namespace cust					//customized / non-standard
 							break;
 						}
 
-						auto ptr2{ prev2 };
+						auto ptr2 { prev2 };
 
-						while (ptr2 != back2 && cmp(ptr2->next()->value, prev1->next()->value))
-						{
-							ptr2 = ptr2->next();
-						}
+						while (ptr2 != back2 && cmp(ptr2->next->value, prev1->next->value))
+							ptr2 = ptr2->next;
 
-						auto tmp2{ ptr2->next() };
+						auto tmp2 { ptr2->next };
 
-						ptr2->next() = prev1->next();
-						prev1->next() = prev2->next();
-						prev2->next() = tmp2;
+						ptr2->next  = prev1->next;
+						prev1->next = prev2->next;
+						prev2->next = tmp2;
 
 						if (ptr2 == back2)
 							break;
@@ -634,23 +553,23 @@ namespace cust					//customized / non-standard
 					return nullptr;
 
 				if (count == 1)
-					return prev->next();
+					return prev->next;
 				else if (count == 2)
 				{
-					if (prev->next() == nullptr)
+					if (prev->next == nullptr)
 						return nullptr;
 					else
 					{
-						auto left{ prev->next() }, right{ left->next() };
+						auto left { prev->next }, right { left->next };
 
 						return right == nullptr ? left : inplace_merge(prev, left, left, right, cmp);
 					}
 				}
 				else
 				{
-					auto half{ count >> 1 };
+					auto half { count >> 1 };
 
-					auto ptr1 = mergeSort(prev, half, cmp);
+					auto ptr1 = mergeSort(prev, half,         cmp);
 					auto ptr2 = mergeSort(ptr1, count - half, cmp);
 
 					return inplace_merge(prev, ptr1, ptr1, ptr2, cmp);
@@ -659,11 +578,7 @@ namespace cust					//customized / non-standard
 
 			node_pointer before_head() const noexcept
 			{
-				node_type tmp_node {};
-
-				auto diff = reinterpret_cast<char*>(tmp_node.getLinkAddress()) - reinterpret_cast<char*>(std::addressof(tmp_node));
-
-				return reinterpret_cast<node_pointer>(reinterpret_cast<char*>(std::addressof(const_cast<node_pointer&>(head))) - diff);
+				return reinterpret_cast<node_pointer>(std::addressof(const_cast<node_pointer&>(head)));
 			}
 
 			node_pointer   head  { nullptr };

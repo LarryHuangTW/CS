@@ -10,29 +10,47 @@
 ```C++
 namespace cust					//customized / non-standard
 {
-	template<class T, class Allocator>
-	class forward_list;
-
-	//const forward iterator associated with forward_list data container
+	//node data strucure of forward_list data container
 	template<class T>
-	class forward_list_const_iterator
+	struct forward_list_node
 	{
-		template<class T, class Allocator>
-		friend class forward_list;
+		// ......
 
+		node_pointer next  { nullptr };
+		value_type   value {};
+	};
+
+	//iterator base
+	template<class NodePtr>
+	class iterator_base
+	{
 		public:
 			// ......
 
 		protected:
-			pointer ptr{ nullptr };
+			node_pointer ptr { nullptr };
 	};
 
-	//forward iterator associated with forward_list data container
-	template<class T>
-	class forward_list_iterator : public forward_list_const_iterator<T>
+	//container iterator
+	template<class T, template<class...> class NodeTy, class NodePtr = NodeTy<std::remove_const_t<T>>*>
+	class container_iterator : public iterator_base<NodePtr>
 	{
 		public:
 			// ......
+
+			reference operator *  () const noexcept;
+			pointer   operator -> () const noexcept;
+	};
+
+	//unidirectional iterator associated with forward_list data container
+	template<class T, template<class...> class NodeTy>
+	class forward_list_iterator : public container_iterator<T, NodeTy>
+	{
+		// ......
+
+		public:
+			forward_list_iterator& operator ++ ()    noexcept;
+			forward_list_iterator  operator ++ (int) noexcept;
 	};
 
 	//forward_list data container
@@ -41,13 +59,16 @@ namespace cust					//customized / non-standard
 	{
 		public:
 			//public member types
+			// ......
+			using iterator       = forward_list_iterator<value_type,       forward_list_node>;
+			using const_iterator = forward_list_iterator<const value_type, forward_list_node>;
 
 			//constructors
 			forward_list() noexcept;
 			explicit forward_list(size_type count);
 			forward_list(size_type count, const value_type& value);
 			forward_list(const forward_list& other);
-			forward_list(forward_list&& other);
+			forward_list(forward_list&& other) noexcept;
 			forward_list(std::initializer_list<value_type> initList);
 
 			//destructor
@@ -97,6 +118,12 @@ namespace cust					//customized / non-standard
 			node_pointer   head  { nullptr };
 			allocator_type alloc {};
 	};
+
+	template<class T, class Allocator>
+	bool operator == (const forward_list<T, Allocator>& lhs, const forward_list<T, Allocator>& rhs);
+
+	template<class T, class Allocator>
+	bool operator != (const forward_list<T, Allocator>& lhs, const forward_list<T, Allocator>& rhs);
 }
 ```
 
