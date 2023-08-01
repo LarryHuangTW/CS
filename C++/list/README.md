@@ -62,6 +62,9 @@ namespace cust					//customized / non-standard
 	{
 		public:
 			//public member types
+			// ......
+			using iterator       = list_iterator<value_type,       list_node>;
+			using const_iterator = list_iterator<const value_type, list_node>;
 
 			//constructors
 			list();
