@@ -1,5 +1,7 @@
 # The design of iterators of C++ data containers
 
+> Take list data container and its bidirectional iterator for example
+
 ### version 1: two separate class templates with 90% code similarity
 
 ```C++
