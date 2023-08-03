@@ -1,4 +1,4 @@
-## The design of iterators of C++ data containers
+# The design of iterators of C++ data containers
 
 ### version 1: two separate class templates with 90% code similarity
 
@@ -263,7 +263,7 @@ class list
 };
 ```
 
-### version 6: 
+### version 6: three class templates with hierarchical relationships
 
 ```C++
 template<class NodePtr>
