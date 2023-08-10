@@ -41,7 +41,7 @@ namespace cust					//customized / non-standard
 
 		//adds a node by allocating memory space and calling its constructor
 		template<class Allocator, class... Args>
-		static node_pointer new_node(Allocator& alloc, Args&&... args)
+		[[nodiscard]] static node_pointer new_node(Allocator& alloc, Args&&... args)
 		{
 			auto ptr { allocator_traits<Allocator>::allocate(alloc, 1) };
 
@@ -129,7 +129,7 @@ namespace cust					//customized / non-standard
 
 		node_pointer next  { nullptr };			//pointer pointing to next     node
 		node_pointer prev  { nullptr };			//pointer pointing to previous node
-		value_type   value {};				//data value
+		value_type   value {};					//data value
 	};
 
 	/*
