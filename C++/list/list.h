@@ -129,7 +129,7 @@ namespace cust					//customized / non-standard
 
 		node_pointer next  { nullptr };			//pointer pointing to next     node
 		node_pointer prev  { nullptr };			//pointer pointing to previous node
-		value_type   value {};					//data value
+		value_type   value {};				//data value
 	};
 
 	/*
