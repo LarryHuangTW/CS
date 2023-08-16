@@ -164,6 +164,7 @@ namespace cust					//customized / non-standard
 	template<class KeyTy, class ValTy, class Compare, class Allocator>
 	bool operator >= (const bbst_container<KeyTy, ValTy, Compare, Allocator>& lhs, const bbst_container<KeyTy, ValTy, Compare, Allocator>& rhs);
 
+	//set data container
 	template<class Key, class Compare = std::less<Key>, class Allocator = std::allocator<Key>>
 	class set : public bbst_container<Key, Key, Compare, Allocator>
 	{
