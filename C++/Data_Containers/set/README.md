@@ -35,7 +35,7 @@ namespace cust					//customized / non-standard
 				size_type    sz          { 0 };			//the number of elements of the tree
 			};
 
-			impl_type impl{};					//implementation of AVL tree
+			impl_type impl {};					//implementation of AVL tree
 	};
 
 	//iterator base
