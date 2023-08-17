@@ -227,11 +227,9 @@ decltype(auto) operator << (std::ostream& os, const std::pair<T, U>& pr)
 template<class Key, class T>
 decltype(auto) operator << (std::ostream& os, const cust::map<Key, T>& mp)
 {
-	//std::cout << "{ ";
 	for (const auto& pr : mp)
 		os << pr << "\n";
 	os << "\n";
-	//os << "\b\b }\n\n";
 
 	os << "empty ? " << mp.empty() << "\t\tsize : " << mp.size() << "\n\n";
 
