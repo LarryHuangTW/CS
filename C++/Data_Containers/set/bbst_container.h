@@ -355,7 +355,7 @@ namespace cust					//customized / non-standard
 			impl_type bbst {};
 	};
 
-	template<class KeyTy, class ValTy, class Compare , class Allocator>
+	template<class KeyTy, class ValTy, class Compare, class Allocator>
 	bool operator == (const bbst_container<KeyTy, ValTy, Compare, Allocator>& lhs, const bbst_container<KeyTy, ValTy, Compare, Allocator>& rhs)
 	{
 		return lhs.size() == rhs.size() && std::equal(lhs.begin(), lhs.end(), rhs.begin());
