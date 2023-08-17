@@ -71,7 +71,7 @@ namespace cust					//customized / non-standard
 			std::allocator_traits<Allocator>::deallocate(alloc, ptr, 1);
 		}
 
-		//copys the subtree rooted in the src node
+		//copies the subtree rooted in the src node
 		template<class Allocator>
 		[[nodiscard]] static node_pointer copy_nodes(Allocator& alloc, node_pointer src)
 		{
@@ -81,11 +81,11 @@ namespace cust					//customized / non-standard
 			{
 				ptr = new_one_node(alloc, copy_nodes(alloc, src->left), copy_nodes(alloc, src->right), nullptr, src->height, src->value);
 
-				//has left  child
+				//has the left  child
 				if (ptr->left != nullptr)
 					ptr->left->parent = ptr;
 
-				//has right child
+				//has the right child
 				if (ptr->right != nullptr)
 					ptr->right->parent = ptr;
 			}
@@ -114,7 +114,7 @@ namespace cust					//customized / non-standard
 		{
 			if (ptr != nullptr)
 			{
-				//has right subtree
+				//has the right subtree
 				if (ptr->right != nullptr)
 				{
 					ptr = min(ptr->right);
@@ -200,10 +200,10 @@ namespace cust					//customized / non-standard
 
 				if ( !other.empty() )
 				{
-					//root node is the left child node of pseudo head node
+					//root node is the left child node of the pseudo head node
 					impl.pseudo_head->left = node_type::copy_nodes(get_allocator(), other.get_root());
 
-					impl.pseudo_head->left->parent = impl.pseudo_head;			//pseudo head node is the parent node of root node
+					impl.pseudo_head->left->parent = impl.pseudo_head;		//pseudo head node is the parent node of root node
 				}
 
 				impl.sz = other.impl.sz;
@@ -528,11 +528,11 @@ namespace cust					//customized / non-standard
 
 					que.pop();
 
-					//has left  child
+					//has the left  child
 					if (ptr->left != nullptr)
 						que.push(ptr->left);
 
-					//has right child
+					//has the right child
 					if (ptr->right != nullptr)
 						que.push(ptr->right);
 				}
@@ -620,7 +620,7 @@ namespace cust					//customized / non-standard
 				if (pos == nullptr)
 					return std::make_pair(nullptr, nullptr);
 
-				//the node to erase has right subtree
+				//the node to erase has the right subtree
 				if (pos->right != nullptr)
 				{
 					//finds the successor (in the right subtree) of the node to erase
@@ -652,7 +652,7 @@ namespace cust					//customized / non-standard
 				}
 				else
 				{
-					//the node to erase has no right subtree but has left subtree
+					//the node to erase has no right subtree but has the left subtree
 					if (pos->left != nullptr)
 					{
 						ptr = pos->left;
@@ -760,7 +760,7 @@ namespace cust					//customized / non-standard
 			 *	1. checks the balance of the node pointed by ptr
 			 *	2. rotates if it is unbalanced
 			 *	3. updates the height
-			 *	4. performs 1 ~ 3 actions to parent node and ancestral nodes
+			 *	4. performs 1 ~ 3 actions to the parent node and ancestral nodes
 			 */
 			void update_height(node_pointer ptr)
 			{
@@ -774,7 +774,7 @@ namespace cust					//customized / non-standard
 				}
 			}
 
-			//performs left rotation
+			//performs a left rotation
 			node_pointer rotate_left(node_pointer ptr)
 			{
 				if (ptr == nullptr)
@@ -798,7 +798,7 @@ namespace cust					//customized / non-standard
 				return ptr;
 			}
 
-			//performs right rotation
+			//performs a right rotation
 			node_pointer rotate_right(node_pointer ptr)
 			{
 				if (ptr == nullptr)
@@ -903,7 +903,7 @@ namespace cust					//customized / non-standard
 				return impl;
 			}
 
-			//gets the pointer pointing to root node
+			//gets the pointer pointing to the root node
 			node_pointer get_root() const noexcept
 			{
 				return impl.pseudo_head->left;
@@ -913,9 +913,9 @@ namespace cust					//customized / non-standard
 			struct impl_type : public Compare, allocator_type
 			{
 				node_pointer pseudo_head { nullptr };			//a pointer pointing to pseudo head node
-				size_type    sz          { 0 };					//the number of elements of the tree
+				size_type    sz          { 0 };				//the number of elements of the tree
 			};
 
-			impl_type impl {};									//implementation of AVL tree
+			impl_type impl {};						//implementation of AVL tree
 	};
 }
