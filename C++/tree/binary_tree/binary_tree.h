@@ -78,7 +78,7 @@ namespace cust					//customized / non-standard
 
 		node_pointer left  { nullptr };			//pointer pointing to left  child node
 		node_pointer right { nullptr };			//pointer pointing to right child node
-		value_type   value {};					//data value
+		value_type   value {};				//data value
 	};
 
 	namespace recursive_version
@@ -332,11 +332,11 @@ namespace cust					//customized / non-standard
 
 						que.pop();
 
-						//has left  child
+						//has the left  child
 						if (ptr->left != nullptr)
 							que.push(ptr->left);
 
-						//has right child
+						//has the right child
 						if (ptr->right != nullptr)
 							que.push(ptr->right);
 					}
@@ -345,8 +345,8 @@ namespace cust					//customized / non-standard
 						levelorder(que, func);
 				}
 
-				node_pointer   root  { nullptr };			//pointer points to root node
-				allocator_type alloc {};					//allocator object
+				node_pointer   root  { nullptr };		//pointer points to root node
+				allocator_type alloc {};			//allocator object
 		};
 	}
 
@@ -433,11 +433,11 @@ namespace cust					//customized / non-standard
 
 						stk.pop();
 
-						//has left  child
+						//has the left  child
 						if (ptr->left != nullptr)
 							stk.push(ptr->left);
 
-						//has right child
+						//has the right child
 						if (ptr->right != nullptr)
 							stk.push(ptr->right);
 					}
@@ -468,11 +468,11 @@ namespace cust					//customized / non-standard
 
 							que.pop();
 
-							//has left  child
+							//has the left  child
 							if (ptr->left != nullptr)
 								que.push(ptr->left);
 
-							//has right child
+							//has the right child
 							if (ptr->right != nullptr)
 								que.push(ptr->right);
 						}
@@ -531,7 +531,7 @@ namespace cust					//customized / non-standard
 
 						stk.pop();
 
-						//stack is FILO, push right child node first
+						//stack is FILO, push the right child node first
 						if (ptr->right != nullptr)
 							stk.push(ptr->right);
 
@@ -614,11 +614,11 @@ namespace cust					//customized / non-standard
 
 						que.pop();
 
-						//has left  child
+						//has the left  child
 						if (ptr->left != nullptr)
 							que.push(ptr->left);
 
-						//has right child
+						//has the right child
 						if (ptr->right != nullptr)
 							que.push(ptr->right);
 					}
@@ -773,8 +773,8 @@ namespace cust					//customized / non-standard
 					return ptr;
 				}
 
-				node_pointer   root  { nullptr };			//pointer points to root node
-				allocator_type alloc {};					//allocator object
+				node_pointer   root  { nullptr };		//pointer points to root node
+				allocator_type alloc {};			//allocator object
 		};
 	}
 }
