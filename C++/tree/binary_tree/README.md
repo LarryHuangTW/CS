@@ -46,16 +46,16 @@ namespace cust					//customized / non-standard
 				void clear() noexcept;				//clears all elements of the tree
 
 				template<class Fn>
-				void preorder(Fn func);				//performs a preorder traversal
+				void preorder(Fn func) const;			//performs a preorder traversal
 
 				template<class Fn>
-				void inorder(Fn func);				//performs an inorder traversal
+				void inorder(Fn func) const;			//performs an inorder traversal
 
 				template<class Fn>
-				void postorder(Fn func);			//performs a postorder traversal
+				void postorder(Fn func) const;			//performs a postorder traversal
 
 				template<class Fn>
-				void levelorder(Fn func);			//performs a levelorder traversal
+				void levelorder(Fn func) const;			//performs a levelorder traversal
 
 				template<class... Args>
 				node_pointer add_root(Args&&... args);		//adds the root node if the tree is empty
