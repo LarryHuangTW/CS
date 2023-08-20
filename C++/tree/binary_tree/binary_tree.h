@@ -19,7 +19,7 @@ namespace cust					//customized / non-standard
 
 		//adds a tree node by allocating memory space and calling its constructor
 		template<class Allocator, class... Args>
-		static node_pointer new_node(Allocator& alloc, Args&&... args)
+		[[nodiscard]] static node_pointer new_node(Allocator& alloc, Args&&... args)
 		{
 			auto ptr { std::allocator_traits<Allocator>::allocate(alloc, 1) };
 
@@ -30,7 +30,7 @@ namespace cust					//customized / non-standard
 		}
 
 		template<class Allocator, class... Args>
-		static node_pointer new_one_node(Allocator& alloc, node_pointer l, node_pointer r, Args&&... args)
+		[[nodiscard]] static node_pointer new_one_node(Allocator& alloc, node_pointer l, node_pointer r, Args&&... args)
 		{
 			auto ptr { std::allocator_traits<Allocator>::allocate(alloc, 1) };
 
@@ -71,7 +71,7 @@ namespace cust					//customized / non-standard
 
 		//copies the subtree rooted in the src node
 		template<class Allocator>
-		static node_pointer copy_nodes(Allocator& alloc, node_pointer src)
+		[[nodiscard]] static node_pointer copy_nodes(Allocator& alloc, node_pointer src)
 		{
 			return src == nullptr ? nullptr : new_one_node(alloc, copy_nodes(alloc, src->left), copy_nodes(alloc, src->right), src->value);
 		}
