@@ -171,8 +171,6 @@ auto show_tree_info(const tree_type<T>& tree)
 template<class T>
 void test_func(std::initializer_list<T> initList)
 {
-	using node_pointer = typename tree_type<T>::node_pointer;
-
 	tree_type<T>   tree {};
 	std::vector<T> vec  {};
 
@@ -207,10 +205,10 @@ void test_func(std::initializer_list<T> initList)
 
 		std::cout << "erase " << val;
 
-		auto p { tree.erase(val) };
+		auto ptr { tree.erase(val) };
 
-		if (p != nullptr)
-			std::cout << " and return " << p->value;
+		if (ptr != nullptr)
+			std::cout << " and return " << ptr->value;
 		std::cout << "\n";
 
 		vec.clear();
@@ -228,10 +226,10 @@ void test_func(std::initializer_list<T> initList)
 
 int main(int argc, char* argv[])
 {
-	tree_type<int> tree1 {};				//default constructor
-	tree_type<int> tree2 { 1 , 3 , 5 , 7 , 9 };		//constructor with initializer list
-	tree_type<int> tree3 { tree2 };				//copy constructor
 	auto      initList = { 1 , 3 , 5 , 7 , 9 };
+	tree_type<int> tree1 {};				//default constructor
+	tree_type<int> tree2 { initList };			//constructor with initializer list
+	tree_type<int> tree3 { tree2 };				//copy constructor
 
 	std::cout << std::boolalpha;
 
