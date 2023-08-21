@@ -40,8 +40,8 @@ namespace cust					//customized / non-standard
 
 			//constructors
 			binary_search_tree() noexcept;
-			binary_search_tree(const binary_tree& other);
-			binary_search_tree(binary_tree&& other) noexcept;
+			binary_search_tree(const binary_search_tree& other);
+			binary_search_tree(binary_search_tree&& other) noexcept;
 			binary_search_tree(std::initializer_list<value_type> init);
 			template<class InputIter>
 			binary_search_tree(InputIter first, InputIter last);
@@ -86,7 +86,7 @@ namespace cust					//customized / non-standard
 		protected:
 			// ......
 
-			size_type sz  { 0 };		//the number of elements / nodes in the tree
+			size_type sz  { 0 };		//the number of elements / nodes of the tree
 			Compare   cmp {};		//element comparison function
 	};
 ```
@@ -104,18 +104,18 @@ template<class T>
 using tree_type = cust::binary_search_tree<T>;
 
 const std::initializer_list<std::initializer_list<int>> test_cases {
-			{ 9 , 7 , 5 , 3 ,  1 } ,
-			{ 2 , 4 , 6 , 8 , 10 } ,
-			{ 1 , 9 , 7 , 5 ,  3 } ,
-			{ 10 , 2 , 4 , 6 , 8 } ,
-			{ 1 , 9 , 3 , 7 ,  5 } ,
-			{ 10 , 2 , 8 , 4 , 6 } ,
-			{ 6 , 3 , 8 , 1 , 5 , 7 , 10 , 2 , 4 , 9 } ,
-			{ 5 , 4 , 3 , 1 , 2 , 6 , 7 , 9 , 8 , 11 , 10 , 12 } ,
-			{ 5 , 6 , 3 ,  1 } ,
-			{ 5 , 6 , 3 ,  4 } ,
-			{ 6 , 5 , 8 , 10 } ,
-			{ 6 , 5 , 8 ,  7 }
+			{  9 , 7 , 5 ,  3 ,  1 } ,
+			{  2 , 4 , 6 ,  8 , 10 } ,
+			{  1 , 9 , 7 ,  5 ,  3 } ,
+			{ 10 , 2 , 4 ,  6 ,  8 } ,
+			{  1 , 9 , 3 ,  7 ,  5 } ,
+			{ 10 , 2 , 8 ,  4 ,  6 } ,
+			{  6 , 3 , 8 ,  1 ,  5 , 7 , 10 , 2 , 4 ,  9 } ,
+			{  5 , 4 , 3 ,  1 ,  2 , 6 ,  7 , 9 , 8 , 11 , 10 , 12 } ,
+			{  5 , 6 , 3 ,  1 } ,
+			{  5 , 6 , 3 ,  4 } ,
+			{  6 , 5 , 8 , 10 } ,
+			{  6 , 5 , 8 ,  7 }
 };
 
 template<class T>
@@ -131,17 +131,18 @@ decltype(auto) operator << (std::ostream& os, const std::vector<T>& vec)
 template<class T>
 decltype(auto) operator << (std::ostream& os, const tree_type<T>& tree)
 {
-	std::cout << "\tempty  : " << tree.empty()  << '\n';
-	std::cout << "\tsize   : " << tree.size()   << '\n';
-	std::cout << "\theight : " << tree.height() << '\n';
+	std::cout << "\t";
+	std::cout << "empty  : " << tree.empty()  << "\n\t";
+	std::cout << "size   : " << tree.size()   << "\n\t";
+	std::cout << "height : " << tree.height() << "\n\t";
 
 	if ( !tree.empty() )
 	{
-		std::cout << "\tmin    : " << tree.min()->value << '\n';
-		std::cout << "\tmax    : " << tree.max()->value << '\n';
+		std::cout << "min    : " << tree.min()->value << "\n\t";
+		std::cout << "max    : " << tree.max()->value << "\n\t";
 	}
 
-	std::cout << "\tdata   : ";
+	std::cout << "data   : ";
 	tree.traverse([](const T& value) { std::cout << value << "   "; });
 	std::cout << "\n\n";
 
@@ -172,9 +173,8 @@ void test_func(std::initializer_list<T> initList)
 {
 	using node_pointer = typename tree_type<T>::node_pointer;
 
-	tree_type<T>       tree {};
-	std::vector<T>     vec {};
-	node_pointer ptr { nullptr };
+	tree_type<T>   tree {};
+	std::vector<T> vec  {};
 
 	vec.reserve(initList.size());
 
@@ -183,17 +183,17 @@ void test_func(std::initializer_list<T> initList)
 		auto pr { tree.insert(item) };
 
 		if ( !pr.second )
-			std::cout << "Failed to insert node with value " << item << "\n\n";
+			std::cout << "Failed to insert a node with value " << item << "\n\n";
 	}
 
 	vec = show_tree_info(tree);
 
 	for (auto item : vec)
 	{
-		ptr = tree.find(item);
+		auto ptr { tree.find(item) };
 
 		if (ptr == nullptr || ptr->value != item)
-			std::cout << "Not found value " << ptr->value << "\n\n";
+			std::cout << "Not found value " << item << "\n\n";
 	}
 
 	std::random_device rd  {};
@@ -220,7 +220,7 @@ void test_func(std::initializer_list<T> initList)
 		bool isSorted = std::is_sorted(vec.cbegin(), vec.cend());
 
 		if ( !isSorted )
-			std::cout << "Not Ordered !!!\n\n";
+			std::cout << "Not sorted!\n\n";
 	}
 
 	std::cout << "\n";
