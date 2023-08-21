@@ -1,20 +1,21 @@
-![binary search tree](/Images/tree/binary_search_tree.svg)
+![AVL tree](/Images/tree/AVL_tree.svg)
 
 ## Code snippets:
 
 ```C++
 namespace cust					//customized / non-standard
 {
-	//binary search tree node
+	//AVL tree node
 	template<class T>
-	struct binary_search_tree_node
+	struct AVL_tree_node
 	{
 		// ......
 
-		node_pointer left   { nullptr };	//pointer pointing to left  child node
-		node_pointer right  { nullptr };	//pointer pointing to right child node
-		node_pointer parent { nullptr };	//pointer pointing to parent      node
-		value_type   value  {};			//data value
+		node_pointer    left   { nullptr };		//pointer pointing to left  child node
+		node_pointer    right  { nullptr };		//pointer pointing to right child node
+		node_pointer    parent { nullptr };		//pointer pointing to parent      node
+		difference_type height { 0 };			//height of the node
+		value_type      value  {};			//data value
 	};
 
 	//binary tree data structure
@@ -27,8 +28,8 @@ namespace cust					//customized / non-standard
 		protected:
 			// ......
 
-			node_pointer   root  { nullptr };		//pointer points to root node
-			allocator_type alloc {};			//allocator object
+			node_pointer   root  { nullptr };	//pointer points to root node
+			allocator_type alloc {};		//allocator object
 	};
 
 	//binary search tree data structure
@@ -36,23 +37,37 @@ namespace cust					//customized / non-standard
 	class binary_search_tree : public binary_tree<T, node_type, Allocator>
 	{
 		public:
+			// ......
+
+		protected:
+			// ......
+
+			size_type sz  { 0 };		//the number of elements / nodes of the tree
+			Compare   cmp {};		//element comparison function
+	};
+
+	//AVL tree data structure
+	template<class T, class node_type = AVL_tree_node<T>, class Compare = std::less<T>, class Allocator = std::allocator<node_type>>
+	class AVL_tree : public binary_search_tree<T, node_type, Compare, Allocator>
+	{
+		public:
 			//member types
 
 			//constructors
-			binary_search_tree() noexcept;
-			binary_search_tree(const binary_search_tree& other);
-			binary_search_tree(binary_search_tree&& other) noexcept;
-			binary_search_tree(std::initializer_list<value_type> init);
+			AVL_tree() noexcept;
+			AVL_tree(const AVL_tree& other);
+			AVL_tree(AVL_tree&& other) noexcept;
+			AVL_tree(std::initializer_list<value_type> init);
 			template<class InputIter>
-			binary_search_tree(InputIter first, InputIter last);
+			AVL_tree(InputIter first, InputIter last);
 
 			//destructor
-			~binary_search_tree();
+			~AVL_tree();
 
 			//assignment operators
-			binary_search_tree& operator = (const binary_search_tree& other);
-			binary_search_tree& operator = (binary_search_tree&& other) noexcept;
-			binary_search_tree& operator = (std::initializer_list<value_type> init);
+			AVL_tree& operator = (const AVL_tree& other);
+			AVL_tree& operator = (AVL_tree&& other) noexcept;
+			AVL_tree& operator = (std::initializer_list<value_type> init);
 
 			size_type size() const noexcept;		//gets the number of elements of the tree
 			bool empty() const noexcept;			//checks if the tree is empty
@@ -83,11 +98,25 @@ namespace cust					//customized / non-standard
 			template<class Fn>
 			void traverse(Fn func) const;			//performs an inorder traversal of the tree
 
-		protected:
-			// ......
+			//gets the allocator
+			allocator_type& get_allocator() noexcept;
+			const allocator_type& get_allocator() const noexcept;
 
-			size_type sz  { 0 };		//the number of elements / nodes of the tree
-			Compare   cmp {};		//element comparison function
+			//gets the compare function object
+			Compare& get_compare() noexcept;
+			const Compare& get_compare() const noexcept;
+
+		private:
+			enum class rotate_to : char { left, right, nowhere };
+
+			difference_type height(const_node_pointer ptr) const noexcept;		//gets the height of the node pointed by ptr
+			difference_type get_balance_factor(const_node_pointer ptr) const noexcept;
+			rotate_to check_balance(const_node_pointer ptr) const noexcept;		//checks the balance of the node pointed by ptr
+			void update_node_height(node_pointer ptr);				//updates the height of the node pointed by ptr
+			void update_height(node_pointer ptr);
+			node_pointer rotate_left(node_pointer ptr);				//performs a left  rotation
+			node_pointer rotate_right(node_pointer ptr);				//performs a right rotation
+			node_pointer rotate(rotate_to direction, node_pointer ptr);		//performs rotation(s)
 	};
 }
 ```
@@ -99,10 +128,10 @@ namespace cust					//customized / non-standard
 #include <vector>
 #include <initializer_list>
 #include <random>
-#include "binary_search_tree.h"
+#include "AVL_tree.h"
 
 template<class T>
-using tree_type = cust::binary_search_tree<T>;
+using tree_type = cust::AVL_tree<T>;
 
 const std::initializer_list<std::initializer_list<int>> test_cases {
 			{  9 , 7 , 5 ,  3 ,  1 } ,
@@ -289,6 +318,17 @@ int main(int argc, char* argv[])
 
 	//range insertion
 	tree1.insert(initList.begin(), initList.end());
+
+	std::cout << "[ tree 1 ]\n" << tree1;			// 1  2  3  4  5  6  7  8  9
+
+	//move assignment
+	tree4 = std::move(tree1);
+
+	std::cout << "[ tree 1 ]\n" << tree1;			//
+	std::cout << "[ tree 4 ]\n" << tree4;			// 1  2  3  4  5  6  7  8  9
+
+	//assignment with initializer list
+	tree1 = { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 };
 
 	std::cout << "[ tree 1 ]\n" << tree1;			// 1  2  3  4  5  6  7  8  9
 
