@@ -330,8 +330,8 @@ int main(int argc, char* argv[])
 
 	for (auto tc : test_cases)
 	{
-		std::cout << "[ test case " << i++ << " ]\n\n";
-		std::cout << "\tinsert : ";
+		std::cout << "[ test case " << i++ << " ]\n\n\t";
+		std::cout << "insert : ";
 
 		for (auto elem : tc)
 			std::cout << elem << "   ";

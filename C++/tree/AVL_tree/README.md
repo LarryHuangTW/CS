@@ -88,7 +88,7 @@ namespace cust					//customized / non-standard
 			node_pointer erase(node_pointer pos);				//removes the element at pos from the tree
 			node_pointer erase(const value_type& value);			//removes the element with the equivalent value from the tree
 
-			void swap(binary_search_tree& other) noexcept;			//exchanges the elements of the tree with those of other
+			void swap(AVL_tree& other) noexcept;				//exchanges the elements of the tree with those of other
 
 			node_pointer find(const value_type& value) const;		//finds the element with the equivalent value of the tree
 			bool contains(const value_type& value) const;			//checks if there is an element with the equivalent value of the tree
@@ -370,8 +370,8 @@ int main(int argc, char* argv[])
 
 	for (auto tc : test_cases)
 	{
-		std::cout << "[ test case " << i++ << " ]\n\n";
-		std::cout << "\tinsert : ";
+		std::cout << "[ test case " << i++ << " ]\n\n\t";
+		std::cout << "insert : ";
 
 		for (auto elem : tc)
 			std::cout << elem << "   ";
