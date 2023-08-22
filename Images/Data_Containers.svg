@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="13.1054in" height="31.5183in" viewBox="0 0 943.587 2269.32" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st38">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-width:1}
+		.st2 {fill:none;stroke:none;stroke-width:0.25}
+		.st3 {fill:#0000ff;font-family:Times New Roman;font-size:1.99999em}
+		.st4 {stroke:#a5a5a5;stroke-width:0.25}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st6 {fill:#000000;font-family:Times New Roman;font-size:1.5em}
+		.st7 {stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st9 {font-size:1em}
+		.st10 {fill:none;stroke:#000000;stroke-width:0.25}
+		.st11 {stroke:#7f7f7f;stroke-width:0.25}
+		.st12 {fill:#f2f2f2;stroke:#000000;stroke-width:1}
+		.st13 {fill:none;stroke:#7f7f7f;stroke-dasharray:1.75,1.25;stroke-width:0.25}
+		.st14 {marker-end:url(#mrkr5-102);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st15 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st16 {marker-end:url(#mrkr5-102);stroke:#000000;stroke-width:1}
+		.st17 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st18 {marker-end:url(#mrkr5-148);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st19 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st20 {fill:none;stroke:none;stroke-width:1}
+		.st21 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st22 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st23 {fill:none;stroke:#7f7f7f;stroke-dasharray:1,2;stroke-width:1}
+		.st24 {fill:#7f7f7f;font-family:Times New Roman;font-size:0.666664em}
+		.st25 {marker-start:url(#mrkr5-265);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st26 {fill:url(#ptrn2-357);shape-rendering:crispEdges;stroke:#000000;stroke-width:1}
+		.st27 {fill:#d8d8d8;stroke:#000000;stroke-width:1}
+		.st28 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st29 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st30 {marker-start:url(#mrkr5-565);stroke:#7f7f7f;stroke-dasharray:1,2;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st31 {fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st32 {marker-end:url(#mrkr5-756);stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st33 {fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st34 {marker-end:url(#mrkr5-762);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st35 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st36 {marker-end:url(#mrkr5-768);stroke:#007d00;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st37 {fill:#007d00;fill-opacity:1;stroke:#007d00;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st38 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<pattern id="ptrn2-357" patternUnits="userSpaceOnUse" width="6" height="6" viewBox="0 0 64 64">
+			<image x="0" y="0" width="64" height="64" image-rendering="optimizeSpeed"
+					xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA+SURBVChTfY/BDQAgCAPZf0Xm6LumRI0oeB8Cdx8MACt0d3fa3BNLaj7BKUUKbil2UEkRQSdFfNFJYT8JgAPM6PnBP4fqWwAAAABJRU5ErkJggg=="/>
+		</pattern>
+	</defs>
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-102" class="st15" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr5-148" class="st19" refX="-7.42" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr5-265" class="st15" refX="5.8" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.52) "/>
+		</marker>
+		<marker id="mrkr5-565" class="st31" refX="5.8" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.52) "/>
+		</marker>
+		<marker id="mrkr5-756" class="st33" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr5-762" class="st35" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr5-768" class="st37" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(159.982,-2166.03)">
+			<title>Sheet.1</title>
+			<rect x="0" y="2240.97" width="240.945" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape2-3" transform="translate(32.4232,-2222.72)">
+			<title>Sheet.2</title>
+			<desc>array</desc>
+			<rect x="0" y="2240.97" width="70.8661" height="28.3465" class="st2"/>
+			<text x="10.79" y="2262.34" class="st3">array</text>		</g>
+		<g id="shape3-6" transform="translate(159.982,2330.09) scale(1,-1)">
+			<title>Side brace</title>
+			<desc>size ( )</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L113.39 2269.32 A7.0865 7.0865 0 0 1 120.47 2276.4
+						 A7.0865 7.0865 0 0 1 127.56 2269.32 L233.86 2269.32 A7.0865 7.0865 -180 0 0 240.94 2262.23 L240.94 2260.81"
+					class="st4"/>
+			<text x="101.43" y="-2284.61" transform="scale(1,-1)" class="st5">size ( )</text>		</g>
+		<g id="shape4-10" transform="translate(159.982,-2166.03)">
+			<title>Sheet.4</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape5-12" transform="translate(188.329,-2166.03)">
+			<title>Sheet.5</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape6-14" transform="translate(372.581,-2166.03)">
+			<title>Sheet.6</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape7-16" transform="translate(216.675,-2166.03)">
+			<title>Sheet.7</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape8-18" transform="translate(344.234,-2166.03)">
+			<title>Sheet.8</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape9-20" transform="translate(245.022,-2166.03)">
+			<title>Sheet.9</title>
+			<desc>……</desc>
+			<rect x="0" y="2240.97" width="99.2126" height="28.3465" class="st1"/>
+			<text x="31.61" y="2260.54" class="st6">……</text>		</g>
+		<g id="shape10-23" transform="translate(145.809,-2123.51)">
+			<title>Sheet.10</title>
+			<desc>front ( )</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st2"/>
+			<text x="6.58" y="2259.34" class="st5">front ( )</text>		</g>
+		<g id="shape11-26" transform="translate(358.407,-2123.51)">
+			<title>Sheet.11</title>
+			<desc>back ( )</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st2"/>
+			<text x="6.97" y="2259.34" class="st5">back ( )</text>		</g>
+		<g id="shape12-29" transform="translate(2443.47,89.1161) rotate(90)">
+			<title>Sheet.12</title>
+			<path d="M0 2269.32 L28.35 2269.32" class="st7"/>
+		</g>
+		<g id="shape13-32" transform="translate(2656.07,89.1161) rotate(90)">
+			<title>Sheet.13</title>
+			<path d="M0 2269.32 L28.35 2269.32" class="st7"/>
+		</g>
+		<g id="shape14-35" transform="translate(202.502,-2095.16)">
+			<title>Sheet.14</title>
+			<desc>on the stack / static memory allocation</desc>
+			<rect x="0" y="2226.8" width="212.598" height="42.5197" class="st2"/>
+			<text x="13.66" y="2251.66" class="st8">on the stack / static memory allocation</text>		</g>
+		<g id="shape15-38" transform="translate(103.289,-2166.03)">
+			<title>Sheet.15</title>
+			<desc>elem</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st2"/>
+			<text x="14.74" y="2259.34" class="st5">elem</text>		</g>
+		<g id="shape16-41" transform="translate(32.4232,-2151.86)">
+			<title>Sheet.16</title>
+			<desc>(static) array object</desc>
+			<rect x="0" y="2212.62" width="70.8661" height="56.6929" class="st2"/>
+			<text x="18.77" y="2237.37" class="st8">(static)  <tspan x="6.95" dy="1.2em" class="st9">array object</tspan></text>		</g>
+		<g id="shape36-45" transform="translate(32.4232,-2024.3)">
+			<title>Sheet.36</title>
+			<desc>vector</desc>
+			<rect x="0" y="2240.97" width="70.8661" height="28.3465" class="st2"/>
+			<text x="5.45" y="2262.34" class="st3">vector</text>		</g>
+		<g id="shape37-48" transform="translate(103.289,-1854.22)">
+			<title>Circle.37</title>
+			<path d="M0 2198.45 A70.8661 70.8661 0 1 1 141.73 2198.45 A70.8661 70.8661 0 1 1 0 2198.45 Z" class="st10"/>
+		</g>
+		<g id="shape38-50" transform="translate(152.896,-1942.8)">
+			<title>Rounded Rectangle.38</title>
+			<desc>first</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2252.31 A4.2519 4.2519 -180 0 0 38.27
+						 2248.06 L4.25 2248.06 A4.2519 4.2519 -180 0 0 -0 2252.31 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st10"/>
+			<text x="9.98" y="2262.89" class="st5">first</text>		</g>
+		<g id="shape39-53" transform="translate(152.896,-1886.11)">
+			<title>Rounded Rectangle.39</title>
+			<desc>last</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2252.31 A4.2519 4.2519 -180 0 0 38.27
+						 2248.06 L4.25 2248.06 A4.2519 4.2519 -180 0 0 -0 2252.31 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st10"/>
+			<text x="11.54" y="2262.89" class="st5">last</text>		</g>
+		<g id="shape40-56" transform="translate(152.896,-1857.76)">
+			<title>Rounded Rectangle.27</title>
+			<desc>end</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2252.31 A4.2519 4.2519 -180 0 0 38.27
+						 2248.06 L4.25 2248.06 A4.2519 4.2519 -180 0 0 -0 2252.31 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st10"/>
+			<text x="11.15" y="2262.89" class="st5">end</text>		</g>
+		<g id="shape41-59" transform="translate(330.061,-1939.26)">
+			<title>Sheet.41</title>
+			<rect x="0" y="2240.97" width="439.37" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape42-61" transform="translate(330.061,2556.86) scale(1,-1)">
+			<title>Side brace.42</title>
+			<desc>size ( )</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L106.3 2269.32 A7.0865 7.0865 0 0 1 113.39 2276.4
+						 A7.0865 7.0865 0 0 1 120.47 2269.32 L219.69 2269.32 A7.0865 7.0865 -180 0 0 226.77 2262.23 L226.77 2260.81"
+					class="st11"/>
+			<text x="96.34" y="-2280.61" transform="scale(1,-1)" class="st5">size ( )</text>		</g>
+		<g id="shape43-65" transform="translate(330.061,-1939.26)">
+			<title>Sheet.43</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape44-67" transform="translate(358.407,-1939.26)">
+			<title>Sheet.44</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape45-69" transform="translate(500.14,-1939.26)">
+			<title>Sheet.45</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape46-71" transform="translate(415.1,-1939.26)">
+			<title>Sheet.46</title>
+			<desc>……</desc>
+			<rect x="0" y="2240.97" width="85.0394" height="28.3465" class="st12"/>
+			<text x="24.52" y="2260.54" class="st6">……</text>		</g>
+		<g id="shape47-74" transform="translate(528.486,-1939.26)">
+			<title>Sheet.47</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape48-76" transform="translate(315.888,-1896.74)">
+			<title>Sheet.48</title>
+			<desc>front ( )</desc>
+			<rect x="0" y="2226.8" width="56.6929" height="42.5197" class="st2"/>
+			<text x="6.58" y="2252.26" class="st5">front ( )</text>		</g>
+		<g id="shape49-79" transform="translate(514.313,-1896.74)">
+			<title>Sheet.49</title>
+			<desc>back ( )</desc>
+			<rect x="0" y="2226.8" width="56.6929" height="42.5197" class="st2"/>
+			<text x="6.97" y="2252.26" class="st5">back ( )</text>		</g>
+		<g id="shape50-82" transform="translate(2613.55,315.888) rotate(90)">
+			<title>Sheet.50</title>
+			<path d="M0 2269.32 L28.35 2269.32" class="st7"/>
+		</g>
+		<g id="shape51-85" transform="translate(2811.98,315.888) rotate(90)">
+			<title>Sheet.51</title>
+			<path d="M0 2269.32 L28.35 2269.32" class="st7"/>
+		</g>
+		<g id="shape52-88" transform="translate(273.368,-1840.04)">
+			<title>Sheet.52</title>
+			<path d="M0 2269.32 L538.58 2269.32 L538.58 2056.72 L0 2056.72 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape53-90" transform="translate(542.659,-1811.7)">
+			<title>Sheet.53</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="2240.97" width="269.291" height="28.3465" class="st2"/>
+			<text x="7.86" y="2258.74" class="st8">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape54-93" transform="translate(330.061,2528.51) scale(1,-1)">
+			<title>Side brace.45</title>
+			<desc>capacity ( )</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L212.6 2269.32 A7.0865 7.0865 0 0 1 219.69 2276.4
+						 A7.0865 7.0865 0 0 1 226.77 2269.32 L432.28 2269.32 A7.0865 7.0865 -180 0 0 439.37 2262.23 L439.37 2260.81"
+					class="st11"/>
+			<text x="190.21" y="-2280.61" transform="scale(1,-1)" class="st5">capacity ( )</text>		</g>
+		<g id="shape55-97" transform="translate(195.415,-1953.43) rotate(6.9125E-08)">
+			<title>Sheet.55</title>
+			<path d="M0 2269.32 L128.49 2269.32" class="st14"/>
+		</g>
+		<g id="shape56-103" transform="translate(195.415,-1896.74)">
+			<title>Sheet.56</title>
+			<path d="M0 2269.32 L375.59 2269.32 L375.59 2218.78" class="st16"/>
+		</g>
+		<g id="shape57-108" transform="translate(195.415,-1868.39)">
+			<title>Sheet.57</title>
+			<path d="M0 2269.32 L588.19 2269.32 L588.19 2190.44" class="st16"/>
+		</g>
+		<g id="shape58-113" transform="translate(386.754,-1939.26)">
+			<title>Sheet.58</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape59-115" transform="translate(32.4232,-1910.91)">
+			<title>Sheet.59</title>
+			<desc>vector object</desc>
+			<rect x="0" y="2240.97" width="70.8661" height="28.3465" class="st2"/>
+			<text x="4.28" y="2258.74" class="st8">vector object</text>		</g>
+		<g id="shape60-118" transform="translate(117.463,-1627.45)">
+			<title>Circle.52</title>
+			<path d="M0 2233.88 A35.4331 35.4331 0 1 1 70.87 2233.88 A35.4331 35.4331 0 1 1 0 2233.88 Z" class="st1"/>
+		</g>
+		<g id="shape61-120" transform="translate(131.636,-1646.93)">
+			<title>Rounded Rectangle.5</title>
+			<desc>head</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2241.68 A4.2519 4.2519 -180 0 0 38.27
+						 2237.43 L4.25 2237.43 A4.2519 4.2519 -180 0 0 0 2241.68 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+			<text x="8.05" y="2257.57" class="st5">head</text>		</g>
+		<g id="group62-123" transform="translate(273.368,-1641.62)">
+			<title>Sheet.62</title>
+			<g id="shape63-124">
+				<title>Rounded Rectangle</title>
+				<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2232.47 A5.6692 5.6692 -180 0
+							 0 51.02 2226.8 L5.67 2226.8 A5.6692 5.6692 -180 0 0 -0 2232.47 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67
+							 2269.32 Z" class="st1"/>
+			</g>
+			<g id="shape64-126" transform="translate(56.6929,0)">
+				<title>Rounded Rectangle.4</title>
+				<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2229.63 A2.8346 2.8346 -180 0
+							 0 25.51 2226.8 L2.83 2226.8 A2.8346 2.8346 -180 0 0 -0 2229.63 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83
+							 2269.32 Z" class="st1"/>
+			</g>
+		</g>
+		<g id="group65-128" transform="translate(500.14,-1641.62)">
+			<title>Sheet.65</title>
+			<g id="shape66-129">
+				<title>Rounded Rectangle</title>
+				<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2232.47 A5.6692 5.6692 -180 0
+							 0 51.02 2226.8 L5.67 2226.8 A5.6692 5.6692 -180 0 0 -0 2232.47 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67
+							 2269.32 Z" class="st1"/>
+			</g>
+			<g id="shape67-131" transform="translate(56.6929,0)">
+				<title>Rounded Rectangle.4</title>
+				<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2229.63 A2.8346 2.8346 -180 0
+							 0 25.51 2226.8 L2.83 2226.8 A2.8346 2.8346 -180 0 0 -0 2229.63 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83
+							 2269.32 Z" class="st1"/>
+			</g>
+		</g>
+		<g id="group68-133" transform="translate(386.754,-1641.62)">
+			<title>Sheet.68</title>
+			<g id="shape69-134">
+				<title>Rounded Rectangle</title>
+				<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2232.47 A5.6692 5.6692 -180 0
+							 0 51.02 2226.8 L5.67 2226.8 A5.6692 5.6692 -180 0 0 -0 2232.47 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67
+							 2269.32 Z" class="st1"/>
+			</g>
+			<g id="shape70-136" transform="translate(56.6929,0)">
+				<title>Rounded Rectangle.4</title>
+				<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2229.63 A2.8346 2.8346 -180 0
+							 0 25.51 2226.8 L2.83 2226.8 A2.8346 2.8346 -180 0 0 -0 2229.63 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83
+							 2269.32 Z" class="st1"/>
+			</g>
+		</g>
+		<g id="shape71-138" transform="translate(684.392,-1641.62)">
+			<title>Rounded Rectangle.64</title>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2232.47 A5.6692 5.6692 -180 0 0 51.02
+						 2226.8 L5.67 2226.8 A5.6692 5.6692 -180 0 0 -0 2232.47 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape72-140" transform="translate(741.085,-1641.62)">
+			<title>Rounded Rectangle.4</title>
+			<desc>nullptr</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2231.05 A4.2519 4.2519 -180 0 0 38.27
+						 2226.8 L4.25 2226.8 A4.2519 4.2519 -180 0 0 -0 2231.05 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+			<text x="5.26" y="2251.66" class="st17">nullptr</text>		</g>
+		<g id="shape73-143" transform="translate(174.156,-1662.88)">
+			<title>Sheet.73</title>
+			<path d="M0 2269.32 L91.79 2269.32" class="st18"/>
+		</g>
+		<g id="shape74-149" transform="translate(344.234,-1662.88)">
+			<title>Sheet.74</title>
+			<path d="M0 2269.32 L35.1 2269.32" class="st18"/>
+		</g>
+		<g id="shape75-154" transform="translate(457.62,-1662.88)">
+			<title>Sheet.75</title>
+			<path d="M0 2269.32 L35.1 2269.32" class="st18"/>
+		</g>
+		<g id="shape76-159" transform="translate(571.006,-1662.88)">
+			<title>Sheet.76</title>
+			<path d="M0 2269.32 L20.93 2269.32" class="st18"/>
+		</g>
+		<g id="shape77-164" transform="translate(656.045,-1662.88)">
+			<title>Sheet.77</title>
+			<path d="M0 2269.32 L20.93 2269.32" class="st18"/>
+		</g>
+		<g id="shape78-169" transform="translate(599.352,-1641.62)">
+			<title>Sheet.78</title>
+			<desc>………</desc>
+			<rect x="0" y="2226.8" width="56.6929" height="42.5197" class="st20"/>
+			<text x="4.35" y="2252.86" class="st21">………</text>		</g>
+		<g id="shape79-172" transform="translate(32.4232,-1740.83)">
+			<title>Sheet.79</title>
+			<desc>forward_list</desc>
+			<rect x="0" y="2240.97" width="127.559" height="28.3465" class="st2"/>
+			<text x="5.13" y="2262.34" class="st3">forward_list</text>		</g>
+		<g id="shape80-175" transform="translate(386.754,-1684.14)">
+			<title>Sheet.80</title>
+			<desc>Node</desc>
+			<rect x="0" y="2240.97" width="85.0394" height="28.3465" class="st20"/>
+			<text x="29.52" y="2258.74" class="st17">Node</text>		</g>
+		<g id="shape81-178" transform="translate(500.14,-1684.14)">
+			<title>Sheet.81</title>
+			<desc>Node</desc>
+			<rect x="0" y="2240.97" width="85.0394" height="28.3465" class="st20"/>
+			<text x="29.52" y="2258.74" class="st17">Node</text>		</g>
+		<g id="shape82-181" transform="translate(273.368,-1684.14)">
+			<title>Sheet.82</title>
+			<desc>Node</desc>
+			<rect x="0" y="2240.97" width="85.0394" height="28.3465" class="st20"/>
+			<text x="29.52" y="2258.74" class="st17">Node</text>		</g>
+		<g id="shape83-184" transform="translate(684.392,-1684.14)">
+			<title>Sheet.83</title>
+			<desc>Node</desc>
+			<rect x="0" y="2240.97" width="99.2126" height="28.3465" class="st20"/>
+			<text x="36.61" y="2258.74" class="st17">Node</text>		</g>
+		<g id="shape84-187" transform="translate(259.195,-1599.1)">
+			<title>Sheet.84</title>
+			<path d="M0 2269.32 L538.58 2269.32 L538.58 2141.76 L0 2141.76 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape85-189" transform="translate(514.313,-1570.75)">
+			<title>Sheet.85</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="2240.97" width="283.465" height="28.3465" class="st2"/>
+			<text x="14.94" y="2258.74" class="st8">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape86-192" transform="translate(273.368,-1599.1)">
+			<title>Sheet.86</title>
+			<desc>front ( )</desc>
+			<rect x="0" y="2226.8" width="56.6929" height="42.5197" class="st2"/>
+			<text x="6.58" y="2252.26" class="st5">front ( )</text>		</g>
+		<g id="shape87-195" transform="translate(2571.03,606.066) rotate(90)">
+			<title>Sheet.87</title>
+			<path d="M0 2269.32 L35.81 2269.32" class="st7"/>
+		</g>
+		<g id="shape88-198" transform="translate(174.156,-1740.83)">
+			<title>Sheet.88</title>
+			<desc>(singly-linked list)</desc>
+			<rect x="0" y="2240.97" width="113.386" height="28.3465" class="st2"/>
+			<text x="4.78" y="2259.34" class="st22">(singly-linked list)</text>		</g>
+		<g id="shape89-201" transform="translate(18.25,-1641.62)">
+			<title>Sheet.89</title>
+			<desc>forward_list object</desc>
+			<rect x="0" y="2226.8" width="99.2126" height="42.5197" class="st2"/>
+			<text x="4.12" y="2251.66" class="st8">forward_list object</text>		</g>
+		<g id="shape90-204" transform="translate(32.4232,-1485.71)">
+			<title>Sheet.90</title>
+			<desc>list</desc>
+			<rect x="0" y="2240.97" width="42.5197" height="28.3465" class="st2"/>
+			<text x="6.59" y="2262.34" class="st3">list</text>		</g>
+		<g id="shape91-207" transform="translate(89.1161,-1315.63)">
+			<title>Circle.85</title>
+			<path d="M0 2219.71 A49.6063 49.6063 0 1 1 99.21 2219.71 A49.6063 49.6063 0 1 1 0 2219.71 Z" class="st1"/>
+		</g>
+		<g id="shape92-209" transform="translate(110.376,-1372.33)">
+			<title>Rounded Rectangle.86</title>
+			<desc>pointer</desc>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2246.64 A5.6692 5.6692 -180 0 0 51.02
+						 2240.97 L5.67 2240.97 A5.6692 5.6692 -180 0 0 -0 2246.64 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32
+						 Z" class="st1"/>
+			<text x="8.52" y="2259.34" class="st5">pointer</text>		</g>
+		<g id="shape93-212" transform="translate(117.463,-1329.81)">
+			<title>Rounded Rectangle.87</title>
+			<desc>size</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+			<text x="10.38" y="2259.34" class="st5">size</text>		</g>
+		<g id="shape94-215" transform="translate(273.368,-1372.33)">
+			<title>Rounded Rectangle.89</title>
+			<desc>pseudo head</desc>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2246.64 A5.6692 5.6692 -180 0 0 51.02
+						 2240.97 L5.67 2240.97 A5.6692 5.6692 -180 0 0 -0 2246.64 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32
+						 Z" class="st23"/>
+			<text x="11.35" y="2251.54" class="st8">pseudo <tspan x="17.02" dy="1.2em" class="st9">head</tspan></text>		</g>
+		<g id="shape95-219" transform="translate(330.061,-1372.33)">
+			<title>Rounded Rectangle.90</title>
+			<desc>next</desc>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st23"/>
+			<text x="7.29" y="2257.54" class="st24">next</text>		</g>
+		<g id="shape96-222" transform="translate(245.022,-1372.33)">
+			<title>Rounded Rectangle.91</title>
+			<desc>prev</desc>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st23"/>
+			<text x="7.07" y="2257.54" class="st24">prev</text>		</g>
+		<g id="shape97-225" transform="translate(400.927,-1301.46)">
+			<title>Sheet.97</title>
+			<path d="M0 2269.32 L510.24 2269.32 L510.24 2099.24 L0 2099.24 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape98-227" transform="translate(230.848,-1301.46)">
+			<title>Sheet.98</title>
+			<path d="M0 2269.32 L141.73 2269.32 L141.73 2099.24 L0 2099.24 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape99-229" transform="translate(443.447,-1372.33)">
+			<title>Rounded Rectangle.94</title>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2246.64 A5.6692 5.6692 -180 0 0 51.02
+						 2240.97 L5.67 2240.97 A5.6692 5.6692 -180 0 0 -0 2246.64 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape100-231" transform="translate(500.14,-1372.57)">
+			<title>Rounded Rectangle.95</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape101-233" transform="translate(415.1,-1372.57)">
+			<title>Rounded Rectangle.96</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape102-235" transform="translate(585.179,-1372.33)">
+			<title>Rounded Rectangle.97</title>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2246.64 A5.6692 5.6692 -180 0 0 51.02
+						 2240.97 L5.67 2240.97 A5.6692 5.6692 -180 0 0 -0 2246.64 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape103-237" transform="translate(641.872,-1372.33)">
+			<title>Rounded Rectangle.98</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape104-239" transform="translate(556.833,-1372.33)">
+			<title>Rounded Rectangle.99</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape105-241" transform="translate(811.951,-1372.33)">
+			<title>Rounded Rectangle.100</title>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2246.64 A5.6692 5.6692 -180 0 0 51.02
+						 2240.97 L5.67 2240.97 A5.6692 5.6692 -180 0 0 -0 2246.64 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape106-243" transform="translate(868.644,-1372.33)">
+			<title>Rounded Rectangle.101</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 -0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape107-245" transform="translate(783.604,-1372.33)">
+			<title>Rounded Rectangle.102</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 -0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape108-247" transform="translate(698.565,-1372.33)">
+			<title>Sheet.108</title>
+			<desc>……</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st20"/>
+			<text x="12.35" y="2259.94" class="st21">……</text>		</g>
+		<g id="shape109-250" transform="translate(344.234,-1393.59)">
+			<title>Sheet.109</title>
+			<path d="M0 2269.32 L64.71 2269.32" class="st14"/>
+		</g>
+		<g id="shape110-255" transform="translate(514.313,-1393.59)">
+			<title>Sheet.110</title>
+			<path d="M0 2269.32 L36.36 2269.32" class="st14"/>
+		</g>
+		<g id="shape111-260" transform="translate(358.407,-1379.41)">
+			<title>Sheet.111</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L70.87 2269.32" class="st25"/>
+		</g>
+		<g id="shape112-266" transform="translate(656.045,-1393.59)">
+			<title>Sheet.112</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape113-271" transform="translate(755.258,-1393.59)">
+			<title>Sheet.113</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape114-276" transform="translate(528.486,-1379.41)">
+			<title>Sheet.114</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L42.52 2269.32" class="st25"/>
+		</g>
+		<g id="shape115-281" transform="translate(670.219,-1379.41)">
+			<title>Sheet.115</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape116-286" transform="translate(769.431,-1379.41)">
+			<title>Sheet.116</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape117-291" transform="translate(259.195,-1358.15)">
+			<title>Sheet.117</title>
+			<path d="M0 2248.06 L0 2269.32 L538.58 2269.32 L538.58 2261.3" class="st16"/>
+		</g>
+		<g id="shape118-296" transform="translate(259.195,-1391.6)">
+			<title>Sheet.118</title>
+			<path d="M623.62 2269.32 L623.62 2246.07 L0 2246.07 L0 2254.09" class="st16"/>
+		</g>
+		<g id="shape119-301" transform="translate(443.447,-1315.63)">
+			<title>Sheet.119</title>
+			<desc>front ( )</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st2"/>
+			<text x="6.58" y="2259.34" class="st5">front ( )</text>		</g>
+		<g id="shape120-304" transform="translate(811.951,-1315.63)">
+			<title>Sheet.120</title>
+			<desc>back ( )</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st2"/>
+			<text x="6.97" y="2259.34" class="st5">back ( )</text>		</g>
+		<g id="shape121-307" transform="translate(2741.11,882.817) rotate(90)">
+			<title>Sheet.121</title>
+			<path d="M0 2269.32 L49.98 2269.32" class="st7"/>
+		</g>
+		<g id="shape122-310" transform="translate(3109.62,882.817) rotate(90)">
+			<title>Sheet.122</title>
+			<path d="M0 2269.32 L49.98 2269.32" class="st7"/>
+		</g>
+		<g id="shape123-313" transform="translate(471.793,3109.62) scale(1,-1)">
+			<title>Side brace.129</title>
+			<desc>size ( )</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L177.17 2269.32 A7.0865 7.0865 0 0 1 184.25 2276.4
+						 A7.0865 7.0865 0 0 1 191.34 2269.32 L361.42 2269.32 A7.0865 7.0865 -180 0 0 368.5 2262.23 L368.5 2260.81"
+					class="st11"/>
+			<text x="167.21" y="-2280.61" transform="scale(1,-1)" class="st5">size ( )</text>		</g>
+		<g id="shape124-317" transform="translate(167.069,-1386.5) rotate(1.04217E-06)">
+			<title>Sheet.124</title>
+			<path d="M0 2269.32 L70.53 2269.32" class="st18"/>
+		</g>
+		<g id="shape125-322" transform="translate(627.699,-1273.12)">
+			<title>Sheet.125</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="2240.97" width="283.465" height="28.3465" class="st2"/>
+			<text x="14.94" y="2258.74" class="st8">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape126-325" transform="translate(89.1161,-1485.71)">
+			<title>Sheet.126</title>
+			<desc>(doubly-linked list)</desc>
+			<rect x="0" y="2240.97" width="127.559" height="28.3465" class="st2"/>
+			<text x="9.54" y="2259.34" class="st22">(doubly-linked list)</text>		</g>
+		<g id="shape127-328" transform="translate(18.25,-1343.98)">
+			<title>Sheet.127</title>
+			<desc>list object</desc>
+			<rect x="0" y="2226.8" width="70.8661" height="42.5197" class="st2"/>
+			<text x="11.94" y="2251.66" class="st8">list object</text>		</g>
+		<g id="shape128-331" transform="translate(117.463,-2024.3)">
+			<title>Sheet.128</title>
+			<desc>(variable-size array)</desc>
+			<rect x="0" y="2240.97" width="127.559" height="28.3465" class="st2"/>
+			<text x="7.24" y="2259.34" class="st22">(variable-size array)</text>		</g>
+		<g id="shape129-334" transform="translate(103.289,-2222.72)">
+			<title>Sheet.129</title>
+			<desc>(fixed-size)</desc>
+			<rect x="0" y="2240.97" width="85.0394" height="28.3465" class="st2"/>
+			<text x="10.26" y="2259.34" class="st22">(fixed-size)</text>		</g>
+		<g id="shape130-337" transform="translate(32.4232,-1202.25)">
+			<title>Sheet.130</title>
+			<desc>deque</desc>
+			<rect x="0" y="2240.97" width="70.8661" height="28.3465" class="st2"/>
+			<text x="6.78" y="2262.34" class="st3">deque</text>		</g>
+		<g id="shape131-340" transform="translate(103.289,-961.304)">
+			<title>Circle.133</title>
+			<path d="M0 2177.19 A92.126 92.126 0 1 1 184.25 2177.19 A92.126 92.126 0 0 1 -0 2177.19 Z" class="st1"/>
+		</g>
+		<g id="shape132-342" transform="translate(159.982,-1103.04)">
+			<title>Rounded Rectangle.132</title>
+			<desc>pointer</desc>
+			<path d="M7.09 2269.32 L63.78 2269.32 A7.0865 7.0865 -180 0 0 70.87 2262.23 L70.87 2248.06 A7.0865 7.0865 -180 0 0 63.78
+						 2240.97 L7.09 2240.97 A7.0865 7.0865 -180 0 0 0 2248.06 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32
+						 Z" class="st1"/>
+			<text x="15.61" y="2259.34" class="st5">pointer</text>		</g>
+		<g id="shape133-345" transform="translate(131.636,-1060.52)">
+			<title>Rounded Rectangle.133</title>
+			<desc>array size</desc>
+			<path d="M12.76 2269.32 L114.8 2269.32 A12.7557 12.7557 -180 0 0 127.56 2256.56 L127.56 2253.73 A12.7557 12.7557 -180
+						 0 0 114.8 2240.97 L12.76 2240.97 A12.7557 12.7557 -180 0 0 -0 2253.73 L0 2256.56 A12.7557 12.7557 -180 0
+						 0 12.76 2269.32 Z" class="st1"/>
+			<text x="36.77" y="2259.34" class="st5">array size</text>		</g>
+		<g id="shape134-348" transform="translate(117.463,-1018)">
+			<title>Rounded Rectangle.137</title>
+			<desc>offset of first element</desc>
+			<path d="M14.17 2269.32 L141.73 2269.32 A14.173 14.173 -180 0 0 155.91 2255.14 A14.173 14.173 -180 0 0 141.73 2240.97
+						 L14.17 2240.97 A14.173 14.173 -180 0 0 0 2255.14 A14.173 14.173 -180 0 0 14.17 2269.32 Z" class="st1"/>
+			<text x="17.5" y="2259.34" class="st5">offset of first element</text>		</g>
+		<g id="shape135-351" transform="translate(159.982,-975.477)">
+			<title>Rounded Rectangle.138</title>
+			<desc>size</desc>
+			<path d="M7.09 2269.32 L63.78 2269.32 A7.0865 7.0865 -180 0 0 70.87 2262.23 L70.87 2248.06 A7.0865 7.0865 -180 0 0 63.78
+						 2240.97 L7.09 2240.97 A7.0865 7.0865 -180 0 0 0 2248.06 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32
+						 Z" class="st1"/>
+			<text x="24.55" y="2259.34" class="st5">size</text>		</g>
+		<g id="shape136-354" transform="translate(330.061,-1074.69)">
+			<title>Sheet.136</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st26"/>
+		</g>
+		<g id="shape137-358" transform="translate(330.061,-989.651)">
+			<title>Sheet.137</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape138-360" transform="translate(330.061,-961.304)">
+			<title>Sheet.138</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape139-362" transform="translate(330.061,-932.958)">
+			<title>Sheet.139</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape140-364" transform="translate(330.061,-1018)">
+			<title>Sheet.140</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape141-366" transform="translate(330.061,-1046.34)">
+			<title>Sheet.141</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape142-368" transform="translate(330.061,-1103.04)">
+			<title>Sheet.142</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st26"/>
+		</g>
+		<g id="shape143-371" transform="translate(330.061,-904.611)">
+			<title>Sheet.143</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st26"/>
+		</g>
+		<g id="shape144-374" transform="translate(556.833,-1103.04)">
+			<title>Sheet.144</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape145-376" transform="translate(613.526,-1103.04)">
+			<title>Sheet.145</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape146-378" transform="translate(585.179,-1103.04)">
+			<title>Sheet.146</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape147-380" transform="translate(528.486,-1103.04)">
+			<title>Sheet.147</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape148-382" transform="translate(698.565,-1074.69)">
+			<title>Sheet.148</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape149-384" transform="translate(755.258,-1074.69)">
+			<title>Sheet.149</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape150-386" transform="translate(726.911,-1074.69)">
+			<title>Sheet.150</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape151-388" transform="translate(670.218,-1074.69)">
+			<title>Sheet.151</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape152-390" transform="translate(315.888,-890.438)">
+			<title>Sheet.152</title>
+			<path d="M0 2269.32 L56.69 2269.32 L56.69 1971.68 L0 1971.68 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape153-392" transform="translate(400.927,-890.438)">
+			<title>Sheet.153</title>
+			<path d="M0 2269.32 L396.85 2269.32 L396.85 1971.68 L0 1971.68 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape154-394" transform="translate(344.234,-1117.21)">
+			<title>Sheet.154</title>
+			<path d="M0 2269.32 L178.09 2269.32" class="st14"/>
+		</g>
+		<g id="shape155-399" transform="translate(344.234,-1088.86)">
+			<title>Sheet.155</title>
+			<path d="M0 2269.32 L319.82 2269.32" class="st14"/>
+		</g>
+		<g id="shape156-404" transform="translate(528.486,-862.091)">
+			<title>Sheet.156</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="2240.97" width="269.291" height="28.3465" class="st2"/>
+			<text x="7.86" y="2258.74" class="st8">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape157-407" transform="translate(457.62,3384.58) scale(1,-1)">
+			<title>Side brace.224</title>
+			<desc>size ( )</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L127.56 2269.32 A7.0865 7.0865 0 0 1 134.65 2276.4
+						 A7.0865 7.0865 0 0 1 141.73 2269.32 L262.2 2269.32 A7.0865 7.0865 -180 0 0 269.29 2262.23 L269.29 2260.81"
+					class="st11"/>
+			<text x="117.6" y="-2280.61" transform="scale(1,-1)" class="st5">size ( )</text>		</g>
+		<g id="shape158-411" transform="translate(2982.06,1180.45) rotate(90)">
+			<title>Sheet.158</title>
+			<path d="M0 2269.32 L28.35 2269.32" class="st7"/>
+		</g>
+		<g id="shape159-414" transform="translate(443.447,-947.131)">
+			<title>Sheet.159</title>
+			<desc>front ( )</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st2"/>
+			<text x="6.58" y="2259.34" class="st5">front ( )</text>		</g>
+		<g id="shape160-417" transform="translate(684.392,-1032.17)">
+			<title>Sheet.160</title>
+			<desc>back ( )</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st2"/>
+			<text x="6.97" y="2259.34" class="st5">back ( )</text>		</g>
+		<g id="shape161-420" transform="translate(32.4232,-1032.17)">
+			<title>Sheet.161</title>
+			<desc>deque object</desc>
+			<rect x="0" y="2226.8" width="70.8661" height="42.5197" class="st2"/>
+			<text x="4.95" y="2251.66" class="st8">deque object</text>		</g>
+		<g id="shape162-423" transform="translate(117.463,-1202.25)">
+			<title>Sheet.162</title>
+			<desc>(double-ended queue)</desc>
+			<rect x="0" y="2240.97" width="155.906" height="28.3465" class="st2"/>
+			<text x="7.98" y="2259.94" class="st28">(double-ended queue)</text>		</g>
+		<g id="shape163-426" transform="translate(457.62,-904.611)">
+			<title>Sheet.163</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape164-428" transform="translate(514.313,-904.611)">
+			<title>Sheet.164</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape165-430" transform="translate(485.967,-904.611)">
+			<title>Sheet.165</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st27"/>
+		</g>
+		<g id="shape166-432" transform="translate(429.274,-904.611)">
+			<title>Sheet.166</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape167-434" transform="translate(344.234,-918.784)">
+			<title>Sheet.167</title>
+			<path d="M0 2269.32 L78.88 2269.32" class="st14"/>
+		</g>
+		<g id="shape168-439" transform="translate(2741.11,1322.19) rotate(90)">
+			<title>Sheet.168</title>
+			<path d="M0 2269.32 L28.35 2269.32" class="st7"/>
+		</g>
+		<g id="shape169-442" transform="translate(230.848,-1117.21) rotate(5.45897E-07)">
+			<title>Sheet.169</title>
+			<path d="M0 2269.32 L93.05 2269.32" class="st14"/>
+		</g>
+		<g id="shape170-447" transform="translate(245.022,-394.375)">
+			<title>Sheet.170</title>
+			<path d="M0 2269.32 L538.58 2269.32 L538.58 1900.81 L0 1900.81 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape171-449" transform="translate(32.4232,-791.225)">
+			<title>Sheet.171</title>
+			<desc>set or map</desc>
+			<rect x="0" y="2240.97" width="113.386" height="28.3465" class="st2"/>
+			<text x="6.71" y="2262.34" class="st3">set or map</text>		</g>
+		<g id="shape172-452" transform="translate(117.463,-635.527)">
+			<title>Circle.249</title>
+			<path d="M0 2219.71 A49.6063 49.6063 0 1 1 99.21 2219.71 A49.6063 49.6063 0 1 1 0 2219.71 Z" class="st1"/>
+		</g>
+		<g id="shape173-454" transform="translate(145.809,-692.22)">
+			<title>Rounded Rectangle.250</title>
+			<desc>root</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+			<text x="9.98" y="2259.34" class="st5">root</text>		</g>
+		<g id="shape174-457" transform="translate(145.809,-649.7)">
+			<title>Rounded Rectangle.251</title>
+			<desc>size</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+			<text x="10.38" y="2259.34" class="st5">size</text>		</g>
+		<g id="shape175-460" transform="translate(226.52,-706.071) rotate(0.964288)">
+			<title>Sheet.175</title>
+			<path d="M0 2269.32 L78.88 2269.32" class="st18"/>
+		</g>
+		<g id="shape176-465" transform="translate(159.982,-791.225)">
+			<title>Sheet.176</title>
+			<desc>(balanced binary search tree)</desc>
+			<rect x="0" y="2240.97" width="198.425" height="28.3465" class="st2"/>
+			<text x="6.6" y="2259.94" class="st28">(balanced binary search tree)</text>		</g>
+		<g id="shape177-468" transform="translate(514.313,-366.028)">
+			<title>Sheet.177</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="2240.97" width="269.291" height="28.3465" class="st2"/>
+			<text x="7.86" y="2258.74" class="st8">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape178-471" transform="translate(273.368,-564.454)">
+			<title>Rounded Rectangle.256</title>
+			<desc>data or key value pair</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2202.7 A4.2519 4.2519 -180 0 0 38.27
+						 2198.45 L4.25 2198.45 A4.2519 4.2519 -180 0 0 0 2202.7 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+			<text x="4.77" y="2215.88" class="st17">data or  <tspan x="12.6" dy="1.2em" class="st9">key </tspan><tspan x="8.27"
+						dy="1.2em" class="st9">value </tspan><tspan x="11.93" dy="1.2em" class="st9">pair</tspan></text>		</g>
+		<g id="shape179-477" transform="translate(273.368,-663.666)">
+			<title>Rounded Rectangle.257</title>
+			<desc>left</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+			<text x="14.6" y="2265.23" class="st29">left</text>		</g>
+		<g id="shape180-480" transform="translate(795.056,-689.099) rotate(8.37041)">
+			<title>Sheet.180</title>
+			<path d="M0 2269.32 L245.8 2269.32" class="st14"/>
+		</g>
+		<g id="shape181-485" transform="translate(273.368,-692.013)">
+			<title>Rounded Rectangle.260</title>
+			<desc>parent</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+			<text x="8.77" y="2265.23" class="st29">parent</text>		</g>
+		<g id="shape182-488" transform="translate(273.368,-677.839)">
+			<title>Rounded Rectangle.261</title>
+			<desc>right</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+			<text x="11.82" y="2265.23" class="st29">right</text>		</g>
+		<g id="shape183-491" transform="translate(273.368,-635.32)">
+			<title>Rounded Rectangle.262</title>
+			<desc>height or color</desc>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 -0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+			<text x="8.76" y="2252.14" class="st29">height <tspan x="5.57" dy="1.2em" class="st9">or color</tspan></text>		</g>
+		<g id="shape184-495" transform="translate(712.738,-536.107)">
+			<title>Rounded Rectangle.268</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2202.7 A4.2519 4.2519 -180 0 0 38.27
+						 2198.45 L4.25 2198.45 A4.2519 4.2519 -180 0 0 0 2202.7 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape185-497" transform="translate(712.738,-635.32)">
+			<title>Rounded Rectangle.269</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape186-499" transform="translate(712.738,-663.666)">
+			<title>Rounded Rectangle.270</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape187-501" transform="translate(712.738,-649.493)">
+			<title>Rounded Rectangle.271</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape188-503" transform="translate(712.738,-606.973)">
+			<title>Rounded Rectangle.272</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 -0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape189-505" transform="translate(358.407,-451.068)">
+			<title>Rounded Rectangle.273</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2202.7 A4.2519 4.2519 -180 0 0 38.27
+						 2198.45 L4.25 2198.45 A4.2519 4.2519 -180 0 0 0 2202.7 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape190-507" transform="translate(358.407,-550.281)">
+			<title>Rounded Rectangle.274</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape191-509" transform="translate(358.407,-578.627)">
+			<title>Rounded Rectangle.275</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape192-511" transform="translate(358.407,-564.454)">
+			<title>Rounded Rectangle.276</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape193-513" transform="translate(358.407,-521.934)">
+			<title>Rounded Rectangle.277</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 -0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape194-515" transform="translate(443.447,-606.973)">
+			<title>Rounded Rectangle.278</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2202.7 A4.2519 4.2519 -180 0 0 38.27
+						 2198.45 L4.25 2198.45 A4.2519 4.2519 -180 0 0 0 2202.7 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape195-517" transform="translate(443.447,-706.186)">
+			<title>Rounded Rectangle.279</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape196-519" transform="translate(443.447,-734.532)">
+			<title>Rounded Rectangle.280</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape197-521" transform="translate(443.447,-720.359)">
+			<title>Rounded Rectangle.281</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape198-523" transform="translate(443.447,-677.84)">
+			<title>Rounded Rectangle.282</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 -0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape199-525" transform="translate(627.699,-493.588)">
+			<title>Rounded Rectangle.283</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2202.7 A4.2519 4.2519 -180 0 0 38.27
+						 2198.45 L4.25 2198.45 A4.2519 4.2519 -180 0 0 0 2202.7 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape200-527" transform="translate(627.699,-592.8)">
+			<title>Rounded Rectangle.284</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape201-529" transform="translate(627.699,-621.147)">
+			<title>Rounded Rectangle.285</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape202-531" transform="translate(627.699,-606.973)">
+			<title>Rounded Rectangle.286</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape203-533" transform="translate(627.699,-564.454)">
+			<title>Rounded Rectangle.287</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 -0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape204-535" transform="translate(514.313,-408.548)">
+			<title>Rounded Rectangle.288</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2202.7 A4.2519 4.2519 -180 0 0 38.27
+						 2198.45 L4.25 2198.45 A4.2519 4.2519 -180 0 0 0 2202.7 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape205-537" transform="translate(514.313,-507.761)">
+			<title>Rounded Rectangle.289</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape206-539" transform="translate(514.313,-536.107)">
+			<title>Rounded Rectangle.290</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape207-541" transform="translate(514.313,-521.934)">
+			<title>Rounded Rectangle.291</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2259.4 A4.2519 4.2519 -180 0 0 38.27
+						 2255.14 L4.25 2255.14 A4.2519 4.2519 -180 0 0 0 2259.4 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape208-543" transform="translate(514.313,-479.414)">
+			<title>Rounded Rectangle.292</title>
+			<path d="M4.25 2269.32 L38.27 2269.32 A4.2519 4.2519 -180 0 0 42.52 2265.07 L42.52 2245.22 A4.2519 4.2519 -180 0 0 38.27
+						 2240.97 L4.25 2240.97 A4.2519 4.2519 -180 0 0 -0 2245.22 L0 2265.07 A4.2519 4.2519 -180 0 0 4.25 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape209-545" transform="translate(-675.227,-457.053) rotate(-25.8964)">
+			<title>Sheet.209</title>
+			<path d="M0 2269.32 L137.02 2269.32" class="st14"/>
+		</g>
+		<g id="shape210-550" transform="translate(2302.11,500.972) rotate(61.0749)">
+			<title>Sheet.210</title>
+			<path d="M0 2269.32 L84.33 2269.32" class="st14"/>
+		</g>
+		<g id="shape211-555" transform="translate(-172.509,-503.337) rotate(-14.0827)">
+			<title>Sheet.211</title>
+			<path d="M0 2269.32 L250.84 2269.32" class="st14"/>
+		</g>
+		<g id="shape212-560" transform="translate(-224.161,-640.049) rotate(-13.7349)">
+			<title>Sheet.212</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L154.48 2269.32" class="st30"/>
+		</g>
+		<g id="shape213-566" transform="translate(2306.92,477.812) rotate(61.3925)">
+			<title>Sheet.213</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L135.81 2269.32" class="st30"/>
+		</g>
+		<g id="shape214-571" transform="translate(518.548,-553.113) rotate(3.50864)">
+			<title>Sheet.214</title>
+			<path d="M0 2269.32 L129.99 2269.32" class="st14"/>
+		</g>
+		<g id="shape215-576" transform="translate(1152.15,-647.092) rotate(17.1041)">
+			<title>Sheet.215</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L260.81 2269.32" class="st30"/>
+		</g>
+		<g id="shape216-581" transform="translate(69.3323,-567.381) rotate(-8.37041)">
+			<title>Sheet.216</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L251.96 2269.32" class="st30"/>
+		</g>
+		<g id="shape217-586" transform="translate(1160.54,-460.203) rotate(19.5896)">
+			<title>Sheet.217</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L144.24 2269.32" class="st30"/>
+		</g>
+		<g id="shape218-591" transform="translate(46.5965,-663.666)">
+			<title>Sheet.218</title>
+			<desc>set object or map object</desc>
+			<rect x="0" y="2226.8" width="70.8661" height="42.5197" class="st2"/>
+			<text x="12.61" y="2237.26" class="st8">set object  <tspan x="30.44" dy="1.2em" class="st9">or  </tspan><tspan x="8.94"
+						dy="1.2em" class="st9">map object</tspan></text>		</g>
+		<g id="shape219-596" transform="translate(32.4232,-295.162)">
+			<title>Sheet.219</title>
+			<desc>unordered_set or unordered_map</desc>
+			<rect x="0" y="2240.97" width="340.157" height="28.3465" class="st2"/>
+			<text x="10.8" y="2262.34" class="st3">unordered_set or unordered_map</text>		</g>
+		<g id="shape220-599" transform="translate(443.447,-110.91)">
+			<title>Sheet.220</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape221-601" transform="translate(358.407,-110.91)">
+			<title>Sheet.221</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape222-603" transform="translate(386.754,-110.91)">
+			<title>Sheet.222</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape223-605" transform="translate(641.872,-110.91)">
+			<title>Sheet.223</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape224-607" transform="translate(528.486,-110.91)">
+			<title>Sheet.224</title>
+			<desc>………</desc>
+			<rect x="0" y="2240.97" width="113.386" height="28.3465" class="st1"/>
+			<text x="29.69" y="2260.54" class="st6">………</text>		</g>
+		<g id="shape225-610" transform="translate(670.218,-110.91)">
+			<title>Sheet.225</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape226-612" transform="translate(415.1,-110.91)">
+			<title>Sheet.226</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape227-614" transform="translate(471.793,-110.91)">
+			<title>Sheet.227</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape228-616" transform="translate(500.14,-110.91)">
+			<title>Sheet.228</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st12"/>
+		</g>
+		<g id="shape229-618" transform="translate(698.565,-110.91)">
+			<title>Sheet.229</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape230-620" transform="translate(726.911,-110.91)">
+			<title>Sheet.230</title>
+			<rect x="0" y="2240.97" width="28.3465" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape231-622" transform="translate(103.289,-68.3906)">
+			<title>Circle.379</title>
+			<path d="M0 2177.19 A92.126 92.126 0 0 1 184.25 2177.19 A92.126 92.126 0 1 1 0 2177.19 Z" class="st1"/>
+		</g>
+		<g id="shape232-624" transform="translate(372.581,-195.95)">
+			<title>Rounded Rectangle.380</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 -0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st23"/>
+		</g>
+		<g id="shape233-626" transform="translate(400.927,-195.95)">
+			<title>Rounded Rectangle.381</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st23"/>
+		</g>
+		<g id="shape234-628" transform="translate(358.407,-195.95)">
+			<title>Rounded Rectangle.382</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st23"/>
+		</g>
+		<g id="shape235-630" transform="translate(457.62,-195.95)">
+			<title>Rounded Rectangle.383</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape236-632" transform="translate(485.967,-195.95)">
+			<title>Rounded Rectangle.384</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape237-634" transform="translate(443.447,-195.95)">
+			<title>Rounded Rectangle.385</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape238-636" transform="translate(854.471,-195.95)">
+			<title>Rounded Rectangle.386</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 -0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape239-638" transform="translate(882.817,-195.95)">
+			<title>Rounded Rectangle.387</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape240-640" transform="translate(840.297,-195.95)">
+			<title>Rounded Rectangle.388</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape241-642" transform="translate(769.431,-195.95)">
+			<title>Rounded Rectangle.389</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 -0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape242-644" transform="translate(797.778,-195.95)">
+			<title>Rounded Rectangle.390</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape243-646" transform="translate(755.258,-195.95)">
+			<title>Rounded Rectangle.391</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape244-648" transform="translate(684.392,-195.95)">
+			<title>Sheet.244</title>
+			<desc>……</desc>
+			<rect x="0" y="2240.97" width="56.6929" height="28.3465" class="st20"/>
+			<text x="12.35" y="2259.94" class="st21">……</text>		</g>
+		<g id="shape245-651" transform="translate(415.1,-216.964)">
+			<title>Sheet.245</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape246-656" transform="translate(811.951,-217.21)">
+			<title>Sheet.246</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape247-661" transform="translate(415.1,-203.036)">
+			<title>Sheet.247</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape248-666" transform="translate(670.219,-217.21)">
+			<title>Sheet.248</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape249-671" transform="translate(726.911,-217.21)">
+			<title>Sheet.249</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape250-676" transform="translate(811.951,-203.036)">
+			<title>Sheet.250</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape251-681" transform="translate(670.219,-203.036)">
+			<title>Sheet.251</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape252-686" transform="translate(726.911,-203.036)">
+			<title>Sheet.252</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape253-691" transform="translate(365.352,-181.776)">
+			<title>Sheet.253</title>
+			<path d="M0 2248.06 L0 2269.32 L481.89 2269.32 L481.89 2261.3" class="st16"/>
+		</g>
+		<g id="shape254-696" transform="translate(365.211,-215.225)">
+			<title>Sheet.254</title>
+			<path d="M524.69 2269.32 L524.69 2246.07 L0 2246.07 L0 2254.09" class="st16"/>
+		</g>
+		<g id="shape255-701" transform="translate(167.069,-181.776)">
+			<title>Circle.403</title>
+			<desc>std::list</desc>
+			<path d="M0 2240.97 A28.3465 28.3465 0 0 1 56.69 2240.97 A28.3465 28.3465 0 1 1 0 2240.97 Z" class="st1"/>
+			<text x="7.73" y="2245.17" class="st5">std::list</text>		</g>
+		<g id="shape256-704" transform="translate(159.982,-75.4773)">
+			<title>Circle.404</title>
+			<desc>std::vector</desc>
+			<path d="M0 2233.88 A35.4331 35.4331 0 0 1 70.87 2233.88 A35.4331 35.4331 0 1 1 0 2233.88 Z" class="st1"/>
+			<text x="10.11" y="2237.49" class="st17">std::vector</text>		</g>
+		<g id="shape257-707" transform="translate(542.659,-195.95)">
+			<title>Rounded Rectangle.405</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape258-709" transform="translate(571.006,-195.95)">
+			<title>Rounded Rectangle.406</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape259-711" transform="translate(528.486,-195.95)">
+			<title>Rounded Rectangle.407</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape260-713" transform="translate(500.14,-216.964)">
+			<title>Sheet.260</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape261-718" transform="translate(500.14,-203.036)">
+			<title>Sheet.261</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape262-723" transform="translate(627.699,-195.95)">
+			<title>Rounded Rectangle.410</title>
+			<path d="M2.83 2269.32 L25.51 2269.32 A2.8346 2.8346 -180 0 0 28.35 2266.48 L28.35 2243.81 A2.8346 2.8346 -180 0 0 25.51
+						 2240.97 L2.83 2240.97 A2.8346 2.8346 -180 0 0 0 2243.81 L0 2266.48 A2.8346 2.8346 -180 0 0 2.83 2269.32
+						 Z" class="st1"/>
+		</g>
+		<g id="shape263-725" transform="translate(656.045,-195.95)">
+			<title>Rounded Rectangle.411</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape264-727" transform="translate(613.526,-195.95)">
+			<title>Rounded Rectangle.412</title>
+			<path d="M1.42 2269.32 L12.76 2269.32 A1.4173 1.4173 -180 0 0 14.17 2267.9 L14.17 2242.39 A1.4173 1.4173 -180 0 0 12.76
+						 2240.97 L1.42 2240.97 A1.4173 1.4173 -180 0 0 0 2242.39 L0 2267.9 A1.4173 1.4173 -180 0 0 1.42 2269.32 Z"
+					class="st1"/>
+		</g>
+		<g id="shape265-729" transform="translate(585.179,-217.21)">
+			<title>Sheet.265</title>
+			<path d="M0 2269.32 L22.19 2269.32" class="st14"/>
+		</g>
+		<g id="shape266-734" transform="translate(585.179,-203.282)">
+			<title>Sheet.266</title>
+			<path d="M5.8 2269.32 L6.16 2269.32 L28.35 2269.32" class="st25"/>
+		</g>
+		<g id="shape267-739" transform="translate(223.762,-210.123) rotate(1.0056E-06)">
+			<title>Sheet.267</title>
+			<path d="M0 2269.32 L128.49 2269.32" class="st14"/>
+		</g>
+		<g id="shape268-744" transform="translate(358.407,-110.91)">
+			<title>Sheet.268</title>
+			<rect x="0" y="2240.97" width="510.236" height="28.3465" class="st1"/>
+		</g>
+		<g id="shape269-746" transform="translate(195.415,-125.084)">
+			<title>Sheet.269</title>
+			<path d="M0 2269.32 L156.83 2269.32" class="st14"/>
+		</g>
+		<g id="shape270-751" transform="translate(-406.124,-1.46962) rotate(-20.0686)">
+			<title>Sheet.270</title>
+			<path d="M0 2269.32 L160.27 2269.32" class="st32"/>
+		</g>
+		<g id="shape271-757" transform="translate(15.8803,-90.0341) rotate(-11.9553)">
+			<title>Sheet.271</title>
+			<path d="M0 2269.32 L269.53 2269.32" class="st34"/>
+		</g>
+		<g id="shape272-763" transform="translate(-1170.5,3476.73) rotate(-126.401)">
+			<title>Sheet.272</title>
+			<path d="M0 2269.32 L64.79 2269.32" class="st36"/>
+		</g>
+		<g id="shape273-769" transform="translate(-523.848,57.7207) rotate(-24.0487)">
+			<title>Sheet.273</title>
+			<path d="M0 2269.32 L133.98 2269.32" class="st32"/>
+		</g>
+		<g id="shape274-774" transform="translate(123.206,-105.3) rotate(-9.92423)">
+			<title>Sheet.274</title>
+			<path d="M0 2269.32 L325.2 2269.32" class="st34"/>
+		</g>
+		<g id="shape275-779" transform="translate(-744.613,3892.94) rotate(-140.972)">
+			<title>Sheet.275</title>
+			<path d="M0 2269.32 L84.53 2269.32" class="st36"/>
+		</g>
+		<g id="shape276-784" transform="translate(358.407,-110.91)">
+			<title>Sheet.276</title>
+			<desc>iter</desc>
+			<rect x="0" y="2255.14" width="28.3465" height="14.1732" class="st2"/>
+			<text x="6.18" y="2265.83" class="st17">iter</text>		</g>
+		<g id="shape277-787" transform="translate(386.754,-110.91)">
+			<title>Sheet.277</title>
+			<desc>iter</desc>
+			<rect x="0" y="2255.14" width="28.3465" height="14.1732" class="st2"/>
+			<text x="6.18" y="2265.83" class="st17">iter</text>		</g>
+		<g id="shape278-790" transform="translate(471.793,-110.91)">
+			<title>Sheet.278</title>
+			<desc>iter</desc>
+			<rect x="0" y="2255.14" width="28.3465" height="14.1732" class="st2"/>
+			<text x="6.18" y="2265.83" class="st17">iter</text>		</g>
+		<g id="shape279-793" transform="translate(500.14,-110.91)">
+			<title>Sheet.279</title>
+			<desc>iter</desc>
+			<rect x="0" y="2255.14" width="28.3465" height="14.1732" class="st2"/>
+			<text x="6.18" y="2265.83" class="st17">iter</text>		</g>
+		<g id="shape280-796" transform="translate(641.872,-110.91)">
+			<title>Sheet.280</title>
+			<desc>iter</desc>
+			<rect x="0" y="2255.14" width="28.3465" height="14.1732" class="st2"/>
+			<text x="6.18" y="2265.83" class="st17">iter</text>		</g>
+		<g id="shape281-799" transform="translate(670.219,-110.91)">
+			<title>Sheet.281</title>
+			<desc>iter</desc>
+			<rect x="0" y="2255.14" width="28.3465" height="14.1732" class="st2"/>
+			<text x="6.18" y="2265.83" class="st17">iter</text>		</g>
+		<g id="shape282-802" transform="translate(415.1,-102.406) scale(-1,1)">
+			<title>Side brace.445</title>
+			<desc>bucket 00</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L21.26 2269.32 A7.0865 7.0865 0 0 1 28.35 2276.4
+						 A7.0865 7.0865 0 0 1 35.43 2269.32 L49.61 2269.32 A7.0865 7.0865 -180 0 0 56.69 2262.23 L56.69 2260.81"
+					class="st11"/>
+			<text x="-49.84" y="2291.21" transform="scale(-1,1)" class="st17">bucket 00</text>		</g>
+		<g id="shape283-806" transform="translate(471.793,-102.406) scale(-1,1)">
+			<title>Side brace.446</title>
+			<desc>bucket 01</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L21.26 2269.32 A7.0865 7.0865 0 0 1 28.35 2276.4
+						 A7.0865 7.0865 0 0 1 35.43 2269.32 L49.61 2269.32 A7.0865 7.0865 -180 0 0 56.69 2262.23 L56.69 2260.81"
+					class="st11"/>
+			<text x="-49.84" y="2291.21" transform="scale(-1,1)" class="st17">bucket 01</text>		</g>
+		<g id="shape284-810" transform="translate(528.486,-102.406) scale(-1,1)">
+			<title>Side brace.447</title>
+			<desc>bucket 02</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L21.26 2269.32 A7.0865 7.0865 0 0 1 28.35 2276.4
+						 A7.0865 7.0865 0 0 1 35.43 2269.32 L49.61 2269.32 A7.0865 7.0865 -180 0 0 56.69 2262.23 L56.69 2260.81"
+					class="st11"/>
+			<text x="-49.84" y="2291.21" transform="scale(-1,1)" class="st17">bucket 02</text>		</g>
+		<g id="shape285-814" transform="translate(585.179,-102.406) scale(-1,1)">
+			<title>Side brace.448</title>
+			<desc>bucket 03</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L21.26 2269.32 A7.0865 7.0865 0 0 1 28.35 2276.4
+						 A7.0865 7.0865 0 0 1 35.43 2269.32 L49.61 2269.32 A7.0865 7.0865 -180 0 0 56.69 2262.23 L56.69 2260.81"
+					class="st11"/>
+			<text x="-49.84" y="2291.21" transform="scale(-1,1)" class="st17">bucket 03</text>		</g>
+		<g id="shape286-818" transform="translate(698.565,-102.406) scale(-1,1)">
+			<title>Side brace.449</title>
+			<desc>bucket n-2</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L21.26 2269.32 A7.0865 7.0865 0 0 1 28.35 2276.4
+						 A7.0865 7.0865 0 0 1 35.43 2269.32 L49.61 2269.32 A7.0865 7.0865 -180 0 0 56.69 2262.23 L56.69 2260.81"
+					class="st11"/>
+			<text x="-51.84" y="2291.21" transform="scale(-1,1)" class="st17">bucket n-2</text>		</g>
+		<g id="shape287-822" transform="translate(755.258,-102.406) scale(-1,1)">
+			<title>Side brace.450</title>
+			<desc>bucket n-1</desc>
+			<path d="M0 2260.81 L0 2262.23 A7.0865 7.0865 -180 0 0 7.09 2269.32 L21.26 2269.32 A7.0865 7.0865 0 0 1 28.35 2276.4
+						 A7.0865 7.0865 0 0 1 35.43 2269.32 L49.61 2269.32 A7.0865 7.0865 -180 0 0 56.69 2262.23 L56.69 2260.81"
+					class="st11"/>
+			<text x="-51.84" y="2291.21" transform="scale(-1,1)" class="st17">bucket n-1</text>		</g>
+		<g id="shape288-826" transform="translate(202.502,-40.0442)">
+			<title>Sheet.288</title>
+			<path d="M0 2222.07 L0 2269.32 L566.93 2269.32 L566.93 2204.61" class="st16"/>
+		</g>
+		<g id="shape289-831" transform="translate(188.329,-25.871)">
+			<title>Sheet.289</title>
+			<path d="M0 2205.54 L0 2269.32 L694.49 2269.32 L694.49 2190.44" class="st16"/>
+		</g>
+		<g id="shape290-836" transform="translate(216.675,-153.43)">
+			<title>Rounded Rectangle.454</title>
+			<desc>hash func</desc>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2246.64 A5.6692 5.6692 -180 0 0 51.02
+						 2240.97 L5.67 2240.97 A5.6692 5.6692 -180 0 0 -0 2246.64 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32
+						 Z" class="st1"/>
+			<text x="5.19" y="2258.74" class="st17">hash func</text>		</g>
+		<g id="shape291-839" transform="translate(117.463,-153.43)">
+			<title>Rounded Rectangle.455</title>
+			<desc>size</desc>
+			<path d="M5.67 2269.32 L51.02 2269.32 A5.6692 5.6692 -180 0 0 56.69 2263.65 L56.69 2246.64 A5.6692 5.6692 -180 0 0 51.02
+						 2240.97 L5.67 2240.97 A5.6692 5.6692 -180 0 0 -0 2246.64 L0 2263.65 A5.6692 5.6692 -180 0 0 5.67 2269.32
+						 Z" class="st1"/>
+			<text x="17.46" y="2259.34" class="st5">size</text>		</g>
+		<g id="shape292-842" transform="translate(344.234,-54.2174)">
+			<title>Sheet.292</title>
+			<path d="M0 2269.32 L581.1 2269.32 L581.1 2056.72 L0 2056.72 L0 2269.32 Z" class="st13"/>
+		</g>
+		<g id="shape293-844" transform="translate(641.872,-266.816)">
+			<title>Sheet.293</title>
+			<desc>on the heap / free store / dynamic memory allocation</desc>
+			<rect x="0" y="2240.97" width="283.465" height="28.3465" class="st2"/>
+			<text x="14.94" y="2258.74" class="st8">on the heap / free store / dynamic memory allocation</text>		</g>
+		<g id="shape294-847" transform="translate(46.5965,-139.257)">
+			<title>Sheet.294</title>
+			<desc>hash table object</desc>
+			<rect x="0" y="2226.8" width="56.6929" height="42.5197" class="st2"/>
+			<text x="4.19" y="2244.46" class="st8">hash table  <tspan x="13.69" dy="1.2em" class="st9">object</tspan></text>		</g>
+		<g id="shape367-851" transform="translate(386.754,-295.162)">
+			<title>Sheet.367</title>
+			<desc>(hash table)</desc>
+			<rect x="0" y="2240.97" width="85.0394" height="28.3465" class="st2"/>
+			<text x="4.98" y="2259.94" class="st28">(hash table)</text>		</g>
+	</g>
+</svg>
