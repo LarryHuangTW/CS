@@ -96,7 +96,7 @@ class adjacency_matrix<0, unweighted_type, is_directed>
 };
 ```
 
-## Fixed-size:
+##  
 
 ![fixed-size adjacency list](/Images/graph/05__fixed_list.svg)
 
@@ -135,6 +135,8 @@ class adjacency_list<N, unweighted_type, is_directed>
 };
 ```
 
+##  
+
 > *Vertices are not indices or can not be directly represented by indices from 0, 1, 2, ... to N-1*
 
 ![adjacency matrix pro](/Images/graph/06__adjacency_matrix_pro.svg)
@@ -162,6 +164,8 @@ class adjacency_matrix_pro
 };
 ```
 
+##  
+
 ![adjacency list pro](/Images/graph/07__adjacency_list_pro.svg)
 
 ```C++
@@ -183,6 +187,8 @@ class adjacency_list_pro
 		std::unordered_map<vertex_type, std::vector<edge_type>> umap {};
 };
 ```
+
+##  
 
 ![adjacency tree](/Images/graph/08__adjacency_tree.svg)
 
