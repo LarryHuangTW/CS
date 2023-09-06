@@ -29,7 +29,7 @@ class adjacency_matrix
 ![fixed-size unweighted adjacency matrix](/Images/graph/02__fixed_unweighted_matrix.svg)
 
 ```C++
-//for unweighted graph
+//for unweighted graphs
 struct unweighted_type
 {
 };
