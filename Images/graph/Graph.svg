@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Illustrator: Larry Huang -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		width="14.6802in" height="5.054in" viewBox="0 0 1056.97 363.888" xml:space="preserve" color-interpolation-filters="sRGB"
+		width="14.6802in" height="5.25085in" viewBox="0 0 1056.97 378.061" xml:space="preserve" color-interpolation-filters="sRGB"
 		class="st7">
 	<style type="text/css">
 	<![CDATA[
@@ -10,44 +10,44 @@
 		.st2 {fill:#4672c4;font-family:Times New Roman;font-size:4.16666em}
 		.st3 {fill:#000000;font-family:Times New Roman;font-size:1.66667em}
 		.st4 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
-		.st5 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
-		.st6 {font-size:2.14288em}
+		.st5 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st6 {font-size:2.37501em}
 		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
 	<g>
 		<title>Page-1</title>
-		<g id="shape1-1" transform="translate(18.25,-287.541)">
+		<g id="shape1-1" transform="translate(18.25,-301.715)">
 			<title>Sheet.1</title>
 			<desc>Graph</desc>
-			<rect x="0" y="307.195" width="141.732" height="56.6929" class="st1"/>
-			<text x="8.39" y="350.54" class="st2">Graph</text>		</g>
-		<g id="shape2-4" transform="translate(46.5965,-245.022)">
+			<rect x="0" y="321.368" width="141.732" height="56.6929" class="st1"/>
+			<text x="8.39" y="364.71" class="st2">Graph</text>		</g>
+		<g id="shape2-4" transform="translate(46.5965,-259.195)">
 			<title>Sheet.2</title>
 			<desc>In computer science, graph theory includes data structures an...</desc>
-			<rect x="0" y="335.541" width="609.449" height="28.3465" class="st1"/>
-			<text x="4" y="355.71" class="st3">In computer science, graph theory includes data structures and algorithms.</text>		</g>
-		<g id="shape3-7" transform="translate(46.5965,-202.502)">
+			<rect x="0" y="349.714" width="609.449" height="28.3465" class="st1"/>
+			<text x="4" y="369.89" class="st3">In computer science, graph theory includes data structures and algorithms.</text>		</g>
+		<g id="shape3-7" transform="translate(46.5965,-216.675)">
 			<title>Sheet.3</title>
 			<desc>Graph data structures contain a set of vertices/nodes and a s...</desc>
-			<rect x="0" y="335.541" width="992.126" height="28.3465" class="st1"/>
-			<text x="4" y="355.71" class="st3">Graph data structures contain a set of vertices/nodes and a set of edges/links which are connections between two vertices.</text>		</g>
-		<g id="shape4-10" transform="translate(74.9429,-159.982)">
+			<rect x="0" y="349.714" width="992.126" height="28.3465" class="st1"/>
+			<text x="4" y="369.89" class="st3">Graph data structures contain a set of vertices/nodes and a set of edges/links which are connections between two vertices.</text>		</g>
+		<g id="shape4-10" transform="translate(74.9429,-174.156)">
 			<title>Sheet.4</title>
 			<desc>vertex: conceptual entity</desc>
-			<rect x="0" y="335.541" width="170.079" height="28.3465" class="st1"/>
-			<text x="4" y="354.51" class="st4">vertex: conceptual entity</text>		</g>
-		<g id="shape5-13" transform="translate(74.9429,-117.463)">
+			<rect x="0" y="349.714" width="170.079" height="28.3465" class="st1"/>
+			<text x="4" y="368.69" class="st4">vertex: conceptual entity</text>		</g>
+		<g id="shape5-13" transform="translate(74.9429,-131.636)">
 			<title>Sheet.5</title>
 			<desc>edge: relationship between vertices</desc>
-			<rect x="0" y="335.541" width="240.945" height="28.3465" class="st1"/>
-			<text x="4" y="354.51" class="st4">edge: relationship between vertices</text>		</g>
+			<rect x="0" y="349.714" width="240.945" height="28.3465" class="st1"/>
+			<text x="4" y="368.69" class="st4">edge: relationship between vertices</text>		</g>
 		<g id="shape6-16" transform="translate(18.25,-18.25)">
 			<title>Sheet.6</title>
-			<desc>Some possible implementations of Graph data structure:</desc>
-			<rect x="0" y="307.195" width="269.291" height="56.6929" class="st1"/>
-			<text x="4" y="321.74" class="st5">Some possible implementations of <tspan x="4" dy="1.04em" class="st6">G</tspan><tspan
-						class="st6">raph data structure</tspan><tspan class="st6">:</tspan></text>		</g>
+			<desc>Some possible implementations of Graph data structures:</desc>
+			<rect x="0" y="307.195" width="354.331" height="70.8661" class="st1"/>
+			<text x="4" y="324.63" class="st5">Some possible implementations of <tspan x="4" dy="1.026em" class="st6">G</tspan><tspan
+						class="st6">raph data structure</tspan><tspan class="st6">s:</tspan></text>		</g>
 	</g>
 </svg>

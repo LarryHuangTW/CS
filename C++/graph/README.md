@@ -1,8 +1,8 @@
 ![Graph](/Images/graph/Graph.svg)
 
-## Fixed-size and weighted:
-
 > *Vertices are indices or can be directly represented by indices from 0, 1, 2, ... to N-1*
+
+## For fixed-size and weighted graphs:
 
 ![fixed-size weighted adjacency matrix](/Images/graph/01__fixed_weighted_matrix.svg)
 
@@ -24,15 +24,17 @@ class adjacency_matrix
 };
 ```
 
-## Fixed-size and unweighted:
+## For fixed-size and unweighted graphs:
 
 ![fixed-size unweighted adjacency matrix](/Images/graph/02__fixed_unweighted_matrix.svg)
 
 ```C++
+//for unweighted graph
 struct unweighted_type
 {
 };
 
+//A specialization of class template adjacency_matrix
 template<std::size_t N, bool is_directed>
 class adjacency_matrix<N, unweighted_type, is_directed>
 {
@@ -50,7 +52,7 @@ class adjacency_matrix<N, unweighted_type, is_directed>
 };
 ```
 
-## Variable-size and weighted:
+## For variable-size and weighted graphs:
 
 ![variable-size weighted adjacency matrix](/Images/graph/03__variable_weighted_matrix.svg)
 
@@ -73,7 +75,7 @@ class adjacency_matrix<0, EdgeWeightTy, is_directed>
 };
 ```
 
-## Variable-size and unweighted:
+## For variable-size and unweighted graphs:
 
 ![variable-size unweighted adjacency matrix](/Images/graph/04__variable_unweighted_matrix.svg)
 
@@ -208,5 +210,33 @@ class adjacency_tree
 
 	protected:
 		std::map<vertex_type, std::map<vertex_type, edge_weight_type>> mp {};
+};
+```
+
+## A possible design thinking for implementations of graph alogrithms:
+
+Many or all different implementations of graph data structures share the same code of implementations of graph alogrithms.
+
+```C++
+template<class impl_type>
+class graph : public impl_type
+{
+	public:
+		using vertex_type      = typename impl_type::vertex_type;
+		using edge_weight_type = typename impl_type::edge_weight_type;
+		using size_type        = std::size_t;
+		// ......
+
+		bool has_loop()  const;		//checks if the graph has any loop
+		bool has_cycle() const;		//checks if the graph has any cycle
+		bool is_DAG()    const;		//checks if the graph is a directed acyclic graph
+
+		auto depth_first_search(const vertex_type& src, const vertex_type& dest) const;
+		auto breadth_first_search(const vertex_type& src, const vertex_type& dest) const;
+		auto topological_sort() const;
+		auto shortest_path_search(const vertex_type& src, const vertex_type& dest) const;
+		auto minimum_spanning_tree() const;
+
+		// ......
 };
 ```
