@@ -18,10 +18,10 @@ namespace cust					//customized / non-standard
 	class graph : public impl_type
 	{
 		public:
-			using vertex_type      = typename impl_type::vertex_type;			//vertex type
+			using vertex_type      = typename impl_type::vertex_type;		//vertex type
 			using edge_weight_type = typename impl_type::edge_weight_type;		//edge weight type
-			using edge_type        = typename impl_type::edge_type;				//edge type
-			using size_type        = typename impl_type::size_type;				//size type
+			using edge_type        = typename impl_type::edge_type;			//edge type
+			using size_type        = typename impl_type::size_type;			//size type
 
 			//vertex visited state
 			enum class vertex_state : unsigned char { unvisited, in_path, visited };
@@ -116,13 +116,13 @@ namespace cust					//customized / non-standard
 
 					for (const auto& edge : edges)
 					{
-						//the neighbor of current vertex is not visited
+						//the neighbor of the current vertex is not visited
 						if (visited.emplace(edge.neighbor, curr).second)
 						{
-							//the neighbor of current vertex is the destination vertex
+							//the neighbor of the current vertex is the destination vertex
 							if (edge.neighbor == dest)
 							{
-								//clears the queue to exit outer loop
+								//clears the queue to exit the outer loop
 								for ( ; !que.empty(); que.pop());
 
 								break;
@@ -327,7 +327,7 @@ namespace cust					//customized / non-standard
 
 					pque.pop();
 
-					//reachs destination vertex
+					//reaches destination vertex
 					if (pr.first->first == dest)
 						break;
 
@@ -351,8 +351,8 @@ namespace cust					//customized / non-standard
 			//shortest path search (Bellman-Ford algorithm)
 			auto bellman_ford(const vertex_type& src, const vertex_type& dest) const
 			{
-				std::unordered_map<vertex_type, edge_type> visited {};		//stores visited/reachable vertices, their predecessors and path weights from source vertex to each of them
-				std::unordered_map<vertex_type, size_type> rounds  {};		//stores which round the path weight been updated of each vertex
+				std::unordered_map<vertex_type, edge_type> visited {};		//stores visited/reachable vertices, their predecessors, and path weights from source vertex to each of them
+				std::unordered_map<vertex_type, size_type> rounds  {};		//stores which round the path weight has been updated of each vertex
 
 				visited.try_emplace(src, src);
 				rounds.try_emplace(src, 0);
@@ -375,7 +375,7 @@ namespace cust					//customized / non-standard
 							auto iter { visited.find(edge.neighbor)    };
 							auto w    { pr.second.weight + edge.weight };
 
-							//the neighbor of current vertex is not visited
+							//the neighbor of the current vertex is not visited
 							if (iter == visited.end())
 							{
 								visited.try_emplace(edge.neighbor, pr.first, w);
