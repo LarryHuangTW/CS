@@ -1,5 +1,5 @@
 > *It's not reinventing the wheel. Just for practice and for fun.*<br><br>
-> *A mush better and correct way is to use International Components for Unicode (ICU)*
+> *A much better and correct way is to use International Components for Unicode (ICU)*
 
 ### A ${\color{blue}trie}$ data structure that supports C++ standard library strings.
 *including: std::string, std::wstring, std::u8string, std::u16string, std::u32string*<br><br>
