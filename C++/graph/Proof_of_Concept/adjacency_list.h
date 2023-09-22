@@ -47,12 +47,12 @@ namespace cust					//customized / non-standard
 		public:
 			static constexpr bool is_undirected { dire == edges_are::undirected };
 
-			using vertex_type      = std::size_t;										//vertex type
-			using edge_weight_type = EdgeWeightTy;										//edge weight type
-			using size_type        = std::size_t;										//size  type
+			using vertex_type      = std::size_t;						//vertex type
+			using edge_weight_type = EdgeWeightTy;						//edge weight type
+			using size_type        = std::size_t;						//size  type
 			using edge_type        = neighbor_type<vertex_type, edge_weight_type>;		//edge  type
-			using edges_type       = std::vector<edge_type>;							//edges type
-			using impl_type        = std::array<edges_type, N>;							//implementation type
+			using edges_type       = std::vector<edge_type>;				//edges type
+			using impl_type        = std::array<edges_type, N>;				//implementation type
 
 			//vertex iterator
 			struct v_iterator
@@ -213,11 +213,11 @@ namespace cust					//customized / non-standard
 		public:
 			static constexpr bool is_undirected { dire == edges_are::undirected };
 
-			using vertex_type      = VertexTy;											//vertex type
-			using edge_weight_type = EdgeWeightTy;										//edge weight type
-			using size_type        = std::size_t;										//size  type
+			using vertex_type      = VertexTy;						//vertex type
+			using edge_weight_type = EdgeWeightTy;						//edge weight type
+			using size_type        = std::size_t;						//size  type
 			using edge_type        = neighbor_type<vertex_type, edge_weight_type>;		//edge  type
-			using edges_type       = std::vector<edge_type>;							//edges type
+			using edges_type       = std::vector<edge_type>;				//edges type
 			using impl_type        = std::unordered_map<vertex_type, edges_type>;		//implementation type
 
 			//vertex iterator
