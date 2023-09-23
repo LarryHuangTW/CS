@@ -85,16 +85,16 @@ int main(int argc, char* argv[])
 
 	std::cout << std::boolalpha;
 
-	std::cout << "vector 1 : " << vec1;
-	std::cout << "vector 2 : " << vec2;
-	std::cout << "vector 3 : " << vec3;
+	std::cout << "vector 1 : " << vec1;		//
+	std::cout << "vector 2 : " << vec2;		// 1   2   3   4   5   6   7   8   9   10
+	std::cout << "vector 3 : " << vec3;		//
 
 	std::cout << "[ vector 1 ]\n";
-	print_info(vec1);
+	print_info(vec1);				// is empty ? true	size : 0	capacity : 0
 	std::cout << "\n";
 
 	std::cout << "[ vector 2 ]\n";
-	print_info(vec2);
+	print_info(vec2);				// is empty ? false	size : 10	capacity : 10
 	std::cout << "\n";
 
 	std::cout << "[ vector 1 ]\n";
@@ -106,7 +106,7 @@ int main(int argc, char* argv[])
 	}
 	std::cout << "\n";
 
-	std::cout << "Is vector 1 equal to vector 2 ? " << (vec1 == vec2) << "\n\n";
+	std::cout << "Is vector 1 equal to vector 2 ? " << (vec1 == vec2) << "\n\n";	// true
 
 	std::cout << "[ vector 2 ]\n";
 	for (int i { 0 }; i < 10; ++i)
@@ -117,27 +117,27 @@ int main(int argc, char* argv[])
 	}
 	std::cout << "\n";
 
-	std::cout << "Is vector 1 equal to vector 2 ? " << (vec1 == vec2) << "\n\n";
+	std::cout << "Is vector 1 equal to vector 2 ? " << (vec1 == vec2) << "\n\n";	// false
 
 	std::cout << "[ vector 3 ]\n";
-	print_info(vec3);
+	print_info(vec3);				// is empty ? true	size : 0	capacity : 0
 	std::cout << "\n";
 
-	std::cout << "string 1 : " << str1 << "\n";
-	std::cout << "string 2 : " << str2 << "\n\n";
+	std::cout << "string 1 : " << str1 << "\n";	// Hello
+	std::cout << "string 2 : " << str2 << "\n\n";	// World
 
 	vec3.push_back(std::move(str1));
 	vec3.push_back(std::move(str2));
 
-	print_info(vec3);
+	print_info(vec3);				// is empty ? false	size : 2	capacity : 2
 	std::cout << "\n";
 
-	std::cout << "string 1 : " << str1 << "\n";
-	std::cout << "string 2 : " << str2 << "\n\n";
+	std::cout << "string 1 : " << str1 << "\n";	//
+	std::cout << "string 2 : " << str2 << "\n\n";	//
 
-	std::cout << "vector 1 : " << vec1;
-	std::cout << "vector 2 : " << vec2;
-	std::cout << "vector 3 : " << vec3;
+	std::cout << "vector 1 : " << vec1;		// 1   2   3   4   5   6   7   8   9   10
+	std::cout << "vector 2 : " << vec2;		//
+	std::cout << "vector 3 : " << vec3;		// Hello   World
 
 	// ......
 
