@@ -102,26 +102,26 @@ int main(int argc, char* argv[])
 	cust::dynamic_array<double> da1 { 1.11 , 2.22 , 3.33 , 4.44 , 5.55 , 6.66 , 7.77 , 8.88 , 9.99 };
 
 	std::cout << std::boolalpha;
-	std::cout << sa1.empty() << "\t" << sa1.size() << "\t" << da1.empty() << "\t" << da1.size() << "\n";
-	std::cout << sa1.front() << "\t" << sa1.back() << "\t" << da1.front() << "\t" << da1.back() << "\n\n";
+	std::cout << sa1.empty() << "\t" << sa1.size() << "\t" << da1.empty() << "\t" << da1.size() << "\n";		// false	5	false	9
+	std::cout << sa1.front() << "\t" << sa1.back() << "\t" << da1.front() << "\t" << da1.back() << "\n\n";		// 10	50	1.11	9.99
 
-	std::cout << "static  array 1 : " << sa1;
-	std::cout << "static  array 2 : " << sa2;
+	std::cout << "static  array 1 : " << sa1;		// 10   20   30   40   50
+	std::cout << "static  array 2 : " << sa2;		// 1   2   3   4   5
 
-	std::cout << "dynamic array 1 : ";
+	std::cout << "dynamic array 1 : ";			// 1.11   2.22   3.33   4.44   5.55   6.66   7.77   8.88   9.99
 	for (auto iter { da1.cbegin() }; iter != da1.cend(); ++iter)
 		std::cout << *iter << "   ";
 	std::cout << "\n\n";
 
 	sa1.swap(sa2);
 
-	std::cout << "static  array 1 : " << sa1;
-	std::cout << "static  array 2 : " << sa2;
+	std::cout << "static  array 1 : " << sa1;		// 1   2   3   4   5
+	std::cout << "static  array 2 : " << sa2;		// 10   20   30   40   50
 
 	cust::dynamic_array<double> da2(std::move(da1));
 
-	std::cout << "dynamic array 1 : " << da1;
-	std::cout << "dynamic array 2 : " << da2;
+	std::cout << "dynamic array 1 : " << da1;		//
+	std::cout << "dynamic array 2 : " << da2;		// 1.11   2.22   3.33   4.44   5.55   6.66   7.77   8.88   9.99
 
 	// ......
 
