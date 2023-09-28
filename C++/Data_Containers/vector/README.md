@@ -34,20 +34,29 @@ namespace cust					//customized / non-standard
 			//destructor
 			//assignment operators
 
-			constexpr allocator_type get_allocator() const noexcept;
-			constexpr size_type max_size() const noexcept;
-			constexpr void reserve(size_type new_cap);
-			constexpr void clear() noexcept;
+			constexpr allocator_type get_allocator() const noexcept;	//gets allocator of the container
+			constexpr size_type max_size() const noexcept;			//returns the maximum number of elements the container can hold
+			constexpr void reserve(size_type new_cap);			//reserves (memory) capacity for the container
+			constexpr void clear() noexcept;				//clears all elements
 
 			template<class... Args>
-			constexpr reference emplace_back(Args&&... args);
+			constexpr reference emplace_back(Args&&... args);		//adds an element (in-place) to the end of the container
 
-			constexpr void push_back(const_reference value);
-			constexpr void push_back(value_type&& value);
-			constexpr void pop_back();
-			// ......
+			constexpr void push_back(const_reference value);		//adds an element (with copy semantics) to the end of the container
+			constexpr void push_back(value_type&& value);			//adds an element (with move semantics) to the end of the container
+			constexpr void pop_back();					//removes the last element of the container
+
+			template<class... Args>
+			constexpr iterator emplace(const_iterator pos, Args&&... args);		//inserts an element (in-place) into the container before pos
+
+			constexpr iterator insert(const_iterator pos, const_reference value);	//inserts an element (with copy semantics) into the container before pos
+			constexpr iterator insert(const_iterator pos, value_type&& value);	//inserts an element (with move semantics) into the container before pos
+			constexpr iterator erase(const_iterator pos);				//erases the element at pos of the container
+			constexpr iterator erase(const_iterator first, const_iterator last);	//erases the elements in the range [first, last) of the container
 
 		private:
+			// ......
+
 			//allocator of the vector
 			allocator_type alloc {};
 	};

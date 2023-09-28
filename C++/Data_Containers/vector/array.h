@@ -14,7 +14,6 @@ namespace cust					//customized / non-standard
 {
 	using std::size_t;
 	using std::ptrdiff_t;
-	using std::contiguous_iterator_tag;
 	using std::initializer_list;
 	using std::allocator;
 	using std::allocator_traits;
@@ -294,7 +293,7 @@ namespace cust					//customized / non-standard
 			using allocator_type = typename allocator_traits<Allocator>::template rebind_alloc<value_type>;
 
 			//constructors
-			constexpr dynamic_array(size_type count, const value_type& val = value_type())
+			constexpr explicit dynamic_array(size_type count, const value_type& val = value_type())
 			{
 				if (count != 0)
 				{
@@ -382,7 +381,7 @@ namespace cust					//customized / non-standard
 
 		private:
 			//allocate (memory) space for n elements
-			void alloc_n_elems(size_type n)
+			constexpr void alloc_n_elems(size_type n)
 			{
 				elem[0] = allocator_traits<allocator_type>::allocate(alloc, n);
 				elem[1] = elem[0] + n;
@@ -390,7 +389,7 @@ namespace cust					//customized / non-standard
 
 			//construct n elements in the allocated (memory) space
 			template<class InputIter>
-			void construct_n_elems(InputIter first, InputIter last)
+			constexpr void construct_n_elems(InputIter first, InputIter last)
 			{
 				for (auto ptr { elem[0] }; first != last; ++ptr, ++first)
 					allocator_traits<allocator_type>::construct(alloc, ptr, *first);
@@ -398,7 +397,7 @@ namespace cust					//customized / non-standard
 
 			//copy (flag is true) or move (flag is false) assignment
 			template<class InputIter>
-			void copy_or_move_assign(InputIter first, InputIter last, bool flag)
+			constexpr void copy_or_move_assign(InputIter first, InputIter last, bool flag)
 			{
 				for (auto iter { base_type::begin() }; iter != base_type::end() && first != last; ++iter, ++first)
 					*iter = (flag ? *first : std::move(*first));
