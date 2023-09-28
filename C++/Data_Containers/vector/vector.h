@@ -203,7 +203,7 @@ namespace cust
 				return *this;
 			}
 
-			//gets allocator of the container
+			//gets the allocator of the container
 			constexpr allocator_type get_allocator() const noexcept
 			{
 				return alloc;
