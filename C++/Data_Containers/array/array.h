@@ -14,7 +14,6 @@ namespace cust					//customized / non-standard
 {
 	using std::size_t;
 	using std::ptrdiff_t;
-	using std::contiguous_iterator_tag;
 	using std::initializer_list;
 	using std::allocator;
 	using std::allocator_traits;
@@ -30,22 +29,25 @@ namespace cust					//customized / non-standard
 		using pointer       = value_type*;
 		using const_pointer = const value_type*;
 
+		//returns the number of elements in the array
 		constexpr size_type size() const noexcept
 		{
 			return N;
 		}
 
+		//direct access to the underlying array
 		constexpr pointer data() noexcept
 		{
 			return elem;
 		}
 
+		//direct access to the underlying array
 		constexpr const_pointer data() const noexcept
 		{
 			return elem;
 		}
 
-		T elem[N == 0 ? 1 : N];
+		value_type elem[N == 0 ? 1 : N];
 	};
 
 	/*
@@ -60,22 +62,26 @@ namespace cust					//customized / non-standard
 			using pointer       = value_type*;
 			using const_pointer = const value_type*;
 
+			//returns the number of elements in the array
 			constexpr size_type size() const noexcept
 			{
 				return static_cast<size_type>(elem[1] - elem[0]);
 			}
 
+			//returns how many elements the (dynamically allocated) array can hold currently
 			template<class = std::enable_if_t<!FixedSize>>
 			constexpr size_type capacity() const noexcept
 			{
 				return static_cast<size_type>(elem[2] - elem[0]);
 			}
 
+			//direct access to the underlying array
 			constexpr pointer data() noexcept
 			{
 				return elem[0];
 			}
 
+			//direct access to the underlying array
 			constexpr const_pointer data() const noexcept
 			{
 				return elem[0];
@@ -114,7 +120,7 @@ namespace cust					//customized / non-standard
 				return base_type::size();
 			}
 
-			//check if the array is empty
+			//checks if the array is empty
 			constexpr bool empty() const noexcept
 			{
 				return size() == 0;
@@ -187,13 +193,13 @@ namespace cust					//customized / non-standard
 				return data()[pos];
 			}
 
-			//fill the array with specified value
+			//fills the array with specified value
 			constexpr void fill(const_reference value)
 			{
 				std::fill_n(begin(), size(), value);
 			}
 
-			//swap all elements with other array
+			//swaps all elements with other array
 			constexpr void swap(array_interface& other) noexcept
 			{
 				std::swap_ranges(begin(), end(), other.begin());
@@ -287,24 +293,25 @@ namespace cust					//customized / non-standard
 		using base_type::elem;
 
 		public:
-			using value_type     = base_type::value_type;
-			using size_type      = base_type::size_type;
-			using pointer        = base_type::pointer;
-			using const_pointer  = base_type::const_pointer;
+			using value_type     = typename base_type::value_type;
+			using size_type      = typename base_type::size_type;
+			using pointer        = typename base_type::pointer;
+			using const_pointer  = typename base_type::const_pointer;
 			using allocator_type = typename allocator_traits<Allocator>::template rebind_alloc<value_type>;
 
-			//constructors
-			constexpr dynamic_array(size_type count, const value_type& val = value_type())
+			//constructor with count copies of value
+			constexpr explicit dynamic_array(size_type count, const value_type& value = value_type())
 			{
 				if (count != 0)
 				{
 					alloc_n_elems(count);
 
 					for (auto ptr { elem[0] }; ptr != nullptr && ptr != elem[1]; ++ptr)
-						allocator_traits<allocator_type>::construct(alloc, ptr, val);
+						allocator_traits<allocator_type>::construct(alloc, ptr, value);
 				}
 			}
 
+			//copy constructor
 			constexpr dynamic_array(const dynamic_array& other)
 			{
 				if ( !other.empty() )
@@ -315,6 +322,7 @@ namespace cust					//customized / non-standard
 				}
 			}
 
+			//move constructor
 			constexpr dynamic_array(dynamic_array&& other) noexcept
 			{
 				if ( !other.empty() )
@@ -324,6 +332,7 @@ namespace cust					//customized / non-standard
 				}
 			}
 
+			//constructor with two iterators
 			template<class InputIter>
 			constexpr dynamic_array(InputIter first, InputIter last)
 			{
@@ -335,6 +344,7 @@ namespace cust					//customized / non-standard
 				}
 			}
 
+			//constructor with initializer list
 			constexpr dynamic_array(initializer_list<value_type> init)
 			{
 				if (init.size() != 0)
@@ -359,7 +369,7 @@ namespace cust					//customized / non-standard
 			//copy assignment operator
 			constexpr dynamic_array& operator = (const dynamic_array& other)
 			{
-				copy_or_move_assign(other.begin(), other.end(), true);
+				copy_assign(other.begin(), other.end());
 
 				return *this;
 			}
@@ -367,41 +377,49 @@ namespace cust					//customized / non-standard
 			//move assignment operator
 			constexpr dynamic_array& operator = (dynamic_array&& other) noexcept
 			{
-				copy_or_move_assign(other.begin(), other.end(), false);
+				move_assign(other.begin(), other.end());
 
 				return *this;
 			}
 
-			//copy and replace elements with initializer list
+			//copies and replaces elements with initializer list
 			constexpr dynamic_array& operator = (initializer_list<value_type> init)
 			{
-				copy_or_move_assign(init.begin(), init.end(), true);
+				copy_assign(init.begin(), init.end());
 
 				return *this;
 			}
 
 		private:
-			//allocate (memory) space for n elements
-			void alloc_n_elems(size_type n)
+			//allocates (memory) space for n elements
+			constexpr void alloc_n_elems(size_type n)
 			{
 				elem[0] = allocator_traits<allocator_type>::allocate(alloc, n);
 				elem[1] = elem[0] + n;
 			}
 
-			//construct n elements in the allocated (memory) space
+			//constructs n elements in the allocated (memory) space
 			template<class InputIter>
-			void construct_n_elems(InputIter first, InputIter last)
+			constexpr void construct_n_elems(InputIter first, InputIter last)
 			{
 				for (auto ptr { elem[0] }; first != last; ++ptr, ++first)
 					allocator_traits<allocator_type>::construct(alloc, ptr, *first);
 			}
 
-			//copy (flag is true) or move (flag is false) assignment
+			//copy assignment of elements in the range [first, last)
 			template<class InputIter>
-			void copy_or_move_assign(InputIter first, InputIter last, bool flag)
+			constexpr void copy_assign(InputIter first, InputIter last)
 			{
 				for (auto iter { base_type::begin() }; iter != base_type::end() && first != last; ++iter, ++first)
-					*iter = (flag ? *first : std::move(*first));
+					*iter = *first;
+			}
+
+			//move assignment of elements in the range [first, last)
+			template<class InputIter>
+			constexpr void move_assign(InputIter first, InputIter last)
+			{
+				for (auto iter { base_type::begin() }; iter != base_type::end() && first != last; ++iter, ++first)
+					*iter = std::move(*first);
 			}
 
 			//allocator

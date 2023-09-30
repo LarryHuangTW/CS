@@ -3,7 +3,7 @@
 #include <iostream>
 #include "array.h"
 
-namespace cust
+namespace cust					//customized / non-standard
 {
 	using std::allocator;
 	using std::allocator_traits;
@@ -20,14 +20,14 @@ namespace cust
 		using base_type::elem;
 
 		public:
-			using value_type      = base_type::value_type;
-			using size_type       = base_type::size_type;
-			using pointer         = base_type::pointer;
-			using const_pointer   = base_type::const_pointer;
-			using reference       = base_type::reference;
-			using const_reference = base_type::const_reference;
-			using iterator        = base_type::iterator;
-			using const_iterator  = base_type::const_iterator;
+			using value_type      = typename base_type::value_type;
+			using size_type       = typename base_type::size_type;
+			using pointer         = typename base_type::pointer;
+			using const_pointer   = typename base_type::const_pointer;
+			using reference       = typename base_type::reference;
+			using const_reference = typename base_type::const_reference;
+			using iterator        = typename base_type::iterator;
+			using const_iterator  = typename base_type::const_iterator;
 			using allocator_type  = typename allocator_traits<Allocator>::template rebind_alloc<value_type>;
 
 			using base_type::empty;
@@ -349,6 +349,7 @@ namespace cust
 
 				if ( !empty() && pos != cend() )
 				{
+					//move assignment to the left
 					std::move(ptr + 1, end(), ptr);
 
 					pop_back();
@@ -365,6 +366,7 @@ namespace cust
 
 				if (fst != lst)
 				{
+					//move assignment to the left
 					lst = std::move(lst, end(), fst);
 
 					for ( ; lst != end(); pop_back());
@@ -374,7 +376,7 @@ namespace cust
 			}
 
 		private:
-			//check new capacity and compare to old capacity
+			//checks new capacity and compares it with old capacity
 			constexpr bool check_capacity(size_type n) const
 			{
 				if (max_size() < n)

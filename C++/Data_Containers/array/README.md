@@ -25,7 +25,7 @@ namespace cust					//customized / non-standard
 	{
 		// ......
     
-		T elem[N == 0 ? 1 : N];
+		value_type elem[N == 0 ? 1 : N];
 	};
   
 	//implementation of fixed-size or variable-size array with dynamic memory allocation
@@ -43,17 +43,23 @@ namespace cust					//customized / non-standard
 	class array_interface : public ImplTy
 	{
 		public:
-			constexpr size_type size() const noexcept;
-			constexpr bool empty() const noexcept;
-			constexpr pointer data() noexcept;
-			constexpr reference front();
-			constexpr reference back();
-			constexpr reference at(size_type pos);
-			constexpr reference operator [] (size_type pos);
-			constexpr void fill(const_reference value);
-			constexpr void swap(array_interface& other) noexcept;
-			constexpr iterator begin() noexcept;
-			constexpr iterator end() noexcept;
+			constexpr size_type size() const noexcept;		//returns the number of elements in the array
+			constexpr bool empty() const noexcept;			//checks if the array is empty
+			constexpr pointer data() noexcept;			//direct access to the underlying array
+			constexpr reference front();				//access the first element in the array
+			constexpr reference back();				//access the last  element in the array
+			constexpr reference at(size_type pos);			//access specified element in the array with bounds checking
+			constexpr reference operator [] (size_type pos);	//access specified element in the array
+			constexpr void fill(const_reference value);		//fills the array with specified value
+			constexpr void swap(array_interface& other) noexcept;	//swaps all elements with other array
+
+			constexpr iterator begin() noexcept;			//returns an iterator to the beginning of the array
+			constexpr const_iterator begin()  const noexcept;
+			constexpr const_iterator cbegin() const noexcept;
+			constexpr iterator end() noexcept;			//returns an iterator to the end of the array
+			constexpr const_iterator end()  const noexcept;
+			constexpr const_iterator cend() const noexcept;
+
 			// ......
 	};
   

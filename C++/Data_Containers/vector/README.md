@@ -22,6 +22,23 @@ namespace cust					//customized / non-standard
 	class array_interface : public ImplTy
 	{
 		public:
+			constexpr size_type size() const noexcept;		//returns the number of elements in the array
+			constexpr bool empty() const noexcept;			//checks if the array is empty
+			constexpr pointer data() noexcept;			//direct access to the underlying array
+			constexpr reference front();				//access the first element in the array
+			constexpr reference back();				//access the last  element in the array
+			constexpr reference at(size_type pos);			//access specified element in the array with bounds checking
+			constexpr reference operator [] (size_type pos);	//access specified element in the array
+			constexpr void fill(const_reference value);		//fills the array with specified value
+			constexpr void swap(array_interface& other) noexcept;	//swaps all elements with other array
+
+			constexpr iterator begin() noexcept;			//returns an iterator to the beginning of the array
+			constexpr const_iterator begin()  const noexcept;
+			constexpr const_iterator cbegin() const noexcept;
+			constexpr iterator end() noexcept;			//returns an iterator to the end of the array
+			constexpr const_iterator end()  const noexcept;
+			constexpr const_iterator cend() const noexcept;
+
 			// ......
 	};
 
@@ -83,7 +100,7 @@ decltype(auto) operator << (std::ostream& os, const cust::array_interface<T, U>&
 template<class T>
 void print_info(const cust::vector<T>& vec)
 {
-	std::cout << "\tis empty ? " << vec.empty() << "\t\tsize : " << vec.size() << "\t\tcapacity : " << vec.capacity() << "\n";
+	std::cout << "\tis empty ? " << vec.empty() << "\t\tsize : " << vec.size() << "\t\tcapacity : " << vec.capacity() << "\n\n";
 }
 
 int main(int argc, char* argv[])
@@ -100,11 +117,9 @@ int main(int argc, char* argv[])
 
 	std::cout << "[ vector 1 ]\n";
 	print_info(vec1);				// is empty ? true	size : 0	capacity : 0
-	std::cout << "\n";
 
 	std::cout << "[ vector 2 ]\n";
 	print_info(vec2);				// is empty ? false	size : 10	capacity : 10
-	std::cout << "\n";
 
 	std::cout << "[ vector 1 ]\n";
 	for (int i { 1 }; i < 11; ++i)
@@ -130,7 +145,6 @@ int main(int argc, char* argv[])
 
 	std::cout << "[ vector 3 ]\n";
 	print_info(vec3);				// is empty ? true	size : 0	capacity : 0
-	std::cout << "\n";
 
 	std::cout << "string 1 : " << str1 << "\n";	// Hello
 	std::cout << "string 2 : " << str2 << "\n\n";	// World
@@ -139,7 +153,6 @@ int main(int argc, char* argv[])
 	vec3.push_back(std::move(str2));
 
 	print_info(vec3);				// is empty ? false	size : 2	capacity : 2
-	std::cout << "\n";
 
 	std::cout << "string 1 : " << str1 << "\n";	//
 	std::cout << "string 2 : " << str2 << "\n\n";	//
