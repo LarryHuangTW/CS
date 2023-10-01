@@ -83,32 +83,31 @@ namespace cust					//customized / non-standard
 			reference front();							//access the first element of the container
 			const_reference front() const;
 
-			void clear() noexcept;							//clear all elements in the container
-			void push_front(const_reference value);					//add an element to the beginning of the container
-			void push_front(T&& value);
-			void pop_front();							//remove the first element of the container
+			void clear() noexcept;							//clears all elements in the container
+			void push_front(const_reference value);					//adds an element (with copy semantics) to the beginning of the container
+			void push_front(value_type&& value);					//adds an element (with move semantics) to the beginning of the container
+			void pop_front();							//removes the first element of the container
 
 			template<class... Args>
-			reference emplace_front(Args&&... args);				//add an element to the beginning of the container
+			reference emplace_front(Args&&... args);				//adds an element (in-place) to the beginning of the container
 
-			iterator insert_after(const_iterator pos, const_reference value);	//insert an element after the specified position
-			iterator insert_after(const_iterator pos, T&& value);
-			iterator erase_after(const_iterator pos);				//remove an element at the specified position
-			iterator erase_after(const_iterator first, const_iterator last);	//remove element(s) in the specified range
+			iterator insert_after(const_iterator pos, const_reference value);	//inserts an element (with copy semantics) after the specified position
+			iterator insert_after(const_iterator pos, value_type&& value);		//inserts an element (with move semantics) after the specified position
+			iterator erase_after(const_iterator pos);				//removes an element at the specified position
+			iterator erase_after(const_iterator first, const_iterator last);	//removes element(s) in the specified range
 
-			void reverse() noexcept;						//reverse the order of the elements in the forward_list
-			void merge(forward_list& other);					//merge two sorted forward_list
+			void reverse() noexcept;						//reverses the order of the elements in the forward_list
+			void merge(forward_list& other);					//merges two sorted forward_list
 			void merge(forward_list&& other);
 
 			template<class Compare = std::less<>>
-			void sort(Compare cmp = Compare{});					//sort the elements in the forward_list
+			void sort(Compare cmp = Compare{});					//sorts the elements of the forward_list
 
 			iterator       begin()  noexcept;
 			const_iterator begin()  const noexcept;
+			const_iterator cbegin() const noexcept;
 			iterator       end()    noexcept;
 			const_iterator end()    const noexcept;
-
-			const_iterator cbegin() const noexcept;
 			const_iterator cend()   const noexcept;
 
 			// ......
@@ -155,11 +154,11 @@ int main(int argc, char* argv[])
 
 	std::cout << std::boolalpha;
 
-	std::cout << "list 1 : " << lst1;
-	std::cout << "list 2 : " << lst2;
-	std::cout << "list 3 : " << lst3;
-	std::cout << "list 4 : " << lst4;
-	std::cout << "list 5 : " << lst5;
+	std::cout << "list 1 : " << lst1;	//
+	std::cout << "list 2 : " << lst2;	// 0   0   0
+	std::cout << "list 3 : " << lst3;	// 7   7   7
+	std::cout << "list 4 : " << lst4;	// 2   4   6   8   10
+	std::cout << "list 5 : " << lst5;	//
 
 	lst1.push_front(1);
 	lst1.push_front(3);
@@ -168,42 +167,42 @@ int main(int argc, char* argv[])
 	lst1.push_front(9);
 
 	std::cout << "[ list 1 ]\n\n";
-	std::cout << "front  : " << lst1.front() << "\n\n";
-	std::cout << "list 1 : " << lst1;
+	std::cout << "front  : " << lst1.front() << "\n\n";	// 9
+	std::cout << "list 1 : " << lst1;			// 9   7   5   3   1
 
 	std::cout << "[ reverse list 1 ]\n\n";
 
 	lst1.reverse();
 
-	std::cout << "list 1 : " << lst1;
+	std::cout << "list 1 : " << lst1;	// 1   3   5   7   9
 
-	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";
+	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";	// false
 
 	std::cout << "after copy assignment\n\n";
 
 	lst2 = lst3;
 
-	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";
+	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";	// true
 
-	std::cout << "list 2 : " << lst2;
+	std::cout << "list 2 : " << lst2;	// 7   7   7
 
 	lst3 = { 7 , 77 , 777 };
 
-	std::cout << "list 3 : " << lst3;
+	std::cout << "list 3 : " << lst3;	// 7   77   777
 
 	lst5.emplace_front(std::move(str3));
 	lst5.emplace_front(std::move(str2));
 	lst5.emplace_front(std::move(str1));
 
-	std::cout << "list 5   : " << lst5;
-	std::cout << "string 1 : " << str1 << "\n";
-	std::cout << "string 2 : " << str2 << "\n";
-	std::cout << "string 3 : " << str3 << "\n\n";
+	std::cout << "list 5   : " << lst5;		// Hi   Hello   World
+	std::cout << "string 1 : " << str1 << "\n";	//
+	std::cout << "string 2 : " << str2 << "\n";	//
+	std::cout << "string 3 : " << str3 << "\n\n";	//
 
 	cust::forward_list<std::string> lst6 { std::move(lst5) };
 
-	std::cout << "list 5 : " << lst5;
-	std::cout << "list 6 : " << lst6;
+	std::cout << "list 5 : " << lst5;		//
+	std::cout << "list 6 : " << lst6;		// Hi   Hello   World
 
 	auto iter { std::find(lst4.begin(), lst4.end(), 6) };
 
@@ -219,8 +218,8 @@ int main(int argc, char* argv[])
 
 	lst1.merge(lst4);
 
-	std::cout << "list 1 : " << lst1;
-	std::cout << "list 4 : " << lst4;
+	std::cout << "list 1 : " << lst1;	// 1   2   3   4   5   6   7   8   9   10
+	std::cout << "list 4 : " << lst4;	//
 
 	// ......
 

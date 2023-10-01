@@ -26,25 +26,15 @@ namespace cust					//customized / non-standard
 		using size_type    = size_t;
 		using node_pointer = forward_list_node*;
 
-		/*	We don't need these since C++20
-		forward_list_node() noexcept = default;
-
-		forward_list_node(node_pointer ptr, const value_type& val) : next { ptr }, value { val }
-		{
-		}
-
-		forward_list_node(node_pointer ptr, T&& val) : next { ptr }, value { std::forward<T>(val) }
-		{
-		}
-		*/
-
 		//adds a node by allocating memory space and calling its constructor
 		template<class Allocator, class... Args>
-		[[nodiscard]] static node_pointer new_one_node(Allocator& alloc, Args&&... args)
+		[[nodiscard]] static node_pointer new_one_node(Allocator& alloc, node_pointer p, Args&&... args)
 		{
 			auto ptr { allocator_traits<Allocator>::allocate(alloc, 1) };
 
-			allocator_traits<Allocator>::construct(alloc, ptr, std::forward<Args>(args)...);
+			ptr->next = p;
+
+			allocator_traits<Allocator>::construct(alloc, std::addressof(ptr->value), std::forward<Args>(args)...);
 
 			return ptr;
 		}
@@ -319,16 +309,16 @@ namespace cust					//customized / non-standard
 				head = nullptr;
 			}
 
-			//adds an element to the beginning of the container
+			//adds an element (with copy semantics) to the beginning of the container
 			void push_front(const_reference value)
 			{
-				head = node_type::new_one_node(alloc, head, value);
+				emplace_front(value);
 			}
 
-			//adds an element to the beginning of the container
-			void push_front(T&& value)
+			//adds an element (with move semantics) to the beginning of the container
+			void push_front(value_type&& value)
 			{
-				head = node_type::new_one_node(alloc, head, std::forward<T>(value));
+				emplace_front(std::move(value));
 			}
 
 			//removes the first element
@@ -337,7 +327,7 @@ namespace cust					//customized / non-standard
 				head = node_type::delete_one_node(alloc, head);
 			}
 
-			//adds an element to the beginning of the container
+			//adds an element (in-place) to the beginning of the container
 			template<class... Args>
 			reference emplace_front(Args&&... args)
 			{
@@ -346,31 +336,31 @@ namespace cust					//customized / non-standard
 				return front();
 			}
 
-			//inserts an element after the specified position
+			//inserts an element (with copy semantics) after the specified position
 			iterator insert_after(const_iterator pos, const_reference value)
 			{
 				if (pos == cend())
 				{
 					std::cerr << "tried to insert after the end of forward_list";
 
-					return this->end();
+					return end();
 				}
 
-				iterator iter(pos);
+				iterator iter { pos };
 
 				iter.next() = node_type::new_one_node(alloc, iter.next(), value);
 
 				return ++iter;
 			}
 
-			//inserts an element after the specified position
-			iterator insert_after(const_iterator pos, T&& value)
+			//inserts an element (with move semantics) after the specified position
+			iterator insert_after(const_iterator pos, value_type&& value)
 			{
 				if (pos == cend())
 				{
 					std::cerr << "tried to insert after the end of forward_list";
 
-					return this->end();
+					return end();
 				}
 
 				iterator iter { pos };
@@ -396,7 +386,7 @@ namespace cust					//customized / non-standard
 			//removes element(s) in the specified range
 			iterator erase_after(const_iterator first, const_iterator last)
 			{
-				iterator iter = first == last ? last : std::next(first);
+				iterator iter { first == last ? last : std::next(first) };
 
 				for ( ; iter != last; iter = erase_after(first));
 
@@ -452,7 +442,7 @@ namespace cust					//customized / non-standard
 				}
 			}
 
-			//reverse the order of the elements in the forward_list
+			//reverses the order of the elements of the forward_list
 			void reverse() noexcept
 			{
 				node_pointer prev { nullptr };
@@ -469,8 +459,8 @@ namespace cust					//customized / non-standard
 			}
 
 			/*
-			 *	Try to simulate std::forward_list::splice_after(pos, prev_first, std::next(back))
-			 *	rotate range (prev_first, back] to next of pos
+			 *	Tried to simulate std::forward_list::splice_after(pos, prev_first, std::next(back))
+			 *	rotates range (prev_first, back] to next of pos
 			 */
 			void rotate(const_iterator pos, const_iterator prev_first, const_iterator back) noexcept
 			{
@@ -498,7 +488,7 @@ namespace cust					//customized / non-standard
 
 		private:
 			/*
-			 *	Merge the sorted range (prev2, back2] into the sorted range (prev1, back1]
+			 *	Merges the sorted range (prev2, back2] into the sorted range (prev1, back1]
 			 */
 			template<class Compare = std::less<>>
 			node_pointer inplace_merge(node_pointer prev1, node_pointer back1, node_pointer prev2, node_pointer back2, Compare cmp = Compare{})
