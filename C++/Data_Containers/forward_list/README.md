@@ -10,7 +10,7 @@
 ```C++
 namespace cust					//customized / non-standard
 {
-	//node data strucure of forward_list data container
+	//node data structure of forward_list data container
 	template<class T>
 	struct forward_list_node
 	{
@@ -154,11 +154,11 @@ int main(int argc, char* argv[])
 
 	std::cout << std::boolalpha;
 
-	std::cout << "list 1 : " << lst1;	//
-	std::cout << "list 2 : " << lst2;	// 0   0   0
-	std::cout << "list 3 : " << lst3;	// 7   7   7
-	std::cout << "list 4 : " << lst4;	// 2   4   6   8   10
-	std::cout << "list 5 : " << lst5;	//
+	std::cout << "list 1 : " << lst1;		//
+	std::cout << "list 2 : " << lst2;		// 0   0   0
+	std::cout << "list 3 : " << lst3;		// 7   7   7
+	std::cout << "list 4 : " << lst4;		// 2   4   6   8   10
+	std::cout << "list 5 : " << lst5;		//
 
 	lst1.push_front(1);
 	lst1.push_front(3);
@@ -174,7 +174,7 @@ int main(int argc, char* argv[])
 
 	lst1.reverse();
 
-	std::cout << "list 1 : " << lst1;	// 1   3   5   7   9
+	std::cout << "list 1 : " << lst1;		// 1   3   5   7   9
 
 	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";	// false
 
@@ -184,11 +184,11 @@ int main(int argc, char* argv[])
 
 	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";	// true
 
-	std::cout << "list 2 : " << lst2;	// 7   7   7
+	std::cout << "list 2 : " << lst2;		// 7   7   7
 
 	lst3 = { 7 , 77 , 777 };
 
-	std::cout << "list 3 : " << lst3;	// 7   77   777
+	std::cout << "list 3 : " << lst3;		// 7   77   777
 
 	lst5.emplace_front(std::move(str3));
 	lst5.emplace_front(std::move(str2));
@@ -218,8 +218,8 @@ int main(int argc, char* argv[])
 
 	lst1.merge(lst4);
 
-	std::cout << "list 1 : " << lst1;	// 1   2   3   4   5   6   7   8   9   10
-	std::cout << "list 4 : " << lst4;	//
+	std::cout << "list 1 : " << lst1;		// 1   2   3   4   5   6   7   8   9   10
+	std::cout << "list 4 : " << lst4;		//
 
 	// ......
 
