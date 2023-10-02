@@ -27,35 +27,28 @@ namespace cust					//customized / non-standard
 		using size_type    = size_t;
 		using node_pointer = list_node*;
 
-		/*	We don't need these since C++20
-		list_node() noexcept = default;
-
-		list_node(node_pointer ptr1, node_pointer ptr2, const value_type& val) : next { ptr1 }, prev { ptr2 }, value { val }
-		{
-		}
-
-		list_node(node_pointer ptr1, node_pointer ptr2, T&& val) : next { ptr1 }, prev { ptr2 }, value { std::forward<T>(val) }
-		{
-		}
-		*/
-
 		//adds a node by allocating memory space and calling its constructor
 		template<class Allocator, class... Args>
 		[[nodiscard]] static node_pointer new_node(Allocator& alloc, Args&&... args)
 		{
 			auto ptr { allocator_traits<Allocator>::allocate(alloc, 1) };
 
-			allocator_traits<Allocator>::construct(alloc, ptr, nullptr, nullptr, std::forward<Args>(args)...);
+			ptr->prev = ptr->next = nullptr;
+
+			allocator_traits<Allocator>::construct(alloc, std::addressof(ptr->value), std::forward<Args>(args)...);
 
 			return ptr;
 		}
 
 		template<class Allocator, class... Args>
-		[[nodiscard]] static node_pointer new_one_node(Allocator& alloc, Args&&... args)
+		[[nodiscard]] static node_pointer new_one_node(Allocator& alloc, node_pointer next, node_pointer prev, Args&&... args)
 		{
 			auto ptr { allocator_traits<Allocator>::allocate(alloc, 1) };
 
-			allocator_traits<Allocator>::construct(alloc, ptr, std::forward<Args>(args)...);
+			ptr->next = next;
+			ptr->prev = prev;
+
+			allocator_traits<Allocator>::construct(alloc, std::addressof(ptr->value), std::forward<Args>(args)...);
 
 			return ptr;
 		}
@@ -344,7 +337,7 @@ namespace cust					//customized / non-standard
 			}
 
 			//move assignment
-			list& operator = (list&& other)
+			list& operator = (list&& other) noexcept
 			{
 				clear();
 
@@ -433,31 +426,31 @@ namespace cust					//customized / non-standard
 				return pseudo_head->prev->value;
 			}
 
-			//adds an element to the beginning of the container
+			//adds an element (with copy semantics) to the beginning of the container
 			void push_front(const value_type& value)
 			{
 				emplace_front(value);
 			}
 
-			//adds an element to the beginning of the container
+			//adds an element (with move semantics) to the beginning of the container
 			void push_front(value_type&& value)
 			{
 				emplace_front(std::move(value));
 			}
 
-			//appends an element to the end of the container
+			//appends an element (with copy semantics) to the end of the container
 			void push_back(const value_type& value)
 			{
 				emplace_back(value);
 			}
 
-			//appends an element to the end of the container
+			//appends an element (with move semantics) to the end of the container
 			void push_back(value_type&& value)
 			{
 				emplace_back(std::move(value));
 			}
 
-			//adds an element to the beginning of the container
+			//adds an element (in-place) to the beginning of the container
 			template<class... Args>
 			reference emplace_front(Args&&... args)
 			{
@@ -470,7 +463,7 @@ namespace cust					//customized / non-standard
 				return front();
 			}
 
-			//appends an element to the end of the container
+			//appends an element (in-place) to the end of the container
 			template<class... Args>
 			reference emplace_back(Args&&... args)
 			{
@@ -607,8 +600,8 @@ namespace cust					//customized / non-standard
 			}
 
 			/*
-			 *	Try to simulate std::list::splice(pos, *this, first, last)
-			 *	rotate range [first, last) to next of pos
+			 *	Tried to simulate std::list::splice(pos, *this, first, last)
+			 *	rotates range [first, last) to next of pos
 			 */
 			void rotate(const_iterator pos, const_iterator first, const_iterator last) noexcept
 			{
