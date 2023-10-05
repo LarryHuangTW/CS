@@ -154,11 +154,11 @@ int main(int argc, char* argv[])
 
 	std::cout << std::boolalpha;
 
-	std::cout << "list 1 : " << lst1;		//
-	std::cout << "list 2 : " << lst2;		// 0   0   0
-	std::cout << "list 3 : " << lst3;		// 7   7   7
-	std::cout << "list 4 : " << lst4;		// 2   4   6   8   10
-	std::cout << "list 5 : " << lst5;		//
+	std::cout << "list 1 : " << lst1;			//
+	std::cout << "list 2 : " << lst2;			// 0   0   0
+	std::cout << "list 3 : " << lst3;			// 7   7   7
+	std::cout << "list 4 : " << lst4;			// 2   4   6   8   10
+	std::cout << "list 5 : " << lst5;			//
 
 	lst1.push_front(1);
 	lst1.push_front(3);
@@ -174,7 +174,7 @@ int main(int argc, char* argv[])
 
 	lst1.reverse();
 
-	std::cout << "list 1 : " << lst1;		// 1   3   5   7   9
+	std::cout << "list 1 : " << lst1;			// 1   3   5   7   9
 
 	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";	// false
 
@@ -184,29 +184,31 @@ int main(int argc, char* argv[])
 
 	std::cout << "Are the values of list 2 and 3 are equal? " << (lst2 == lst3) << "\n\n";	// true
 
-	std::cout << "list 2 : " << lst2;		// 7   7   7
+	std::cout << "list 2 : " << lst2;			// 7   7   7
 
 	lst3 = { 3 , 9 , 1 , 6 , 4 , 2 , 5 , 8 , 7 };
 
-	std::cout << "list 3 : " << lst3;		// 3   9   1   6   4   2   5   8   7
+	std::cout << "list 3 : " << lst3;			// 3   9   1   6   4   2   5   8   7
+
+	std::cout << "[ sort list 3 ]\n\n";
 
 	lst3.sort();
 
-	std::cout << "list 3 : " << lst3;		// 1   2   3   4   5   6   7   8   9
+	std::cout << "list 3 : " << lst3;			// 1   2   3   4   5   6   7   8   9
 
 	lst5.emplace_front(std::move(str3));
 	lst5.emplace_front(std::move(str2));
 	lst5.emplace_front(std::move(str1));
 
-	std::cout << "list 5   : " << lst5;		// Hi   Hello   World
-	std::cout << "string 1 : " << str1 << "\n";	//
-	std::cout << "string 2 : " << str2 << "\n";	//
-	std::cout << "string 3 : " << str3 << "\n\n";	//
+	std::cout << "list 5   : " << lst5;			// Hi   Hello   World
+	std::cout << "string 1 : " << str1 << "\n";		//
+	std::cout << "string 2 : " << str2 << "\n";		//
+	std::cout << "string 3 : " << str3 << "\n\n";		//
 
 	cust::forward_list<std::string> lst6 { std::move(lst5) };
 
-	std::cout << "list 5 : " << lst5;		//
-	std::cout << "list 6 : " << lst6;		// Hi   Hello   World
+	std::cout << "list 5 : " << lst5;			//
+	std::cout << "list 6 : " << lst6;			// Hi   Hello   World
 
 	auto iter { std::find(lst4.begin(), lst4.end(), 6) };
 
@@ -218,12 +220,12 @@ int main(int argc, char* argv[])
 	if (iter == lst4.end())
 		std::cout << "No element with data " << 100 << " in the list 4\n\n";
 
-	std::cout << "[merge list 1 and 4 ]\n\n";
+	std::cout << "[ merge list 1 and 4 ]\n\n";
 
 	lst1.merge(lst4);
 
-	std::cout << "list 1 : " << lst1;		// 1   2   3   4   5   6   7   8   9   10
-	std::cout << "list 4 : " << lst4;		//
+	std::cout << "list 1 : " << lst1;			// 1   2   3   4   5   6   7   8   9   10
+	std::cout << "list 4 : " << lst4;			//
 
 	// ......
 
