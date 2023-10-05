@@ -186,9 +186,13 @@ int main(int argc, char* argv[])
 
 	std::cout << "list 2 : " << lst2;		// 7   7   7
 
-	lst3 = { 7 , 77 , 777 };
+	lst3 = { 3 , 9 , 1 , 6 , 4 , 2 , 5 , 8 , 7 };
 
-	std::cout << "list 3 : " << lst3;		// 7   77   777
+	std::cout << "list 3 : " << lst3;		// 3   9   1   6   4   2   5   8   7
+
+	lst3.sort();
+
+	std::cout << "list 3 : " << lst3;		// 1   2   3   4   5   6   7   8   9
 
 	lst5.emplace_front(std::move(str3));
 	lst5.emplace_front(std::move(str2));
