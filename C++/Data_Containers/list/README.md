@@ -80,7 +80,7 @@ namespace cust					//customized / non-standard
 
 			//assignment operators
 			list& operator = (const list& other);
-			list& operator = (list&& other);
+			list& operator = (list&& other) noexcept;
 			list& operator = (std::initializer_list<value_type> initList);
 
 			size_type size() const noexcept;				//returns number of elements in the container
@@ -106,9 +106,13 @@ namespace cust					//customized / non-standard
 			template<class... Args>
 			reference emplace_back(Args&&... args);				//constructs an element in-place to the end of the container
 
+			void swap(list& other) noexcept;				//swaps all elements with other list
 			void reverse() noexcept;					//reverses the order of the elements in the list
 			void merge(list& other);					//merges two sorted lists
 			void merge(list&& other);
+
+			template<class Compare = std::less<>>
+			void sort(Compare cmp = Compare{});				//sorts the elements of the list
 
 			iterator       begin()  noexcept;
 			const_iterator begin()  const noexcept;
@@ -190,9 +194,15 @@ int main(int argc, char* argv[])
 
 	std::cout << "list 2 : " << lst2;			// 7   7   7
 
-	lst3 = { 7 , 77 , 777 };
+	lst3 = { 3 , 9 , 1 , 6 , 4 , 2 , 5 , 8 , 7 };
 
-	std::cout << "list 3 : " << lst3;			// 7   77   777
+	std::cout << "list 3 : " << lst3;			// 3   9   1   6   4   2   5   8   7
+
+	std::cout << "[ sort list 3 ]\n\n";
+
+	lst3.sort();
+
+	std::cout << "list 3 : " << lst3;			// 1   2   3   4   5   6   7   8   9
 
 	lst5.emplace_front(std::move(str2));
 	lst5.emplace_back(std::move(str3));

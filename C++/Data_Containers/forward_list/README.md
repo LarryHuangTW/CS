@@ -96,6 +96,7 @@ namespace cust					//customized / non-standard
 			iterator erase_after(const_iterator pos);				//removes an element at the specified position
 			iterator erase_after(const_iterator first, const_iterator last);	//removes element(s) in the specified range
 
+			void swap(forward_list& other) noexcept;				//swaps all elements with other forward_list
 			void reverse() noexcept;						//reverses the order of the elements in the forward_list
 			void merge(forward_list& other);					//merges two sorted forward_list
 			void merge(forward_list&& other);

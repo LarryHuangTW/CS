@@ -287,8 +287,7 @@ namespace cust					//customized / non-standard
 			//move constructor
 			list(list&& other) noexcept
 			{
-				std::swap(pseudo_head, other.pseudo_head);
-				std::swap(sz, other.sz);
+				swap(other);
 			}
 
 			//constructor with initializer list
@@ -341,8 +340,7 @@ namespace cust					//customized / non-standard
 			{
 				clear();
 
-				std::swap(pseudo_head, other.pseudo_head);
-				std::swap(sz, other.sz);
+				swap(other);
 
 				return *this;
 			}
@@ -554,35 +552,43 @@ namespace cust					//customized / non-standard
 				return last;
 			}
 
+			//swaps all elements with other list
+			void swap(list& other) noexcept
+			{
+				std::swap(pseudo_head, other.pseudo_head);
+				std::swap(sz, other.sz);
+			}
+
 			//merges two sorted lists
 			void merge(list& other)
 			{
-				if ( !other.empty() )
-				{
-					auto other_head { other.begin().prev() };
-
-					inplace_merge(pseudo_head, pseudo_head->prev, other_head, other_head->prev);
-
-					other_head->prev = other_head->next = nullptr;
-
-					sz += other.sz;
-					other.sz = 0;
-				}
+				merge_other(other);
 			}
 
 			//merges two sorted lists
 			void merge(list&& other)
 			{
-				if ( !other.empty() )
+				merge_other(other);
+			}
+
+			/*
+			 *	sorts the elements of the list
+			 *
+			 *	in-place merge sort (recursive, top-down version)
+			 */
+			template<class Compare = std::less<>>
+			void sort(Compare cmp = Compare{})
+			{
+				size_type step { 2 };
+
+				if (empty())
+					return;
+
+				for (auto back1 { merge_sort(pseudo_head, step, cmp) }; back1->next != pseudo_head; step <<= 1)
 				{
-					auto other_head { other.begin().prev() };
+					auto back2 { merge_sort(back1, step, cmp) };
 
-					inplace_merge(pseudo_head, pseudo_head->prev, other_head, other_head->prev);
-
-					other_head->prev = other_head->next = nullptr;
-
-					sz += other.sz;
-					other.sz = 0;
+					back1 = merge_self(pseudo_head, back1, back2, cmp);
 				}
 			}
 
@@ -644,64 +650,108 @@ namespace cust					//customized / non-standard
 			const_reverse_iterator crend() const noexcept { return rend(); }
 
 		private:
+			//merges other sorted list
+			template<class Compare = std::less<>>
+			void merge_other(list& other, Compare cmp = Compare{})
+			{
+				node_type* const prev2 { other.pseudo_head };
+
+				if (empty())
+					swap(other);
+
+				if (other.empty())
+					return;
+
+				for (node_pointer prev1 { pseudo_head }, ptr { nullptr }, tmp { nullptr }; ; prev1 = ptr)
+				{
+					for ( ; prev1->next != pseudo_head && !cmp(prev2->next->value, prev1->next->value); prev1 = prev1->next);
+
+					if (prev1->next == pseudo_head)
+					{
+						prev1->next = prev2->next;
+						prev2->next->prev = prev1;
+
+						prev2->prev->next = pseudo_head;
+						pseudo_head->prev = prev2->prev;
+
+						break;
+					}
+
+					for (ptr = prev2; ptr->next != prev2 && cmp(ptr->next->value, prev1->next->value); ptr = ptr->next);
+
+					tmp = ptr->next;
+
+					ptr->next = prev1->next;
+					ptr->next->prev = ptr;
+
+					prev1->next = prev2->next;
+					prev1->next->prev = prev1;
+
+					if (tmp == prev2)
+						break;
+
+					prev2->next = tmp;
+					tmp->prev   = prev2;
+				}
+
+				prev2->prev = prev2->next = nullptr;
+
+				sz += other.sz;
+				other.sz = 0;
+			}
+
 			/*
-			 *	Merges the sorted range (prev2, back2] into the sorted range (prev1, back1]
+			 *	merges two consecutiveand sorted ranges of elements of the same list
+			 *
+			 *	(prev, back1]
+			 *	      (back1, back2]
 			 */
 			template<class Compare = std::less<>>
-			node_pointer inplace_merge(node_pointer prev1, node_pointer back1, node_pointer prev2, node_pointer back2, Compare cmp = Compare{})
+			node_pointer merge_self(node_pointer prev, node_pointer back1, node_pointer back2, Compare cmp = Compare{})
 			{
-				if (prev1 == nullptr || back1 == nullptr || prev2 == nullptr || back2 == nullptr)
-					return back1;
-
-				for ( ; ; )
+				for (node_pointer ptr { nullptr }, tmp { nullptr }; back2 != ptr; prev = ptr)
 				{
-					while (prev1 != back1 && !cmp(prev2->next->value, prev1->next->value))
-						prev1 = prev1->next;
+					for ( ; prev != back1 && !cmp(back1->next->value, prev->next->value); prev = prev->next);
 
-					if (prev1 == back1)
+					if (prev == back1)
 					{
-						if (back1 != prev2)
-						{
-							prev1 = prev1->next;
-
-							back1->next       = prev2->next;
-							prev2->next->prev = back1;
-
-							prev2->next       = back2->next;
-							back2->next->prev = prev2;
-
-							back2->next = prev1;
-							prev1->prev = back2;
-						}
-
 						back1 = back2;
 
 						break;
 					}
 
-					auto ptr2 { prev2 };
+					for (ptr = back1; ptr != back2 && cmp(ptr->next->value, prev->next->value); ptr = ptr->next);
 
-					while (ptr2 != back2 && cmp(ptr2->next->value, prev1->next->value))
-						ptr2 = ptr2->next;
+					tmp = ptr->next;
 
-					auto tmp2 { ptr2->next };
+					ptr->next = prev->next;
+					ptr->next->prev = ptr;
 
-					ptr2->next        = prev1->next;
-					prev1->next->prev = ptr2;
+					prev->next = back1->next;
+					prev->next->prev = prev;
 
-					prev1->next       = prev2->next;
-					prev2->next->prev = prev1;
-
-					prev2->next = tmp2;
-					tmp2->prev  = prev2;
-
-					if (ptr2 == back2)
-						break;
-
-					prev1 = ptr2;
+					back1->next = tmp;
+					tmp->prev   = back1;
 				}
 
 				return back1;
+			}
+
+			//merge sort
+			template<class Compare = std::less<>>
+			node_pointer merge_sort(node_pointer prev, size_type count, Compare cmp = Compare{})
+			{
+				if (prev == nullptr)
+					return nullptr;
+
+				if (count == 1)
+					return prev->next == pseudo_head ? nullptr : prev->next;
+
+				auto half  { count >> 1 };
+				auto back1 { merge_sort(prev,  half,         cmp) };
+				auto back2 { merge_sort(back1, count - half, cmp) };
+
+				return merge_self(prev, back1, back2, cmp);
 			}
 
 			node_pointer        pseudo_head { nullptr };
