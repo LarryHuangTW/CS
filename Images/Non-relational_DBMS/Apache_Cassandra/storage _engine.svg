@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="11.6929in" height="8.26772in" viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st19">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-width:1}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:1.5em}
+		.st3 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st4 {font-size:1em}
+		.st5 {fill:none;stroke:#0000ff;stroke-width:1.5}
+		.st6 {fill:#0000ff;font-family:Times New Roman;font-size:1.5em}
+		.st7 {fill:none;stroke:none;stroke-width:0.25}
+		.st8 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st9 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st10 {marker-end:url(#mrkr5-52);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st11 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st12 {fill:none;stroke:none;stroke-width:1}
+		.st13 {marker-end:url(#mrkr5-52);marker-start:url(#mrkr5-79);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st14 {fill:#ff0000;font-family:Times New Roman;font-size:1.16666em}
+		.st15 {marker-end:url(#mrkr5-52);marker-start:url(#mrkr5-79);stroke:#ff0000;stroke-width:1}
+		.st16 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st17 {marker-start:url(#mrkr5-79);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st18 {marker-end:url(#mrkr5-142);stroke:#ff0000;stroke-width:1}
+		.st19 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-52" class="st11" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr5-79" class="st11" refX="5.8" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.52) "/>
+		</marker>
+		<marker id="mrkr5-142" class="st11" refX="-5.8" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape1-1" transform="translate(28.3465,-354.331)">
+			<title>Circle</title>
+			<desc>client</desc>
+			<path d="M0 566.93 A28.3465 28.3465 0 0 1 56.69 566.93 A28.3465 28.3465 0 1 1 0 566.93 Z" class="st1"/>
+			<text x="8.36" y="572.33" class="st2">client</text>		</g>
+		<g id="shape2-4" transform="translate(141.732,-340.157)">
+			<title>Square</title>
+			<desc>Apache Cassandra coordinator</desc>
+			<rect x="0" y="510.236" width="85.0394" height="85.0394" class="st1"/>
+			<text x="18.09" y="538.36" class="st3">Apache <tspan x="9.64" dy="1.2em" class="st4">Cassandra</tspan> <tspan x="5.64"
+						dy="1.2em" class="st4">coordinator</tspan></text>		</g>
+		<g id="shape3-9" transform="translate(354.331,-325.984)">
+			<title>Square.3</title>
+			<rect x="0" y="481.89" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape4-11" transform="translate(368.504,-340.157)">
+			<title>Rectangle</title>
+			<desc>instance</desc>
+			<rect x="0" y="524.409" width="85.0394" height="70.8661" rx="11.3386" ry="11.3386" class="st5"/>
+			<text x="13.03" y="565.24" class="st6">instance</text>		</g>
+		<g id="shape5-14" transform="translate(354.331,-411.024)">
+			<title>Sheet.5</title>
+			<desc>cpu</desc>
+			<rect x="0" y="566.929" width="42.5197" height="28.3465" class="st7"/>
+			<text x="11.15" y="585.3" class="st8">cpu</text>		</g>
+		<g id="shape6-17" transform="translate(524.409,-325.984)">
+			<title>Rectangle.6</title>
+			<rect x="0" y="481.89" width="226.772" height="113.386" class="st1"/>
+		</g>
+		<g id="shape7-19" transform="translate(524.409,-411.024)">
+			<title>Sheet.7</title>
+			<desc>memory</desc>
+			<rect x="0" y="566.929" width="56.6929" height="28.3465" class="st7"/>
+			<text x="5.02" y="585.3" class="st8">memory</text>		</g>
+		<g id="shape8-22" transform="translate(595.276,-340.157)">
+			<title>Triangle</title>
+			<desc>Memtables</desc>
+			<path d="M141.73 595.28 L70.87 510.24 L0 595.28 L141.73 595.28 Z" class="st5"/>
+			<text x="30.88" y="572.33" class="st6">Memtables</text>		</g>
+		<g id="shape9-25" transform="translate(623.622,-325.984)">
+			<title>Sheet.9</title>
+			<desc>LSM Tree</desc>
+			<rect x="0" y="552.756" width="85.0394" height="42.5197" class="st7"/>
+			<text x="17.69" y="577.62" class="st9">LSM Tree</text>		</g>
+		<g id="shape10-28" transform="translate(325.984,-184.252)">
+			<title>Rectangle.10</title>
+			<rect x="0" y="481.89" width="170.079" height="113.386" class="st1"/>
+		</g>
+		<g id="shape11-30" transform="translate(325.984,-184.252)">
+			<title>Sheet.11</title>
+			<desc>disk 1</desc>
+			<rect x="0" y="566.929" width="56.6929" height="28.3465" class="st7"/>
+			<text x="11.43" y="585.3" class="st8">disk 1</text>		</g>
+		<g id="shape12-33" transform="translate(368.504,-205.512)">
+			<title>Document</title>
+			<desc>Commitlogs</desc>
+			<path d="M0 586.42 L0 524.41 L113.39 524.41 L113.39 586.42 A49.7835 49.7835 -180 0 0 56.69 586.42 A49.7835 49.7835 0
+						 0 1 0 586.42 Z" class="st5"/>
+			<text x="12.19" y="556.38" class="st6">Commitlogs</text>		</g>
+		<g id="shape13-36" transform="translate(524.409,-184.252)">
+			<title>Rectangle.13</title>
+			<rect x="0" y="481.89" width="226.772" height="113.386" class="st1"/>
+		</g>
+		<g id="shape14-38" transform="translate(524.409,-184.252)">
+			<title>Sheet.14</title>
+			<desc>disk 2</desc>
+			<rect x="0" y="566.929" width="56.6929" height="28.3465" class="st7"/>
+			<text x="11.43" y="585.3" class="st8">disk 2</text>		</g>
+		<g id="shape15-41" transform="translate(595.276,-198.425)">
+			<title>Triangle.15</title>
+			<desc>SSTables</desc>
+			<path d="M141.73 595.28 L70.87 510.24 L0 595.28 L141.73 595.28 Z" class="st5"/>
+			<text x="36.87" y="572.33" class="st6">SSTables</text>		</g>
+		<g id="shape16-44" transform="translate(623.622,-184.252)">
+			<title>Sheet.16</title>
+			<desc>LSM Tree</desc>
+			<rect x="0" y="552.756" width="85.0394" height="42.5197" class="st7"/>
+			<text x="17.69" y="577.62" class="st9">LSM Tree</text>		</g>
+		<g id="shape17-47" transform="translate(1006.3,255.118) rotate(90)">
+			<title>Sheet.17</title>
+			<path d="M0 595.28 L57.62 595.28" class="st10"/>
+		</g>
+		<g id="shape18-53" transform="translate(453.543,-375.591) rotate(3.21002E-06)">
+			<title>Sheet.18</title>
+			<path d="M0 595.28 L165.41 595.28" class="st10"/>
+		</g>
+		<g id="shape19-58" transform="translate(1261.42,255.118) rotate(90)">
+			<title>Sheet.19</title>
+			<path d="M0 595.28 L50.53 595.28" class="st10"/>
+		</g>
+		<g id="shape20-63" transform="translate(297.638,-141.732)">
+			<title>Rectangle.20</title>
+			<rect x="0" y="269.291" width="481.89" height="325.984" class="st1"/>
+		</g>
+		<g id="shape21-65" transform="translate(453.543,-141.732)">
+			<title>Sheet.21</title>
+			<desc>Apache Cassandra node</desc>
+			<rect x="0" y="566.929" width="170.079" height="28.3465" class="st12"/>
+			<text x="8.18" y="585.9" class="st3">Apache Cassandra node</text>		</g>
+		<g id="shape22-68" transform="translate(85.0394,-382.677)">
+			<title>Sheet.22</title>
+			<path d="M0 595.28 L50.53 595.28" class="st10"/>
+		</g>
+		<g id="shape23-73" transform="translate(226.772,-382.677)">
+			<title>Sheet.23</title>
+			<path d="M5.8 595.28 L6.16 595.28 L135.57 595.28" class="st13"/>
+		</g>
+		<g id="shape24-81" transform="translate(85.0394,-382.677)">
+			<title>Sheet.24</title>
+			<desc>1. write</desc>
+			<rect x="0" y="566.929" width="56.6929" height="28.3465" class="st12"/>
+			<text x="4" y="585.3" class="st14">1. write</text>		</g>
+		<g id="shape25-84" transform="translate(240.945,-382.677)">
+			<title>Sheet.25</title>
+			<desc>2</desc>
+			<rect x="0" y="566.929" width="56.6929" height="28.3465" class="st12"/>
+			<text x="24.85" y="585.3" class="st14">2</text>		</g>
+		<g id="shape26-87" transform="translate(382.677,-297.638)">
+			<title>Sheet.26</title>
+			<desc>3</desc>
+			<rect x="0" y="566.929" width="28.3465" height="28.3465" class="st12"/>
+			<text x="10.67" y="585.3" class="st14">3</text>		</g>
+		<g id="shape27-90" transform="translate(481.89,-368.504)">
+			<title>Sheet.27</title>
+			<desc>4</desc>
+			<rect x="0" y="552.756" width="28.3465" height="42.5197" class="st12"/>
+			<text x="10.67" y="578.22" class="st14">4</text>		</g>
+		<g id="shape28-93" transform="translate(623.622,-297.638)">
+			<title>Sheet.28</title>
+			<desc>flush</desc>
+			<rect x="0" y="566.929" width="42.5197" height="28.3465" class="st12"/>
+			<text x="7.26" y="585.3" class="st14">flush</text>		</g>
+		<g id="shape29-96" transform="translate(297.638,-42.5197)">
+			<title>Rectangle.29</title>
+			<desc>Apache Cassandra node</desc>
+			<rect x="0" y="538.583" width="155.906" height="56.6929" class="st1"/>
+			<text x="10.7" y="571.13" class="st8">Apache Cassandra node</text>		</g>
+		<g id="shape31-99" transform="translate(297.638,-510.236)">
+			<title>Rectangle.31</title>
+			<desc>Apache Cassandra node</desc>
+			<rect x="0" y="538.583" width="155.906" height="56.6929" class="st1"/>
+			<text x="10.7" y="571.13" class="st8">Apache Cassandra node</text>		</g>
+		<g id="shape33-102" transform="translate(226.772,-396.85)">
+			<title>Sheet.33</title>
+			<path d="M5.8 595.28 L6.16 595.28 L14.17 595.28 L14.17 453.54 L64.71 453.54" class="st15"/>
+		</g>
+		<g id="shape34-109" transform="translate(226.772,822.047) scale(1,-1)">
+			<title>Sheet.34</title>
+			<path d="M5.8 595.28 L6.16 595.28 L14.17 595.28 L14.17 297.64 L64.71 297.64" class="st15"/>
+		</g>
+		<g id="shape35-116" transform="translate(311.811,-354.331)">
+			<title>Sheet.35</title>
+			<desc>5. ack</desc>
+			<rect x="0" y="566.929" width="42.5197" height="28.3465" class="st12"/>
+			<text x="4.55" y="585.3" class="st14">5. ack</text>		</g>
+		<g id="shape36-119" transform="translate(70.8661,-439.37)">
+			<title>Sheet.36</title>
+			<desc>replication factor (RF) = 3</desc>
+			<rect x="0" y="566.929" width="155.906" height="28.3465" class="st12"/>
+			<text x="4.03" y="585.3" class="st16">replication factor (RF) = 3</text>		</g>
+		<g id="shape37-122" transform="translate(28.3465,-14.1732)">
+			<title>Sheet.37</title>
+			<desc>consistency levels: ONE, TWO, THREE, QUORUM, ALL, ANY ...</desc>
+			<rect x="0" y="566.929" width="396.85" height="28.3465" class="st12"/>
+			<text x="6.73" y="585.3" class="st16">consistency levels: ONE, TWO, THREE, QUORUM, ALL, ANY ...</text>		</g>
+		<g id="shape38-125" transform="translate(28.3465,-56.6929)">
+			<title>Sheet.38</title>
+			<desc>QUORUM: RF / 2 + 1 R + W &#62; RF</desc>
+			<rect x="0" y="538.583" width="141.732" height="56.6929" class="st12"/>
+			<text x="4" y="554.33" class="st16">QUORUM: RF / 2 + 1  <tspan x="4" dy="2.4em" class="st4">R + W &#62; RF</tspan></text>		</g>
+		<g id="shape40-129" transform="translate(80.7874,-368.504)">
+			<title>Sheet.40</title>
+			<path d="M5.8 595.28 L6.16 595.28 L60.94 595.28" class="st17"/>
+		</g>
+		<g id="shape41-134" transform="translate(56.6929,-340.157)">
+			<title>Sheet.41</title>
+			<desc>7. response</desc>
+			<rect x="0" y="566.929" width="85.0394" height="28.3465" class="st12"/>
+			<text x="18.05" y="585.3" class="st14">7. response</text>		</g>
+		<g id="shape43-137" transform="translate(155.906,-283.465)">
+			<title>Sheet.43</title>
+			<path d="M28.35 538.58 A28.3465 28.3465 -180 0 0 0 566.93 A28.3465 28.3465 -180 0 0 28.35 595.28 A28.3465 28.3465 -180
+						 0 0 56.69 566.93 A14.1732 24.0945 -180 0 0 48.31 544.94 L47.97 544.81" class="st18"/>
+		</g>
+		<g id="shape44-143" transform="translate(127.559,-240.945)">
+			<title>Sheet.44</title>
+			<desc>6. consistency level</desc>
+			<rect x="0" y="552.756" width="99.2126" height="42.5197" class="st7"/>
+			<text x="9.95" y="569.82" class="st14">6. consistency <tspan x="36" dy="1.2em" class="st4">level</tspan></text>		</g>
+	</g>
+</svg>

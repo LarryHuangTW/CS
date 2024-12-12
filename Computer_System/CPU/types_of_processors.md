@@ -2,6 +2,8 @@
 
 **GPU**: Graphics    Processing Unit
 
+**NPU**: Neural      Processing Unit
+
 **FPGA**: Field-Programmable Gate Array
 
 **ASIC**: Application-Specific Integrated Circuit

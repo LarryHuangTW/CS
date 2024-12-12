@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="5.65978in" height="5.06923in" viewBox="0 0 407.504 364.984" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st7">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#cbffff;stroke:#cbffff;stroke-width:1.5}
+		.st2 {fill:#0000ff;font-family:Times New Roman;font-size:1.16666em}
+		.st3 {fill:none;stroke:#000000;stroke-width:1.5}
+		.st4 {fill:none;stroke:none;stroke-width:0.25}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:2.50001em}
+		.st6 {font-size:1em}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Page-1</title>
+		<g id="shape15-1" transform="translate(189.579,-67.6103)">
+			<title>Sheet.15</title>
+			<desc>AP</desc>
+			<path d="M14.17 364.98 A99.2126 99.2126 -180 0 0 28.35 313.88 A99.2126 99.2126 -180 0 0 14.17 262.78 A99.2126 99.2126
+						 -180 0 0 0 313.88 A99.2126 99.2126 -180 0 0 14.17 364.98 Z" class="st1"/>
+			<text x="5.23" y="318.08" class="st2">AP</text>		</g>
+		<g id="shape4-4" transform="translate(76.1929,-171.862)">
+			<title>Ellipse</title>
+			<path d="M0 278.17 A127.559 86.811 0 1 1 255.12 278.17 A127.559 86.811 0 1 1 0 278.17 Z" class="st3"/>
+		</g>
+		<g id="shape5-6" transform="translate(118.713,-232.098)">
+			<title>Sheet.5</title>
+			<desc>Consistency</desc>
+			<rect x="0" y="308.291" width="170.079" height="56.6929" class="st4"/>
+			<text x="11.71" y="345.64" class="st5">Consistency</text>		</g>
+		<g id="shape6-9" transform="translate(19.5,-76.1929)">
+			<title>Sheet.6</title>
+			<desc>Availability</desc>
+			<rect x="0" y="279.945" width="170.079" height="85.0394" class="st4"/>
+			<text x="13.39" y="331.46" class="st5">Availability</text>		</g>
+		<g id="shape7-12" transform="translate(217.925,-76.1929)">
+			<title>Sheet.7</title>
+			<desc>Partition Tolerance</desc>
+			<rect x="0" y="279.945" width="170.079" height="85.0394" class="st4"/>
+			<text x="33.37" y="313.46" class="st5">Partition <tspan x="25.08" dy="1.2em" class="st6">T</tspan>olerance</text>		</g>
+		<g id="shape14-16" transform="translate(203.752,-19.5)">
+			<title>Sheet.14</title>
+			<path d="M0 316.87 A99.2126 99.2126 -180 0 0 184.25 265.77 A99.2126 99.2126 -180 0 0 0 214.67 A99.2126 99.2126 0 0 1
+						 14.17 265.77 A99.2126 99.2126 0 0 1 -0 316.87 Z" class="st3"/>
+		</g>
+		<g id="shape16-18" transform="translate(19.5,-19.5)">
+			<title>Sheet.16</title>
+			<path d="M184.25 316.87 A99.2126 99.2126 0 0 1 170.08 265.77 A99.2126 99.2126 0 0 1 184.25 214.67 A99.2126 99.2126 -180
+						 0 0 0 265.77 A99.2126 99.2126 -180 0 0 184.25 316.87 Z" class="st3"/>
+		</g>
+	</g>
+</svg>
