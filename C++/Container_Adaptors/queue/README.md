@@ -5,7 +5,7 @@
 ```C++
 namespace cust					//customized / non-standard
 {
-	//a container adaptor with fast-in, first-out (FIFO) property
+	//a container adaptor with first-in, first-out (FIFO) property
 	template<class T, class Container = std::deque<T>>
 	class queue
 	{
