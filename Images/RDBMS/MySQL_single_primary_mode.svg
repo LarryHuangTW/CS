@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="22.8858in" height="16.0354in" viewBox="0 0 1647.78 1154.55" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st22">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#7f7f7f;stroke-width:1}
+		.st2 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st3 {fill:#ffffff;stroke:#7f7f7f;stroke-width:1}
+		.st4 {fill:none;stroke:#000000;stroke-width:1.5}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st6 {fill:none;stroke:none;stroke-width:0.25}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st8 {fill:#0000ff;font-size:1em}
+		.st9 {fill:#000000;font-size:1em}
+		.st10 {marker-end:url(#mrkr5-67);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st11 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st12 {fill:none;stroke:#000000;stroke-dasharray:7,5;stroke-width:1}
+		.st13 {fill:#000000;font-family:Times New Roman;font-size:1.66667em}
+		.st14 {fill:none;stroke:none;stroke-width:1}
+		.st15 {fill:#000000;font-family:Times New Roman;font-size:2.50001em}
+		.st16 {font-size:1em}
+		.st17 {marker-end:url(#mrkr5-207);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st18 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st19 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st20 {fill:#000000;font-family:Times New Roman;font-size:1.16666em;font-weight:bold}
+		.st21 {font-size:1em;font-weight:normal}
+		.st22 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-67" class="st11" refX="-7.42" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr5-207" class="st18" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape57-1" transform="translate(864.567,-516.756)">
+			<title>Triangle.57</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st1"/>
+		</g>
+		<g id="shape58-3" transform="translate(864.567,-488.409)">
+			<title>Rectangle.58</title>
+			<desc>Paxos-based variant protocol</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st1"/>
+			<text x="20.52" y="1145.18" class="st2">Paxos-based variant protocol</text>		</g>
+		<g id="shape95-6" transform="translate(864.567,-559.276)">
+			<title>Triangle.95</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st3"/>
+		</g>
+		<g id="shape96-8" transform="translate(864.567,-530.929)">
+			<title>Rectangle.96</title>
+			<desc>Group Communication System</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st3"/>
+			<text x="13.84" y="1145.18" class="st2">Group Communication System</text>		</g>
+		<g id="shape46-11" transform="translate(496.063,-516.756)">
+			<title>Triangle.46</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st1"/>
+		</g>
+		<g id="shape47-13" transform="translate(496.063,-488.409)">
+			<title>Rectangle.47</title>
+			<desc>Paxos-based variant protocol</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st1"/>
+			<text x="20.52" y="1145.18" class="st2">Paxos-based variant protocol</text>		</g>
+		<g id="shape93-16" transform="translate(496.063,-559.276)">
+			<title>Triangle.93</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st3"/>
+		</g>
+		<g id="shape94-18" transform="translate(496.063,-530.929)">
+			<title>Rectangle.94</title>
+			<desc>Group Communication System</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st3"/>
+			<text x="13.84" y="1145.18" class="st2">Group Communication System</text>		</g>
+		<g id="shape38-21" transform="translate(127.559,-516.756)">
+			<title>Triangle.38</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st1"/>
+		</g>
+		<g id="shape39-23" transform="translate(127.559,-488.409)">
+			<title>Rectangle.39</title>
+			<desc>Paxos-based variant protocol</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st1"/>
+			<text x="20.52" y="1145.18" class="st2">Paxos-based variant protocol</text>		</g>
+		<g id="shape91-26" transform="translate(127.559,-559.276)">
+			<title>Triangle.91</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st3"/>
+		</g>
+		<g id="shape92-28" transform="translate(127.559,-530.929)">
+			<title>Rectangle.92</title>
+			<desc>Group Communication System</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st3"/>
+			<text x="13.84" y="1145.18" class="st2">Group Communication System</text>		</g>
+		<g id="shape26-31" transform="translate(127.559,-601.795)">
+			<title>Triangle.26</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st3"/>
+		</g>
+		<g id="shape28-33" transform="translate(127.559,-573.449)">
+			<title>Rectangle.28</title>
+			<desc>Group Replication</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st3"/>
+			<text x="54.07" y="1145.18" class="st2">Group Replication</text>		</g>
+		<g id="shape29-36" transform="translate(283.465,-885.26)">
+			<title>Rectangle.29</title>
+			<rect x="0" y="1026.99" width="170.079" height="127.559" class="st4"/>
+		</g>
+		<g id="shape30-38" transform="translate(297.638,-941.953)">
+			<title>Rectangle.30</title>
+			<desc>MySQL connector</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st4"/>
+			<text x="11.1" y="1145.18" class="st5">MySQL connector</text>		</g>
+		<g id="shape31-41" transform="translate(297.638,-899.433)">
+			<title>Rectangle.31</title>
+			<desc>MySQL router</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st4"/>
+			<text x="23.54" y="1145.18" class="st5">MySQL router</text>		</g>
+		<g id="shape32-44" transform="translate(297.638,-984.472)">
+			<title>Sheet.32</title>
+			<desc>Application Server 1</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st6"/>
+			<text x="12.55" y="1144.58" class="st7">Application Server 1</text>		</g>
+		<g id="shape33-47" transform="translate(170.079,-743.528)">
+			<title>Rectangle.33</title>
+			<desc>source primary instance R/W</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.99" y="1111.81" class="st2">source <tspan x="17.33" dy="1.2em" class="st8">primary instance </tspan><tspan
+						x="55.76" dy="1.2em" class="st8">R/W</tspan></text>		</g>
+		<g id="shape34-52" transform="translate(85.0394,-644.315)">
+			<title>Rectangle.34</title>
+			<desc>replica secondary instance R/O</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.1" y="1111.81" class="st2">replica <tspan x="10.23" dy="1.2em" class="st9">secondary instance </tspan><tspan
+						x="57.53" dy="1.2em" class="st9">R/O</tspan></text>		</g>
+		<g id="shape35-57" transform="translate(255.118,-644.315)">
+			<title>Rectangle.35</title>
+			<desc>replica secondary instance R/O</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.1" y="1111.81" class="st2">replica <tspan x="10.23" dy="1.2em" class="st9">secondary instance </tspan><tspan
+						x="57.53" dy="1.2em" class="st9">R/O</tspan></text>		</g>
+		<g id="shape36-62" transform="translate(757.276,1443.69) rotate(153.435)">
+			<title>Sheet.36</title>
+			<path d="M0 1154.55 L87.66 1154.55" class="st10"/>
+		</g>
+		<g id="shape37-68" transform="translate(757.276,-621.638) rotate(26.5651)">
+			<title>Sheet.37</title>
+			<path d="M0 1154.55 L87.66 1154.55" class="st10"/>
+		</g>
+		<g id="shape44-73" transform="translate(70.8661,-431.717)">
+			<title>Rectangle</title>
+			<path d="M0 1154.55 L340.16 1154.55 L340.16 771.87 L0 771.87 L0 1154.55 Z" class="st12"/>
+		</g>
+		<g id="shape45-75" transform="translate(177.165,-431.717)">
+			<title>Sheet.45</title>
+			<desc>Partition 1</desc>
+			<rect x="0" y="1126.2" width="127.559" height="28.3465" class="st6"/>
+			<text x="30.22" y="1145.18" class="st5">Partition 1</text>		</g>
+		<g id="shape48-78" transform="translate(496.063,-601.795)">
+			<title>Triangle.48</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st3"/>
+		</g>
+		<g id="shape49-80" transform="translate(496.063,-573.449)">
+			<title>Rectangle.49</title>
+			<desc>Group Replication</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st3"/>
+			<text x="54.07" y="1145.18" class="st2">Group Replication</text>		</g>
+		<g id="shape50-83" transform="translate(538.583,-743.528)">
+			<title>Rectangle.50</title>
+			<desc>source primary instance R/W</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.99" y="1111.81" class="st2">source <tspan x="17.33" dy="1.2em" class="st8">primary instance </tspan><tspan
+						x="55.76" dy="1.2em" class="st8">R/W</tspan></text>		</g>
+		<g id="shape51-88" transform="translate(453.543,-644.315)">
+			<title>Rectangle.51</title>
+			<desc>replica secondary instance R/O</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.1" y="1111.81" class="st2">replica <tspan x="10.23" dy="1.2em" class="st9">secondary instance </tspan><tspan
+						x="57.53" dy="1.2em" class="st9">R/O</tspan></text>		</g>
+		<g id="shape52-93" transform="translate(623.622,-644.315)">
+			<title>Rectangle.52</title>
+			<desc>replica secondary instance R/O</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.1" y="1111.81" class="st2">replica <tspan x="10.23" dy="1.2em" class="st9">secondary instance </tspan><tspan
+						x="57.53" dy="1.2em" class="st9">R/O</tspan></text>		</g>
+		<g id="shape53-98" transform="translate(1125.78,1443.69) rotate(153.435)">
+			<title>Sheet.53</title>
+			<path d="M0 1154.55 L87.66 1154.55" class="st10"/>
+		</g>
+		<g id="shape54-103" transform="translate(1125.78,-621.638) rotate(26.5651)">
+			<title>Sheet.54</title>
+			<path d="M0 1154.55 L87.66 1154.55" class="st10"/>
+		</g>
+		<g id="shape55-108" transform="translate(439.37,-431.717)">
+			<title>Rectangle.55</title>
+			<path d="M0 1154.55 L340.16 1154.55 L340.16 771.87 L0 771.87 L0 1154.55 Z" class="st12"/>
+		</g>
+		<g id="shape56-110" transform="translate(545.669,-431.717)">
+			<title>Sheet.56</title>
+			<desc>Partition 2</desc>
+			<rect x="0" y="1126.2" width="127.559" height="28.3465" class="st6"/>
+			<text x="30.22" y="1145.18" class="st5">Partition 2</text>		</g>
+		<g id="shape59-113" transform="translate(864.567,-601.795)">
+			<title>Triangle.59</title>
+			<path d="M226.77 1154.55 L113.39 1126.2 L0 1154.55 L226.77 1154.55 Z" class="st3"/>
+		</g>
+		<g id="shape60-115" transform="translate(864.567,-573.449)">
+			<title>Rectangle.60</title>
+			<desc>Group Replication</desc>
+			<rect x="0" y="1126.2" width="226.772" height="28.3465" class="st3"/>
+			<text x="54.07" y="1145.18" class="st2">Group Replication</text>		</g>
+		<g id="shape61-118" transform="translate(907.087,-743.528)">
+			<title>Rectangle.61</title>
+			<desc>source primary instance R/W</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.99" y="1111.81" class="st2">source <tspan x="17.33" dy="1.2em" class="st8">primary instance </tspan><tspan
+						x="55.76" dy="1.2em" class="st8">R/W</tspan></text>		</g>
+		<g id="shape62-123" transform="translate(822.047,-644.315)">
+			<title>Rectangle.62</title>
+			<desc>replica secondary instance R/O</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.1" y="1111.81" class="st2">replica <tspan x="10.23" dy="1.2em" class="st9">secondary instance </tspan><tspan
+						x="57.53" dy="1.2em" class="st9">R/O</tspan></text>		</g>
+		<g id="shape63-128" transform="translate(992.126,-644.315)">
+			<title>Rectangle.63</title>
+			<desc>replica secondary instance R/O</desc>
+			<rect x="0" y="1097.86" width="141.732" height="56.6929" class="st4"/>
+			<text x="49.1" y="1111.81" class="st2">replica <tspan x="10.23" dy="1.2em" class="st9">secondary instance </tspan><tspan
+						x="57.53" dy="1.2em" class="st9">R/O</tspan></text>		</g>
+		<g id="shape64-133" transform="translate(1494.28,1443.69) rotate(153.435)">
+			<title>Sheet.64</title>
+			<path d="M0 1154.55 L87.66 1154.55" class="st10"/>
+		</g>
+		<g id="shape65-138" transform="translate(1494.28,-621.638) rotate(26.5651)">
+			<title>Sheet.65</title>
+			<path d="M0 1154.55 L87.66 1154.55" class="st10"/>
+		</g>
+		<g id="shape66-143" transform="translate(807.874,-431.717)">
+			<title>Rectangle.66</title>
+			<path d="M0 1154.55 L340.16 1154.55 L340.16 771.87 L0 771.87 L0 1154.55 Z" class="st12"/>
+		</g>
+		<g id="shape67-145" transform="translate(914.173,-431.717)">
+			<title>Sheet.67</title>
+			<desc>Partition 3</desc>
+			<rect x="0" y="1126.2" width="127.559" height="28.3465" class="st6"/>
+			<text x="30.22" y="1145.18" class="st5">Partition 3</text>		</g>
+		<g id="shape68-148" transform="translate(524.409,-885.26)">
+			<title>Rectangle.68</title>
+			<rect x="0" y="1026.99" width="170.079" height="127.559" class="st4"/>
+		</g>
+		<g id="shape69-150" transform="translate(538.583,-941.953)">
+			<title>Rectangle.69</title>
+			<desc>MySQL connector</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st4"/>
+			<text x="11.1" y="1145.18" class="st5">MySQL connector</text>		</g>
+		<g id="shape70-153" transform="translate(538.583,-899.433)">
+			<title>Rectangle.70</title>
+			<desc>MySQL router</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st4"/>
+			<text x="23.54" y="1145.18" class="st5">MySQL router</text>		</g>
+		<g id="shape71-156" transform="translate(538.583,-984.472)">
+			<title>Sheet.71</title>
+			<desc>Application Server 2</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st6"/>
+			<text x="12.55" y="1144.58" class="st7">Application Server 2</text>		</g>
+		<g id="shape72-159" transform="translate(765.354,-885.26)">
+			<title>Rectangle.72</title>
+			<rect x="0" y="1026.99" width="170.079" height="127.559" class="st4"/>
+		</g>
+		<g id="shape73-161" transform="translate(779.528,-941.953)">
+			<title>Rectangle.73</title>
+			<desc>MySQL connector</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st4"/>
+			<text x="11.1" y="1145.18" class="st5">MySQL connector</text>		</g>
+		<g id="shape74-164" transform="translate(779.528,-899.433)">
+			<title>Rectangle.74</title>
+			<desc>MySQL router</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st4"/>
+			<text x="23.54" y="1145.18" class="st5">MySQL router</text>		</g>
+		<g id="shape75-167" transform="translate(779.528,-984.472)">
+			<title>Sheet.75</title>
+			<desc>Application Server 3</desc>
+			<rect x="0" y="1126.2" width="141.732" height="28.3465" class="st6"/>
+			<text x="12.55" y="1144.58" class="st7">Application Server 3</text>		</g>
+		<g id="shape76-170" transform="translate(42.5197,-375.024)">
+			<title>Rectangle.76</title>
+			<path d="M0 1154.55 L1133.86 1154.55 L1133.86 686.83 L0 686.83 L0 1154.55 Z" class="st12"/>
+		</g>
+		<g id="shape77-172" transform="translate(510.236,-375.024)">
+			<title>Sheet.77</title>
+			<desc>MySQL HA Cluster</desc>
+			<rect x="0" y="1126.2" width="198.425" height="28.3465" class="st6"/>
+			<text x="18.1" y="1146.38" class="st13">MySQL HA Cluster</text>		</g>
+		<g id="shape78-175" transform="translate(453.543,-1055.34)">
+			<title>Sheet.78</title>
+			<desc>MySQL InnoDB Cluster single-primary mode</desc>
+			<rect x="0" y="1083.69" width="311.811" height="70.8661" class="st14"/>
+			<text x="7.57" y="1110.12" class="st15">MySQL InnoDB Cluster <tspan x="30.52" dy="1.2em" class="st16">single</tspan>-primary mode</text>		</g>
+		<g id="shape79-179" transform="translate(554.012,-884.432) rotate(9.24611)">
+			<title>Sheet.79</title>
+			<path d="M0 1154.55 L610.05 1154.55" class="st10"/>
+		</g>
+		<g id="shape80-184" transform="translate(909.602,1369.97) rotate(164.932)">
+			<title>Sheet.80</title>
+			<path d="M0 1154.55 L374.21 1154.55" class="st10"/>
+		</g>
+		<g id="shape81-189" transform="translate(1289.99,1322.71) rotate(157.62)">
+			<title>Sheet.81</title>
+			<path d="M0 1154.55 L253.15 1154.55" class="st10"/>
+		</g>
+		<g id="shape82-194" transform="translate(1006.3,-885.26)">
+			<title>Square</title>
+			<desc>MySQL shell</desc>
+			<rect x="0" y="1069.51" width="85.0394" height="85.0394" class="st4"/>
+			<text x="16.29" y="1107.23" class="st5">MySQL <tspan x="27.41" dy="1.2em" class="st16">shell</tspan></text>		</g>
+		<g id="shape83-198" transform="translate(127.559,-885.26)">
+			<title>Square.83</title>
+			<desc>MySQL shell</desc>
+			<rect x="0" y="1069.51" width="85.0394" height="85.0394" class="st4"/>
+			<text x="16.29" y="1107.23" class="st5">MySQL <tspan x="27.41" dy="1.2em" class="st16">shell</tspan></text>		</g>
+		<g id="shape84-202" transform="translate(1935.77,1008.42) rotate(129.806)">
+			<title>Sheet.84</title>
+			<path d="M0 1154.55 L104.54 1154.55" class="st17"/>
+		</g>
+		<g id="shape85-208" transform="translate(1057.03,-469.834) rotate(50.1944)">
+			<title>Sheet.85</title>
+			<path d="M0 1154.55 L104.54 1154.55" class="st17"/>
+		</g>
+		<g id="shape86-213" transform="translate(1523.06,212.598) rotate(90)">
+			<title>Sheet.86</title>
+			<path d="M0 1154.55 L14.17 1154.55" class="st19"/>
+		</g>
+		<g id="shape87-216" transform="translate(1764,212.598) rotate(90)">
+			<title>Sheet.87</title>
+			<path d="M0 1154.55 L14.17 1154.55" class="st19"/>
+		</g>
+		<g id="shape88-219" transform="translate(2004.94,212.598) rotate(90)">
+			<title>Sheet.88</title>
+			<path d="M0 1154.55 L14.17 1154.55" class="st19"/>
+		</g>
+		<g id="shape89-222" transform="translate(42.5197,-233.291)">
+			<title>Sheet.89</title>
+			<desc>Group communication system: automatic membership management, ...</desc>
+			<rect x="0" y="1126.2" width="1091.34" height="28.3465" class="st14"/>
+			<text x="9.57" y="1144.6" class="st20">Group communication system<tspan class="st21">: </tspan><tspan class="st21">automatic membership management</tspan><tspan
+						class="st21">, </tspan><tspan class="st21">failure detection, fault tolerance</tspan><tspan class="st21">, </tspan><tspan
+						class="st21">automatic primary election, automatic failover</tspan><tspan class="st21">, </tspan><tspan
+						class="st21">disaster tolerance</tspan><tspan class="st21">, </tspan><tspan class="st21">split</tspan><tspan
+						class="st21">-</tspan><tspan class="st21">brain protection</tspan></text>		</g>
+		<g id="shape90-237" transform="translate(42.5197,-275.811)">
+			<title>Sheet.90</title>
+			<desc>MySQL router: connects client applications to server instance...</desc>
+			<rect x="0" y="1126.2" width="595.276" height="28.3465" class="st14"/>
+			<text x="10.33" y="1144.6" class="st20">MySQL router<tspan class="st21">:</tspan><tspan class="st21"> </tspan><tspan
+						class="st21">connects client applications to server instances, providing routing and load</tspan><tspan
+						class="st21">-</tspan><tspan class="st21">balancing</tspan></text>		</g>
+		<g id="shape97-245" transform="translate(42.5197,-318.331)">
+			<title>Sheet.97</title>
+			<desc>Replication types: asynchronous, semisynchronous</desc>
+			<rect x="0" y="1126.2" width="311.811" height="28.3465" class="st14"/>
+			<text x="10.09" y="1144.6" class="st20">Replication types<tspan class="st21">: a</tspan><tspan class="st21">synchronous,</tspan><tspan
+						class="st21"> </tspan><tspan class="st21">semisynchronous</tspan></text>		</g>
+		<g id="shape98-252" transform="translate(42.5197,-190.772)">
+			<title>Sheet.98</title>
+			<desc>Paxos-based protocol: atomic messaging (broadcast), total ord...</desc>
+			<rect x="0" y="1126.2" width="481.89" height="28.3465" class="st14"/>
+			<text x="7.48" y="1144.6" class="st20">Paxos-based protocol<tspan class="st21">: </tspan><tspan class="st21">atomic messag</tspan><tspan
+						class="st21">ing (</tspan><tspan class="st21">broadcast</tspan><tspan class="st21">), </tspan><tspan
+						class="st21">total order message delivery</tspan></text>		</g>
+	</g>
+</svg>

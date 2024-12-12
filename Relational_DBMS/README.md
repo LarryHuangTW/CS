@@ -1,1 +1,1 @@
-![Relational Database Management System](/Images/RDBMS.svg)
+![Relational Database Management System](/Images/RDBMS/RDBMS.svg)
