@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Illustrator: Larry Huang -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="11.6929in" height="31.5709in" viewBox="0 0 841.89 2273.1" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st45">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-width:1}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-width:1}
+		.st3 {fill:none;stroke:#7f7f7f;stroke-width:1}
+		.st4 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.16666em}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.16666em}
+		.st6 {marker-end:url(#mrkr5-32);marker-start:url(#mrkr5-30);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st7 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.3315649867374}
+		.st8 {fill:#bfbfbf;stroke:#bfbfbf;stroke-width:1}
+		.st9 {fill:none;stroke:#000000;stroke-dasharray:7,5;stroke-width:1}
+		.st10 {fill:none;stroke:none;stroke-width:0.25}
+		.st11 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st12 {fill:#000000;font-family:Times New Roman;font-size:1.33333em}
+		.st13 {font-size:1em}
+		.st14 {marker-end:url(#mrkr5-230);marker-start:url(#mrkr5-228);stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st15 {fill:#7f7f7f;fill-opacity:1;stroke:#7f7f7f;stroke-opacity:1;stroke-width:0.3315649867374}
+		.st16 {marker-end:url(#mrkr5-32);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st17 {fill:#0000ff;font-family:Times New Roman;font-size:1.16666em}
+		.st18 {marker-start:url(#mrkr5-30);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st19 {fill:#ff0000;font-size:0.874996em}
+		.st20 {font-size:0.874996em}
+		.st21 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.33333em}
+		.st22 {fill:#7f7f7f;font-family:Times New Roman;font-size:1.00001em}
+		.st23 {stroke:#7f7f7f;stroke-dasharray:1,2;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st24 {fill:none;stroke:#385da2;stroke-linecap:butt;stroke-width:1.25}
+		.st25 {fill:none;stroke:#0000ff;stroke-width:1}
+		.st26 {fill:#4672c4;stroke:none;stroke-width:0.25}
+		.st27 {fill:#4672c4;stroke:#c7c8c8;stroke-width:0.25}
+		.st28 {stroke:#c7c8c8;stroke-width:0.25}
+		.st29 {fill:#0000ff;font-family:Times New Roman;font-size:1.00001em}
+		.st30 {font-family:Wingdings;font-size:1em}
+		.st31 {marker-end:url(#mrkr5-439);marker-start:url(#mrkr5-437);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st32 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.3315649867374}
+		.st33 {fill:#ff0000;font-family:Times New Roman;font-size:1.16666em}
+		.st34 {marker-end:url(#mrkr5-452);marker-start:url(#mrkr5-450);stroke:#ff0000;stroke-width:1}
+		.st35 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st36 {marker-end:url(#mrkr5-452);stroke:#ff0000;stroke-width:1}
+		.st37 {marker-end:url(#mrkr5-452);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st38 {fill:#ff0000;font-family:Times New Roman;font-size:1.33333em}
+		.st39 {stroke:#0000ff;stroke-dasharray:1,2;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st40 {fill:#7f7f7f;font-family:Wingdings;font-size:1.00001em}
+		.st41 {font-family:Times New Roman;font-size:1em}
+		.st42 {fill:#000000;font-family:Times New Roman;font-size:3em}
+		.st43 {fill:#000000;font-size:1em}
+		.st44 {font-size:1em;font-weight:bold}
+		.st45 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-30" class="st7" refX="4.99" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.016) "/>
+		</marker>
+		<marker id="mrkr5-32" class="st7" refX="-5.278" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.016,-3.016) "/>
+		</marker>
+		<marker id="mrkr5-228" class="st15" refX="4.99" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.016) "/>
+		</marker>
+		<marker id="mrkr5-230" class="st15" refX="-5.278" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.016,-3.016) "/>
+		</marker>
+		<marker id="mrkr5-437" class="st32" refX="4.99" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.016) "/>
+		</marker>
+		<marker id="mrkr5-439" class="st32" refX="-5.278" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.016,-3.016) "/>
+		</marker>
+		<marker id="mrkr5-450" class="st35" refX="5.8" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(3.52) "/>
+		</marker>
+		<marker id="mrkr5-452" class="st35" refX="-6.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page-1</title>
+		<g id="shape203-1" transform="translate(453.543,-1756.35)">
+			<title>Sheet.203</title>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+		</g>
+		<g id="shape202-3" transform="translate(439.37,-1770.52)">
+			<title>Sheet.202</title>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st2"/>
+		</g>
+		<g id="shape200-5" transform="translate(496.063,-1898.08)">
+			<title>Sheet.200</title>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st3"/>
+		</g>
+		<g id="shape196-7" transform="translate(396.85,-2039.81)">
+			<title>Sheet.196</title>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+		</g>
+		<g id="shape195-9" transform="translate(382.677,-2053.98)">
+			<title>Sheet.195</title>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st2"/>
+		</g>
+		<g id="shape168-11" transform="translate(311.811,-579.968)">
+			<title>Sheet.168</title>
+			<rect x="0" y="2173.89" width="99.2126" height="99.2126" class="st2"/>
+		</g>
+		<g id="shape167-13" transform="translate(297.638,-594.142)">
+			<title>Sheet.167</title>
+			<rect x="0" y="2173.89" width="99.2126" height="99.2126" class="st2"/>
+		</g>
+		<g id="shape44-15" transform="translate(481.89,-1331.15)">
+			<title>Sheet.44</title>
+			<desc>ZKFC</desc>
+			<rect x="0" y="2244.76" width="56.6929" height="28.3465" class="st3"/>
+			<text x="10.45" y="2263.13" class="st4">ZKFC</text>		</g>
+		<g id="shape43-18" transform="translate(368.504,-1331.15)">
+			<title>Sheet.43</title>
+			<desc>ZKFC</desc>
+			<rect x="0" y="2244.76" width="56.6929" height="28.3465" class="st1"/>
+			<text x="10.45" y="2263.13" class="st5">ZKFC</text>		</g>
+		<g id="shape42-21" transform="translate(255.118,-1331.15)">
+			<title>Sheet.42</title>
+			<desc>ZKFC</desc>
+			<rect x="0" y="2244.76" width="56.6929" height="28.3465" class="st1"/>
+			<text x="10.45" y="2263.13" class="st5">ZKFC</text>		</g>
+		<g id="shape102-24" transform="translate(976.505,-1263.28) rotate(14.0362)">
+			<title>Sheet.102</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L285.59 2273.1" class="st6"/>
+		</g>
+		<g id="shape10-33" transform="translate(127.559,-1146.9)">
+			<title>Sheet.10</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape11-35" transform="translate(155.906,-1146.9)">
+			<title>Sheet.11</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape12-37" transform="translate(113.386,-1118.55)">
+			<title>Sheet.12</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape13-39" transform="translate(141.732,-1132.72)">
+			<title>Sheet.13</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape14-41" transform="translate(155.906,-1118.55)">
+			<title>Sheet.14</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape15-43" transform="translate(170.079,-1118.55)">
+			<title>Sheet.15</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape6-45" transform="translate(198.425,-1302.8)">
+			<title>Sheet.6</title>
+			<path d="M0 2273.1 L368.5 2273.1 L368.5 2131.37 L0 2131.37 L0 2273.1 Z" class="st9"/>
+		</g>
+		<g id="shape9-47" transform="translate(113.386,-1090.2)">
+			<title>Sheet.9</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape16-50" transform="translate(113.386,-1047.69)">
+			<title>Sheet.16</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape17-52" transform="translate(155.906,-1047.69)">
+			<title>Sheet.17</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape18-54" transform="translate(113.386,-1019.34)">
+			<title>Sheet.18</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape19-56" transform="translate(127.559,-1047.69)">
+			<title>Sheet.19</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape20-58" transform="translate(141.732,-1033.51)">
+			<title>Sheet.20</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape21-60" transform="translate(170.079,-1019.34)">
+			<title>Sheet.21</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape22-62" transform="translate(113.386,-990.992)">
+			<title>Sheet.22</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape24-65" transform="translate(113.386,-948.472)">
+			<title>Sheet.24</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape25-67" transform="translate(141.732,-948.472)">
+			<title>Sheet.25</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape26-69" transform="translate(113.386,-920.126)">
+			<title>Sheet.26</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape27-71" transform="translate(170.079,-948.472)">
+			<title>Sheet.27</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape28-73" transform="translate(155.906,-934.299)">
+			<title>Sheet.28</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape29-75" transform="translate(141.732,-920.126)">
+			<title>Sheet.29</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape30-77" transform="translate(113.386,-891.78)">
+			<title>Sheet.30</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape32-80" transform="translate(85.0394,-849.26)">
+			<title>Sheet.32</title>
+			<rect x="0" y="1947.12" width="127.559" height="325.984" class="st1"/>
+		</g>
+		<g id="shape33-82" transform="translate(85.0394,-849.26)">
+			<title>Sheet.33</title>
+			<desc>server rack</desc>
+			<rect x="0" y="2244.76" width="127.559" height="28.3465" class="st10"/>
+			<text x="32.88" y="2263.13" class="st5">server rack</text>		</g>
+		<g id="shape34-85" transform="translate(226.772,-1529.57)">
+			<title>Sheet.34</title>
+			<desc>JournalNode</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+			<text x="6.75" y="2234.78" class="st5">JournalNode</text>		</g>
+		<g id="shape35-88" transform="translate(340.157,-1529.57)">
+			<title>Sheet.35</title>
+			<desc>JournalNode</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+			<text x="6.75" y="2235.38" class="st5">JournalNode</text>		</g>
+		<g id="shape36-91" transform="translate(453.543,-1529.57)">
+			<title>Sheet.36</title>
+			<desc>JournalNode</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st3"/>
+			<text x="6.75" y="2235.38" class="st5">JournalNode</text>		</g>
+		<g id="shape37-94" transform="translate(198.425,-1501.23)">
+			<title>Sheet.37</title>
+			<path d="M0 2273.1 L368.5 2273.1 L368.5 2131.37 L0 2131.37 L0 2273.1 Z" class="st9"/>
+		</g>
+		<g id="shape38-96" transform="translate(481.89,-1501.23)">
+			<title>Sheet.38</title>
+			<desc>journal nodes</desc>
+			<rect x="0" y="2244.76" width="85.0394" height="28.3465" class="st10"/>
+			<text x="10.03" y="2262.53" class="st11">journal nodes</text>		</g>
+		<g id="shape41-99" transform="translate(708.661,-1217.76)">
+			<title>Sheet.41</title>
+			<desc>Apache Zookeeper quorum</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+			<text x="18.09" y="2216.18" class="st12">Apache  <tspan x="8.32" dy="1.2em" class="st13">Zookeeper </tspan><tspan
+						x="17.63" dy="1.2em" class="st13">quorum</tspan></text>		</g>
+		<g id="shape45-104" transform="translate(56.6929,-1331.15)">
+			<title>Sheet.45</title>
+			<desc>HDFS clients</desc>
+			<ellipse cx="42.5197" cy="2230.58" rx="42.5197" ry="42.5197" class="st1"/>
+			<text x="22.07" y="2225.78" class="st12">HDFS <tspan x="21.64" dy="1.2em" class="st13">clients</tspan></text>		</g>
+		<g id="shape46-108" transform="translate(354.331,-1146.9)">
+			<title>Sheet.46</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape47-110" transform="translate(382.677,-1146.9)">
+			<title>Sheet.47</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape48-112" transform="translate(354.331,-1118.55)">
+			<title>Sheet.48</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape49-114" transform="translate(368.504,-1132.72)">
+			<title>Sheet.49</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape50-116" transform="translate(382.677,-1118.55)">
+			<title>Sheet.50</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape51-118" transform="translate(340.157,-1132.72)">
+			<title>Sheet.51</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape52-120" transform="translate(340.157,-1090.2)">
+			<title>Sheet.52</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape54-123" transform="translate(396.85,-1047.69)">
+			<title>Sheet.54</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape55-125" transform="translate(382.677,-1047.69)">
+			<title>Sheet.55</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape56-127" transform="translate(340.157,-1019.34)">
+			<title>Sheet.56</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape57-129" transform="translate(340.157,-1047.69)">
+			<title>Sheet.57</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape58-131" transform="translate(368.504,-1019.34)">
+			<title>Sheet.58</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape59-133" transform="translate(396.85,-1019.34)">
+			<title>Sheet.59</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape60-135" transform="translate(340.157,-990.992)">
+			<title>Sheet.60</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape62-138" transform="translate(396.85,-934.299)">
+			<title>Sheet.62</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape63-140" transform="translate(354.331,-934.299)">
+			<title>Sheet.63</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape64-142" transform="translate(340.157,-920.126)">
+			<title>Sheet.64</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape65-144" transform="translate(382.677,-948.472)">
+			<title>Sheet.65</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape66-146" transform="translate(382.677,-920.126)">
+			<title>Sheet.66</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape67-148" transform="translate(368.504,-920.126)">
+			<title>Sheet.67</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape68-150" transform="translate(340.157,-891.78)">
+			<title>Sheet.68</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape70-153" transform="translate(311.811,-849.26)">
+			<title>Sheet.70</title>
+			<rect x="0" y="1947.12" width="127.559" height="325.984" class="st1"/>
+		</g>
+		<g id="shape71-155" transform="translate(311.811,-849.26)">
+			<title>Sheet.71</title>
+			<desc>server rack</desc>
+			<rect x="0" y="2244.76" width="127.559" height="28.3465" class="st10"/>
+			<text x="32.88" y="2263.13" class="st5">server rack</text>		</g>
+		<g id="shape72-158" transform="translate(566.929,-1146.9)">
+			<title>Sheet.72</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape73-160" transform="translate(609.449,-1146.9)">
+			<title>Sheet.73</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape74-162" transform="translate(581.102,-1118.55)">
+			<title>Sheet.74</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape75-164" transform="translate(595.276,-1132.72)">
+			<title>Sheet.75</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape76-166" transform="translate(609.449,-1118.55)">
+			<title>Sheet.76</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape77-168" transform="translate(623.622,-1132.72)">
+			<title>Sheet.77</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape78-170" transform="translate(566.929,-1090.2)">
+			<title>Sheet.78</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape80-173" transform="translate(609.449,-1019.34)">
+			<title>Sheet.80</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape81-175" transform="translate(609.449,-1047.69)">
+			<title>Sheet.81</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape82-177" transform="translate(566.929,-1019.34)">
+			<title>Sheet.82</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape83-179" transform="translate(581.102,-1033.51)">
+			<title>Sheet.83</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape84-181" transform="translate(595.276,-1033.51)">
+			<title>Sheet.84</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape85-183" transform="translate(623.622,-1019.34)">
+			<title>Sheet.85</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape86-185" transform="translate(566.929,-990.992)">
+			<title>Sheet.86</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape88-188" transform="translate(566.929,-948.472)">
+			<title>Sheet.88</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape89-190" transform="translate(595.276,-948.472)">
+			<title>Sheet.89</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape90-192" transform="translate(566.929,-920.126)">
+			<title>Sheet.90</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape91-194" transform="translate(623.622,-948.472)">
+			<title>Sheet.91</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape92-196" transform="translate(581.102,-934.299)">
+			<title>Sheet.92</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape93-198" transform="translate(595.276,-920.126)">
+			<title>Sheet.93</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape94-200" transform="translate(566.929,-891.78)">
+			<title>Sheet.94</title>
+			<desc>DataNode</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="7.06" y="2264.9" class="st5">DataNode</text>		</g>
+		<g id="shape96-203" transform="translate(538.583,-849.26)">
+			<title>Sheet.96</title>
+			<rect x="0" y="1947.12" width="127.559" height="325.984" class="st1"/>
+		</g>
+		<g id="shape97-205" transform="translate(538.583,-849.26)">
+			<title>Sheet.97</title>
+			<desc>server rack</desc>
+			<rect x="0" y="2244.76" width="127.559" height="28.3465" class="st10"/>
+			<text x="32.88" y="2263.13" class="st5">server rack</text>		</g>
+		<g id="shape98-208" transform="translate(2542.39,771.874) rotate(90)">
+			<title>Sheet.98</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L78.44 2273.1" class="st6"/>
+		</g>
+		<g id="shape99-215" transform="translate(2655.78,771.874) rotate(90)">
+			<title>Sheet.99</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L78.44 2273.1" class="st6"/>
+		</g>
+		<g id="shape100-222" transform="translate(2769.17,771.874) rotate(90)">
+			<title>Sheet.100</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L78.44 2273.1" class="st14"/>
+		</g>
+		<g id="shape101-231" transform="translate(1257.4,-1214.5) rotate(18.4349)">
+			<title>Sheet.101</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L172.68 2273.1" class="st14"/>
+		</g>
+		<g id="shape103-238" transform="translate(788.092,-1280.69) rotate(12.0948)">
+			<title>Sheet.103</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L399.26 2273.1" class="st6"/>
+		</g>
+		<g id="shape7-245" transform="translate(496.063,-1416.19)">
+			<title>Sheet.7</title>
+			<desc>name nodes</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="6.94" y="2262.53" class="st11">name nodes</text>		</g>
+		<g id="shape105-248" transform="translate(141.732,-1373.67)">
+			<title>Sheet.105</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L78.44 2273.1" class="st6"/>
+		</g>
+		<g id="shape106-255" transform="translate(2307.37,399.502) rotate(76.1939)">
+			<title>Sheet.106</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L168.55 2273.1" class="st6"/>
+		</g>
+		<g id="shape107-262" transform="translate(1920,-437.592) rotate(52.6958)">
+			<title>Sheet.107</title>
+			<path d="M0 2273.1 L370.03 2273.1" class="st16"/>
+		</g>
+		<g id="shape108-267" transform="translate(56.6929,-1444.54)">
+			<title>Sheet.108</title>
+			<desc>file system namespace / metadata queries or changes</desc>
+			<rect x="0" y="2216.41" width="141.732" height="56.6929" class="st10"/>
+			<text x="40.34" y="2232.16" class="st17">file system  <tspan x="9.46" dy="1.2em" class="st13">namespace</tspan> / metadata  <tspan
+						x="18.78" dy="1.2em" class="st13">queries or changes</tspan></text>		</g>
+		<g id="shape109-272" transform="translate(269.291,-1444.54)">
+			<title>Sheet.109</title>
+			<desc>metadata changes</desc>
+			<rect x="0" y="2230.58" width="113.386" height="42.5197" class="st10"/>
+			<text x="7.14" y="2256.04" class="st17">metadata changes</text>		</g>
+		<g id="shape110-275" transform="translate(524.409,-1217.76)">
+			<title>Sheet.110</title>
+			<desc>sessions and lock / leader election</desc>
+			<rect x="0" y="2216.41" width="127.559" height="56.6929" class="st10"/>
+			<text x="28.97" y="2240.56" class="st17">sessions and  <tspan x="5.28" dy="1.2em" class="st13">lock / leader election</tspan></text>		</g>
+		<g id="shape111-279" transform="translate(28.3465,-1246.11)">
+			<title>Sheet.111</title>
+			<desc>read data blocks</desc>
+			<rect x="0" y="2230.58" width="99.2126" height="42.5197" class="st10"/>
+			<text x="37.56" y="2247.64" class="st17">read  <tspan x="17.92" dy="1.2em" class="st13">data blocks</tspan></text>		</g>
+		<g id="shape112-283" transform="translate(170.079,-1246.11)">
+			<title>Sheet.112</title>
+			<desc>write data blocks</desc>
+			<rect x="0" y="2230.58" width="99.2126" height="42.5197" class="st10"/>
+			<text x="35.22" y="2247.64" class="st17">write  <tspan x="17.92" dy="1.2em" class="st13">data blocks</tspan></text>		</g>
+		<g id="shape113-287" transform="translate(411.024,-920.126)">
+			<title>Sheet.113</title>
+			<path d="M0 2273.1 L149.31 2273.1" class="st16"/>
+		</g>
+		<g id="shape114-292" transform="translate(2655.78,1282.11) rotate(90)">
+			<title>Sheet.114</title>
+			<path d="M0 2273.1 L21.75 2273.1" class="st16"/>
+		</g>
+		<g id="shape115-297" transform="translate(382.677,-962.646)">
+			<title>Sheet.115</title>
+			<desc>write data block</desc>
+			<rect x="0" y="2244.76" width="99.2126" height="28.3465" class="st10"/>
+			<text x="4.51" y="2263.13" class="st17">write data block</text>		</g>
+		<g id="shape116-300" transform="translate(439.37,-891.78)">
+			<title>Sheet.116</title>
+			<desc>write data block</desc>
+			<rect x="0" y="2244.76" width="99.2126" height="28.3465" class="st10"/>
+			<text x="4.51" y="2263.13" class="st17">write data block</text>		</g>
+		<g id="shape117-303" transform="translate(212.598,-1217.76)">
+			<title>Sheet.117</title>
+			<desc>replication factor = 3</desc>
+			<rect x="0" y="2230.58" width="127.559" height="42.5197" class="st10"/>
+			<text x="4.83" y="2256.04" class="st4">replication factor = 3</text>		</g>
+		<g id="shape118-306" transform="translate(2655.78,970.299) rotate(90)">
+			<title>Sheet.118</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L99.21 2273.1" class="st18"/>
+		</g>
+		<g id="shape119-311" transform="translate(382.677,-1231.94)">
+			<title>Sheet.119</title>
+			<desc>heartbeats and blockreports</desc>
+			<rect x="0" y="2230.58" width="99.2126" height="42.5197" class="st10"/>
+			<text x="9.38" y="2247.64" class="st17">heartbeats and <tspan x="14.62" dy="1.2em" class="st13">b</tspan>lockreports</text>		</g>
+		<g id="shape120-315" transform="translate(609.449,-934.299)">
+			<title>Sheet.120</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape121-317" transform="translate(623.622,-920.126)">
+			<title>Sheet.121</title>
+			<rect x="0" y="2258.93" width="14.1732" height="14.1732" class="st8"/>
+		</g>
+		<g id="shape122-319" transform="translate(56.6929,-820.913)">
+			<title>Sheet.122</title>
+			<path d="M0 2273.1 L637.8 2273.1 L637.8 1890.43 L0 1890.43 L0 2273.1 Z" class="st9"/>
+		</g>
+		<g id="shape123-321" transform="translate(623.622,-820.913)">
+			<title>Sheet.123</title>
+			<desc>data nodes</desc>
+			<rect x="0" y="2244.76" width="70.8661" height="28.3465" class="st10"/>
+			<text x="9.94" y="2262.53" class="st11">data nodes</text>		</g>
+		<g id="shape79-324" transform="translate(566.929,-1090.2)">
+			<title>Sheet.79</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape87-326" transform="translate(566.929,-990.992)">
+			<title>Sheet.87</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape95-328" transform="translate(566.929,-891.78)">
+			<title>Sheet.95</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape53-330" transform="translate(340.157,-1090.2)">
+			<title>Sheet.53</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape61-332" transform="translate(340.157,-990.992)">
+			<title>Sheet.61</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape69-334" transform="translate(340.157,-891.78)">
+			<title>Sheet.69</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape8-336" transform="translate(113.386,-1090.2)">
+			<title>Sheet.8</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape23-338" transform="translate(113.386,-990.992)">
+			<title>Sheet.23</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape31-340" transform="translate(113.386,-891.78)">
+			<title>Sheet.31</title>
+			<rect x="0" y="2202.24" width="70.8661" height="70.8661" class="st1"/>
+		</g>
+		<g id="shape3-342" transform="translate(226.772,-1331.15)">
+			<title>Sheet.3</title>
+			<desc>NameNode (active)</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+			<text x="6.09" y="2206.46" class="st12">NameNode <tspan x="21.15" dy="1.371em" class="st19">(active)</tspan></text>		</g>
+		<g id="shape4-346" transform="translate(340.157,-1331.15)">
+			<title>Sheet.4</title>
+			<desc>NameNode (hot standby)</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+			<text x="6.09" y="2206.46" class="st12">NameNode <tspan x="5.39" dy="1.371em" class="st20">(hot standby)</tspan></text>		</g>
+		<g id="shape5-350" transform="translate(453.543,-1331.15)">
+			<title>Sheet.5</title>
+			<desc>NameNode (hot standby)</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st3"/>
+			<text x="6.09" y="2206.46" class="st21">NameNode <tspan x="5.39" dy="1.371em" class="st20">(hot standby)</tspan></text>		</g>
+		<g id="shape124-354" transform="translate(609.449,-1373.67)">
+			<title>Sheet.124</title>
+			<desc>ZKFC: Zookeeper Failover Controller</desc>
+			<rect x="0" y="2244.76" width="198.425" height="28.3465" class="st10"/>
+			<text x="7.4" y="2262.53" class="st22">ZKFC: Zookeeper Failover Controller</text>		</g>
+		<g id="shape125-357" transform="translate(-630.919,-1021.39) rotate(-30.9638)">
+			<title>Sheet.125</title>
+			<path d="M0 2273.1 L82.64 2273.1" class="st23"/>
+		</g>
+		<g id="shape127-360" transform="translate(198.425,-183.118)">
+			<title>Sheet.127</title>
+			<desc>Active NameNode</desc>
+			<rect x="0" y="2244.76" width="467.717" height="28.3465" class="st10"/>
+			<text x="174.1" y="2263.73" class="st12">Active NameNode</text>		</g>
+		<g id="shape128-363" transform="translate(340.157,-395.717)">
+			<title>Sheet.128</title>
+			<rect x="0" y="2159.72" width="311.811" height="113.386" class="st1"/>
+		</g>
+		<g id="shape129-365" transform="translate(212.598,-225.638)">
+			<title>Sheet.129</title>
+			<rect x="0" y="2131.37" width="439.37" height="141.732" class="st1"/>
+		</g>
+		<g id="shape130-367" transform="translate(340.157,-480.756)">
+			<title>Sheet.130</title>
+			<desc>memory</desc>
+			<rect x="0" y="2244.76" width="56.6929" height="28.3465" class="st10"/>
+			<text x="5.02" y="2263.13" class="st5">memory</text>		</g>
+		<g id="shape131-370" transform="translate(212.598,-225.638)">
+			<title>Sheet.131</title>
+			<desc>disk</desc>
+			<rect x="0" y="2244.76" width="42.5197" height="28.3465" class="st10"/>
+			<text x="9.59" y="2263.13" class="st5">disk</text>		</g>
+		<g id="shape132-373" transform="translate(510.236,-253.984)">
+			<title>Document</title>
+			<desc>data file (FsImage)</desc>
+			<path d="M47.24 2188.06 L70.87 2209.32 L47.24 2209.32 L47.24 2188.06 ZM0 2188.06 L0 2273.1 L70.87 2273.1 L70.87 2209.32
+						 L47.24 2209.32 L47.24 2188.06 L0 2188.06 Z" class="st24"/>
+			<text x="12.7" y="2237.01" class="st17">data file <tspan x="6.66" dy="1.2em" class="st13">(</tspan>FsImage)</text>		</g>
+		<g id="shape133-377" transform="translate(297.638,-268.157)">
+			<title>Document.4</title>
+			<desc>transaction log file (EditLog)</desc>
+			<path d="M0 2264.24 L0 2202.24 L113.39 2202.24 L113.39 2264.24 A49.7835 49.7835 -180 0 0 56.69 2264.24 A49.7835 49.7835
+						 0 0 1 0 2264.24 Z" class="st25"/>
+			<text x="4.21" y="2224.61" class="st17">transaction log file <tspan x="29.09" dy="1.2em" class="st13">(EditLog)</tspan></text>		</g>
+		<g id="group135-381" transform="translate(411.024,-452.409)">
+			<title>Organization</title>
+			<desc>In-memory file organization structure</desc>
+			<g id="shape136-382" transform="translate(0.885827,1.21801)">
+				<title>Sheet.136</title>
+				<path d="M0 2273.1 L10.63 2273.1 L10.63 2262.47 L0 2262.47 L0 2273.1 ZM15.94 2273.1 L26.57 2273.1 L26.57 2262.47
+							 L15.94 2262.47 L15.94 2273.1 ZM31.89 2273.1 L42.52 2273.1 L42.52 2262.47 L31.89 2262.47 L31.89 2273.1
+							 ZM10.63 2251.84 L31.89 2251.84 L31.89 2230.58 L10.63 2230.58 L10.63 2251.84 Z" class="st26"/>
+			</g>
+			<g id="shape137-384" transform="translate(9.74409,-22.6993)">
+				<title>Sheet.137</title>
+				<rect x="0" y="2253.26" width="21.2598" height="19.8411" class="st27"/>
+			</g>
+			<g id="shape138-386" transform="translate(0,-1.43947)">
+				<title>Sheet.138</title>
+				<path d="M0 2273.1 L10.63 2273.1 L10.63 2262.47 L0 2262.47 L0 2273.1 ZM15.94 2273.1 L26.57 2273.1 L26.57 2262.47
+							 L15.94 2262.47 L15.94 2273.1 ZM31.89 2273.1 L42.52 2273.1 L42.52 2262.47 L31.89 2262.47 L31.89 2273.1
+							 Z" class="st27"/>
+			</g>
+			<g id="shape139-388" transform="translate(4.42913,-12.0694)">
+				<title>Sheet.139</title>
+				<path d="M0 2273.1 L0 2267.79 L15.94 2267.79 L15.94 2262.47" class="st28"/>
+				<path d="M15.94 2273.1 L15.94 2267.79 L31.89 2267.79 L31.89 2273.1" class="st28"/>
+			</g>
+			<g id="shape140-392" transform="translate(13.7303,-27.9035)">
+				<title>Sheet.140</title>
+				<path d="M0 2267.12 L13.29 2267.12 L13.29 2263.14 L0 2263.14 L0 2267.12 ZM2.66 2273.1 L10.63 2273.1 L10.63 2269.12
+							 L2.66 2269.12 L2.66 2273.1 Z" class="st26"/>
+			</g>
+			<g id="shape141-394" transform="translate(2.65748,-5.97933)">
+				<title>Sheet.141</title>
+				<path d="M31.89 2273.1 L37.2 2273.1 L37.2 2271.11 L31.89 2271.11 L31.89 2273.1 ZM15.94 2273.1 L21.26 2273.1 L21.26
+							 2271.11 L15.94 2271.11 L15.94 2273.1 ZM0 2273.1 L5.31 2273.1 L5.31 2271.11 L0 2271.11 L0 2273.1 Z"
+						class="st26"/>
+			</g>
+			<g id="shape135-396">
+				<text x="-21.31" y="2289.2" class="st17">In-memory file <tspan x="-13.73" dy="1.2em" class="st13">organization </tspan><tspan
+							x="-3.23" dy="1.2em" class="st13">structure</tspan></text>			</g>
+		</g>
+		<g id="shape158-400" transform="translate(212.598,-395.717)">
+			<title>Sheet.158</title>
+			<rect x="0" y="2159.72" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape159-402" transform="translate(212.598,-480.756)">
+			<title>Sheet.159</title>
+			<desc>cpu</desc>
+			<rect x="0" y="2244.76" width="42.5197" height="28.3465" class="st10"/>
+			<text x="11.15" y="2263.13" class="st5">cpu</text>		</g>
+		<g id="shape160-405" transform="translate(226.772,-409.89)">
+			<title>Rounded Rectangle.160</title>
+			<desc>HDFS process</desc>
+			<path d="M8.5 2273.1 L76.54 2273.1 A8.5038 8.5038 -180 0 0 85.04 2264.6 L85.04 2210.74 A8.5038 8.5038 -180 0 0 76.54
+						 2202.24 L8.5 2202.24 A8.5038 8.5038 -180 0 0 -0 2210.74 L0 2264.6 A8.5038 8.5038 -180 0 0 8.5 2273.1 Z"
+					class="st25"/>
+			<text x="24.62" y="2233.47" class="st17">HDFS <tspan x="21.53" dy="1.2em" class="st13">process</tspan></text>		</g>
+		<g id="shape162-409" transform="translate(198.425,-183.118)">
+			<title>Sheet.162</title>
+			<rect x="0" y="1932.94" width="467.717" height="340.157" class="st1"/>
+		</g>
+		<g id="shape163-411" transform="translate(481.89,-409.89)">
+			<title>Rounded Rectangle.163</title>
+			<desc>Mappings: Files to data blocks Data blocks to data nodes</desc>
+			<path d="M15.59 2273.1 L140.31 2273.1 A15.5903 15.5903 -180 0 0 155.91 2257.51 L155.91 2203.65 A15.5903 15.5903 -180
+						 0 0 140.31 2188.06 L15.59 2188.06 A15.5903 15.5903 -180 0 0 0 2203.65 L0 2257.51 A15.5903 15.5903 -180 0
+						 0 15.59 2273.1 Z" class="st25"/>
+			<text x="4" y="2204.99" class="st29">Mappings:  <tspan x="4" dy="2.425em" class="st30">Ø</tspan><tspan class="st30"> </tspan>Files to data blocks  <tspan
+						x="4" dy="2.433em" class="st30">Ø</tspan><tspan class="st30"> </tspan>Data blocks to data nodes</text>		</g>
+		<g id="shape166-418" transform="translate(283.465,-608.315)">
+			<title>Sheet.166</title>
+			<desc>JournalNodes</desc>
+			<rect x="0" y="2173.89" width="99.2126" height="99.2126" class="st2"/>
+			<text x="11.11" y="2227.7" class="st5">JournalNodes</text>		</g>
+		<g id="shape169-421" transform="translate(42.5197,-409.89)">
+			<title>Sheet.169</title>
+			<desc>HDFS clients</desc>
+			<ellipse cx="42.5197" cy="2230.58" rx="42.5197" ry="42.5197" class="st1"/>
+			<text x="22.07" y="2225.78" class="st12">HDFS <tspan x="21.64" dy="1.2em" class="st13">clients</tspan></text>		</g>
+		<g id="shape170-425" transform="translate(708.661,-409.89)">
+			<title>Sheet.170</title>
+			<rect x="0" y="2173.89" width="99.2126" height="99.2126" class="st2"/>
+		</g>
+		<g id="shape171-427" transform="translate(694.488,-424.063)">
+			<title>Sheet.171</title>
+			<desc>Hot-Standby NameNodes</desc>
+			<rect x="0" y="2173.89" width="99.2126" height="99.2126" class="st2"/>
+			<text x="13.83" y="2219.3" class="st5">Hot-Standby <tspan x="15.01" dy="1.2em" class="st13">NameNodes</tspan></text>		</g>
+		<g id="shape172-431" transform="translate(127.559,-452.409)">
+			<title>Sheet.172</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L92.62 2273.1" class="st31"/>
+		</g>
+		<g id="shape173-440" transform="translate(127.559,-395.717)">
+			<title>Sheet.173</title>
+			<desc>metadata changes</desc>
+			<rect x="0" y="2216.41" width="70.8661" height="56.6929" class="st10"/>
+			<text x="10.17" y="2240.56" class="st33">metadata  <tspan x="12.89" dy="1.2em" class="st13">changes</tspan></text>		</g>
+		<g id="shape177-444" transform="translate(255.118,-480.756)">
+			<title>Sheet.177</title>
+			<path d="M0 2267.3 L0 2266.94 L0 2088.85 L22.19 2088.85" class="st34"/>
+		</g>
+		<g id="shape178-453" transform="translate(255.118,-310.677)">
+			<title>Sheet.178</title>
+			<path d="M0 2173.89 L0 2273.1 L36.36 2273.1" class="st36"/>
+		</g>
+		<g id="shape179-458" transform="translate(311.811,-452.409)">
+			<title>Sheet.179</title>
+			<path d="M0 2273.1 L64.71 2273.1" class="st37"/>
+		</g>
+		<g id="shape180-463" transform="translate(467.717,-296.504)">
+			<title>Sheet.180</title>
+			<path d="M0 2173.89 L0 2273.1 L36.36 2273.1" class="st36"/>
+		</g>
+		<g id="shape181-468" transform="translate(382.677,-523.276)">
+			<title>Sheet.181</title>
+			<path d="M5.8 2131.37 L6.16 2131.37 L354.33 2131.37 L354.33 2266.94" class="st34"/>
+		</g>
+		<g id="shape182-475" transform="translate(141.732,-452.409)">
+			<title>Sheet.182</title>
+			<desc>1</desc>
+			<rect x="0" y="2244.76" width="42.5197" height="28.3465" class="st10"/>
+			<text x="17.26" y="2263.73" class="st38">1</text>		</g>
+		<g id="shape183-478" transform="translate(226.772,-579.968)">
+			<title>Sheet.183</title>
+			<desc>2</desc>
+			<rect x="0" y="2244.76" width="28.3465" height="28.3465" class="st10"/>
+			<text x="10.17" y="2263.73" class="st38">2</text>		</g>
+		<g id="shape184-481" transform="translate(226.772,-367.37)">
+			<title>Sheet.184</title>
+			<desc>4</desc>
+			<rect x="0" y="2244.76" width="28.3465" height="28.3465" class="st10"/>
+			<text x="10.17" y="2263.73" class="st38">4</text>		</g>
+		<g id="shape185-484" transform="translate(340.157,-452.409)">
+			<title>Sheet.185</title>
+			<desc>5</desc>
+			<rect x="0" y="2244.76" width="28.3465" height="28.3465" class="st10"/>
+			<text x="10.17" y="2263.73" class="st38">5</text>		</g>
+		<g id="shape186-487" transform="translate(439.37,-367.37)">
+			<title>Sheet.186</title>
+			<desc>6</desc>
+			<rect x="0" y="2244.76" width="28.3465" height="28.3465" class="st10"/>
+			<text x="10.17" y="2263.73" class="st38">6</text>		</g>
+		<g id="shape187-490" transform="translate(595.276,-665.008)">
+			<title>Sheet.187</title>
+			<desc>3</desc>
+			<rect x="0" y="2244.76" width="42.5197" height="28.3465" class="st10"/>
+			<text x="17.26" y="2263.73" class="st38">3</text>		</g>
+		<g id="shape188-493" transform="translate(2090.9,-340.935) rotate(59.0362)">
+			<title>Sheet.188</title>
+			<path d="M0 2273.1 L82.64 2273.1" class="st39"/>
+		</g>
+		<g id="shape189-496" transform="translate(708.661,-1146.9)">
+			<title>Sheet.189</title>
+			<desc>128 MB data block</desc>
+			<rect x="0" y="2244.76" width="113.386" height="28.3465" class="st10"/>
+			<text x="10.53" y="2262.53" class="st22">128 MB data block</text>		</g>
+		<g id="shape190-499" transform="translate(-15.3759,-1043.95) rotate(-16.6992)">
+			<title>Sheet.190</title>
+			<path d="M0 2273.1 L73.99 2273.1" class="st23"/>
+		</g>
+		<g id="shape191-502" transform="translate(666.142,-225.638)">
+			<title>Sheet.191</title>
+			<desc>File system namespace File data block checksums File data blo...</desc>
+			<rect x="0" y="2131.37" width="155.906" height="141.732" class="st10"/>
+			<text x="4" y="2161.56" class="st40"><tspan class="st13">Ø</tspan> <tspan class="st41">File system namespace </tspan><tspan
+						x="4" dy="1.233em" class="st13">Ø</tspan> <tspan class="st41">File data b</tspan><tspan class="st41">lock </tspan><tspan
+						class="st41">checksums </tspan><tspan x="4" dy="1.233em" class="st13">Ø</tspan> <tspan class="st41">File data </tspan><tspan
+						class="st41">block size </tspan><tspan x="4" dy="1.233em" class="st13">Ø</tspan> <tspan class="st41">File </tspan><tspan
+						class="st41">replication factor </tspan><tspan x="4" dy="1.233em" class="st13">Ø</tspan> <tspan
+						class="st41">U</tspan><tspan class="st41">ser quotas </tspan><tspan x="4" dy="1.233em" class="st13">Ø</tspan> <tspan
+						class="st41">A</tspan><tspan class="st41">ccess permissions </tspan><tspan x="4" dy="1.233em" class="st13">Ø</tspan> <tspan
+						class="st41">M</tspan><tspan class="st41">apping of blocks to files</tspan></text>		</g>
+		<g id="shape192-526" transform="translate(581.102,-296.504) rotate(9.96363E-07)">
+			<title>Sheet.192</title>
+			<path d="M0 2273.1 L85.04 2273.1" class="st23"/>
+		</g>
+		<g id="shape193-529" transform="translate(28.3465,-2209.89)">
+			<title>Sheet.193</title>
+			<desc>HDFS Architecture</desc>
+			<rect x="0" y="2230.58" width="297.638" height="42.5197" class="st10"/>
+			<text x="8.35" y="2262.64" class="st42">HDFS Architecture</text>		</g>
+		<g id="shape194-532" transform="translate(368.504,-2068.16)">
+			<title>Sheet.194</title>
+			<desc>JournalNodes</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st2"/>
+			<text x="9.53" y="2234.18" class="st11">JournalNodes</text>		</g>
+		<g id="shape197-535" transform="translate(368.504,-1912.25)">
+			<title>Sheet.197</title>
+			<desc>(active) NameNode</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+			<text x="21.15" y="2226.38" class="st4">(active) <tspan x="10.64" dy="1.2em" class="st43">NameNode</tspan></text>		</g>
+		<g id="shape199-539" transform="translate(481.89,-1912.25)">
+			<title>Sheet.199</title>
+			<desc>(hot standby) NameNodes</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st2"/>
+			<text x="5.39" y="2226.38" class="st4">(hot standby) <tspan x="7.92" dy="1.2em" class="st43">NameNodes</tspan></text>		</g>
+		<g id="shape201-543" transform="translate(425.197,-1784.69)">
+			<title>Sheet.201</title>
+			<desc>DataNodes</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st2"/>
+			<text x="11.42" y="2234.78" class="st5">DataNodes</text>		</g>
+		<g id="shape204-546" transform="translate(552.756,-2053.98)">
+			<title>Sheet.204</title>
+			<desc>Apache Zookeeper</desc>
+			<rect x="0" y="2188.06" width="85.0394" height="85.0394" class="st1"/>
+			<text x="18.09" y="2225.78" class="st12">Apache  <tspan x="8.32" dy="1.2em" class="st13">Zookeeper</tspan></text>		</g>
+		<g id="shape205-550" transform="translate(467.717,-367.37)">
+			<title>Sheet.205</title>
+			<desc>checkpoint</desc>
+			<rect x="0" y="2244.76" width="85.0394" height="28.3465" class="st10"/>
+			<text x="7.42" y="2263.73" class="st38">checkpoint</text>		</g>
+		<g id="shape206-553" transform="translate(311.811,-1728)">
+			<title>Sheet.206</title>
+			<path d="M0 2273.1 L368.5 2273.1 L368.5 1819.56 L0 1819.56 L0 2273.1 Z" class="st9"/>
+		</g>
+		<g id="shape207-555" transform="translate(28.3465,-2181.54)">
+			<title>Sheet.207</title>
+			<desc>(Hadoop Distributed File System)</desc>
+			<rect x="0" y="2230.58" width="184.252" height="42.5197" class="st10"/>
+			<text x="10.63" y="2255.44" class="st22">(Hadoop Distributed File System)</text>		</g>
+		<g id="shape209-558" transform="translate(113.386,-1912.25)">
+			<title>Sheet.209</title>
+			<desc>HDFS clients</desc>
+			<ellipse cx="42.5197" cy="2230.58" rx="42.5197" ry="42.5197" class="st1"/>
+			<text x="22.07" y="2225.78" class="st12">HDFS <tspan x="21.64" dy="1.2em" class="st13">clients</tspan></text>		</g>
+		<g id="shape210-562" transform="translate(198.425,-1954.77)">
+			<title>Sheet.210</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L163.48 2273.1" class="st6"/>
+		</g>
+		<g id="shape211-569" transform="translate(2684.13,204.945) rotate(90)">
+			<title>Sheet.211</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L64.27 2273.1" class="st6"/>
+		</g>
+		<g id="shape212-576" transform="translate(-896.145,2221.85) rotate(-143.13)">
+			<title>Sheet.212</title>
+			<path d="M0 2273.1 L64.27 2273.1" class="st16"/>
+		</g>
+		<g id="shape213-581" transform="translate(-896.145,-1415.11) rotate(-36.8699)">
+			<title>Sheet.213</title>
+			<path d="M0 2273.1 L64.27 2273.1" class="st16"/>
+		</g>
+		<g id="shape214-586" transform="translate(-796.804,2125.51) rotate(-144.462)">
+			<title>Sheet.214</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L115.33 2273.1" class="st6"/>
+		</g>
+		<g id="shape215-593" transform="translate(-307.794,-1880.64) rotate(-18.4349)">
+			<title>Sheet.215</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L172.68 2273.1" class="st6"/>
+		</g>
+		<g id="shape216-600" transform="translate(-895.586,-1499.18) rotate(-38.6598)">
+			<title>Sheet.216</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L84.16 2273.1" class="st6"/>
+		</g>
+		<g id="shape217-607" transform="translate(581.102,-1728)">
+			<title>Sheet.217</title>
+			<desc>HDFS HA cluster</desc>
+			<rect x="0" y="2244.76" width="99.2126" height="28.3465" class="st10"/>
+			<text x="6.61" y="2262.53" class="st11">HDFS HA cluster</text>		</g>
+		<g id="shape218-610" transform="translate(368.504,-2068.16)">
+			<title>Sheet.218</title>
+			<desc>3, 5, 7, ...</desc>
+			<rect x="0" y="2244.76" width="85.0394" height="28.3465" class="st10"/>
+			<text x="20.02" y="2262.53" class="st22">3, 5, 7, ...</text>		</g>
+		<g id="shape219-613" transform="translate(481.89,-1912.25)">
+			<title>Sheet.219</title>
+			<desc>1, 2, 3, 4</desc>
+			<rect x="0" y="2244.76" width="85.0394" height="28.3465" class="st10"/>
+			<text x="21.52" y="2262.54" class="st22">1, <tspan class="st44">2</tspan>, 3, 4</text>		</g>
+		<g id="shape220-617" transform="translate(-513.909,2515.93) rotate(-155.598)">
+			<title>Sheet.220</title>
+			<path d="M6.24 2273.1 L6.6 2273.1 L249.1 2273.1" class="st6"/>
+		</g>
+		<g id="shape221-624" transform="translate(255.118,-579.968)">
+			<title>Sheet.221</title>
+			<desc>3</desc>
+			<rect x="0" y="2244.76" width="28.3465" height="28.3465" class="st10"/>
+			<text x="10.17" y="2263.73" class="st38">3</text>		</g>
+		<g id="shape222-627" transform="translate(198.425,-1954.77)">
+			<title>Sheet.222</title>
+			<desc>namespace queries or changes</desc>
+			<rect x="0" y="2230.58" width="113.386" height="42.5197" class="st10"/>
+			<text x="25.99" y="2247.64" class="st5">namespace <tspan x="4.6" dy="1.2em" class="st13">queries or changes</tspan></text>		</g>
+		<g id="shape223-631" transform="translate(198.425,-1855.56)">
+			<title>Sheet.223</title>
+			<desc>read / write data blocks</desc>
+			<rect x="0" y="2230.58" width="99.2126" height="42.5197" class="st10"/>
+			<text x="17.73" y="2247.64" class="st5">read / write  <tspan x="17.92" dy="1.2em" class="st13">data blocks</tspan></text>		</g>
+	</g>
+</svg>
